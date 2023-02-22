@@ -67,10 +67,16 @@ class BioPortalSearch:
             except:
                 pass
 
+        '''pair up ids, labels and cuis and create list of dictionaries'''
+        n = len(ids)
+        key_list = ["code","label","cui"]
+        code_list = [{
+            key_list[0]: ids[idx], 
+            key_list[1]: labels[idx],
+            key_list[2]: cuis[idx]
+        } for idx in range(0, n)]
         out = {"code_type":self.sont,
-               "code":ids,
-               "label":labels,
-                "cui":cuis}
+               "code_list":code_list}
         return out
         
 def batch_write_vs_excel(path_to_search_catalog, #absolute path
