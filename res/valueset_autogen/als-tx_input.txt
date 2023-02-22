@@ -13,6 +13,9 @@ tracheostomy,HCPCS
 gastrostomy,CPT
 gastrostomy,HCPCS
 riluzole,RXNORM
+physical therapy,CPT
+physical therapy,HCPCS
+
 
 
 
