@@ -1,0 +1,1416 @@
+{
+    "continuous positive airway pressure": [
+        {
+            "code_type": "CPT",
+            "code_list": [
+                {
+                    "code": "94660",
+                    "label": "Continuous positive airway pressure ventilation (CPAP), initiation and management",
+                    "cui": "C0199451 C3517147 C0374380"
+                },
+                {
+                    "code": "95783",
+                    "label": "Polysomnography; younger than 6 years, sleep staging with 4 or more additional parameters of sleep, with initiation of continuous positive airway pressure therapy or bi-level ventilation, attended by a technologist",
+                    "cui": "C3517187 C0162701 C3511616"
+                },
+                {
+                    "code": "95811",
+                    "label": "Polysomnography; age 6 years or older, sleep staging with 4 or more additional parameters of sleep, with initiation of continuous positive airway pressure therapy or bilevel ventilation, attended by a technologist",
+                    "cui": "C3517194 C0520404 C0162701"
+                }
+            ]
+        },
+        {
+            "code_type": "HCPCS",
+            "code_list": [
+                {
+                    "code": "E0601",
+                    "label": "Continuous positive airway pressure (cpap) device",
+                    "cui": "C0180105"
+                },
+                {
+                    "code": "A7027",
+                    "label": "Combination oral/nasal mask, used with continuous positive airway pressure device, each",
+                    "cui": "C1971391"
+                },
+                {
+                    "code": "E0472",
+                    "label": "Respiratory assist device, bi-level pressure capability, with backup rate feature, used with invasive interface, e.g., tracheostomy tube (intermittent assist device with continuous positive airway pressure device)",
+                    "cui": "C1314302"
+                },
+                {
+                    "code": "E0470",
+                    "label": "Respiratory assist device, bi-level pressure capability, without backup rate feature, used with noninvasive interface, e.g., nasal or facial mask (intermittent assist device with continuous positive airway pressure device)",
+                    "cui": "C0812756"
+                },
+                {
+                    "code": "E0471",
+                    "label": "Respiratory assist device, bi-level pressure capability, with back-up rate feature, used with noninvasive interface, e.g., nasal or facial mask (intermittent assist device with continuous positive airway pressure device)",
+                    "cui": "C1314301"
+                }
+            ]
+        }
+    ],
+    "gastrostomy": [
+        {
+            "code_type": "CPT",
+            "code_list": [
+                {
+                    "code": "1007398",
+                    "label": "Gastrostomy, open",
+                    "cui": "C3521844"
+                },
+                {
+                    "code": "43870",
+                    "label": "Closure of gastrostomy, surgical",
+                    "cui": "C0192543"
+                },
+                {
+                    "code": "43831",
+                    "label": "Gastrostomy, open; neonatal, for feeding",
+                    "cui": "C0192511 C3669228 C3521845"
+                },
+                {
+                    "code": "1007369",
+                    "label": "Vagotomy including pyloroplasty, with or without gastrostomy",
+                    "cui": "C3701756"
+                },
+                {
+                    "code": "43763",
+                    "label": "Replacement of gastrostomy tube, percutaneous, includes removal, when performed, without imaging or endoscopic guidance; requiring revision of gastrostomy tract",
+                    "cui": "C4732040 C4732042 C4732041 C4732043"
+                },
+                {
+                    "code": "43762",
+                    "label": "Replacement of gastrostomy tube, percutaneous, includes removal, when performed, without imaging or endoscopic guidance; not requiring revision of gastrostomy tract",
+                    "cui": "C4732036 C4732037 C4732039 C4732038"
+                },
+                {
+                    "code": "43246",
+                    "label": "Esophagogastroduodenoscopy, flexible, transoral; with directed placement of percutaneous gastrostomy tube",
+                    "cui": "C3521631 C3521632 C3701737 C0192467 C3514026"
+                },
+                {
+                    "code": "43832",
+                    "label": "Gastrostomy, open; with construction of gastric tube (eg, Janeway procedure)",
+                    "cui": "C3703390 C0192518 C3521846"
+                },
+                {
+                    "code": "43640",
+                    "label": "Vagotomy including pyloroplasty, with or without gastrostomy; truncal or selective",
+                    "cui": "C3521812 C0372032 C0192415 C3521813 C3514082 C0192416 C0192412 C0192414 C1535597 C0042275"
+                },
+                {
+                    "code": "43641",
+                    "label": "Vagotomy including pyloroplasty, with or without gastrostomy; parietal cell (highly selective)",
+                    "cui": "C0192418 C0192417 C3514083 C0372033 C0042273"
+                },
+                {
+                    "code": "43830",
+                    "label": "Gastrostomy, open; without construction of gastric tube (eg, Stamm procedure) (separate procedure)",
+                    "cui": "C3521844 C0192507 C3669228"
+                },
+                {
+                    "code": "48001",
+                    "label": "Placement of drains, peripancreatic, for acute pancreatitis; with cholecystostomy, gastrostomy, and jejunostomy",
+                    "cui": "C0372226 C3514372 C3522283"
+                },
+                {
+                    "code": "43653",
+                    "label": "Laparoscopy, surgical; gastrostomy, without construction of gastric tube (eg, Stamm procedure) (separate procedure)",
+                    "cui": "C3521821 C3514089 C0812495"
+                },
+                {
+                    "code": "1035170",
+                    "label": "Replacement of gastrostomy tube, percutaneous, includes removal, when performed, without imaging or endoscopic guidance",
+                    "cui": "C4732035"
+                },
+                {
+                    "code": "49440",
+                    "label": "Insertion of gastrostomy tube, percutaneous, under fluoroscopic guidance including contrast injection(s), image documentation and report",
+                    "cui": "C1964208 C3522380 C3703506 C3522379"
+                },
+                {
+                    "code": "49446",
+                    "label": "Conversion of gastrostomy tube to gastro-jejunostomy tube, percutaneous, under fluoroscopic guidance including contrast injection(s), image documentation and report",
+                    "cui": "C3522389 C3522390 C1964211 C3703509"
+                },
+                {
+                    "code": "49450",
+                    "label": "Replacement of gastrostomy or cecostomy (or other colonic) tube, percutaneous, under fluoroscopic guidance including contrast injection(s), image documentation and report",
+                    "cui": "C1964212 C3703510 C3522393 C3522395 C3522394 C3522396 C3522391 C3522392"
+                },
+                {
+                    "code": "44373",
+                    "label": "Small intestinal endoscopy, enteroscopy beyond second portion of duodenum, not including ileum; with conversion of percutaneous gastrostomy tube to percutaneous jejunostomy tube",
+                    "cui": "C0372079 C0192699 C3703428"
+                },
+                {
+                    "code": "49465",
+                    "label": "Contrast injection(s) for radiological evaluation of existing gastrostomy, duodenostomy, jejunostomy, gastro-jejunostomy, or cecostomy (or other colonic) tube, from a percutaneous approach including image documentation and report",
+                    "cui": "C3703514 C3522413 C3522414 C1964216 C3522415 C3522417 C3522416"
+                },
+                {
+                    "code": "49460",
+                    "label": "Mechanical removal of obstructive material from gastrostomy, duodenostomy, jejunostomy, gastro-jejunostomy, or cecostomy (or other colonic) tube, any method, under fluoroscopic guidance including contrast injection(s), if performed, image documentation and report",
+                    "cui": "C4052231 C4052234 C1964215 C4052227 C4052228 C4052232 C4052230 C3522412 C4052233 C3522407 C3703513 C4052229"
+                }
+            ]
+        },
+        {
+            "code_type": "HCPCS",
+            "code_list": [
+                {
+                    "code": "B4087",
+                    "label": "Gastrostomy/jejunostomy tube, standard, any material, any type, each",
+                    "cui": "C1971410"
+                },
+                {
+                    "code": "B4088",
+                    "label": "Gastrostomy/jejunostomy tube, low-profile, any material, any type, each",
+                    "cui": "C1971411"
+                }
+            ]
+        }
+    ],
+    "mechanical ventilation": [
+        {
+            "code_type": "ICD9CM",
+            "code_list": [
+                {
+                    "code": "93.90",
+                    "label": "Non-invasive mechanical ventilation",
+                    "cui": "C2349740"
+                },
+                {
+                    "code": "96.7",
+                    "label": "Other continuous invasive mechanical ventilation",
+                    "cui": "C2349746"
+                },
+                {
+                    "code": "96.70",
+                    "label": "Continuous invasive mechanical ventilation of unspecified duration",
+                    "cui": "C2349743"
+                },
+                {
+                    "code": "96.71",
+                    "label": "Continuous invasive mechanical ventilation for less than 96 consecutive hours",
+                    "cui": "C2349744"
+                },
+                {
+                    "code": "96.72",
+                    "label": "Continuous invasive mechanical ventilation for 96 consecutive hours or more",
+                    "cui": "C2349745"
+                }
+            ]
+        },
+        {
+            "code_type": "ICD10CM",
+            "code_list": []
+        },
+        {
+            "code_type": "ICD10PCS",
+            "code_list": []
+        }
+    ],
+    "physical therapy": [
+        {
+            "code_type": "CPT",
+            "code_list": [
+                {
+                    "code": "1029677",
+                    "label": "Physical Therapy Evaluations",
+                    "cui": "C1444299"
+                },
+                {
+                    "code": "4018F",
+                    "label": "Therapeutic exercise for the involved joint(s) instructed or physical or occupational therapy prescribed (OA)",
+                    "cui": "C1610666"
+                },
+                {
+                    "code": "97161",
+                    "label": "Physical therapy evaluation: low complexity, requiring these components: A history with no personal factors and/or comorbidities that impact the plan of care; An examination of body system(s) using standardized tests and measures addressing 1-2 elements from any of the following: body structures and functions, activity limitations, and/or participation restrictions; A clinical presentation with stable and/or uncomplicated characteristics; and Clinical decision making of low complexity using standardized patient assessment instrument and/or measurable assessment of functional outcome. Typically, 20 minutes are spent face-to-face with the patient and/or family.",
+                    "cui": "C4292027 C4292360 C4291816"
+                },
+                {
+                    "code": "97163",
+                    "label": "Physical therapy evaluation: high complexity, requiring these components: A history of present problem with 3 or more personal factors and/or comorbidities that impact the plan of care; An examination of body systems using standardized tests and measures addressing a total of 4 or more elements from any of the following: body structures and functions, activity limitations, and/or participation restrictions; A clinical presentation with unstable and unpredictable characteristics; and Clinical decision making of high complexity using standardized patient assessment instrument and/or measurable assessment of functional outcome. Typically, 45 minutes are spent face-to-face with the patient and/or family.",
+                    "cui": "C4291818 C4292029"
+                },
+                {
+                    "code": "97162",
+                    "label": "Physical therapy evaluation: moderate complexity, requiring these components: A history of present problem with 1-2 personal factors and/or comorbidities that impact the plan of care; An examination of body systems using standardized tests and measures in addressing a total of 3 or more elements from any of the following: body structures and functions, activity limitations, and/or participation restrictions; An evolving clinical presentation with changing characteristics; and Clinical decision making of moderate complexity using standardized patient assessment instrument and/or measurable assessment of functional outcome. Typically, 30 minutes are spent face-to-face with the patient and/or family.",
+                    "cui": "C4291817 C4292361 C4292028"
+                },
+                {
+                    "code": "97164",
+                    "label": "Re-evaluation of physical therapy established plan of care, requiring these components: An examination including a review of history and use of standardized tests and measures is required; and Revised plan of care using a standardized patient assessment instrument and/or measurable assessment of functional outcome Typically, 20 minutes are spent face-to-face with the patient and/or family.",
+                    "cui": "C4292030 C4292362 C4291819"
+                },
+                {
+                    "code": "97001",
+                    "label": "",
+                    "cui": ""
+                },
+                {
+                    "code": "97002",
+                    "label": "",
+                    "cui": ""
+                },
+                {
+                    "code": "97750",
+                    "label": "",
+                    "cui": ""
+                },
+                {
+                    "code": "97535",
+                    "label": "",
+                    "cui": ""
+                },
+                {
+                    "code": "97530",
+                    "label": "",
+                    "cui": ""
+                },
+                {
+                    "code": "97112",
+                    "label": "",
+                    "cui": ""
+                },
+                {
+                    "code": "97110",
+                    "label": "",
+                    "cui": ""
+                },
+                {
+                    "code": "97140",
+                    "label": "",
+                    "cui": ""
+                },
+                {
+                    "code": "97760",
+                    "label": "",
+                    "cui": ""
+                },
+                {
+                    "code": "97116",
+                    "label": "",
+                    "cui": ""
+                },
+                {
+                    "code": "97012",
+                    "label": "",
+                    "cui": ""
+                },
+                {
+                    "code": "97032",
+                    "label": "",
+                    "cui": ""
+                },
+                {
+                    "code": "97014",
+                    "label": "",
+                    "cui": ""
+                },
+                {
+                    "code": "97033",
+                    "label": "",
+                    "cui": ""
+                },
+                {
+                    "code": "97034",
+                    "label": "",
+                    "cui": ""
+                },
+                {
+                    "code": "97035",
+                    "label": "",
+                    "cui": ""
+                },
+                {
+                    "code": "97018",
+                    "label": "",
+                    "cui": ""
+                },
+                {
+                    "code": "97026",
+                    "label": "",
+                    "cui": ""
+                },
+                {
+                    "code": "97010",
+                    "label": "",
+                    "cui": ""
+                },
+                {
+                    "code": "97113",
+                    "label": "",
+                    "cui": ""
+                },
+                {
+                    "code": "97150",
+                    "label": "",
+                    "cui": ""
+                }
+            ]
+        },
+        {
+            "code_type": "HCPCS",
+            "code_list": [
+                {
+                    "code": "G4026",
+                    "label": "Physical therapy/occupational therapy mips specialty set",
+                    "cui": "C5574529"
+                },
+                {
+                    "code": "S9131",
+                    "label": "Physical therapy; in the home, per diem",
+                    "cui": "C0994200"
+                },
+                {
+                    "code": "G0042",
+                    "label": "Referral to physical, occupational, speech, or recreational therapy",
+                    "cui": "C5574468"
+                },
+                {
+                    "code": "S8990",
+                    "label": "Physical or manipulative therapy performed for maintenance rather than restoration",
+                    "cui": "C1314602"
+                },
+                {
+                    "code": "G0040",
+                    "label": "Patient already receiving physical/occupational/speech/recreational therapy during the measurement period",
+                    "cui": "C5574466"
+                },
+                {
+                    "code": "G2168",
+                    "label": "Services performed by a physical therapist assistant in the home health setting in the delivery of a safe and effective physical therapy maintenance program, each 15 minutes",
+                    "cui": "C5439683"
+                },
+                {
+                    "code": "G0159",
+                    "label": "Services performed by a qualified physical therapist, in the home health setting, in the establishment or delivery of a safe and effective physical therapy maintenance program, each 15 minutes",
+                    "cui": "C2958941"
+                },
+                {
+                    "code":"G0283",
+                    "label":"",
+                    "cui":""
+                }
+            ]
+        }
+    ],
+    "power wheelchair": [
+        {
+            "code_type": "CPT",
+            "code_list": [
+                {
+                    "code": "KC",
+                    "label": "Replacement of special power wheelchair interface",
+                    "cui": "C1508830"
+                }
+            ]
+        },
+        {
+            "code_type": "HCPCS",
+            "code_list": [
+                {
+                    "code": "K0012",
+                    "label": "Lightweight portable motorized/power wheelchair",
+                    "cui": "C0499173"
+                },
+                {
+                    "code": "K0898",
+                    "label": "Power wheelchair, not otherwise classified",
+                    "cui": "C1738572"
+                },
+                {
+                    "code": "K0013",
+                    "label": "Custom motorized/power wheelchair base",
+                    "cui": "C3710465"
+                },
+                {
+                    "code": "K0014",
+                    "label": "Other motorized/power wheelchair base",
+                    "cui": "C0499175"
+                },
+                {
+                    "code": "K0010",
+                    "label": "Standard - weight frame motorized/power wheelchair",
+                    "cui": "C0499171"
+                },
+                {
+                    "code": "E2378",
+                    "label": "Power wheelchair component, actuator, replacement only",
+                    "cui": "C3534802"
+                },
+                {
+                    "code": "E1016",
+                    "label": "Shock absorber for power wheelchair, each",
+                    "cui": "C1145101"
+                },
+                {
+                    "code": "KC",
+                    "label": "Replacement of special power wheelchair interface",
+                    "cui": "C1508830"
+                },
+                {
+                    "code": "E2351",
+                    "label": "Power wheelchair accessory, electronic interface to operate speech generating device using power wheelchair control interface",
+                    "cui": "C1314357"
+                },
+                {
+                    "code": "E1239",
+                    "label": "Power wheelchair, pediatric size, not otherwise specified",
+                    "cui": "C1508808"
+                },
+                {
+                    "code": "K0098",
+                    "label": "Drive belt for power wheelchair, replacement only",
+                    "cui": "C0499257"
+                },
+                {
+                    "code": "E2397",
+                    "label": "Power wheelchair accessory, lithium-based battery, each",
+                    "cui": "C1971046"
+                },
+                {
+                    "code": "E0983",
+                    "label": "Manual wheelchair accessory, power add-on to convert manual wheelchair to motorized wheelchair, joystick control",
+                    "cui": "C1314312"
+                },
+                {
+                    "code": "E0984",
+                    "label": "Manual wheelchair accessory, power add-on to convert manual wheelchair to motorized wheelchair, tiller control",
+                    "cui": "C1314313"
+                },
+                {
+                    "code": "E2368",
+                    "label": "Power wheelchair component, drive wheel motor, replacement only",
+                    "cui": "C1508922"
+                },
+                {
+                    "code": "E2369",
+                    "label": "Power wheelchair component, drive wheel gear box, replacement only",
+                    "cui": "C1508923"
+                },
+                {
+                    "code": "E2324",
+                    "label": "Power wheelchair accessory, chin cup for chin control interface",
+                    "cui": "C1314345"
+                },
+                {
+                    "code": "E2343",
+                    "label": "Power wheelchair accessory, nonstandard seat frame depth, 22-25 inches",
+                    "cui": "C1314356"
+                },
+                {
+                    "code": "E2396",
+                    "label": "Power wheelchair accessory, caster fork, any size, replacement only, each",
+                    "cui": "C1741401"
+                },
+                {
+                    "code": "E2360",
+                    "label": "Power wheelchair accessory, 22nf non-sealed lead acid battery, each",
+                    "cui": "C1314358"
+                },
+                {
+                    "code": "E2340",
+                    "label": "Power wheelchair accessory, nonstandard seat frame width, 20-23 inches",
+                    "cui": "C1314353"
+                },
+                {
+                    "code": "E2341",
+                    "label": "Power wheelchair accessory, nonstandard seat frame width, 24-27 inches",
+                    "cui": "C1314354"
+                },
+                {
+                    "code": "E2326",
+                    "label": "Power wheelchair accessory, breath tube kit for sip and puff interface",
+                    "cui": "C1314347"
+                },
+                {
+                    "code": "E2358",
+                    "label": "Power wheelchair accessory, group 34 non-sealed lead acid battery, each",
+                    "cui": "C3248406"
+                },
+                {
+                    "code": "E2364",
+                    "label": "Power wheelchair accessory, u-1 non-sealed lead acid battery, each",
+                    "cui": "C1314362"
+                },
+                {
+                    "code": "E2323",
+                    "label": "Power wheelchair accessory, specialty joystick handle for hand control interface, prefabricated",
+                    "cui": "C1314344"
+                },
+                {
+                    "code": "E2372",
+                    "label": "Power wheelchair accessory, group 27 non-sealed lead acid battery, each",
+                    "cui": "C1618860"
+                },
+                {
+                    "code": "E2342",
+                    "label": "Power wheelchair accessory, nonstandard seat frame depth, 20 or 21 inches",
+                    "cui": "C1314355"
+                },
+                {
+                    "code": "E2389",
+                    "label": "Power wheelchair accessory, foam caster tire, any size, replacement only, each",
+                    "cui": "C1738015"
+                },
+                {
+                    "code": "E2362",
+                    "label": "Power wheelchair accessory, group 24 non-sealed lead acid battery, each",
+                    "cui": "C1314360"
+                },
+                {
+                    "code": "E2384",
+                    "label": "Power wheelchair accessory, pneumatic caster tire, any size, replacement only, each",
+                    "cui": "C1743162"
+                },
+                {
+                    "code": "E2381",
+                    "label": "Power wheelchair accessory, pneumatic drive wheel tire, any size, replacement only, each",
+                    "cui": "C1738014"
+                },
+                {
+                    "code": "E2387",
+                    "label": "Power wheelchair accessory, foam filled caster tire, any size, replacement only, each",
+                    "cui": "C1739979"
+                },
+                {
+                    "code": "E2388",
+                    "label": "Power wheelchair accessory, foam drive wheel tire, any size, replacement only, each",
+                    "cui": "C1741400"
+                },
+                {
+                    "code": "E2394",
+                    "label": "Power wheelchair accessory, drive wheel excludes tire, any size, replacement only, each",
+                    "cui": "C1741940"
+                },
+                {
+                    "code": "E2395",
+                    "label": "Power wheelchair accessory, caster wheel excludes tire, any size, replacement only, each",
+                    "cui": "C1739980"
+                },
+                {
+                    "code": "K0838",
+                    "label": "Power wheelchair, group 2 heavy duty, single power option, captains chair, patient weight capacity 301 to 450 pounds",
+                    "cui": "C1739990"
+                },
+                {
+                    "code": "K0859",
+                    "label": "Power wheelchair, group 3 heavy duty, single power option, captains chair, patient weight capacity 301 to 450 pounds",
+                    "cui": "C1741413"
+                },
+                {
+                    "code": "K0857",
+                    "label": "Power wheelchair, group 3 standard, single power option, captains chair, patient weight capacity up to and including 300 pounds",
+                    "cui": "C1741952"
+                },
+                {
+                    "code": "K0858",
+                    "label": "Power wheelchair, group 3 heavy duty, single power option, sling/solid seat/back, patient weight 301 to 450 pounds",
+                    "cui": "C1739992"
+                },
+                {
+                    "code": "K0878",
+                    "label": "Power wheelchair, group 4 standard, single power option, captains chair, patient weight capacity up to and including 300 pounds",
+                    "cui": "C1738571"
+                },
+                {
+                    "code": "K0842",
+                    "label": "Power wheelchair, group 2 standard, multiple power option, captains chair, patient weight capacity up to and including 300 pounds",
+                    "cui": "C1738568"
+                },
+                {
+                    "code": "K0885",
+                    "label": "Power wheelchair, group 4 standard, multiple power option, captains chair, patient weight capacity up to and including 300 pounds",
+                    "cui": "C1739994"
+                },
+                {
+                    "code": "K0836",
+                    "label": "Power wheelchair, group 2 standard, single power option, captains chair, patient weight capacity up to and including 300 pounds",
+                    "cui": "C1742218"
+                },
+                {
+                    "code": "E2386",
+                    "label": "Power wheelchair accessory, foam filled drive wheel tire, any size, replacement only, each",
+                    "cui": "C1741939"
+                },
+                {
+                    "code": "E2370",
+                    "label": "Power wheelchair component, integrated drive wheel motor and gear box combination, replacement only",
+                    "cui": "C1508924"
+                },
+                {
+                    "code": "E2385",
+                    "label": "Power wheelchair accessory, tube for pneumatic caster tire, any size, replacement only, each",
+                    "cui": "C1742207"
+                },
+                {
+                    "code": "E2310",
+                    "label": "Power wheelchair accessory, electronic connection between wheelchair controller and one power seating system motor, including all related electronics, indicator feature, mechanical function selection switch, and fixed mounting hardware",
+                    "cui": "C1314339"
+                },
+                {
+                    "code": "K0879",
+                    "label": "Power wheelchair, group 4 heavy duty, single power option, sling/solid seat/back, patient weight capacity 301 to 450 pounds",
+                    "cui": "C1743177"
+                },
+                {
+                    "code": "K0862",
+                    "label": "Power wheelchair, group 3 heavy duty, multiple power option, sling/solid seat/back, patient weight capacity 301 to 450 pounds",
+                    "cui": "C1738570"
+                },
+                {
+                    "code": "K0843",
+                    "label": "Power wheelchair, group 2 heavy duty, multiple power option, sling/solid seat/back, patient weight capacity 301 to 450 pounds",
+                    "cui": "C1743174"
+                },
+                {
+                    "code": "K0880",
+                    "label": "Power wheelchair, group 4 very heavy duty, single power option, sling/solid seat/back, patient weight 451 to 600 pounds",
+                    "cui": "C1742222"
+                },
+                {
+                    "code": "K0886",
+                    "label": "Power wheelchair, group 4 heavy duty, multiple power option, sling/solid seat/back, patient weight capacity 301 to 450 pounds",
+                    "cui": "C1741415"
+                },
+                {
+                    "code": "K0837",
+                    "label": "Power wheelchair, group 2 heavy duty, single power option, sling/solid seat/back, patient weight capacity 301 to 450 pounds",
+                    "cui": "C1741950"
+                },
+                {
+                    "code": "E2376",
+                    "label": "Power wheelchair accessory, expandable controller, including all related electronics and mounting hardware, replacement only",
+                    "cui": "C1739978"
+                },
+                {
+                    "code": "E2390",
+                    "label": "Power wheelchair accessory, solid (rubber/plastic) drive wheel tire, any size, replacement only, each",
+                    "cui": "C1737747"
+                },
+                {
+                    "code": "E2391",
+                    "label": "Power wheelchair accessory, solid (rubber/plastic) caster tire (removable), any size, replacement only, each",
+                    "cui": "C1738557"
+                },
+                {
+                    "code": "E2382",
+                    "label": "Power wheelchair accessory, tube for pneumatic drive wheel tire, any size, replacement only, each",
+                    "cui": "C1737746"
+                },
+                {
+                    "code": "E1018",
+                    "label": "Heavy duty shock absorber for heavy duty or extra heavy duty power wheelchair, each",
+                    "cui": "C1145103"
+                },
+                {
+                    "code": "E2331",
+                    "label": "Power wheelchair accessory, attendant control, proportional, including all related electronics and fixed mounting hardware",
+                    "cui": "C1314352"
+                },
+                {
+                    "code": "E2361",
+                    "label": "Power wheelchair accessory, 22nf sealed lead acid battery, each, (e.g., gel cell, absorbed glassmat)",
+                    "cui": "C1314359"
+                },
+                {
+                    "code": "K0877",
+                    "label": "Power wheelchair, group 4 standard, single power option, sling/solid seat/back, patient weight capacity up to and including 300 pounds",
+                    "cui": "C1737761"
+                },
+                {
+                    "code": "K0835",
+                    "label": "Power wheelchair, group 2 standard, single power option, sling/solid seat/back, patient weight capacity up to and including 300 pounds",
+                    "cui": "C1743173"
+                },
+                {
+                    "code": "K0841",
+                    "label": "Power wheelchair, group 2 standard, multiple power option, sling/solid seat/back, patient weight capacity up to and including 300 pounds",
+                    "cui": "C1737758"
+                },
+                {
+                    "code": "K0864",
+                    "label": "Power wheelchair, group 3 extra heavy duty, multiple power option, sling/solid seat/back, patient weight capacity 601 pounds or more",
+                    "cui": "C1742221"
+                },
+                {
+                    "code": "K0884",
+                    "label": "Power wheelchair, group 4 standard, multiple power option, sling/solid seat/back, patient weight capacity up to and including 300 pounds",
+                    "cui": "C1741954"
+                },
+                {
+                    "code": "K0863",
+                    "label": "Power wheelchair, group 3 very heavy duty, multiple power option, sling/solid seat/back, patient weight capacity 451 to 600 pounds",
+                    "cui": "C1743176"
+                },
+                {
+                    "code": "K0891",
+                    "label": "Power wheelchair, group 5 pediatric, multiple power option, sling/solid seat/back, patient weight capacity up to and including 125 pounds",
+                    "cui": "C1737762"
+                },
+                {
+                    "code": "K0860",
+                    "label": "Power wheelchair, group 3 very heavy duty, single power option, sling/solid seat/back, patient weight capacity 451 to 600 pounds",
+                    "cui": "C1738028"
+                },
+                {
+                    "code": "K0890",
+                    "label": "Power wheelchair, group 5 pediatric, single power option, sling/solid seat/back, patient weight capacity up to and including 125 pounds",
+                    "cui": "C1738030"
+                },
+                {
+                    "code": "K0839",
+                    "label": "Power wheelchair, group 2 very heavy duty, single power option, sling/solid seat/back, patient weight capacity 451 to 600 pounds",
+                    "cui": "C1741411"
+                },
+                {
+                    "code": "K0840",
+                    "label": "Power wheelchair, group 2 extra heavy duty, single power option, sling/solid seat/back, patient weight capacity 601 pounds or more",
+                    "cui": "C1738026"
+                },
+                {
+                    "code": "K0856",
+                    "label": "Power wheelchair, group 3 standard, single power option, sling/solid seat/back, patient weight capacity up to and including 300 pounds",
+                    "cui": "C1742220"
+                },
+                {
+                    "code": "K0861",
+                    "label": "Power wheelchair, group 3 standard, multiple power option, sling/solid seat/back, patient weight capacity up to and including 300 pounds",
+                    "cui": "C1737760"
+                },
+                {
+                    "code": "E2311",
+                    "label": "Power wheelchair accessory, electronic connection between wheelchair controller and two or more power seating system motors, including all related electronics, indicator feature, mechanical function selection switch, and fixed mounting hardware",
+                    "cui": "C1314340"
+                },
+                {
+                    "code": "K0851",
+                    "label": "Power wheelchair, group 3 heavy duty, captains chair, patient weight capacity 301 to 450 pounds",
+                    "cui": "C1741412"
+                },
+                {
+                    "code": "E2375",
+                    "label": "Power wheelchair accessory, non-expandable controller, including all related electronics and mounting hardware, replacement only",
+                    "cui": "C1741938"
+                },
+                {
+                    "code": "E2359",
+                    "label": "Power wheelchair accessory, group 34 sealed lead acid battery, each (e.g., gel cell, absorbed glassmat)",
+                    "cui": "C3248407"
+                },
+                {
+                    "code": "E2365",
+                    "label": "Power wheelchair accessory, u-1 sealed lead acid battery, each (e.g., gel cell, absorbed glassmat)",
+                    "cui": "C1314363"
+                },
+                {
+                    "code": "K0829",
+                    "label": "Power wheelchair, group 2 extra heavy duty, captains chair, patient weight 601 pounds or more",
+                    "cui": "C1738025"
+                },
+                {
+                    "code": "E2371",
+                    "label": "Power wheelchair accessory, group 27 sealed lead acid battery, (e.g., gel cell, absorbed glassmat), each",
+                    "cui": "C1620979"
+                },
+                {
+                    "code": "K0825",
+                    "label": "Power wheelchair, group 2 heavy duty, captains chair, patient weight capacity 301 to 450 pounds",
+                    "cui": "C1742217"
+                },
+                {
+                    "code": "E2363",
+                    "label": "Power wheelchair accessory, group 24 sealed lead acid battery, each (e.g., gel cell, absorbed glassmat)",
+                    "cui": "C1314361"
+                },
+                {
+                    "code": "K0869",
+                    "label": "Power wheelchair, group 4 standard, captains chair, patient weight capacity up to and including 300 pounds",
+                    "cui": "C1739993"
+                },
+                {
+                    "code": "K0853",
+                    "label": "Power wheelchair, group 3 very heavy duty, captains chair, patient weight capacity 451 to 600 pounds",
+                    "cui": "C1737759"
+                },
+                {
+                    "code": "K0849",
+                    "label": "Power wheelchair, group 3 standard, captains chair, patient weight capacity up to and including 300 pounds",
+                    "cui": "C1741951"
+                },
+                {
+                    "code": "K0855",
+                    "label": "Power wheelchair, group 3 extra heavy duty, captains chair, patient weight capacity 601 pounds or more",
+                    "cui": "C1743175"
+                },
+                {
+                    "code": "K0823",
+                    "label": "Power wheelchair, group 2 standard, captains chair, patient weight capacity up to and including 300 pounds",
+                    "cui": "C1738566"
+                },
+                {
+                    "code": "E2392",
+                    "label": "Power wheelchair accessory, solid (rubber/plastic) caster tire with integrated wheel, any size, replacement only, each",
+                    "cui": "C1743163"
+                },
+                {
+                    "code": "E2373",
+                    "label": "Power wheelchair accessory, hand or chin control interface, compact remote joystick, proportional, including fixed mounting hardware",
+                    "cui": "C1743161"
+                },
+                {
+                    "code": "K0816",
+                    "label": "Power wheelchair, group 1 standard, captains chair, patient weight capacity up to and including 300 pounds",
+                    "cui": "C1739988"
+                },
+                {
+                    "code": "K0827",
+                    "label": "Power wheelchair, group 2 very heavy duty, captains chair, patient weight capacity 451 to 600 pounds",
+                    "cui": "C1739989"
+                },
+                {
+                    "code": "K0821",
+                    "label": "Power wheelchair, group 2 standard, portable, captains chair, patient weight capacity up to and including 300 pounds",
+                    "cui": "C1738024"
+                },
+                {
+                    "code": "E2312",
+                    "label": "Power wheelchair accessory, hand or chin control interface, mini-proportional remote joystick, proportional, including fixed mounting hardware",
+                    "cui": "C1971044"
+                },
+                {
+                    "code": "K0850",
+                    "label": "Power wheelchair, group 3 heavy duty, sling/solid seat/back, patient weight capacity 301 to 450 pounds",
+                    "cui": "C1739991"
+                },
+                {
+                    "code": "K0870",
+                    "label": "Power wheelchair, group 4 heavy duty, sling/solid seat/back, patient weight capacity 301 to 450 pounds",
+                    "cui": "C1741414"
+                },
+                {
+                    "code": "E2313",
+                    "label": "Power wheelchair accessory, harness for upgrade to expandable controller, including all fasteners, connectors and mounting hardware, each",
+                    "cui": "C1971045"
+                },
+                {
+                    "code": "K0824",
+                    "label": "Power wheelchair, group 2 heavy duty, sling/solid seat/back, patient weight capacity 301 to 450 pounds",
+                    "cui": "C1743172"
+                },
+                {
+                    "code": "K0814",
+                    "label": "Power wheelchair, group 1 standard, portable, captains chair, patient weight capacity up to and including 300 pounds",
+                    "cui": "C1742216"
+                },
+                {
+                    "code": "E2377",
+                    "label": "Power wheelchair accessory, expandable controller, including all related electronics and mounting hardware, upgrade provided at initial issue",
+                    "cui": "C1741399"
+                },
+                {
+                    "code": "E2383",
+                    "label": "Power wheelchair accessory, insert for pneumatic drive wheel tire (removable), any type, any size, replacement only, each",
+                    "cui": "C1738556"
+                },
+                {
+                    "code": "K0852",
+                    "label": "Power wheelchair, group 3 very heavy duty, sling/solid seat/back, patient weight capacity 451 to 600 pounds",
+                    "cui": "C1738027"
+                },
+                {
+                    "code": "K0868",
+                    "label": "Power wheelchair, group 4 standard, sling/solid seat/back, patient weight capacity up to and including 300 pounds",
+                    "cui": "C1741953"
+                },
+                {
+                    "code": "K0733",
+                    "label": "Power wheelchair accessory, 12 to 24 amp hour sealed lead acid battery, each (e.g., gel cell, absorbed glassmat)",
+                    "cui": "C1739986"
+                },
+                {
+                    "code": "K0854",
+                    "label": "Power wheelchair, group 3 extra heavy duty, sling/solid seat/back, patient weight capacity 601 pounds or more",
+                    "cui": "C1738569"
+                },
+                {
+                    "code": "K0871",
+                    "label": "Power wheelchair, group 4 very heavy duty, sling/solid seat/back, patient weight capacity 451 to 600 pounds",
+                    "cui": "C1738029"
+                },
+                {
+                    "code": "K0831",
+                    "label": "Power wheelchair, group 2 standard, seat elevator, captains chair, patient weight capacity up to and including 300 pounds",
+                    "cui": "C1738567"
+                },
+                {
+                    "code": "E2367",
+                    "label": "Power wheelchair accessory, battery charger, dual mode, for use with either battery type, sealed or non-sealed, each",
+                    "cui": "C1314365"
+                },
+                {
+                    "code": "K0826",
+                    "label": "Power wheelchair, group 2 very heavy duty, sling/solid seat/back, patient weight capacity 451 to 600 pounds",
+                    "cui": "C1741949"
+                },
+                {
+                    "code": "K0822",
+                    "label": "Power wheelchair, group 2 standard, sling/solid seat/back, patient weight capacity up to and including 300 pounds",
+                    "cui": "C1737756"
+                },
+                {
+                    "code": "K0828",
+                    "label": "Power wheelchair, group 2 extra heavy duty, sling/solid seat/back, patient weight capacity 601 pounds or more",
+                    "cui": "C1741410"
+                },
+                {
+                    "code": "K0848",
+                    "label": "Power wheelchair, group 3 standard, sling/solid seat/back, patient weight capacity up to and including 300 pounds",
+                    "cui": "C1742219"
+                },
+                {
+                    "code": "E2366",
+                    "label": "Power wheelchair accessory, battery charger, single mode, for use with only one battery type, sealed or non-sealed, each",
+                    "cui": "C1314364"
+                },
+                {
+                    "code": "E2328",
+                    "label": "Power wheelchair accessory, head control or extremity control interface, electronic, proportional, including all related electronics and fixed mounting hardware",
+                    "cui": "C1314349"
+                },
+                {
+                    "code": "K0011",
+                    "label": "Standard - weight frame motorized/power wheelchair with programmable control parameters for speed adjustment, tremor dampening, acceleration control and braking",
+                    "cui": "C0499172"
+                },
+                {
+                    "code": "K0820",
+                    "label": "Power wheelchair, group 2 standard, portable, sling/solid seat/back, patient weight capacity up to and including 300 pounds",
+                    "cui": "C1741409"
+                },
+                {
+                    "code": "K0815",
+                    "label": "Power wheelchair, group 1 standard, sling/solid seat and back, patient weight capacity up to and including 300 pounds",
+                    "cui": "C1741948"
+                },
+                {
+                    "code": "E2325",
+                    "label": "Power wheelchair accessory, sip and puff interface, nonproportional, including all related electronics, mechanical stop switch, and manual swingaway mounting hardware",
+                    "cui": "C1314346"
+                },
+                {
+                    "code": "E2327",
+                    "label": "Power wheelchair accessory, head control interface, mechanical, proportional, including all related electronics, mechanical direction change switch, and fixed mounting hardware",
+                    "cui": "C1314348"
+                },
+                {
+                    "code": "K0830",
+                    "label": "Power wheelchair, group 2 standard, seat elevator, sling/solid seat/back, patient weight capacity up to and including 300 pounds",
+                    "cui": "C1737757"
+                },
+                {
+                    "code": "E2321",
+                    "label": "Power wheelchair accessory, hand control interface, remote joystick, nonproportional, including all related electronics, mechanical stop switch, and fixed mounting hardware",
+                    "cui": "C1314342"
+                },
+                {
+                    "code": "K0813",
+                    "label": "Power wheelchair, group 1 standard, portable, sling/solid seat and back, patient weight capacity up to and including 300 pounds",
+                    "cui": "C1743171"
+                },
+                {
+                    "code": "E2322",
+                    "label": "Power wheelchair accessory, hand control interface, multiple mechanical switches, nonproportional, including all related electronics, mechanical stop switch, and fixed mounting hardware",
+                    "cui": "C1314343"
+                },
+                {
+                    "code": "E2374",
+                    "label": "Power wheelchair accessory, hand or chin control interface, standard remote joystick (not including controller), proportional, including all related electronics and fixed mounting hardware, replacement only",
+                    "cui": "C1742206"
+                },
+                {
+                    "code": "E2329",
+                    "label": "Power wheelchair accessory, head control interface, contact switch mechanism, nonproportional, including all related electronics, mechanical stop switch, mechanical direction change switch, head array, and fixed mounting hardware",
+                    "cui": "C1314350"
+                },
+                {
+                    "code": "E2330",
+                    "label": "Power wheelchair accessory, head control interface, proximity switch mechanism, nonproportional, including all related electronics, mechanical stop switch, mechanical direction change switch, head array, and fixed mounting hardware",
+                    "cui": "C1314351"
+                }
+            ]
+        }
+    ],
+    "riluzole": [
+        {
+            "code_type": "RXNORM",
+            "code_list": [
+                {
+                    "code": "35623",
+                    "label": "riluzole",
+                    "cui": "C0073379"
+                },
+                {
+                    "code": "1165472",
+                    "label": "riluzole Pill",
+                    "cui": "C3219724"
+                },
+                {
+                    "code": "373787",
+                    "label": "riluzole Oral Tablet",
+                    "cui": "C1247857"
+                },
+                {
+                    "code": "1165471",
+                    "label": "riluzole Oral Product",
+                    "cui": "C3219723"
+                },
+                {
+                    "code": "2058146",
+                    "label": "riluzole Oral Suspension",
+                    "cui": "C4731260"
+                },
+                {
+                    "code": "317486",
+                    "label": "riluzole 50 MG",
+                    "cui": "C0992886"
+                },
+                {
+                    "code": "2269642",
+                    "label": "riluzole Oral Film",
+                    "cui": "C5228853"
+                },
+                {
+                    "code": "2058144",
+                    "label": "riluzole 5 MG/ML",
+                    "cui": "C4731258"
+                },
+                {
+                    "code": "2059263",
+                    "label": "riluzole Oral Suspension [Tiglutik]",
+                    "cui": "C4731763"
+                },
+                {
+                    "code": "2267568",
+                    "label": "riluzole 50 MG [Exservan]",
+                    "cui": "C5222225"
+                },
+                {
+                    "code": "2269644",
+                    "label": "riluzole Oral Film [Exservan]",
+                    "cui": "C5228772"
+                },
+                {
+                    "code": "368026",
+                    "label": "riluzole Oral Tablet [Rilutek]",
+                    "cui": "C1242002"
+                },
+                {
+                    "code": "2058145",
+                    "label": "riluzole Oral Liquid Product",
+                    "cui": "C4731259"
+                },
+                {
+                    "code": "565105",
+                    "label": "riluzole 50 MG [Rilutek]",
+                    "cui": "C1597541"
+                },
+                {
+                    "code": "2269641",
+                    "label": "riluzole Oral Film Product",
+                    "cui": "C5228879"
+                },
+                {
+                    "code": "199206",
+                    "label": "riluzole 50 MG Oral Tablet",
+                    "cui": "C0692566"
+                },
+                {
+                    "code": "2265862",
+                    "label": "riluzole 50 MG Oral Film",
+                    "cui": "C5222044"
+                },
+                {
+                    "code": "2059262",
+                    "label": "riluzole 5 MG/ML [Tiglutik]",
+                    "cui": "C4731762"
+                },
+                {
+                    "code": "152915",
+                    "label": "riluzole 50 MG Oral Tablet [Rilutek]",
+                    "cui": "C0593240"
+                },
+                {
+                    "code": "2267572",
+                    "label": "riluzole 50 MG Oral Film [Exservan]",
+                    "cui": "C5221933"
+                },
+                {
+                    "code": "2058147",
+                    "label": "riluzole 5 MG/ML Oral Suspension",
+                    "cui": "C4731261"
+                },
+                {
+                    "code": "2059266",
+                    "label": "riluzole 5 MG/ML Oral Suspension [Tiglutik]",
+                    "cui": "C4731766"
+                }
+            ]
+        }
+    ],
+    "tracheostomy": [
+        {
+            "code_type": "CPT",
+            "code_list": [
+                {
+                    "code": "31601",
+                    "label": "Tracheostomy, planned (separate procedure); younger than 2 years",
+                    "cui": "C3703147 C0040590 C0189342"
+                },
+                {
+                    "code": "31600",
+                    "label": "Tracheostomy, planned (separate procedure)",
+                    "cui": "C0189341 C0040590 C3513286"
+                },
+                {
+                    "code": "1005887",
+                    "label": "Tracheostomy, emergency procedure",
+                    "cui": "C0498305"
+                },
+                {
+                    "code": "31830",
+                    "label": "Revision of tracheostomy scar",
+                    "cui": "C0189437 C3513331"
+                },
+                {
+                    "code": "1014613",
+                    "label": "Tracheostomy, planned (separate procedure)",
+                    "cui": "C0189341"
+                },
+                {
+                    "code": "31603",
+                    "label": "Tracheostomy, emergency procedure; transtracheal",
+                    "cui": "C3513287 C3520208 C0189343"
+                },
+                {
+                    "code": "1005949",
+                    "label": "Surgical closure tracheostomy or fistula",
+                    "cui": "C3701633"
+                },
+                {
+                    "code": "31605",
+                    "label": "Tracheostomy, emergency procedure; cricothyroid membrane",
+                    "cui": "C3520209 C0189344 C3513288"
+                },
+                {
+                    "code": "31615",
+                    "label": "Tracheobronchoscopy through established tracheostomy incision",
+                    "cui": "C0189401"
+                },
+                {
+                    "code": "31610",
+                    "label": "Tracheostomy, fenestration procedure with skin flaps",
+                    "cui": "C0337339 C3513289"
+                },
+                {
+                    "code": "31825",
+                    "label": "Surgical closure tracheostomy or fistula; with plastic repair",
+                    "cui": "C0189430 C0189433 C3513330 C0371432"
+                },
+                {
+                    "code": "31820",
+                    "label": "Surgical closure tracheostomy or fistula; without plastic repair",
+                    "cui": "C3520362 C0371431 C3513329 C3520363"
+                },
+                {
+                    "code": "AU",
+                    "label": "Item furnished in conjunction with a urological, ostomy, or tracheostomy supply",
+                    "cui": "C0497598"
+                },
+                {
+                    "code": "41140",
+                    "label": "Glossectomy; complete or total, with or without tracheostomy, without radical neck dissection",
+                    "cui": "C0009557 C3703339 C3521370 C0371904"
+                },
+                {
+                    "code": "41145",
+                    "label": "Glossectomy; complete or total, with or without tracheostomy, with unilateral radical neck dissection",
+                    "cui": "C0371905 C0192156 C2012241 C3703340"
+                },
+                {
+                    "code": "31584",
+                    "label": "Laryngoplasty; with open reduction and fixation of (eg, plating) fracture, includes tracheostomy, if performed",
+                    "cui": "C3513280 C4292150 C4292149 C4291728"
+                },
+                {
+                    "code": "61576",
+                    "label": "Transoral approach to skull base, brain stem or upper spinal cord for biopsy, decompression or excision of lesion; requiring splitting of tongue and/or mandible (including tracheostomy)",
+                    "cui": "C0372740 C3523700 C3523705 C3523704 C3523701 C3515165 C3523702 C3523703"
+                }
+            ]
+        },
+        {
+            "code_type": "HCPCS",
+            "code_list": [
+                {
+                    "code": "Level%203%3A%20A7501-A7527",
+                    "label": "Tracheostomy Supplies",
+                    "cui": "C4316314"
+                },
+                {
+                    "code": "A4629",
+                    "label": "Tracheostomy care kit for established tracheostomy",
+                    "cui": "C0520174"
+                },
+                {
+                    "code": "A4625",
+                    "label": "Tracheostomy care kit for new tracheostomy",
+                    "cui": "C0497884"
+                },
+                {
+                    "code": "A7525",
+                    "label": "Tracheostomy mask, each",
+                    "cui": "C0181759"
+                },
+                {
+                    "code": "L8501",
+                    "label": "Tracheostomy speaking valve",
+                    "cui": "C0500184"
+                },
+                {
+                    "code": "A4623",
+                    "label": "Tracheostomy, inner cannula",
+                    "cui": "C0497882"
+                },
+                {
+                    "code": "A4626",
+                    "label": "Tracheostomy cleaning brush, each",
+                    "cui": "C0497885"
+                },
+                {
+                    "code": "A7523",
+                    "label": "Tracheostomy shower protector, each",
+                    "cui": "C1314263"
+                },
+                {
+                    "code": "S8189",
+                    "label": "Tracheostomy supply, not otherwise classified",
+                    "cui": "C0994174"
+                },
+                {
+                    "code": "A7526",
+                    "label": "Tracheostomy tube collar/holder, each",
+                    "cui": "C1314266"
+                },
+                {
+                    "code": "A7527",
+                    "label": "Tracheostomy/laryngectomy tube plug/stop, each",
+                    "cui": "C1508836"
+                },
+                {
+                    "code": "A7521",
+                    "label": "Tracheostomy/laryngectomy tube, cuffed, polyvinylchloride (pvc), silicone or equal, each",
+                    "cui": "C1314261"
+                },
+                {
+                    "code": "E0465",
+                    "label": "Home ventilator, any type, used with invasive interface, (e.g., tracheostomy tube)",
+                    "cui": "C4067416"
+                },
+                {
+                    "code": "A7522",
+                    "label": "Tracheostomy/laryngectomy tube, stainless steel or equal (sterilizable and reusable), each",
+                    "cui": "C1314262"
+                },
+                {
+                    "code": "AU",
+                    "label": "Item furnished in conjunction with a urological, ostomy, or tracheostomy supply",
+                    "cui": "C0497598"
+                },
+                {
+                    "code": "A7520",
+                    "label": "Tracheostomy/laryngectomy tube, non-cuffed, polyvinylchloride (pvc), silicone or equal, each",
+                    "cui": "C1314260"
+                },
+                {
+                    "code": "E0472",
+                    "label": "Respiratory assist device, bi-level pressure capability, with backup rate feature, used with invasive interface, e.g., tracheostomy tube (intermittent assist device with continuous positive airway pressure device)",
+                    "cui": "C1314302"
+                }
+            ]
+        }
+    ],
+    "ventilator": [
+        {
+            "code_type": "CPT",
+            "code_list": [
+                {
+                    "code": "1015098",
+                    "label": "Ventilator Management",
+                    "cui": "C0184634"
+                },
+                {
+                    "code": "4167F",
+                    "label": "Head of bed elevation (30-45 degrees) on first ventilator day ordered (CRIT)",
+                    "cui": "C1971500"
+                },
+                {
+                    "code": "94005",
+                    "label": "Home ventilator management care plan oversight of a patient (patient not present) in home, domiciliary or rest home (eg, assisted living) requiring review of status, review of laboratories and other studies and revision of orders and respiratory care plan (as appropriate), within a calendar month, 30 minutes or more",
+                    "cui": "C1742713 C3526906 C3526904 C3526905 C3704058"
+                }
+            ]
+        },
+        {
+            "code_type": "HCPCS",
+            "code_list": [
+                {
+                    "code": "E1029",
+                    "label": "Wheelchair accessory, ventilator tray, fixed",
+                    "cui": "C1314328"
+                },
+                {
+                    "code": "E1030",
+                    "label": "Wheelchair accessory, ventilator tray, gimbaled",
+                    "cui": "C1314329"
+                },
+                {
+                    "code": "A4612",
+                    "label": "Battery cables; replacement for patient-owned ventilator",
+                    "cui": "C0497875"
+                },
+                {
+                    "code": "A4613",
+                    "label": "Battery charger; replacement for patient-owned ventilator",
+                    "cui": "C0497876"
+                },
+                {
+                    "code": "A4611",
+                    "label": "Battery, heavy duty; replacement for patient owned ventilator",
+                    "cui": "C0497874"
+                },
+                {
+                    "code": "E0465",
+                    "label": "Home ventilator, any type, used with invasive interface, (e.g., tracheostomy tube)",
+                    "cui": "C4067416"
+                },
+                {
+                    "code": "E0466",
+                    "label": "Home ventilator, any type, used with non-invasive interface, (e.g., mask, chest shell)",
+                    "cui": "C4067417"
+                },
+                {
+                    "code": "E0467",
+                    "label": "Home ventilator, multi-function respiratory device, also performs any or all of the additional functions of oxygen concentration, drug nebulization, aspiration, and cough stimulation, includes all accessories, components and supplies for all functions",
+                    "cui": "C4746303"
+                }
+            ]
+        }
+    ]
+}
