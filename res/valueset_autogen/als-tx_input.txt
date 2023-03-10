@@ -5,9 +5,9 @@ continuous positive airway pressure,CPT
 continuous positive airway pressure,HCPCS
 ventilator,CPT
 ventilator,HCPCS
-mechanical ventilation,ICD9CM
-mechanical ventilation,ICD10CM
-mechanical ventilation,ICD10PCS
+mechanical ventilat,ICD9CM
+mechanical ventilat,ICD10CM
+mechanical ventilat,ICD10PCS
 tracheostomy,CPT
 tracheostomy,HCPCS
 gastrostomy,CPT

@@ -66,8 +66,8 @@
     "peripheral-procedures":{
         "icd9-cm":{
             "lev0":[],
-            "lev1":[],
-            "lev2":["278.00", "278.01", "278.03"]
+            "lev1":["00.4"],
+            "lev2":["00.66"]
         },
         "icd10-pcs":{
             "exact":[]

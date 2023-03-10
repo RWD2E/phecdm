@@ -21,11 +21,11 @@ rxnav_cls = apirxnav.RxNavSearch()
 # print(rxnav_cls.get_ndc_from_rxcui('349332'))
 # print(rxnav_cls.get_rxcui_all('349332'))
 # print(rxnav_cls.get_rxcui_from_atc('N06A'))
-# print(rxnav_cls.get_rxcui_from_str('Lexapro 10 mg oral tablet'))
+# print(rxnav_cls.get_rxcui_from_str('Lexapro 10 mg'))
 apirxnav.batch_write_rx_code_json(
     path_to_save = path_to_tgt, #absolute path,
     filename_to_save = 'als-rx',
-    sterms = ['riluz','endarovone'],
+    sterms = ['riluz','edaravone'],
     sterm_type = 'string',
     verbose=True
 )
