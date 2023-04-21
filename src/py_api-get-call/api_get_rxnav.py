@@ -1,7 +1,6 @@
 import json
 import requests
 import api_call_utils as apiutil
-import api_get_umls as apiumls
 
 class RxNavSearch:
     '''
