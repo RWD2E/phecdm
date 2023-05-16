@@ -34,13 +34,13 @@ def sqlgen_phe_spark(
             # expand range
             if prec == "range":
                 for rg in cdlst: 
-                    rg_pos = rg.splint('-') 
-                    cdlst_new = range(rg_pos[0],rg_pos[1]+1)
+                    rg_pos = rg.split('-') 
+                    cdlst_new = range(int(rg_pos[0]),int(rg_pos[1])+1)
                 cdlst = cdlst_new
             # construct code list string
             cd_quote = []
             for code in cdlst:
-                cd_quote.append("'"+ code +"'")
+                cd_quote.append("'"+ str(code) +"'")
             cd_quote_str = ",".join(cd_quote)
             # complete search sentence
             if prec == 'lev0':
@@ -56,23 +56,54 @@ def sqlgen_phe_spark(
     sql_str_master = "(" + ") OR (".join(sql_str_lst) + ")"
     return(sql_str_master)
 
+#=== example with Cerner Millenium DM
+cd_field_map = {
+    'icd9-cm':'conditioncode.standard.id',
+    'icd10-cm':'conditioncode.standard.id',
+    'hcpcs':'procedurecode.standard.id',
+    'drg':'conditioncode.standard.id'
+}
+cdtype_field_map = {
+    'icd9-cm':'conditioncode.standard.condingSystemId',
+    'icd10-cm':'conditioncode.standard.condingSystemId',
+    'hcpcs':'procedurecode.standard.condingSystemId',
+    'drg':'conditioncode.standard.condingSystemId'
+}
+cdtype_value_map = {
+    'icd9-cm':['2.16.840.1.113883.6.103'],
+    'icd10-cm':['2.16.840.1.113883.6.4'],
+    'hcpcs':['2.16.840.1.113883.6.14'],
+    'drg':['urn:cerner:codingsystem:drg:aprdrg','urn:cerner:codingsystem:drg:apdrg']
+}
+
+test = sqlgen_phe_spark(
+    src_json_url = 'https://raw.githubusercontent.com/RWD2E/phecdm/main/res/valueset_curated/vs-mmm.json',
+    which_phenotype = 'delivery-csection',
+    cd_field_map = cd_field_map,
+    cdtype_field_map = cdtype_field_map,
+    cdtype_value_map = cdtype_value_map
+)
+
+print(test)
+
+#=== example with PCORnet CDM
 # cd_field_map = {
-#     'icd9-cm':'conditioncode.standard.id',
-#     'icd10-cm':'conditioncode.standard.id',
-#     'hcpcs':'procedurecode.standard.id',
-#     'drg':'conditioncode.standard.id'
+#     'icd9-cm':'DX',
+#     'icd10-cm':'DX',
+#     'hcpcs':'PX',
+#     'drg':'DRG'
 # }
 # cdtype_field_map = {
-#     'icd9-cm':'conditioncode.condingSystemId',
-#     'icd10-cm':'conditioncode.condingSystemId',
-#     'hcpcs':'procedurecode.condingSystemId',
-#     'drg':'conditioncode.condingSystemId'
+#     'icd9-cm':'DX_TYPE',
+#     'icd10-cm':'DX_TYPE',
+#     'hcpcs':'PX_TYPE',
+#     'drg':'DRG'
 # }
 # cdtype_value_map = {
-#     'icd9-cm':['2.16.840.1.113883.6.103'],
-#     'icd10-cm':['2.16.840.1.113883.6.4'],
-#     'hcpcs':['2.16.840.1.113883.6.14'],
-#     'drg':['urn:cerner:codingsystem:drg:aprdrg','urn:cerner:codingsystem:drg:apdrg']
+#     'icd9-cm':['09'],
+#     'icd10-cm':['10'],
+#     'hcpcs':['CH'],
+#     'drg':['']
 # }
 
 # test = sqlgen_phe_spark(
