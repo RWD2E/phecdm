@@ -1,6 +1,5 @@
 import os
 import api_get_vsac as apivsac
-import api_get_rxnav as apirxnav
 
 path_to_tgt = os.path.join(
     os.path.dirname(os.path.dirname(os.path.dirname(__file__))),

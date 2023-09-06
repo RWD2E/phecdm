@@ -1,4 +1,4 @@
-import bioportal_api_get as bps
+import api_get_bioportal as bps
 import numpy as np
 import pandas as pd
 import api_call_utils as apiutil

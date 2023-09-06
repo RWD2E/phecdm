@@ -1,0 +1,373 @@
+[
+    {
+        "in_dose_unit": [
+            {
+                "in": "IRON ASPGLY,PS/C/B12/FA/CA/SUC",
+                "dose": 150,
+                "unit": "mg"
+            },
+            {
+                "in": "IRON ASPGLY,PS/C/B12/FA/CA/SUC",
+                "dose": 25,
+                "unit": "mg"
+            },
+            {
+                "in": "IRON ASPGLY,PS/C/B12/FA/CA/SUC",
+                "dose": 1,
+                "unit": "mg"
+            }
+        ],
+        "raw_str": "IRON ASPGLY,PS/C/B12/FA/CA/SUC 150-25-1"
+    },
+    {
+        "in_dose_unit": [
+            {
+                "in": "aspirin",
+                "dose": 325,
+                "unit": "mg"
+            }
+        ],
+        "raw_str": "ASPIRIN 325 MG"
+    },
+    {
+        "in_dose_unit": [
+            {
+                "in": "GRANISETRON HCL",
+                "dose": 1,
+                "unit": "MG"
+            }
+        ],
+        "raw_str": "GRANISETRON HCL 1 MG"
+    },
+    {
+        "in_dose_unit": [
+            {
+                "in": "CALCIUM CARB/VIT D3/MINERALS",
+                "dose": 600,
+                "unit": "MG"
+            },
+            {
+                "in": "CALCIUM CARB/VIT D3/MINERALS",
+                "dose": 400,
+                "unit": "MG"
+            }
+        ],
+        "raw_str": "CALCIUM CARB/VIT D3/MINERALS 600 MG-400"
+    },
+    {
+        "in_dose_unit": [
+            {
+                "in": "UREA",
+                "dose": 30,
+                "unit": "%"
+            }
+        ],
+        "raw_str": "UREA 30 %"
+    },
+    {
+        "in_dose_unit": [
+            {
+                "in": "cholecalciferol",
+                "dose": 25000,
+                "unit": "UNIT"
+            }
+        ],
+        "raw_str": "CHOLECALCIFEROL (VITAMIN D3) 25000 UNIT"
+    },
+    {
+        "in_dose_unit": [
+            {
+                "in": "hydrocortisone",
+                "dose": 2.5,
+                "unit": "%"
+            },
+            {
+                "in": "lidocaine",
+                "dose": 3,
+                "unit": "%"
+            },
+            {
+                "in": "aloe",
+                "dose": 7,
+                "unit": "g"
+            }
+        ],
+        "raw_str": "HYDROCORTISONE/LIDOCAINE/ALOE 2.5-3%(7G)"
+    },
+    {
+        "in_dose_unit": [
+            {
+                "in": "norethindrone-ethin",
+                "dose": 0.5,
+                "unit": "mg"
+            },
+            {
+                "in": "estradiol",
+                "dose": 0.035,
+                "unit": "mg"
+            }
+        ],
+        "raw_str": "NORETHINDRONE-ETHIN. ESTRADIOL 0.5-0.035"
+    },
+    {
+        "in_dose_unit": [
+            {
+                "in": "MULTIVIT-MIN/FERROUS FUMARATE",
+                "dose": 15,
+                "unit": "MG"
+            }
+        ],
+        "raw_str": "MULTIVIT-MIN/FERROUS FUMARATE 15 MG"
+    },
+    {
+        "in_dose_unit": [
+            {
+                "in": "EMOLLIENT COMBINATION NO.33"
+            }
+        ],
+        "raw_str": "EMOLLIENT COMBINATION NO.33 "
+    },
+    {
+        "in_dose_unit": [
+            {
+                "in": "chlorpheniramine",
+                "dose": 4,
+                "unit": "mg"
+            },
+            {
+                "in": "dextromethorphan",
+                "dose": 30,
+                "unit": "mg"
+            }
+        ],
+        "raw_str": "CHLORPHENIRAMINE/DEXTROMETHORP 4 MG-30 MG"
+    },
+    {
+        "in_dose_unit": [
+            {
+                "in": "pioglitazone hcl",
+                "dose": 30,
+                "unit": "mg"
+            },
+            {
+                "in": "glimepiride",
+                "dose": 2,
+                "unit": "mg"
+            }
+        ],
+        "raw_str": "PIOGLITAZONE HCL/GLIMEPIRIDE 30 MG-2 MG"
+    },
+    {
+        "in_dose_unit": [
+            {
+                "in": "IMMUNE GLOBULIN,GAMMA(IGG)",
+                "dose": 12,
+                "unit": "G"
+            }
+        ],
+        "raw_str": "IMMUNE GLOBULIN,GAMMA(IGG) 12G"
+    },
+    {
+        "in_dose_unit": [
+            {
+                "in": "SKIN CLEANSER COMBINATION NO.8"
+            }
+        ],
+        "raw_str": "SKIN CLEANSER COMBINATION NO.8 "
+    },
+    {
+        "in_dose_unit": [
+            {
+                "in": "linagliptin",
+                "dose": 5,
+                "unit": "mg"
+            },
+            {
+                "in": "metformin HCL",
+                "dose": 1000,
+                "unit": "mg"
+            }
+        ],
+        "raw_str": "LINAGLIPTIN/METFORMIN HCL 5MG-1000MG"
+    },
+    {
+        "in_dose_unit": [
+            {
+                "in": "povidone-iodine",
+                "dose": 0.3,
+                "unit": "%"
+            }
+        ],
+        "raw_str": "POVIDONE-IODINE 0.3 %"
+    },
+    {
+        "in_dose_unit": [
+            {
+                "in": "DAPSONE",
+                "dose": 5,
+                "unit": "%"
+            }
+        ],
+        "raw_str": "DAPSONE 5 %"
+    },
+    {
+        "in_dose_unit": [
+            {
+                "in": "valproic acid",
+                "dose": 500,
+                "unit": "mg"
+            }
+        ],
+        "raw_str": "VALPROIC ACID 500 MG"
+    },
+    {
+        "in_dose_unit": [
+            {
+                "in": "isradipine",
+                "dose": 10,
+                "unit": "mg"
+            }
+        ],
+        "raw_str": "ISRADIPINE 10 MG"
+    },
+    {
+        "in_dose_unit": [
+            {
+                "in": "BUTALBIT",
+                "dose": 50,
+                "unit": ""
+            },
+            {
+                "in": "ACETAMIN",
+                "dose": 325,
+                "unit": ""
+            },
+            {
+                "in": "CAFF",
+                "dose": 30,
+                "unit": ""
+            },
+            {
+                "in": "CODEINE",
+                "dose": "",
+                "unit": ""
+            }
+        ],
+        "raw_str": "BUTALBIT/ACETAMIN/CAFF/CODEINE 50-325-30"
+    },
+    {
+        "in_dose_unit": [
+            {
+                "in": "ceftazidime pentahydrate",
+                "dose": 6,
+                "unit": "g"
+            }
+        ],
+        "raw_str": "CEFTAZIDIME PENTAHYDRATE 6G"
+    },
+    {
+        "in_dose_unit": [
+            {
+                "in": "MULTIVIT-MINS 53/FOLIC/K/COQ10",
+                "dose": 200,
+                "unit": "mg"
+            },
+            {
+                "in": "MULTIVIT-MINS 53/FOLIC/K/COQ10",
+                "dose": 1000,
+                "unit": "mg"
+            }
+        ],
+        "raw_str": "MULTIVIT-MINS 53/FOLIC/K/COQ10 200-1000"
+    },
+    {
+        "in_dose_unit": [
+            {
+                "in": "naloxone HCL",
+                "dose": 4,
+                "unit": "mg"
+            }
+        ],
+        "raw_str": "NALOXONE HCL 4 MG"
+    },
+    {
+        "in_dose_unit": [
+            {
+                "in": "aztreonam",
+                "dose": 1,
+                "unit": "g"
+            },
+            {
+                "in": "dextrose-water",
+                "dose": 50,
+                "unit": "ml"
+            }
+        ],
+        "raw_str": "AZTREONAM/DEXTROSE-WATER 1 G/50 ML"
+    },
+    {
+        "in_dose_unit": [
+            {
+                "in": "perphenazine",
+                "dose": 16,
+                "unit": "mg"
+            }
+        ],
+        "raw_str": "PERPHENAZINE 16 MG"
+    },
+    {
+        "in_dose_unit": [
+            {
+                "in": "dapagliflozin",
+                "dose": 5,
+                "unit": "mg"
+            },
+            {
+                "in": "saxagliptin HCL",
+                "dose": 5,
+                "unit": "mg"
+            }
+        ],
+        "raw_str": "DAPAGLIFLOZIN/SAXAGLIPTIN HCL 5 MG-5 MG"
+    },
+    {
+        "in_dose_unit": [
+            {
+                "in": "SYRGE-NDL,INS",
+                "dose": 0.5,
+                "unit": "ML"
+            }
+        ],
+        "raw_str": "SYRGE-NDL,INS 0.5 ML HALF MARK 31 GX5/16\""
+    },
+    {
+        "in_dose_unit": [
+            {
+                "in": "VITAMIN A",
+                "dose": 10000,
+                "unit": "UNIT"
+            }
+        ],
+        "raw_str": "VITAMIN A 10000 UNIT"
+    },
+    {
+        "in_dose_unit": [
+            {
+                "in": "BLINATUMOMAB",
+                "dose": 35,
+                "unit": "MCG"
+            }
+        ],
+        "raw_str": "BLINATUMOMAB 35 MCG"
+    },
+    {
+        "in_dose_unit": [
+            {
+                "in": "morphine sulfate",
+                "dose": 4,
+                "unit": "mg/ml"
+            }
+        ],
+        "raw_str": "MORPHINE SULFATE 4 MG/ML"
+    }
+]

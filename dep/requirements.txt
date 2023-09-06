@@ -1,7 +1,14 @@
+###### Requirements with Version Specifiers ######
+
 ###### Requirements without Version Specifiers ######
 numpy
 pandas
 openpyxl
 lxml
+kor
+langchain
+bs4
+markdownify
+snowflake
 
-###### Requirements with Version Specifiers ######
+

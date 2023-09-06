@@ -1,1 +1,2 @@
-pip3 install --user -r C:/repo/PheCDM/dep/requirements.txt
+pip3 install --user -r C:/repos/phecdm/dep/requirements.txt
+
