@@ -2,6 +2,7 @@ import json
 import requests
 import api_call_utils as apiutil
 import re
+import time
 
 class RxNavSearch:
     '''
@@ -143,10 +144,15 @@ class RxNavSearch:
                 # sub-API call to collect ingredient, strength, dosage form
                 ndc_ppty['ndc'] = ndc_code
                 ndc_ppty['rxcui'] = ppty['rxcui'] 
-                ndc_ppty['packaging'] = ppty['packagingList']['packaging']
                 ndc_ppty.update(self.get_rxcui_details(ppty['rxcui'],expand))
             except:
-                print(f"RXCUI:{ppty['rxcui']} is inactive.")
+                print(f"NDC can't be mapped to RXCUI or RXCUI is inactive.")
+                
+            # not all NDC has packaging info
+            try: 
+                ndc_ppty['packaging'] = ppty['packagingList']['packaging']               
+            except:
+                ndc_ppty['packaging'] = '' 
         
         # output results
         return(ndc_ppty) 
@@ -156,7 +162,8 @@ def batch_write_ndc_details_json(
     filename_to_save,
     sterms:list,
     expand=False,
-    verbose=True
+    verbose=True,
+    overwrite=True
 ) -> list:
     '''
     generate a list of dist of standardized properties for 
@@ -165,6 +172,7 @@ def batch_write_ndc_details_json(
     ppty_lst = []
     rxnav_cls = RxNavSearch()
     for term in sterms:
+        time.sleep(0.05)
         try:
             ndc_ppty = rxnav_cls.get_ndc_details(term,expand)
             ppty_lst.append(ndc_ppty)
@@ -175,8 +183,21 @@ def batch_write_ndc_details_json(
         if verbose:
             print(f'finish mapping for NDC:{term}.')
 
+    json_file_path = f"{path_to_save}/{filename_to_save}.json"
+    if not overwrite:
+        try:
+            # Read existing JSON data from the file
+            with open(json_file_path, 'r') as file:
+                existing_data = json.load(file)
+            # Append new data to the existing data
+            existing_data.extend(ppty_lst)
+            # Update existing file
+            ppty_lst = existing_data
+        except FileNotFoundError:
+            print(f"The file '{json_file_path}' was not found.")
+    
     # write single dictionary to json
-    with open(f"{path_to_save}/{filename_to_save}.json","w",encoding='utf-8') as writer: 
+    with open(json_file_path,"w",encoding='utf-8') as writer: 
         json.dump(ppty_lst, writer, ensure_ascii=False, indent=4)
 
 def batch_write_rxcui_code_json(
