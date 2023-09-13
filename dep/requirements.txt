@@ -10,5 +10,5 @@ langchain
 bs4
 markdownify
 snowflake
-
+scikit-learn
 

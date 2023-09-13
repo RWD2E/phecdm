@@ -1,7 +1,5 @@
 import os
 import api_get_rxnav as apirxnav
-import pandas as pd
-import json
 
 path_to_kb = os.path.join(
     os.path.dirname(os.path.dirname(os.path.dirname(__file__))),

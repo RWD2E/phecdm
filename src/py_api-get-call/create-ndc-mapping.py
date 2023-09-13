@@ -1,5 +1,4 @@
 import os
-import api_get_rxnav as apirxnav
 import pandas as pd
 import json
 
