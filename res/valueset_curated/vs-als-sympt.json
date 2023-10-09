@@ -61,13 +61,13 @@
             "icd10": []
         },
         "twitching-fasciculation":{
-            "icd9": [781.0],
+            "icd9": ["781.0"],
             "icd10": []
         }
     },
     "myopathy":{
         "myopath-weakness":{
-            "icd9": ["359."],
+            "icd9": ["359"],
             "icd10": []
         }
     },
