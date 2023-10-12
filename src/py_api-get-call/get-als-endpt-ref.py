@@ -40,8 +40,8 @@ for k,v in df.items():
         df.rename(columns={'Key': 'CD_TYPE','Value':'CD'}, inplace=True)
         df = df.explode('CD')
         df['ENDPT_SUB'] = k2
-    df['ENDPT'] = k
-    df_lst.append(df)
+        df['ENDPT'] = k
+        df_lst.append(df)
 
 df_stk = pd.concat(df_lst, axis=0, ignore_index=True)
 df_stk['ENDPT_TYPE'] = df_stk['CD_TYPE'].map(endptty_mapping)

@@ -11,4 +11,5 @@ bs4
 markdownify
 snowflake
 scikit-learn
+flatten_json
 
