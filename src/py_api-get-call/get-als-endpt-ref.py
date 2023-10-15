@@ -16,18 +16,17 @@ endptty_mapping = {
 }
 
 # endpt mapping
-endpt_mapping = {
+region_mapping = {
     "speech":"bulbar",
     "swallowing":"bulbar",
+    "nutrition-support":"bulbar",
     "muscle-strength":"limb",
     "gait":"limb",
     "involuntary-muscle-movement":"limb",
     "myopathy":"limb",
     "pain":"limb",
-    "other":"limb",
     "mobility":"limb",
-    "nutrition-support":"need-peg",
-    "respiratory-support":"need-niv"
+    "respiratory-support":"diaphram"
 }
 
 with open('C:/repos/PheCDM/res/valueset_curated/vs-als-staging.json','r') as json_file:
@@ -45,7 +44,7 @@ for k,v in df.items():
 
 df_stk = pd.concat(df_lst, axis=0, ignore_index=True)
 df_stk['ENDPT_TYPE'] = df_stk['CD_TYPE'].map(endptty_mapping)
-df_stk['ENDPT_GRP'] = df_stk['ENDPT'].map(endpt_mapping)
+df_stk['ENDPT_GRP'] = df_stk['ENDPT'].map(region_mapping)
 df_stk['CD_TYPE'] = df_stk['CD_TYPE'].map(tty_mapping)
 df_stk['CD'] = df_stk['CD'].str.replace('.', '')
 

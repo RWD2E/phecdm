@@ -31,7 +31,11 @@ class RxNavSearch:
         else:
             return(items["ndcGroup"]["ndcList"]["ndc"]) 
 
-    def get_rxcui_all(self,rxcui,tty_lst=['SCD','SCDC','SCDF','SCDG','SBD','SBDC','SBDF','SBDG']):
+    def get_rxcui_all(
+            self,
+            rxcui,
+            tty_lst=['SCD','SCDC','SCDF','SCDG','SBD','SBDC','SBDF','SBDG','IN','MIN','PIN']
+        ):
         '''
         rxnav API call to collect all listed levels of RXCUI
         https://lhncbc.nlm.nih.gov/RxNav/APIs/api-RxNorm.getAllRelatedInfo.html
@@ -39,14 +43,16 @@ class RxNavSearch:
         # time.sleep(0.05)
         response = requests.get(f'{self.API_URI}/rxcui/{rxcui}/allrelated.json')
         results = json.loads(response.text)
-        all_medications = {}
+        all_medications = []
         for group in results['allRelatedGroup']['conceptGroup']:
             if 'conceptProperties' in group and group['tty'] in tty_lst:
-                all_medications[group] = list()
                 for item in group['conceptProperties']:
                     rxcui_add = item
+                    rxcui_add.pop('umlscui')
+                    rxcui_add.pop('language')
+                    rxcui_add.pop('synonym')
                     rxcui_add['ndc'] = self.get_ndc_from_rxcui(item['rxcui'])
-                    all_medications[group].append(rxcui_add)
+                    all_medications.append(rxcui_add)
         return (all_medications)
     
     def get_rxcui_from_str(self,term:str,maxEntries=20,keep_rk=1):
@@ -58,19 +64,23 @@ class RxNavSearch:
         response = requests.get(f'{self.API_URI}/approximateTerm.json?term={term}&maxEntries={maxEntries}&option=0')
         results = json.loads(response.text)
         rxcui_candidates = []
-        for candidate in results['approximateGroup']['candidate']:
-            if int(candidate['rank']) <= keep_rk and candidate['rxcui'] not in rxcui_candidates:
-                # when term only contains ingredient string, the results are often rxcui at ingredient level
-                rxcui_candidates.append(candidate['rxcui'])
-
-        # Loop through rxcui_candidates 
         rxcui_lst = []
-        for ing in rxcui_candidates:
-            allrelacodes = self.get_rxcui_all(ing,tty_lst=['SCD','SCDC','SBD','SBDC'])
-            rxcui_lst.extend(allrelacodes)
+        try:
+            for candidate in results['approximateGroup']['candidate']:
+                if int(candidate['rank']) <= keep_rk and candidate['rxcui'] not in rxcui_candidates:
+                    # when term only contains ingredient string, the results are often rxcui at ingredient level
+                    rxcui_candidates.append(candidate['rxcui'])
 
+            # Loop through rxcui_candidates 
+            for ing in rxcui_candidates:
+                allrelacodes = self.get_rxcui_all(ing)
+                rxcui_lst.extend(allrelacodes)   
+        except:
+            print(f"No RXCUI found for ingredient '{term}'.")
+        
         # output results
-        return(rxcui_lst) 
+        return(rxcui_lst)
+         
 
     def get_rxcui_from_atc(self,class_code):
         '''
@@ -93,35 +103,49 @@ class RxNavSearch:
     
     def get_rxcui_details(self,rxcui,expand=False) -> dict:
         '''
-        rxnav API call to collect all standardized properties
+        rxnav API call to collect all standardized properties and related attributes
         https://lhncbc.nlm.nih.gov/RxNav/APIs/api-RxNorm.getAllProperties.html
+        https://lhncbc.nlm.nih.gov/RxNav/APIs/api-RxNorm.getAllRelatedInfo.html
         '''
         # time.sleep(0.05)
+        # extract strength and unit info
         response = requests.get(f'{self.API_URI}/rxcui/{rxcui}/allProperties.json?prop=ALL')
         results = json.loads(response.text)
         std_drug_str = {"rxcui":rxcui}
         for prop in results['propConceptGroup']['propConcept']:
             # collect normalized rx name
             if prop['propName'] == 'RxNorm Name':
-                std_drug_str['str'] = [re.sub(r'\[[^]]*\]','',x) for x in prop['propValue'].split(" / ")] #->list
+                std_drug_str['name'] = [re.sub(r'\[[^]]*\]','',x.lower()) for x in prop['propValue'].split(" / ")] #->list
             # parse strength info
             elif prop['propName'] == 'AVAILABLE_STRENGTH':
-                std_drug_str['dose-unit'] = prop['propValue'].split(" / ") #->list
-                std_drug_str['dose'] = [x.split(' ')[0] for x in std_drug_str['dose-unit']]
-                std_drug_str['unit'] = [x.split(' ')[1] for x in std_drug_str['dose-unit']]
+                std_drug_str['str-unit'] = prop['propValue'].lower().split(" / ") #->list
+                std_drug_str['str'] = [x.split(' ')[0] for x in std_drug_str['str-unit']]
+                std_drug_str['unit'] = [x.split(' ')[1] for x in std_drug_str['str-unit']]
+            
         # extract ingredient info
-        std_drug_str['in'] = [x.replace(y,'').strip() for x,y in zip(std_drug_str['str'],std_drug_str['dose-unit'] )]
+        response = requests.get(f'{self.API_URI}/rxcui/{rxcui}/allrelated.json')
+        results = json.loads(response.text)
+        for prop in results['allRelatedGroup']['conceptGroup']:
+            # get dose form
+            if prop['tty'] == 'DF':
+                std_drug_str['dose-form'] = [x["name"].lower() for x in prop['conceptProperties']]
+
+            # get ingredient and ingredient codes
+            if prop['tty'] == 'IN':
+                std_drug_str['in'] = [x["name"].lower() for x in prop['conceptProperties']]
+                std_drug_str['in-code'] = [x["rxcui"].lower() for x in prop['conceptProperties']]
 
         # expand output
         if expand:
             # {rxcui:, component:[]}
-            expand_n = len(std_drug_str['in'])
+            expand_n = len(std_drug_str['name'])
             std_drug_str_un = [
-                {key: std_drug_str[key][i] for key in ['str','dose-unit','dose','unit','in']}
+                {key: std_drug_str[key][i] for key in ['name','str-unit','str','unit','in']}
                  for i in range(expand_n)
             ]
             std_drug_str = {
                 'rxcui': rxcui,
+                'dose-form':std_drug_str["dose-form"][0],
                 'component': std_drug_str_un
             } 
         
@@ -150,7 +174,7 @@ class RxNavSearch:
                 
             # not all NDC has packaging info
             try: 
-                ndc_ppty['packaging'] = ppty['packagingList']['packaging']               
+                ndc_ppty['packaging'] = ppty['packagingList']['packaging'].lower()               
             except:
                 ndc_ppty['packaging'] = '' 
         
@@ -200,7 +224,50 @@ def batch_write_ndc_details_json(
     with open(json_file_path,"w",encoding='utf-8') as writer: 
         json.dump(ppty_lst, writer, ensure_ascii=False, indent=4)
 
-def batch_write_rxcui_code_json(
+def batch_write_rxcui_details_json(
+    path_to_save, #absolute path,
+    filename_to_save,
+    sterms:list,
+    expand=False,
+    verbose=True,
+    overwrite=True
+) -> list:
+    '''
+    generate a list of dist of standardized properties for 
+    RXCUI code list
+    '''
+    ppty_lst = []
+    rxnav_cls = RxNavSearch()
+    for term in sterms:
+        time.sleep(0.05)
+        try:
+            rxcui_ppty = rxnav_cls.get_rxcui_details(term,expand)
+            ppty_lst.append(rxcui_ppty)
+        except:
+            print(f"RXCUI:{term} not found.")
+
+        # report progress
+        if verbose:
+            print(f'finish mapping for RXCUI:{term}.')
+
+    json_file_path = f"{path_to_save}/{filename_to_save}.json"
+    if not overwrite:
+        try:
+            # Read existing JSON data from the file
+            with open(json_file_path, 'r') as file:
+                existing_data = json.load(file)
+            # Append new data to the existing data
+            existing_data.extend(ppty_lst)
+            # Update existing file
+            ppty_lst = existing_data
+        except FileNotFoundError:
+            print(f"The file '{json_file_path}' was not found.")
+    
+    # write single dictionary to json
+    with open(json_file_path,"w",encoding='utf-8') as writer: 
+        json.dump(ppty_lst, writer, ensure_ascii=False, indent=4)
+
+def batch_write_rx_code_json(
     path_to_save, #absolute path,
     filename_to_save,
     sterms:list,
