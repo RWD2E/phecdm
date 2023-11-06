@@ -8,7 +8,7 @@ df_lst = []
 for k in json_lst:
     df = pd.DataFrame({
         'RXCUI':[k['rxcui']]*len(k['in']),
-        'IN':k['in']
+        'IN':[x.replace(',',';') for x in k['in']]
     })
     df_lst.append(df)
 df_stk = pd.concat(df_lst, axis=0, ignore_index=True)
@@ -26,7 +26,7 @@ for k in json_lst:
     if 'in' in k:
         df = pd.DataFrame({
             'NDC':[k['ndc']]*len(k['in']),
-            'IN':k['in']
+            'IN':[x.replace(',',';') for x in k['in']]
         })
         df_lst.append(df)
 df_stk = pd.concat(df_lst, axis=0, ignore_index=True)
