@@ -94,12 +94,31 @@ class RxNavSearch:
         # Loop through ingredients
         rxcui_lst = []
         for ing in ingredients:
-            allrelacodes = self.get_rxcui_all(ing['rxcui'],tty_lst=['SCD','SCDC','SBD','SBDC'])
+            allrelacodes = self.get_rxcui_all(ing['rxcui'])
             ing['allrelacodes'] = allrelacodes
             rxcui_lst.append(ing)
 
         # output results
         return(rxcui_lst)   
+    
+    def get_rxcui_from_va(self,class_code):
+        '''
+        rxnav API call to find all relevant rxcui codes under a VA-NDF class
+        '''
+        # time.sleep(0.05)
+        response = requests.get(f'{self.API_URI}/rxclass/classMembers.json?classId={class_code}&relaSource=VA&rela=has_VAClass')
+        results = json.loads(response.text)
+        ingredients = [r['minConcept'] for r in results['drugMemberGroup']['drugMember']]
+
+        # Loop through ingredients
+        rxcui_lst = []
+        for ing in ingredients:
+            allrelacodes = self.get_rxcui_all(ing['rxcui'])
+            ing['allrelacodes'] = allrelacodes
+            rxcui_lst.append(ing)
+
+        # output results
+        return(rxcui_lst)  
     
     def get_rxcui_details(self,rxcui,expand=False) -> dict:
         '''
@@ -284,9 +303,12 @@ def batch_write_rx_code_json(
         # search rxcui by rxcui
         if sterm_type == "rxcui":
             code_lst = rxnav_cls.get_ndc_from_rxcui(term)
-        # search rxcui by atc
+        # search rxcui by atc class code
         elif sterm_type == "atc":
             code_lst = rxnav_cls.get_rxcui_from_atc(term)
+        # search rxcui by va class code
+        elif sterm_type == "va":
+            code_lst = rxnav_cls.get_rxcui_from_va(term)
         # search rxcui by string
         elif sterm_type == "string":
             code_lst = rxnav_cls.get_rxcui_from_str(term)
