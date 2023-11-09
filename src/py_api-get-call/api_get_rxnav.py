@@ -81,7 +81,6 @@ class RxNavSearch:
         # output results
         return(rxcui_lst)
          
-
     def get_rxcui_from_atc(self,class_code):
         '''
         rxnav API call to find all relevant rxcui codes under a ATC class
@@ -101,6 +100,32 @@ class RxNavSearch:
         # output results
         return(rxcui_lst)   
     
+    def get_cls_from_rxcui(self,rxcui):
+        '''
+        rxnav API call to map a rxcui code to a ATC or VA or MEDRT (may_treat) class
+        '''
+        # time.sleep(0.05)
+        cls_lst=[]
+        cls_set=set()
+        for clsty in ['ATC','VA','MEDRT']:
+            call_url = f'{self.API_URI}/rxclass/class/byRxcui.json?rxcui={rxcui}&relaSource={clsty}'
+            if clsty == 'MEDRT':
+                call_url += '&relas=may_treat'
+            response = requests.get(call_url)
+            results = json.loads(response.text)
+            try: 
+                for r in results['rxclassDrugInfoList']['rxclassDrugInfo']:
+                    cls_dict = r['rxclassMinConceptItem']
+                    # dedup
+                    hash_dict = frozenset(cls_dict.items())
+                    if hash_dict not in cls_set:
+                        cls_set.add(hash_dict)
+                        cls_lst.append(cls_dict)
+            except:
+                print(f"No {clsty} class found for {rxcui}'.")
+        # output results
+        return(cls_lst) 
+
     def get_rxcui_from_va(self,class_code):
         '''
         rxnav API call to find all relevant rxcui codes under a VA-NDF class
@@ -261,6 +286,7 @@ def batch_write_rxcui_details_json(
         time.sleep(0.05)
         try:
             rxcui_ppty = rxnav_cls.get_rxcui_details(term,expand)
+            rxcui_ppty['classes'] = rxnav_cls.get_cls_from_rxcui(term)
             ppty_lst.append(rxcui_ppty)
         except:
             print(f"RXCUI:{term} not found.")
@@ -268,7 +294,7 @@ def batch_write_rxcui_details_json(
         # report progress
         if verbose:
             print(f'finish mapping for RXCUI:{term}.')
-
+    
     json_file_path = f"{path_to_save}/{filename_to_save}.json"
     if not overwrite:
         try:
