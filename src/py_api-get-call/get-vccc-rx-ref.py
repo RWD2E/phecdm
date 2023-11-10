@@ -26,7 +26,7 @@ for item in json_lst:
     df_in['RXNORM_CUI'] = item['rxcui']
     df_in_lst.append(df_in)
 
-    if item['classes']:
+    if 'classes' in item:
         try: 
             df_cls = pd.DataFrame([{
                 'VA_CLS':x['className'],

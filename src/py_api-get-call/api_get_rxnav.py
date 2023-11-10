@@ -171,11 +171,11 @@ class RxNavSearch:
         results = json.loads(response.text)
         for prop in results['allRelatedGroup']['conceptGroup']:
             # get dose form
-            if prop['tty'] == 'DF':
+            if prop['tty'] == 'DF' and 'conceptProperties' in prop:
                 std_drug_str['dose-form'] = [x["name"].lower() for x in prop['conceptProperties']]
 
             # get ingredient and ingredient codes
-            if prop['tty'] == 'IN':
+            if prop['tty'] == 'IN' and 'conceptProperties' in prop:
                 std_drug_str['in'] = [x["name"].lower() for x in prop['conceptProperties']]
                 std_drug_str['in-code'] = [x["rxcui"].lower() for x in prop['conceptProperties']]
 
@@ -196,6 +196,60 @@ class RxNavSearch:
         # output results
         return (std_drug_str)
     
+    def get_rxcui_history(self,rxcui,expand=False)->dict:
+        '''
+        rxnav NPI call to collect information for a historial RXCUI
+        https://lhncbc.nlm.nih.gov/RxNav/APIs/api-RxNorm.getRxcuiHistoryStatus.html
+        '''
+        # time.sleep(0.05)
+        # extract strength and unit info
+        response = requests.get(f'{self.API_URI}/rxcui/{rxcui}/historystatus.json')
+        results = json.loads(response.text)
+        std_drug_str = {"rxcui":rxcui}
+
+        for prop, val in results['rxcuiStatusHistory'].items():
+            # get code status
+            if prop == 'metaData':
+                std_drug_str['status'] = val['status']
+                std_drug_str['activeStartDate'] = val['activeStartDate']
+                std_drug_str['activeEndDate'] = val['activeEndDate']
+            # get rxnorm name
+            if prop == 'attributes':
+                std_drug_str['name'] = val['name']
+                std_drug_str['tty'] = val['tty']
+            # get ingredient info
+            if prop == 'definitionalFeatures':
+                in_lst = val['ingredientAndStrength']
+                std_drug_str['in'] = [x['baseName'] for x in in_lst]
+                std_drug_str['in-code'] = [x['baseRxcui'] for x in in_lst]
+                std_drug_str['str'] = [x['numeratorValue'] for x in in_lst]
+                std_drug_str['unit'] = [x['numeratorUnit'] for x in in_lst]
+                try:   
+                    std_drug_str['in-code-active'] = [x['activeIngredientRxcui'] for x in in_lst]                
+                except:
+                    print('No active ingredients.')
+
+                # get potential active scd codes
+                if 'scdConcept' in val.keys():
+                    std_drug_str['scd-code'] = val['scdConcept']['scdConceptRxcui']
+                    std_drug_str['scd-name'] = val['scdConcept']['scdConceptName']
+            
+        # expand output
+        if expand:
+            # {rxcui:, component:[]}
+            comp_lst = ['in','in-code','str','unit','in-code-active']
+            expand_n = len(std_drug_str['in'])
+            std_drug_str_un = [
+                {key: std_drug_str[key][i] for key in comp_lst}
+                for i in range(expand_n)
+            ]
+            std_drug_str = {key: value for key, value in std_drug_str.items() if key not in comp_lst}
+            std_drug_str['component'] = std_drug_str_un
+
+        # output results
+        return (std_drug_str)
+
+
     def get_ndc_details(self,ndc_code,expand=False):
         '''
         rxnav API call to find all mappable properties about a single NDC code
@@ -283,10 +337,13 @@ def batch_write_rxcui_details_json(
     ppty_lst = []
     rxnav_cls = RxNavSearch()
     for term in sterms:
-        time.sleep(0.05)
+        # time.sleep(0.05)
         try:
-            rxcui_ppty = rxnav_cls.get_rxcui_details(term,expand)
-            rxcui_ppty['classes'] = rxnav_cls.get_cls_from_rxcui(term)
+            rxcui_ppty = rxnav_cls.get_rxcui_history(term,expand)
+            try:
+                rxcui_ppty['classes'] = rxnav_cls.get_cls_from_rxcui(term)
+            except:
+                print(f"No class found for {term}.")
             ppty_lst.append(rxcui_ppty)
         except:
             print(f"RXCUI:{term} not found.")
