@@ -128,7 +128,8 @@ class RxNavSearch:
 
     def get_rxcui_from_va(self,class_code):
         '''
-        rxnav API call to find all relevant rxcui codes under a VA-NDF class
+        rxnav API call to find all relevant rxcui codes under a VA-NDFRT/MEDRT class
+        https://lhncbc.nlm.nih.gov/RxNav/assets/publications/MED-RT_Documentation.pdf
         '''
         # time.sleep(0.05)
         response = requests.get(f'{self.API_URI}/rxclass/classMembers.json?classId={class_code}&relaSource=VA&rela=has_VAClass')

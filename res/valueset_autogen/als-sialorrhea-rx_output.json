@@ -1,0 +1,5162 @@
+{
+    "scopolamine ": [
+        {
+            "rxcui": "9601",
+            "name": "scopolamine",
+            "tty": "IN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1007162",
+            "name": "atropine / hyoscyamine / phenylephrine / pseudoephedrine / scopolamine",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1007163",
+            "name": "nitrazepam / oxazepam / scopolamine",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1007217",
+            "name": "homatropine / scopolamine",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1007331",
+            "name": "metronidazole / scopolamine",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1007446",
+            "name": "azintamide / scopolamine",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1007585",
+            "name": "papaveretum / scopolamine",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1007767",
+            "name": "atropine / chlorpheniramine / hyoscyamine / pseudoephedrine / scopolamine",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1008167",
+            "name": "clonixin / scopolamine",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1008184",
+            "name": "diazepam / scopolamine",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1008362",
+            "name": "dipyrone / scopolamine",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1008367",
+            "name": "atropine / hyoscyamine / scopolamine",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1008440",
+            "name": "ibuprofen / scopolamine",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1008579",
+            "name": "carbinoxamine / pseudoephedrine / scopolamine",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1008610",
+            "name": "atropine / chlorpheniramine / hyoscyamine / phenylephrine / pseudoephedrine / scopolamine",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1008691",
+            "name": "caffeine / dimenhydrinate / scopolamine",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1008901",
+            "name": "chlorpheniramine / pseudoephedrine / scopolamine",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1008931",
+            "name": "atropine / chlorpheniramine / hyoscyamine / phenylephrine / phenylpropanolamine / scopolamine",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1008960",
+            "name": "chlorpheniramine / dextromethorphan / scopolamine",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "689597",
+            "name": "atropine / chlorpheniramine / hyoscyamine / phenylephrine / scopolamine",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "689606",
+            "name": "atropine / hyoscyamine / phenobarbital / scopolamine",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "689755",
+            "name": "phenylephrine / scopolamine",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "815781",
+            "name": "chlorpheniramine / phenylephrine / scopolamine",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "816029",
+            "name": "acetaminophen / scopolamine",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "9603",
+            "name": "scopolamine hydrobromide",
+            "tty": "PIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1046924",
+            "name": "atropine sulfate 0.00388 MG/ML / hyoscyamine sulfate 0.0207 MG/ML / phenobarbital 3.24 MG/ML / scopolamine hydrobromide 0.0013 MG/ML Oral Solution [Donnatal]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "17856042302",
+                "17856042303",
+                "17856042305",
+                "42291024404",
+                "42291024416",
+                "59212042204",
+                "59212042210",
+                "59212042216",
+                "59212042304",
+                "59212042310",
+                "59212042316",
+                "66689006301",
+                "66689006310",
+                "66689006340",
+                "66689006350",
+                "66689006399"
+            ]
+        },
+        {
+            "rxcui": "1046978",
+            "name": "atropine sulfate 0.0194 MG / hyoscyamine sulfate 0.1037 MG / phenobarbital 16.2 MG / scopolamine hydrobromide 0.0065 MG Oral Tablet [Donnatal]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "42291024501",
+                "43063060101",
+                "59212042504",
+                "59212042510",
+                "66213042510",
+                "66213042511"
+            ]
+        },
+        {
+            "rxcui": "1046999",
+            "name": "atropine sulfate 0.0582 MG / hyoscyamine sulfate 0.311 MG / phenobarbital 48.6 MG / scopolamine hydrobromide 0.0195 MG Extended Release Oral Tablet [Donnatal]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "66213042110",
+                "66213042150"
+            ]
+        },
+        {
+            "rxcui": "1739887",
+            "name": "atropine sulfate 0.0194 MG / hyoscyamine sulfate 0.1037 MG / phenobarbital 16.2 MG / scopolamine hydrobromide 0.0065 MG Oral Tablet [Phenohytro]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "75826011800",
+                "75826011810"
+            ]
+        },
+        {
+            "rxcui": "2048017",
+            "name": "atropine sulfate 0.00388 MG/ML / hyoscyamine sulfate 0.0207 MG/ML / phenobarbital 3.24 MG/ML / scopolamine hydrobromide 0.0013 MG/ML Oral Solution [Phenohytro]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "17856012501",
+                "17856012502",
+                "17856012503",
+                "17856012504",
+                "75826012704",
+                "75826012716",
+                "75826012804",
+                "75826012816"
+            ]
+        },
+        {
+            "rxcui": "208123",
+            "name": "scopolamine 2.5 MG/ML Ophthalmic Solution [Isopto Hyoscine]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "351875",
+            "name": "72 HR scopolamine 0.0139 MG/HR Transdermal System [Transderm Scop]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00067434509",
+                "00067434604",
+                "10019055301",
+                "10019055302",
+                "10019055303",
+                "10019055304",
+                "10019055306",
+                "10019055388",
+                "10019055390",
+                "66758020854"
+            ]
+        },
+        {
+            "rxcui": "1046809",
+            "name": "atropine sulfate 0.0194 MG / hyoscyamine sulfate 0.1037 MG / phenobarbital 16.2 MG / scopolamine hydrobromide 0.0065 MG [Donnatal]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1046923",
+            "name": "atropine sulfate 0.00388 MG/ML / hyoscyamine sulfate 0.0207 MG/ML / phenobarbital 3.24 MG/ML / scopolamine hydrobromide 0.0013 MG/ML [Donnatal]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1046998",
+            "name": "atropine sulfate 0.0582 MG / hyoscyamine sulfate 0.311 MG / phenobarbital 48.6 MG / scopolamine hydrobromide 0.0195 MG [Donnatal]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1739883",
+            "name": "atropine sulfate 0.0194 MG / hyoscyamine sulfate 0.1037 MG / phenobarbital 16.2 MG / scopolamine hydrobromide 0.0065 MG [Phenohytro]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2118008",
+            "name": "atropine sulfate 0.00388 MG/ML / hyoscyamine sulfate 0.0207 MG/ML / phenobarbital 3.24 MG/ML / scopolamine hydrobromide 0.0013 MG/ML [Phenohytro]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "568850",
+            "name": "scopolamine 2.5 MG/ML [Isopto Hyoscine]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "575640",
+            "name": "scopolamine 0.0139 MG/HR [Transderm Scop]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1739884",
+            "name": "atropine / hyoscyamine / phenobarbital / scopolamine Oral Tablet [Phenohytro]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1806063",
+            "name": "scopolamine Transdermal System [Transderm Scop]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2048015",
+            "name": "atropine / hyoscyamine / phenobarbital / scopolamine Oral Solution [Phenohytro]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "363862",
+            "name": "scopolamine Ophthalmic Solution [Isopto Hyoscine]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "368551",
+            "name": "atropine / hyoscyamine / phenobarbital / scopolamine Oral Tablet [Donnatal]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "608757",
+            "name": "atropine / hyoscyamine / phenobarbital / scopolamine Extended Release Oral Tablet [Donnatal]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "757066",
+            "name": "atropine / hyoscyamine / phenobarbital / scopolamine Oral Solution [Donnatal]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1166651",
+            "name": "Isopto Hyoscine Ophthalmic Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1175281",
+            "name": "Donnatal Oral Liquid Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1175282",
+            "name": "Donnatal Oral Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1175283",
+            "name": "Donnatal Pill",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1179184",
+            "name": "Transderm Scop Topical Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1296025",
+            "name": "Transderm Scop Transdermal Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1739885",
+            "name": "Phenohytro Oral Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1739886",
+            "name": "Phenohytro Pill",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2048016",
+            "name": "Phenohytro Oral Liquid Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1046787",
+            "name": "atropine sulfate 0.00388 MG/ML / hyoscyamine sulfate 0.0207 MG/ML / phenobarbital 3.24 MG/ML / scopolamine hydrobromide 0.0013 MG/ML Oral Solution",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "42192052016",
+                "42291020504",
+                "42291020516",
+                "50742066504",
+                "50742066516",
+                "50742066604",
+                "50742066616",
+                "52959027403",
+                "52959027406",
+                "52959027430",
+                "63629135602",
+                "63629205101",
+                "63629205201",
+                "66993011855",
+                "66993011857",
+                "66993011955",
+                "71914016201",
+                "71914016204",
+                "71914016210",
+                "71914016216",
+                "72768901104",
+                "72768901206"
+            ]
+        },
+        {
+            "rxcui": "1046815",
+            "name": "atropine sulfate 0.0194 MG / hyoscyamine sulfate 0.1037 MG / phenobarbital 16.2 MG / scopolamine hydrobromide 0.0065 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "00143114001",
+                "00143114010",
+                "00143114051",
+                "10544057220",
+                "10544057230",
+                "15338060060",
+                "50742066701",
+                "52959002306",
+                "52959002320",
+                "52959002330",
+                "52959002350",
+                "52959002360",
+                "63629205001",
+                "66267003215",
+                "66267003220",
+                "66267003230",
+                "66993011702",
+                "72768701001"
+            ]
+        },
+        {
+            "rxcui": "1046997",
+            "name": "atropine sulfate 0.0582 MG / hyoscyamine sulfate 0.311 MG / phenobarbital 48.6 MG / scopolamine hydrobromide 0.0195 MG Extended Release Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1048078",
+            "name": "atropine sulfate 0.0194 MG / hyoscyamine sulfate 0.1037 MG / scopolamine hydrobromide 0.0065 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1048124",
+            "name": "12 HR atropine sulfate 0.04 MG / chlorpheniramine maleate 8 MG / hyoscyamine sulfate 0.19 MG / pseudoephedrine hydrochloride 90 MG / scopolamine hydrobromide 0.01 MG Extended Release Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "58407052701",
+                "60575017719"
+            ]
+        },
+        {
+            "rxcui": "106507",
+            "name": "papaveretum 15.4 MG/ML / scopolamine 0.4 MG/ML Injectable Solution",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "106807",
+            "name": "scopolamine 1.25 MG/ML Ophthalmic Solution",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "106808",
+            "name": "scopolamine 5 MG/ML Ophthalmic Solution",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "198207",
+            "name": "scopolamine 0.4 MG/ML Injectable Solution",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "200059",
+            "name": "scopolamine 0.4 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "226552",
+            "name": "72 HR scopolamine 0.0139 MG/HR Transdermal System",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "00378647016",
+                "00378647044",
+                "00378647097",
+                "00378647099",
+                "00591225804",
+                "00591225823",
+                "00591225854",
+                "00591225879",
+                "45802058001",
+                "45802058046",
+                "45802058062",
+                "45802058084",
+                "50090534900",
+                "50742050501",
+                "50742050504",
+                "50742050510",
+                "50742050524",
+                "63629845001",
+                "63629845002",
+                "63629845101",
+                "63629845102",
+                "63629845201",
+                "63629845202",
+                "72162141902",
+                "72162141904",
+                "72162141907"
+            ]
+        },
+        {
+            "rxcui": "245350",
+            "name": "scopolamine 0.6 MG/ML Injectable Solution",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "250536",
+            "name": "scopolamine 0.3 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "250537",
+            "name": "scopolamine 0.15 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "312910",
+            "name": "scopolamine 2.5 MG/ML Ophthalmic Solution",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "412723",
+            "name": "scopolamine 20 MG/ML Injectable Solution",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1046712",
+            "name": "scopolamine hydrobromide 0.01 MG",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1046786",
+            "name": "scopolamine hydrobromide 0.0013 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1046807",
+            "name": "scopolamine hydrobromide 0.0065 MG",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1046996",
+            "name": "scopolamine hydrobromide 0.0195 MG",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "323913",
+            "name": "scopolamine 2.5 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "328661",
+            "name": "scopolamine 0.4 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "331430",
+            "name": "scopolamine 0.4 MG",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "334244",
+            "name": "scopolamine 0.6 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "334245",
+            "name": "scopolamine 0.15 MG",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "334246",
+            "name": "scopolamine 0.3 MG",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "345093",
+            "name": "scopolamine 1.25 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "345094",
+            "name": "scopolamine 5 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "353526",
+            "name": "scopolamine 0.0139 MG/HR",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "451409",
+            "name": "scopolamine 20 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1806049",
+            "name": "scopolamine Transdermal System",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "373830",
+            "name": "scopolamine Injectable Solution",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "373831",
+            "name": "scopolamine Oral Tablet",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "374677",
+            "name": "atropine / hyoscyamine / phenobarbital / scopolamine Oral Tablet",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "374818",
+            "name": "atropine / hyoscyamine / phenobarbital / scopolamine Extended Release Oral Tablet",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "377414",
+            "name": "scopolamine Ophthalmic Solution",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "378252",
+            "name": "atropine / hyoscyamine / scopolamine Oral Tablet",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "379354",
+            "name": "papaveretum / scopolamine Injectable Solution",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "692718",
+            "name": "atropine / chlorpheniramine / hyoscyamine / pseudoephedrine / scopolamine Extended Release Oral Tablet",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "757058",
+            "name": "atropine / hyoscyamine / phenobarbital / scopolamine Oral Solution",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1154660",
+            "name": "atropine / chlorpheniramine / hyoscyamine / pseudoephedrine / scopolamine Oral Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1154661",
+            "name": "atropine / chlorpheniramine / hyoscyamine / pseudoephedrine / scopolamine Pill",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1154678",
+            "name": "atropine / hyoscyamine / phenobarbital / scopolamine Oral Liquid Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1154679",
+            "name": "atropine / hyoscyamine / phenobarbital / scopolamine Oral Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1154680",
+            "name": "atropine / hyoscyamine / phenobarbital / scopolamine Pill",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1154684",
+            "name": "atropine / hyoscyamine / scopolamine Oral Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1154685",
+            "name": "atropine / hyoscyamine / scopolamine Pill",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1157624",
+            "name": "scopolamine Injectable Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1157625",
+            "name": "scopolamine Ophthalmic Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1157627",
+            "name": "scopolamine Oral Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1157628",
+            "name": "scopolamine Pill",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1157630",
+            "name": "scopolamine Topical Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1158131",
+            "name": "phenylephrine / scopolamine Ophthalmic Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1164115",
+            "name": "papaveretum / scopolamine Injectable Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1295698",
+            "name": "scopolamine Transdermal Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        }
+    ],
+    "glycopyrrolate": [
+        {
+            "rxcui": "1546438",
+            "name": "glycopyrronium",
+            "tty": "IN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1008086",
+            "name": "glycopyrronium / neostigmine",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1721575",
+            "name": "glycopyrronium / indacaterol",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1790638",
+            "name": "formoterol / glycopyrronium",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2387330",
+            "name": "budesonide / formoterol / glycopyrronium",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "4955",
+            "name": "glycopyrrolate",
+            "tty": "PIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "102166",
+            "name": "glycopyrrolate 2 MG Oral Tablet [Robinul]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "70199000830",
+                "70199000890"
+            ]
+        },
+        {
+            "rxcui": "1437975",
+            "name": "glycopyrrolate 1.5 MG Oral Tablet [Glycate]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "15370016010",
+                "80056016010"
+            ]
+        },
+        {
+            "rxcui": "1720953",
+            "name": "glycopyrrolate 0.0156 MG / indacaterol 0.0275 MG Inhalation Powder [Utibron]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00078066406"
+            ]
+        },
+        {
+            "rxcui": "1790644",
+            "name": "120 ACTUAT formoterol fumarate 0.0048 MG/ACTUAT / glycopyrrolate 0.009 MG/ACTUAT Metered Dose Inhaler [Bevespi]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00310460012",
+                "00310460028",
+                "00310460039"
+            ]
+        },
+        {
+            "rxcui": "1992571",
+            "name": "glycopyrrolate 0.025 MG/ML Inhalation Solution [Lonhala]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "63402020100",
+                "63402030101"
+            ]
+        },
+        {
+            "rxcui": "205886",
+            "name": "glycopyrrolate 1 MG Oral Tablet [Robinul]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "70199000730",
+                "70199000790"
+            ]
+        },
+        {
+            "rxcui": "2371715",
+            "name": "5 ML glycopyrrolate 0.2 MG/ML Prefilled Syringe [Glyrx]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "51754601501",
+                "51754601503"
+            ]
+        },
+        {
+            "rxcui": "2371718",
+            "name": "1 ML glycopyrrolate 0.2 MG/ML Injection [Glyrx]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "51754600001",
+                "51754600004"
+            ]
+        },
+        {
+            "rxcui": "2371796",
+            "name": "2 ML glycopyrrolate 0.2 MG/ML Injection [Glyrx]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "51754600101",
+                "51754600104"
+            ]
+        },
+        {
+            "rxcui": "2387328",
+            "name": "28 ACTUAT budesonide 0.16 MG/ACTUAT / formoterol fumarate 0.0048 MG/ACTUAT / glycopyrrolate 0.009 MG/ACTUAT Metered Dose Inhaler [Breztri]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00310461628",
+                "00310461639"
+            ]
+        },
+        {
+            "rxcui": "2387331",
+            "name": "120 ACTUAT budesonide 0.16 MG/ACTUAT / formoterol fumarate 0.0048 MG/ACTUAT / glycopyrrolate 0.009 MG/ACTUAT Metered Dose Inhaler [Breztri]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00310461612"
+            ]
+        },
+        {
+            "rxcui": "2473384",
+            "name": "3 ML glycopyrrolate 0.2 MG/ML Prefilled Syringe [Glyrx]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "51754601301",
+                "51754601303"
+            ]
+        },
+        {
+            "rxcui": "2589281",
+            "name": "glycopyrrolate 1.7 MG Disintegrating Oral Tablet [Dartisla]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "82111051801"
+            ]
+        },
+        {
+            "rxcui": "2637047",
+            "name": "3 ML glycopyrrolate 0.2 MG/ML / neostigmine methylsulfate 1 MG/ML Prefilled Syringe [Prevduo]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "42023026901",
+                "42023026905"
+            ]
+        },
+        {
+            "rxcui": "2668160",
+            "name": "glycopyrrolate 0.85 MG Disintegrating Oral Tablet [Dartisla]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "82111051701"
+            ]
+        },
+        {
+            "rxcui": "999965",
+            "name": "glycopyrrolate 0.2 MG/ML Oral Solution [Cuvposa]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00259050116"
+            ]
+        },
+        {
+            "rxcui": "1437971",
+            "name": "glycopyrrolate 1.5 MG [Glycate]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1721577",
+            "name": "glycopyrrolate 0.0156 MG / indacaterol 0.0275 MG [Utibron]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1790641",
+            "name": "formoterol fumarate 0.0048 MG/ACTUAT / glycopyrrolate 0.009 MG/ACTUAT [Bevespi]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1992568",
+            "name": "glycopyrrolate 0.025 MG/ML [Lonhala]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2371712",
+            "name": "glycopyrrolate 0.2 MG/ML [Glyrx]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2387327",
+            "name": "budesonide 0.16 MG/ACTUAT / formoterol fumarate 0.0048 MG/ACTUAT / glycopyrrolate 0.009 MG/ACTUAT [Breztri]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2589276",
+            "name": "glycopyrrolate 1.7 MG [Dartisla]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2637044",
+            "name": "glycopyrrolate 0.2 MG/ML / neostigmine methylsulfate 1 MG/ML [Prevduo]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2668159",
+            "name": "glycopyrrolate 0.85 MG [Dartisla]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "562942",
+            "name": "glycopyrrolate 2 MG [Robinul]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "566774",
+            "name": "glycopyrrolate 1 MG [Robinul]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "999963",
+            "name": "glycopyrrolate 0.2 MG/ML [Cuvposa]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1437972",
+            "name": "glycopyrronium Oral Tablet [Glycate]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1790642",
+            "name": "formoterol / glycopyrronium Metered Dose Inhaler [Bevespi]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2108415",
+            "name": "glycopyrronium / indacaterol Inhalation Powder [Utibron]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2108427",
+            "name": "glycopyrronium Inhalation Solution [Lonhala]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2371713",
+            "name": "glycopyrronium Prefilled Syringe [Glyrx]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2371717",
+            "name": "glycopyrronium Injection [Glyrx]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2387323",
+            "name": "budesonide / formoterol / glycopyrronium Metered Dose Inhaler [Breztri]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2589280",
+            "name": "glycopyrronium Disintegrating Oral Tablet [Dartisla]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2637046",
+            "name": "glycopyrronium / neostigmine Prefilled Syringe [Prevduo]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "369371",
+            "name": "glycopyrronium Oral Tablet [Robinul]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "999964",
+            "name": "glycopyrronium Oral Solution [Cuvposa]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1173727",
+            "name": "Cuvposa Oral Liquid Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1173728",
+            "name": "Cuvposa Oral Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1185941",
+            "name": "Robinul Oral Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1185942",
+            "name": "Robinul Pill",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1437973",
+            "name": "Glycate Oral Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1437974",
+            "name": "Glycate Pill",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1720952",
+            "name": "Utibron Inhalant Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1790643",
+            "name": "Bevespi Inhalant Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1992570",
+            "name": "Lonhala Inhalant Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2371714",
+            "name": "Glyrx Injectable Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2387324",
+            "name": "Breztri Inhalant Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2589277",
+            "name": "Dartisla Oral Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2589278",
+            "name": "Dartisla Pill",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2589279",
+            "name": "Dartisla Disintegrating Oral Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2637045",
+            "name": "Prevduo Injectable Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "106525",
+            "name": "glycopyrrolate 0.5 MG/ML / neostigmine 2.5 MG/ML Injectable Solution",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1247658",
+            "name": "glycopyrrolate 1.5 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "69067005030",
+                "72887016003",
+                "79739709701"
+            ]
+        },
+        {
+            "rxcui": "1720948",
+            "name": "glycopyrrolate 0.0156 MG / indacaterol 0.0275 MG Inhalation Powder",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1731582",
+            "name": "1 ML glycopyrrolate 0.2 MG/ML Injection",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "00143958701",
+                "00143958725",
+                "00143968201",
+                "00143968225",
+                "00404986701",
+                "00517460125",
+                "00781382571",
+                "00781382596",
+                "16714053601",
+                "16714053625",
+                "16714090601",
+                "16714090625",
+                "16729047108",
+                "16729047163",
+                "43547054301",
+                "43547054325",
+                "43547063901",
+                "43547063925",
+                "50090451300",
+                "50090522600",
+                "50090611300",
+                "51662142501",
+                "51662148701",
+                "51662148702",
+                "51662148703",
+                "55150029201",
+                "55154572205",
+                "55154747505",
+                "55154822505",
+                "60505617900",
+                "60505617905",
+                "62332060701",
+                "62332060725",
+                "63323057801",
+                "63323057803",
+                "63323057811",
+                "63323057841",
+                "65145010201",
+                "65145010225",
+                "66794020202",
+                "66794020242",
+                "68001035159",
+                "68001035160",
+                "68083037601",
+                "68083037625",
+                "70069001101",
+                "70069001125",
+                "70121139401",
+                "70121139405",
+                "70700016522",
+                "70700016525",
+                "70700026422",
+                "70710164501",
+                "70710164507",
+                "70748013601",
+                "70748013625",
+                "70756063125",
+                "70756063182",
+                "70771161601",
+                "70771161606",
+                "70860078101",
+                "70860078141",
+                "71288040701",
+                "71288040703",
+                "71288041401",
+                "71288041403",
+                "71288041491",
+                "71288041492",
+                "71839012301",
+                "71839012325",
+                "71872709301",
+                "71872714801",
+                "71872717401",
+                "71872718101",
+                "71872720801",
+                "71872722401",
+                "71872723801",
+                "72572022501",
+                "72572022525",
+                "72572022601",
+                "72572022625",
+                "75834019325"
+            ]
+        },
+        {
+            "rxcui": "1731590",
+            "name": "2 ML glycopyrrolate 0.2 MG/ML Injection",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "00143958601",
+                "00143958625",
+                "00143968101",
+                "00143968125",
+                "00404986902",
+                "00517460225",
+                "00781382772",
+                "00781382796",
+                "16714062001",
+                "16714062025",
+                "16714099801",
+                "16714099825",
+                "16729047208",
+                "16729047230",
+                "43547054401",
+                "43547054425",
+                "43547064001",
+                "43547064025",
+                "50090452200",
+                "50090522700",
+                "51662155402",
+                "51662155403",
+                "52584068101",
+                "55150029302",
+                "60505618000",
+                "60505618005",
+                "62332062702",
+                "62332062725",
+                "63323057802",
+                "63323057804",
+                "63323057812",
+                "63323057842",
+                "65145010325",
+                "66794020302",
+                "66794020342",
+                "68001035235",
+                "68001035271",
+                "68083037701",
+                "68083037725",
+                "70069001201",
+                "70069001225",
+                "70121139501",
+                "70121139505",
+                "70700016622",
+                "70700016625",
+                "70710164601",
+                "70710164607",
+                "70748013701",
+                "70748013725",
+                "70756063225",
+                "70756063282",
+                "70771161707",
+                "70860078102",
+                "70860078142",
+                "71288040702",
+                "71288040704",
+                "71288041402",
+                "71288041404",
+                "71288041493",
+                "71288041494",
+                "71839012401",
+                "71839012425",
+                "75834019425"
+            ]
+        },
+        {
+            "rxcui": "1790639",
+            "name": "120 ACTUAT formoterol fumarate 0.0048 MG/ACTUAT / glycopyrrolate 0.009 MG/ACTUAT Metered Dose Inhaler",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "197738",
+            "name": "glycopyrrolate 1 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "00904670961",
+                "13107001401",
+                "15955030501",
+                "16571074303",
+                "16571074309",
+                "23155060601",
+                "42291030390",
+                "49884006501",
+                "50268036311",
+                "50268036315",
+                "51079070001",
+                "55111064801",
+                "55111064805",
+                "60429066501",
+                "60687027011",
+                "60687045801",
+                "60687045811",
+                "62135073460",
+                "63304021011",
+                "63629220601",
+                "63629720701",
+                "63629720702",
+                "63629720703",
+                "63629720704",
+                "63629928701",
+                "64125013901",
+                "64980025801",
+                "64980027201",
+                "68084049911",
+                "68788827903",
+                "68788827906",
+                "68788827909",
+                "69076047501",
+                "69315013901",
+                "71335207501",
+                "71335207502",
+                "71335207503",
+                "71335207504",
+                "71335965201",
+                "71335965202",
+                "71335965203",
+                "71335965204",
+                "72162147701"
+            ]
+        },
+        {
+            "rxcui": "197739",
+            "name": "glycopyrrolate 2 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "13107001501",
+                "15955031801",
+                "16571074403",
+                "16571074409",
+                "23155060701",
+                "42291030490",
+                "49884006601",
+                "55111064901",
+                "60429066601",
+                "60687018795",
+                "62135073560",
+                "63304021111",
+                "63629220701",
+                "64125014001",
+                "64980025901",
+                "64980027301",
+                "69076047601",
+                "69315014001",
+                "70518303100",
+                "70518303101",
+                "70518315200",
+                "70518315201",
+                "71335122501",
+                "71335122502",
+                "71335122503",
+                "71335122504",
+                "71335211901",
+                "71335211902",
+                "71335211903",
+                "71335211904",
+                "72162147801"
+            ]
+        },
+        {
+            "rxcui": "1992566",
+            "name": "glycopyrrolate 0.025 MG/ML Inhalation Solution",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2101490",
+            "name": "1 ML glycopyrrolate 0.2 MG/ML Prefilled Syringe",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "70121169801",
+                "70121169807",
+                "76045020301",
+                "76045020310",
+                "76045020601",
+                "76045020610"
+            ]
+        },
+        {
+            "rxcui": "2101495",
+            "name": "2 ML glycopyrrolate 0.2 MG/ML Prefilled Syringe",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "70121169901",
+                "70121169907",
+                "76045020302",
+                "76045020320",
+                "76045020802",
+                "76045020820"
+            ]
+        },
+        {
+            "rxcui": "2371710",
+            "name": "5 ML glycopyrrolate 0.2 MG/ML Prefilled Syringe",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "238212",
+            "name": "glycopyrrolate 0.2 MG/ML Injectable Solution",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "00143958401",
+                "00143958410",
+                "00143958501",
+                "00143958525",
+                "00143967901",
+                "00143967910",
+                "00143968001",
+                "00143968025",
+                "00404986820",
+                "00404987005",
+                "00517460525",
+                "00517462025",
+                "00781382975",
+                "00781382996",
+                "00781383180",
+                "00781383195",
+                "16729047303",
+                "16729047331",
+                "16729047403",
+                "16729047405",
+                "51662143101",
+                "51662148401",
+                "51662160101",
+                "51662160102",
+                "51662160103",
+                "52584039601",
+                "55150029405",
+                "55150029520",
+                "60505618100",
+                "60505618105",
+                "60505618200",
+                "60505618204",
+                "60505618205",
+                "62332062805",
+                "62332062825",
+                "62332062910",
+                "62332062920",
+                "63323057805",
+                "63323057807",
+                "63323057818",
+                "63323057820",
+                "65145010425",
+                "65145010510",
+                "66794020402",
+                "66794020442",
+                "66794020502",
+                "66794020541",
+                "68001035322",
+                "68001035372",
+                "68083037801",
+                "68083037825",
+                "68083037901",
+                "68083037910",
+                "70069001301",
+                "70069001325",
+                "70069001401",
+                "70069001410",
+                "70069061601",
+                "70069061610",
+                "70121139601",
+                "70121139605",
+                "70121139701",
+                "70121139707",
+                "70700016722",
+                "70700016725",
+                "70700016822",
+                "70700016823",
+                "70700090222",
+                "70700090225",
+                "70700090322",
+                "70700090323",
+                "70710164701",
+                "70710164707",
+                "70710164801",
+                "70710164806",
+                "70748013801",
+                "70748013825",
+                "70748013901",
+                "70748013910",
+                "70756063325",
+                "70756063385",
+                "70756063410",
+                "70756063487",
+                "70771161801",
+                "70771161807",
+                "70771161901",
+                "70771161906",
+                "70860078105",
+                "70860078120",
+                "70860078143",
+                "70860078144",
+                "71288040805",
+                "71288040806",
+                "71288040820",
+                "71288040821",
+                "71288041505",
+                "71288041506",
+                "71288041520",
+                "71288041521",
+                "71288041595",
+                "71288041596",
+                "71288041597",
+                "71288041598",
+                "71839012501",
+                "71839012525",
+                "71839012601",
+                "71839012625",
+                "71872701201",
+                "71872701301",
+                "71872709401",
+                "71872717501",
+                "71872717901",
+                "71872719601",
+                "71872722701",
+                "71872723701",
+                "71872728901",
+                "71872729201",
+                "71872730701",
+                "75834019525",
+                "75834019610"
+            ]
+        },
+        {
+            "rxcui": "2387326",
+            "name": "28 ACTUAT budesonide 0.16 MG/ACTUAT / formoterol fumarate 0.0048 MG/ACTUAT / glycopyrrolate 0.009 MG/ACTUAT Metered Dose Inhaler",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2387329",
+            "name": "120 ACTUAT budesonide 0.16 MG/ACTUAT / formoterol fumarate 0.0048 MG/ACTUAT / glycopyrrolate 0.009 MG/ACTUAT Metered Dose Inhaler",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2473383",
+            "name": "3 ML glycopyrrolate 0.2 MG/ML Prefilled Syringe",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "76045002300",
+                "76045002330"
+            ]
+        },
+        {
+            "rxcui": "2589274",
+            "name": "glycopyrrolate 1.7 MG Disintegrating Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2637041",
+            "name": "3 ML glycopyrrolate 0.2 MG/ML / neostigmine methylsulfate 1 MG/ML Prefilled Syringe",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2668158",
+            "name": "glycopyrrolate 0.85 MG Disintegrating Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "999961",
+            "name": "glycopyrrolate 0.2 MG/ML Oral Solution",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "00259050216",
+                "31722001647",
+                "49884004233",
+                "51672531609",
+                "63629959201",
+                "68022015601"
+            ]
+        },
+        {
+            "rxcui": "1247657",
+            "name": "glycopyrrolate 1.5 MG",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1720941",
+            "name": "glycopyrrolate 0.0156 MG",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1790635",
+            "name": "glycopyrrolate 0.009 MG/ACTUAT",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1992564",
+            "name": "glycopyrrolate 0.025 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2589271",
+            "name": "glycopyrrolate 1.7 MG",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2668157",
+            "name": "glycopyrrolate 0.85 MG",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "315999",
+            "name": "glycopyrrolate 0.2 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "316000",
+            "name": "glycopyrrolate 1 MG",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "316001",
+            "name": "glycopyrrolate 2 MG",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "385548",
+            "name": "glycopyrrolate 0.5 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1731581",
+            "name": "glycopyrronium Injection",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1790637",
+            "name": "formoterol / glycopyrronium Metered Dose Inhaler",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2101489",
+            "name": "glycopyrronium Prefilled Syringe",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2108413",
+            "name": "glycopyrronium / indacaterol Inhalation Powder",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2108425",
+            "name": "glycopyrronium Inhalation Solution",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2386036",
+            "name": "budesonide / formoterol / glycopyrronium Metered Dose Inhaler",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2589273",
+            "name": "glycopyrronium Disintegrating Oral Tablet",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2637040",
+            "name": "glycopyrronium / neostigmine Prefilled Syringe",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "372339",
+            "name": "glycopyrronium Injectable Solution",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "372340",
+            "name": "glycopyrronium Oral Tablet",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "385549",
+            "name": "glycopyrronium / neostigmine Injectable Solution",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "999960",
+            "name": "glycopyrronium Oral Solution",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2109866",
+            "name": "glycopyrronium Oral Liquid Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2109867",
+            "name": "glycopyrronium Inhalant Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2109869",
+            "name": "glycopyrronium Injectable Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2109870",
+            "name": "formoterol / glycopyrronium Inhalant Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2109871",
+            "name": "glycopyrronium Pill",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2109873",
+            "name": "glycopyrronium Oral Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2109874",
+            "name": "glycopyrronium / indacaterol Inhalant Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2109875",
+            "name": "glycopyrronium / neostigmine Injectable Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2386035",
+            "name": "budesonide / formoterol / glycopyrronium Inhalant Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2589272",
+            "name": "glycopyrronium Disintegrating Oral Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        }
+    ],
+    "amitriptyline ": [
+        {
+            "rxcui": "704",
+            "name": "amitriptyline",
+            "tty": "IN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1012360",
+            "name": "amitriptyline / perphenazine",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "812477",
+            "name": "amitriptyline / diazepam / perphenazine",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "974990",
+            "name": "amitriptyline / chlordiazepoxide",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "203168",
+            "name": "amitriptyline hydrochloride",
+            "tty": "PIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "235737",
+            "name": "amitriptyline pamoate",
+            "tty": "PIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "236734",
+            "name": "amitriptyline oxide",
+            "tty": "PIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "856796",
+            "name": "amitriptyline hydrochloride 25 MG / chlordiazepoxide 10 MG Oral Tablet [Limbitrol]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "856836",
+            "name": "amitriptyline hydrochloride 25 MG Oral Tablet [Elavil]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "69874042210"
+            ]
+        },
+        {
+            "rxcui": "856794",
+            "name": "amitriptyline hydrochloride 25 MG / chlordiazepoxide 10 MG [Limbitrol]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "856835",
+            "name": "amitriptyline hydrochloride 25 MG [Elavil]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "856780",
+            "name": "amitriptyline / chlordiazepoxide Oral Tablet [Limbitrol]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "92568",
+            "name": "amitriptyline Oral Tablet [Elavil]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1173858",
+            "name": "Elavil Oral Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1173859",
+            "name": "Elavil Pill",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1177370",
+            "name": "Limbitrol Oral Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1177371",
+            "name": "Limbitrol Pill",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "856706",
+            "name": "amitriptyline hydrochloride 10 MG / perphenazine 2 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "00378033001",
+                "00378033005"
+            ]
+        },
+        {
+            "rxcui": "856720",
+            "name": "amitriptyline hydrochloride 10 MG / perphenazine 4 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "00378004201"
+            ]
+        },
+        {
+            "rxcui": "856762",
+            "name": "amitriptyline hydrochloride 100 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "00378268501",
+                "00378268593",
+                "00603221621",
+                "00781149001",
+                "00781149010",
+                "00781149031",
+                "16571010901",
+                "16714026101",
+                "16714045001",
+                "16729017501",
+                "16729017510",
+                "16729017517",
+                "29300042301",
+                "29300042305",
+                "35356074330",
+                "43063019360",
+                "50090356402",
+                "50090398502",
+                "50090641802",
+                "50268004111",
+                "50268004115",
+                "50436307401",
+                "51079056301",
+                "51079056320",
+                "51407079701",
+                "52959054214",
+                "52959054215",
+                "52959054221",
+                "52959054228",
+                "52959054230",
+                "52959054240",
+                "52959054242",
+                "55700066030",
+                "57664069088",
+                "58864075730",
+                "61919022330",
+                "61919022360",
+                "61919022390",
+                "63187026030",
+                "63629211701",
+                "63629336201",
+                "63629336202",
+                "63629336203",
+                "63629336204",
+                "63629336205",
+                "63629336206",
+                "63874115803",
+                "64330063401",
+                "66267056028",
+                "66267056030",
+                "66267056060",
+                "66267056090",
+                "68387033930",
+                "68788689903",
+                "68788689906",
+                "68788689908",
+                "68788689909",
+                "68788838003",
+                "68788838006",
+                "68788838008",
+                "68788838009",
+                "69844006201",
+                "69844006202",
+                "69844006203",
+                "70518150500",
+                "70518150501",
+                "70518369100",
+                "70518369101",
+                "70710122900",
+                "70710122901",
+                "70756020511",
+                "70771117700",
+                "70771117701",
+                "70934042830",
+                "71335004001",
+                "71335004002",
+                "71335004003",
+                "71335004004",
+                "71335004005",
+                "71335004006",
+                "71335004007",
+                "71335004008",
+                "71335966801",
+                "71335966802",
+                "71335966803",
+                "71335966804",
+                "71335966805",
+                "71335966806",
+                "71335966807",
+                "71335966808",
+                "72888007101",
+                "72888007103",
+                "76420023930",
+                "76420023960",
+                "76420023990",
+                "80425028701",
+                "80425028702",
+                "80425028703",
+                "83008004530"
+            ]
+        },
+        {
+            "rxcui": "856769",
+            "name": "amitriptyline hydrochloride 12.5 MG / chlordiazepoxide 5 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "00378021101",
+                "00378021105"
+            ]
+        },
+        {
+            "rxcui": "856773",
+            "name": "amitriptyline hydrochloride 150 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "00378269501",
+                "00378269593",
+                "00603221721",
+                "00781149101",
+                "00781149110",
+                "00781149131",
+                "16571011001",
+                "16714026201",
+                "16714045101",
+                "16729017601",
+                "16729017610",
+                "16729017617",
+                "29300042401",
+                "29300042405",
+                "51407079801",
+                "57664069188",
+                "61919037430",
+                "61919037445",
+                "63629211801",
+                "63629430401",
+                "63629430402",
+                "63629430403",
+                "64330063501",
+                "69844006301",
+                "69844006302",
+                "69844006303",
+                "70518225800",
+                "70518225801",
+                "70518396400",
+                "70710123000",
+                "70710123001",
+                "70756020611",
+                "70771117800",
+                "70771117801",
+                "71335056601",
+                "71335056602",
+                "71335056603",
+                "71335056604",
+                "71335056605",
+                "71335971001",
+                "71335971002",
+                "71335971003",
+                "71335971004",
+                "71335971005",
+                "72888007201"
+            ]
+        },
+        {
+            "rxcui": "856783",
+            "name": "amitriptyline hydrochloride 10 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "00378261001",
+                "00378261010",
+                "00603221221",
+                "00603221232",
+                "00781148601",
+                "00781148610",
+                "00781148631",
+                "10544015230",
+                "10544025030",
+                "16571010501",
+                "16571010510",
+                "16714025701",
+                "16714025702",
+                "16714044601",
+                "16714044602",
+                "16729017101",
+                "16729017110",
+                "16729017117",
+                "29300041901",
+                "29300041905",
+                "29300041910",
+                "43353030630",
+                "43353030660",
+                "43353030680",
+                "45865064830",
+                "45865064860",
+                "45865064890",
+                "49999020500",
+                "49999020560",
+                "50090398600",
+                "50090398601",
+                "50090398606",
+                "50090617900",
+                "50090617901",
+                "50090617906",
+                "50268003711",
+                "50268003715",
+                "50436307101",
+                "50436307102",
+                "50436307105",
+                "51079013101",
+                "51079013120",
+                "51407079301",
+                "51407079310",
+                "51655008426",
+                "51655008452",
+                "51655063226",
+                "52959000802",
+                "52959000815",
+                "52959000830",
+                "52959000840",
+                "52959000850",
+                "52959000860",
+                "52959000890",
+                "53002491003",
+                "53002491006",
+                "55289012412",
+                "55289012430",
+                "55700024130",
+                "55700024190",
+                "55700064330",
+                "55700064390",
+                "57664068718",
+                "57664068788",
+                "58864002430",
+                "60760021215",
+                "60760021230",
+                "60760021290",
+                "60760055615",
+                "61919001130",
+                "61919001160",
+                "61919001190",
+                "61919011730",
+                "61919011760",
+                "61919011790",
+                "63187063730",
+                "63187063760",
+                "63187063790",
+                "63629137001",
+                "63629137002",
+                "63629137003",
+                "63629137004",
+                "63629137005",
+                "63629137006",
+                "63629211501",
+                "63629211601",
+                "63874031102",
+                "63874031182",
+                "64330063001",
+                "66267001820",
+                "66267001828",
+                "66267001830",
+                "66267001860",
+                "66267001890",
+                "66336035430",
+                "67296093201",
+                "67296150903",
+                "68071279601",
+                "68071284303",
+                "68071434803",
+                "68071440501",
+                "68387033630",
+                "68387033690",
+                "68788632003",
+                "68788632006",
+                "68788632008",
+                "68788632009",
+                "68788821803",
+                "68788821806",
+                "68788821809",
+                "69158000000",
+                "69844005801",
+                "69844005802",
+                "69844005803",
+                "70518153800",
+                "70518153801",
+                "70518153802",
+                "70518153803",
+                "70518153804",
+                "70518153805",
+                "70518153806",
+                "70518362100",
+                "70518362101",
+                "70518362102",
+                "70710122500",
+                "70710122501",
+                "70756020111",
+                "70756020112",
+                "70771117300",
+                "70771117301",
+                "70934033130",
+                "70934070330",
+                "70934070390",
+                "71335039500",
+                "71335039501",
+                "71335039502",
+                "71335039503",
+                "71335039504",
+                "71335039505",
+                "71335039506",
+                "71335039507",
+                "71335039508",
+                "71335039509",
+                "71335963700",
+                "71335963701",
+                "71335963702",
+                "71335963703",
+                "71335963704",
+                "71335963705",
+                "71335963706",
+                "71335963707",
+                "71335963708",
+                "71335963709",
+                "71610071030",
+                "71610071053",
+                "71610071060",
+                "71610071080",
+                "71610075030",
+                "71610075053",
+                "71610075060",
+                "71610075080",
+                "72189043190",
+                "72888006700",
+                "72888006701",
+                "80425017201",
+                "80425017202",
+                "83008000330",
+                "83008000390"
+            ]
+        },
+        {
+            "rxcui": "856792",
+            "name": "amitriptyline hydrochloride 25 MG / chlordiazepoxide 10 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "00378027701",
+                "00378027705"
+            ]
+        },
+        {
+            "rxcui": "856797",
+            "name": "amitriptyline hydrochloride 25 MG / perphenazine 2 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "00378044201",
+                "00378044205",
+                "49999055130"
+            ]
+        },
+        {
+            "rxcui": "856825",
+            "name": "amitriptyline hydrochloride 25 MG / perphenazine 4 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "00378057401",
+                "00378057405"
+            ]
+        },
+        {
+            "rxcui": "856834",
+            "name": "amitriptyline hydrochloride 25 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "00378262501",
+                "00378262510",
+                "00603221321",
+                "00603221332",
+                "00781148701",
+                "00781148710",
+                "00781148731",
+                "00904020161",
+                "00904718461",
+                "10544010930",
+                "10544015630",
+                "10544015690",
+                "12634040171",
+                "16571010601",
+                "16571010610",
+                "16714025801",
+                "16714025802",
+                "16714044701",
+                "16714044702",
+                "16729017201",
+                "16729017210",
+                "16729017217",
+                "29300042001",
+                "29300042005",
+                "29300042010",
+                "33358002330",
+                "35356071200",
+                "35356071230",
+                "35356071260",
+                "35356071290",
+                "43063082230",
+                "43063086328",
+                "43063086330",
+                "43353016330",
+                "43353016353",
+                "43353016360",
+                "45865043230",
+                "45865043251",
+                "45865043260",
+                "45865043290",
+                "49999006300",
+                "49999006330",
+                "49999006350",
+                "49999006360",
+                "49999006390",
+                "50090003100",
+                "50090003101",
+                "50090003104",
+                "50090003108",
+                "50090284000",
+                "50090284001",
+                "50090284004",
+                "50090284008",
+                "50090400500",
+                "50090400501",
+                "50090400504",
+                "50090400508",
+                "50090631300",
+                "50090631301",
+                "50090631304",
+                "50090631308",
+                "50090692500",
+                "50090692501",
+                "50090692504",
+                "50090692508",
+                "50090692700",
+                "50268003811",
+                "50268003815",
+                "50436270301",
+                "50436270302",
+                "50436270304",
+                "50436307201",
+                "50436307202",
+                "50436307205",
+                "51079010701",
+                "51079010717",
+                "51079010719",
+                "51079010720",
+                "51407079401",
+                "51407079410",
+                "51655012126",
+                "51655012152",
+                "51655096926",
+                "51655096952",
+                "52959034805",
+                "52959034810",
+                "52959034812",
+                "52959034814",
+                "52959034815",
+                "52959034820",
+                "52959034830",
+                "52959034850",
+                "52959034860",
+                "52959034890",
+                "53002339101",
+                "53002339103",
+                "53002339201",
+                "53002339203",
+                "55154566500",
+                "55154789800",
+                "55700060000",
+                "55700060030",
+                "55700060060",
+                "55700060090",
+                "57664068818",
+                "57664068888",
+                "58864002215",
+                "58864002230",
+                "60687043301",
+                "60687043311",
+                "60760036700",
+                "60760036730",
+                "61919001230",
+                "61919001260",
+                "61919001290",
+                "61919028930",
+                "61919028960",
+                "61919028990",
+                "63187022960",
+                "63187040814",
+                "63187040815",
+                "63187040830",
+                "63187040860",
+                "63187040890",
+                "63629136900",
+                "63629136901",
+                "63629136902",
+                "63629136903",
+                "63629136904",
+                "63629136905",
+                "63629136906",
+                "63629136907",
+                "63629136908",
+                "63629136909",
+                "63629211901",
+                "63629212001",
+                "63874043002",
+                "64330063101",
+                "66267001914",
+                "66267001928",
+                "66267001930",
+                "66267001960",
+                "66267001990",
+                "66267001991",
+                "66267100600",
+                "66336002730",
+                "67296038801",
+                "67296038802",
+                "67296038803",
+                "67296181607",
+                "67544008530",
+                "67544008553",
+                "67544008560",
+                "67544008570",
+                "67544008575",
+                "67544008580",
+                "68071293103",
+                "68071295503",
+                "68071451903",
+                "68387033515",
+                "68387033524",
+                "68387033530",
+                "68387033560",
+                "68387033590",
+                "68788682503",
+                "68788682506",
+                "68788682508",
+                "68788682509",
+                "68788834601",
+                "68788834603",
+                "68788834604",
+                "68788834606",
+                "68788834608",
+                "68788834609",
+                "69158000100",
+                "69844005901",
+                "69844005902",
+                "69844005903",
+                "70518148400",
+                "70518148401",
+                "70518364100",
+                "70518364101",
+                "70710122600",
+                "70710122601",
+                "70756020211",
+                "70756020212",
+                "70771117400",
+                "70771117401",
+                "70934007130",
+                "70934007190",
+                "71335030600",
+                "71335030601",
+                "71335030602",
+                "71335030603",
+                "71335030604",
+                "71335030605",
+                "71335030606",
+                "71335030607",
+                "71335030608",
+                "71335030609",
+                "71335125400",
+                "71335125401",
+                "71335125402",
+                "71335125403",
+                "71335125404",
+                "71335125405",
+                "71335125406",
+                "71335125407",
+                "71335125408",
+                "71335125409",
+                "71335963300",
+                "71335963301",
+                "71335963302",
+                "71335963303",
+                "71335963304",
+                "71335963305",
+                "71335963306",
+                "71335963307",
+                "71335963308",
+                "71335963309",
+                "71610069530",
+                "71610069553",
+                "71610069560",
+                "71610070330",
+                "71610070353",
+                "71610070360",
+                "71610075130",
+                "71610075153",
+                "71610075160",
+                "71610075180",
+                "72189042030",
+                "72189042060",
+                "72189042090",
+                "72789030530",
+                "72888006800",
+                "72888006801",
+                "76420023730",
+                "76420023760",
+                "76420023790",
+                "80425021201",
+                "80425021202",
+                "80425021203",
+                "80425028501",
+                "80425028502",
+                "80425028503",
+                "83008000430",
+                "83008000490"
+            ]
+        },
+        {
+            "rxcui": "856840",
+            "name": "amitriptyline hydrochloride 50 MG / perphenazine 4 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "00378007301"
+            ]
+        },
+        {
+            "rxcui": "856845",
+            "name": "amitriptyline hydrochloride 50 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "00378265001",
+                "00378265010",
+                "00603221421",
+                "00603221432",
+                "00781148801",
+                "00781148810",
+                "00781148831",
+                "00904020261",
+                "00904718561",
+                "10544011030",
+                "10544015790",
+                "16571010701",
+                "16571010710",
+                "16714025901",
+                "16714025902",
+                "16714044801",
+                "16714044802",
+                "16729017301",
+                "16729017310",
+                "16729017317",
+                "29300042101",
+                "29300042105",
+                "29300042110",
+                "33358002430",
+                "35356074230",
+                "35356074260",
+                "35356074290",
+                "43063083630",
+                "43353016430",
+                "43353016453",
+                "43353016460",
+                "49999022800",
+                "49999022830",
+                "49999022860",
+                "50090255300",
+                "50090255301",
+                "50090255302",
+                "50090255305",
+                "50090297200",
+                "50090501500",
+                "50090631500",
+                "50090631501",
+                "50090631502",
+                "50090631505",
+                "50268003911",
+                "50268003915",
+                "50436307301",
+                "50436307302",
+                "50436371001",
+                "51079013301",
+                "51079013320",
+                "51407079501",
+                "51407079510",
+                "51655033426",
+                "51655063925",
+                "52959051401",
+                "52959051410",
+                "52959051420",
+                "52959051421",
+                "52959051430",
+                "52959051460",
+                "52959051490",
+                "54348051130",
+                "55700061930",
+                "55700061960",
+                "55700061990",
+                "57664068918",
+                "57664068988",
+                "58864002330",
+                "60687044401",
+                "60687044411",
+                "61919001330",
+                "61919001360",
+                "61919001371",
+                "61919001390",
+                "61919007630",
+                "61919007660",
+                "61919007690",
+                "61919024060",
+                "63187015530",
+                "63187015560",
+                "63187015660",
+                "63187035930",
+                "63187035960",
+                "63187035990",
+                "63629136801",
+                "63629136802",
+                "63629136803",
+                "63629136804",
+                "63629136805",
+                "63629136806",
+                "63629136807",
+                "63629136808",
+                "63629212101",
+                "63629212201",
+                "63629898701",
+                "63629898702",
+                "63629898703",
+                "63874035902",
+                "64330063201",
+                "66267002028",
+                "66267002030",
+                "66267002060",
+                "66267002090",
+                "67296127902",
+                "67544025330",
+                "67544025353",
+                "67544025360",
+                "67544025370",
+                "68071423803",
+                "68071522009",
+                "68387033724",
+                "68387033730",
+                "68788706103",
+                "68788706106",
+                "68788706108",
+                "68788706109",
+                "68788836303",
+                "68788836306",
+                "68788836308",
+                "68788836309",
+                "69158000200",
+                "69306005003",
+                "69306005006",
+                "69306005009",
+                "69844006001",
+                "69844006002",
+                "69844006003",
+                "70518163300",
+                "70518163301",
+                "70518163302",
+                "70518365400",
+                "70518365401",
+                "70710122700",
+                "70710122701",
+                "70756020311",
+                "70756020312",
+                "70771117500",
+                "70771117501",
+                "70934060730",
+                "70934060760",
+                "70934060790",
+                "71205082330",
+                "71205082360",
+                "71205082390",
+                "71335036601",
+                "71335036602",
+                "71335036603",
+                "71335036604",
+                "71335036605",
+                "71335036606",
+                "71335036607",
+                "71335036608",
+                "71335125601",
+                "71335125602",
+                "71335125603",
+                "71335125604",
+                "71335125605",
+                "71335125606",
+                "71335125607",
+                "71335125608",
+                "71335963501",
+                "71335963502",
+                "71335963503",
+                "71335963504",
+                "71335963505",
+                "71335963506",
+                "71335963507",
+                "71335963508",
+                "71610071129",
+                "71610071130",
+                "71610071160",
+                "71610075230",
+                "71610075253",
+                "71610075260",
+                "71610075280",
+                "72189044030",
+                "72189044090",
+                "72888006900",
+                "72888006901",
+                "76420023830",
+                "76420023860",
+                "76420023890",
+                "80425013701",
+                "80425036201",
+                "83008002730"
+            ]
+        },
+        {
+            "rxcui": "856853",
+            "name": "amitriptyline hydrochloride 75 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "00378267501",
+                "00378267593",
+                "00603221521",
+                "00781148901",
+                "00781148910",
+                "00781148931",
+                "16571010801",
+                "16714026001",
+                "16714044901",
+                "16729017401",
+                "16729017410",
+                "16729017417",
+                "29300042201",
+                "29300042205",
+                "35356075930",
+                "43063033630",
+                "43063033660",
+                "50268004011",
+                "50268004015",
+                "50436017401",
+                "50436307501",
+                "51079014701",
+                "51079014720",
+                "51407079601",
+                "52959028400",
+                "52959028430",
+                "52959028460",
+                "55700068930",
+                "57664069288",
+                "60760018130",
+                "60760022130",
+                "63629212301",
+                "63629359701",
+                "63629359702",
+                "63629359703",
+                "63629359704",
+                "63629359705",
+                "64330063301",
+                "68071030028",
+                "68071030030",
+                "68387033830",
+                "68788643201",
+                "68788643203",
+                "68788643206",
+                "68788643208",
+                "68788643209",
+                "68788833901",
+                "68788833903",
+                "68788833906",
+                "68788833908",
+                "68788833909",
+                "69844006101",
+                "69844006102",
+                "69844006103",
+                "70518257000",
+                "70710122800",
+                "70710122801",
+                "70756020411",
+                "70771117600",
+                "70771117601",
+                "71205046630",
+                "71205046660",
+                "71205046690",
+                "71335017301",
+                "71335017302",
+                "71335017303",
+                "71335017304",
+                "71335017305",
+                "71335968501",
+                "71335968502",
+                "71335968503",
+                "71335968504",
+                "71335968505",
+                "72189030930",
+                "72189044430",
+                "72888007001",
+                "83008004330"
+            ]
+        },
+        {
+            "rxcui": "856862",
+            "name": "amitriptyline hydrochloride 10 MG/ML Oral Solution",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "856863",
+            "name": "amitriptyline hydrochloride 12.5 MG / chlordiazepoxide 10 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "856865",
+            "name": "amitriptyline hydrochloride 25 MG Extended Release Oral Capsule",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "856867",
+            "name": "amitriptyline hydrochloride 5 MG/ML Oral Solution",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "856868",
+            "name": "amitriptyline hydrochloride 50 MG Extended Release Oral Capsule",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "856705",
+            "name": "amitriptyline hydrochloride 10 MG",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "856761",
+            "name": "amitriptyline hydrochloride 100 MG",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "856768",
+            "name": "amitriptyline hydrochloride 12.5 MG",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "856772",
+            "name": "amitriptyline hydrochloride 150 MG",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "856791",
+            "name": "amitriptyline hydrochloride 25 MG",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "856839",
+            "name": "amitriptyline hydrochloride 50 MG",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "856852",
+            "name": "amitriptyline hydrochloride 75 MG",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "856858",
+            "name": "amitriptyline hydrochloride 10 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "856866",
+            "name": "amitriptyline hydrochloride 5 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "370570",
+            "name": "amitriptyline Oral Tablet",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "370571",
+            "name": "amitriptyline / chlordiazepoxide Oral Tablet",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "370572",
+            "name": "amitriptyline / perphenazine Oral Tablet",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "370863",
+            "name": "amitriptyline Extended Release Oral Capsule",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "370864",
+            "name": "amitriptyline Oral Solution",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1152267",
+            "name": "amitriptyline / chlordiazepoxide Oral Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1152268",
+            "name": "amitriptyline / chlordiazepoxide Pill",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1152271",
+            "name": "amitriptyline / perphenazine Oral Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1152272",
+            "name": "amitriptyline / perphenazine Pill",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1152273",
+            "name": "amitriptyline Injectable Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1152274",
+            "name": "amitriptyline Oral Liquid Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1152275",
+            "name": "amitriptyline Oral Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1152276",
+            "name": "amitriptyline Pill",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        }
+    ],
+    "atropine ": [
+        {
+            "rxcui": "1223",
+            "name": "atropine",
+            "tty": "IN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1006973",
+            "name": "atropine / epinephrine / tyramine",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1007162",
+            "name": "atropine / hyoscyamine / phenylephrine / pseudoephedrine / scopolamine",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1007561",
+            "name": "atropine / hydromorphone",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1007767",
+            "name": "atropine / chlorpheniramine / hyoscyamine / pseudoephedrine / scopolamine",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1008128",
+            "name": "atropine / hyoscyamine / methenamine / phenyl salicylate",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1008192",
+            "name": "atropine / hydrocortisone",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1008367",
+            "name": "atropine / hyoscyamine / scopolamine",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1008610",
+            "name": "atropine / chlorpheniramine / hyoscyamine / phenylephrine / pseudoephedrine / scopolamine",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1008644",
+            "name": "acetaminophen / atropine / chlorpheniramine / phenylephrine",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1008698",
+            "name": "atropine / carzenide / dipyrone",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1008887",
+            "name": "atropine / nitroglycerin / theobromine",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1008931",
+            "name": "atropine / chlorpheniramine / hyoscyamine / phenylephrine / phenylpropanolamine / scopolamine",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1008965",
+            "name": "atropine / benzoate / hyoscyamine / methenamine / methylene blue / phenyl salicylate",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1009131",
+            "name": "atropine / ictasol",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "214261",
+            "name": "atropine / difenoxin",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "214262",
+            "name": "atropine / edrophonium",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "214263",
+            "name": "atropine / phenobarbital",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "465370",
+            "name": "atropine / pralidoxime",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "594040",
+            "name": "atropine / diphenoxylate",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "689557",
+            "name": "acetaminophen / atropine / ethaverine / salicylamide",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "689593",
+            "name": "atropine / brompheniramine / phenyltoloxamine / pseudoephedrine",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "689595",
+            "name": "atropine / chlorpheniramine",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "689596",
+            "name": "atropine / chlorpheniramine / ephedrine",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "689597",
+            "name": "atropine / chlorpheniramine / hyoscyamine / phenylephrine / scopolamine",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "689598",
+            "name": "atropine / chlorpheniramine / phenylephrine / phenyltoloxamine",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "689599",
+            "name": "atropine / chlorpheniramine / phenylpropanolamine",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "689606",
+            "name": "atropine / hyoscyamine / phenobarbital / scopolamine",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "689608",
+            "name": "atropine / kaolin / phenobarbital",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "689609",
+            "name": "atropine / meperidine",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "689610",
+            "name": "atropine / morphine",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "689611",
+            "name": "atropine / neostigmine",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "689615",
+            "name": "atropine / prednisolone",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "153971",
+            "name": "atropine sulfate",
+            "tty": "PIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1046924",
+            "name": "atropine sulfate 0.00388 MG/ML / hyoscyamine sulfate 0.0207 MG/ML / phenobarbital 3.24 MG/ML / scopolamine hydrobromide 0.0013 MG/ML Oral Solution [Donnatal]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "17856042302",
+                "17856042303",
+                "17856042305",
+                "42291024404",
+                "42291024416",
+                "59212042204",
+                "59212042210",
+                "59212042216",
+                "59212042304",
+                "59212042310",
+                "59212042316",
+                "66689006301",
+                "66689006310",
+                "66689006340",
+                "66689006350",
+                "66689006399"
+            ]
+        },
+        {
+            "rxcui": "1046978",
+            "name": "atropine sulfate 0.0194 MG / hyoscyamine sulfate 0.1037 MG / phenobarbital 16.2 MG / scopolamine hydrobromide 0.0065 MG Oral Tablet [Donnatal]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "42291024501",
+                "43063060101",
+                "59212042504",
+                "59212042510",
+                "66213042510",
+                "66213042511"
+            ]
+        },
+        {
+            "rxcui": "1046999",
+            "name": "atropine sulfate 0.0582 MG / hyoscyamine sulfate 0.311 MG / phenobarbital 48.6 MG / scopolamine hydrobromide 0.0195 MG Extended Release Oral Tablet [Donnatal]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "66213042110",
+                "66213042150"
+            ]
+        },
+        {
+            "rxcui": "1190608",
+            "name": "0.3 ML atropine sulfate 0.833 MG/ML Auto-Injector [Atropen]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1190611",
+            "name": "0.7 ML atropine sulfate 0.714 MG/ML Auto-Injector [Atropen]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "11704010401"
+            ]
+        },
+        {
+            "rxcui": "1190614",
+            "name": "0.7 ML atropine sulfate 1.43 MG/ML Auto-Injector [Atropen]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "11704010501"
+            ]
+        },
+        {
+            "rxcui": "1190620",
+            "name": "0.7 ML atropine sulfate 2.86 MG/ML Auto-Injector [Atropen]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "11704010101",
+                "11704010601"
+            ]
+        },
+        {
+            "rxcui": "1190641",
+            "name": "atropine sulfate 0.025 MG / diphenoxylate hydrochloride 2.5 MG Oral Tablet [Lomotil]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00025006131",
+                "55289023010"
+            ]
+        },
+        {
+            "rxcui": "1190646",
+            "name": "atropine sulfate 0.025 MG / diphenoxylate hydrochloride 2.5 MG Oral Tablet [Lonox]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00781126201",
+                "00781126205",
+                "00781126210"
+            ]
+        },
+        {
+            "rxcui": "1190664",
+            "name": "atropine sulfate 10 MG/ML Ophthalmic Solution [Isopto Atropine]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00065030315",
+                "00065030355"
+            ]
+        },
+        {
+            "rxcui": "1190740",
+            "name": "atropine sulfate 0.025 MG / difenoxin hydrochloride 1 MG Oral Tablet [Motofen]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "54766020004",
+                "54766020010"
+            ]
+        },
+        {
+            "rxcui": "1190750",
+            "name": "5 ML atropine sulfate 0.14 MG/ML / edrophonium chloride 10 MG/ML Injection [Enlon-Plus]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "67457019200"
+            ]
+        },
+        {
+            "rxcui": "1739887",
+            "name": "atropine sulfate 0.0194 MG / hyoscyamine sulfate 0.1037 MG / phenobarbital 16.2 MG / scopolamine hydrobromide 0.0065 MG Oral Tablet [Phenohytro]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "75826011800",
+                "75826011810"
+            ]
+        },
+        {
+            "rxcui": "2048017",
+            "name": "atropine sulfate 0.00388 MG/ML / hyoscyamine sulfate 0.0207 MG/ML / phenobarbital 3.24 MG/ML / scopolamine hydrobromide 0.0013 MG/ML Oral Solution [Phenohytro]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "17856012501",
+                "17856012502",
+                "17856012503",
+                "17856012504",
+                "75826012704",
+                "75826012716",
+                "75826012804",
+                "75826012816"
+            ]
+        },
+        {
+            "rxcui": "809819",
+            "name": "2.7 ML atropine 0.778 MG/ML / pralidoxime chloride 222 MG/ML Auto-Injector [Duodote]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "11704062001"
+            ]
+        },
+        {
+            "rxcui": "1046809",
+            "name": "atropine sulfate 0.0194 MG / hyoscyamine sulfate 0.1037 MG / phenobarbital 16.2 MG / scopolamine hydrobromide 0.0065 MG [Donnatal]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1046923",
+            "name": "atropine sulfate 0.00388 MG/ML / hyoscyamine sulfate 0.0207 MG/ML / phenobarbital 3.24 MG/ML / scopolamine hydrobromide 0.0013 MG/ML [Donnatal]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1046998",
+            "name": "atropine sulfate 0.0582 MG / hyoscyamine sulfate 0.311 MG / phenobarbital 48.6 MG / scopolamine hydrobromide 0.0195 MG [Donnatal]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1190607",
+            "name": "atropine sulfate 0.833 MG/ML [Atropen]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1190610",
+            "name": "atropine sulfate 0.714 MG/ML [Atropen]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1190612",
+            "name": "atropine sulfate 1.43 MG/ML [Atropen]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1190619",
+            "name": "atropine sulfate 2.86 MG/ML [Atropen]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1190640",
+            "name": "atropine sulfate 0.025 MG / diphenoxylate hydrochloride 2.5 MG [Lomotil]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1190645",
+            "name": "atropine sulfate 0.025 MG / diphenoxylate hydrochloride 2.5 MG [Lonox]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1190663",
+            "name": "atropine sulfate 10 MG/ML [Isopto Atropine]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1190739",
+            "name": "atropine sulfate 0.025 MG / difenoxin hydrochloride 1 MG [Motofen]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1190749",
+            "name": "atropine sulfate 0.14 MG/ML / edrophonium chloride 10 MG/ML [Enlon-Plus]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1666956",
+            "name": "atropine 0.778 MG/ML / pralidoxime chloride 222 MG/ML [Duodote]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1739883",
+            "name": "atropine sulfate 0.0194 MG / hyoscyamine sulfate 0.1037 MG / phenobarbital 16.2 MG / scopolamine hydrobromide 0.0065 MG [Phenohytro]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2118008",
+            "name": "atropine sulfate 0.00388 MG/ML / hyoscyamine sulfate 0.0207 MG/ML / phenobarbital 3.24 MG/ML / scopolamine hydrobromide 0.0013 MG/ML [Phenohytro]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1659111",
+            "name": "atropine / pralidoxime Auto-Injector [Duodote]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1668015",
+            "name": "atropine Auto-Injector [Atropen]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1668152",
+            "name": "atropine / edrophonium Injection [Enlon-Plus]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1739884",
+            "name": "atropine / hyoscyamine / phenobarbital / scopolamine Oral Tablet [Phenohytro]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2048015",
+            "name": "atropine / hyoscyamine / phenobarbital / scopolamine Oral Solution [Phenohytro]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "363763",
+            "name": "atropine Ophthalmic Solution [Isopto Atropine]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "368551",
+            "name": "atropine / hyoscyamine / phenobarbital / scopolamine Oral Tablet [Donnatal]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "369380",
+            "name": "atropine / diphenoxylate Oral Tablet [Lonox]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "369381",
+            "name": "atropine / diphenoxylate Oral Tablet [Lomotil]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "369383",
+            "name": "atropine / difenoxin Oral Tablet [Motofen]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "608757",
+            "name": "atropine / hyoscyamine / phenobarbital / scopolamine Extended Release Oral Tablet [Donnatal]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "757066",
+            "name": "atropine / hyoscyamine / phenobarbital / scopolamine Oral Solution [Donnatal]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1166427",
+            "name": "Enlon-Plus Injectable Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1166646",
+            "name": "Isopto Atropine Ophthalmic Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1166999",
+            "name": "Duodote Injectable Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1172893",
+            "name": "Atropen Injectable Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1175281",
+            "name": "Donnatal Oral Liquid Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1175282",
+            "name": "Donnatal Oral Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1175283",
+            "name": "Donnatal Pill",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1179650",
+            "name": "Lomotil Oral Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1179651",
+            "name": "Lomotil Pill",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1179656",
+            "name": "Lonox Oral Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1179657",
+            "name": "Lonox Pill",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1182809",
+            "name": "Motofen Oral Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1182810",
+            "name": "Motofen Pill",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1739885",
+            "name": "Phenohytro Oral Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1739886",
+            "name": "Phenohytro Pill",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2048016",
+            "name": "Phenohytro Oral Liquid Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1046787",
+            "name": "atropine sulfate 0.00388 MG/ML / hyoscyamine sulfate 0.0207 MG/ML / phenobarbital 3.24 MG/ML / scopolamine hydrobromide 0.0013 MG/ML Oral Solution",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "42192052016",
+                "42291020504",
+                "42291020516",
+                "50742066504",
+                "50742066516",
+                "50742066604",
+                "50742066616",
+                "52959027403",
+                "52959027406",
+                "52959027430",
+                "63629135602",
+                "63629205101",
+                "63629205201",
+                "66993011855",
+                "66993011857",
+                "66993011955",
+                "71914016201",
+                "71914016204",
+                "71914016210",
+                "71914016216",
+                "72768901104",
+                "72768901206"
+            ]
+        },
+        {
+            "rxcui": "1046815",
+            "name": "atropine sulfate 0.0194 MG / hyoscyamine sulfate 0.1037 MG / phenobarbital 16.2 MG / scopolamine hydrobromide 0.0065 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "00143114001",
+                "00143114010",
+                "00143114051",
+                "10544057220",
+                "10544057230",
+                "15338060060",
+                "50742066701",
+                "52959002306",
+                "52959002320",
+                "52959002330",
+                "52959002350",
+                "52959002360",
+                "63629205001",
+                "66267003215",
+                "66267003220",
+                "66267003230",
+                "66993011702",
+                "72768701001"
+            ]
+        },
+        {
+            "rxcui": "1046997",
+            "name": "atropine sulfate 0.0582 MG / hyoscyamine sulfate 0.311 MG / phenobarbital 48.6 MG / scopolamine hydrobromide 0.0195 MG Extended Release Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1048078",
+            "name": "atropine sulfate 0.0194 MG / hyoscyamine sulfate 0.1037 MG / scopolamine hydrobromide 0.0065 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1048124",
+            "name": "12 HR atropine sulfate 0.04 MG / chlorpheniramine maleate 8 MG / hyoscyamine sulfate 0.19 MG / pseudoephedrine hydrochloride 90 MG / scopolamine hydrobromide 0.01 MG Extended Release Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "58407052701",
+                "60575017719"
+            ]
+        },
+        {
+            "rxcui": "1116912",
+            "name": "atropine sulfate 15 MG/ML Injectable Solution",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "14043023205",
+                "58005030704"
+            ]
+        },
+        {
+            "rxcui": "1145629",
+            "name": "atropine sulfate 0.54 MG/ML Injectable Solution",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "58005035404"
+            ]
+        },
+        {
+            "rxcui": "1190536",
+            "name": "0.3 ML atropine sulfate 0.833 MG/ML Auto-Injector",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1190538",
+            "name": "0.7 ML atropine sulfate 0.714 MG/ML Auto-Injector",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1190540",
+            "name": "0.7 ML atropine sulfate 1.43 MG/ML Auto-Injector",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1190542",
+            "name": "0.7 ML atropine sulfate 2.86 MG/ML Auto-Injector",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1190546",
+            "name": "10 ML atropine sulfate 0.1 MG/ML Prefilled Syringe",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "00404982110",
+                "00409163010",
+                "00409163015",
+                "00409491111",
+                "00409491134",
+                "16729048403",
+                "16729048445",
+                "50090313800",
+                "50090592400",
+                "51662120701",
+                "51662120702",
+                "51662120703",
+                "51662128901",
+                "51662128902",
+                "51662128903",
+                "51662137801",
+                "51662152701",
+                "51662152702",
+                "51662152703",
+                "64253040030",
+                "64253040091",
+                "70518312000",
+                "71872700201",
+                "71872725201",
+                "71872729801",
+                "76329333901",
+                "76329334001"
+            ]
+        },
+        {
+            "rxcui": "1190551",
+            "name": "5 ML atropine sulfate 0.05 MG/ML Prefilled Syringe",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "00409963005",
+                "00409963015",
+                "16729048303",
+                "16729048331",
+                "52584063005"
+            ]
+        },
+        {
+            "rxcui": "1190552",
+            "name": "5 ML atropine sulfate 0.1 MG/ML Prefilled Syringe",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "00404982205",
+                "00409491011",
+                "00409491034",
+                "16729048431",
+                "16729048490",
+                "51662120801",
+                "51662120802",
+                "51662120803",
+                "52584091034",
+                "70121170501",
+                "70121170507"
+            ]
+        },
+        {
+            "rxcui": "1190554",
+            "name": "5 ML atropine sulfate 0.2 MG/ML Prefilled Syringe",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1190556",
+            "name": "5 ML atropine sulfate 0.4 MG/ML Prefilled Syringe",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1190563",
+            "name": "atropine sulfate 0.005 MG/MG Ophthalmic Ointment",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1190568",
+            "name": "atropine sulfate 0.005 MG/ML / diphenoxylate hydrochloride 0.5 MG/ML Oral Solution",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "00054319446",
+                "52959094960"
+            ]
+        },
+        {
+            "rxcui": "1190570",
+            "name": "atropine sulfate 0.01 MG/MG Ophthalmic Ointment",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "24208082555",
+                "50268011835",
+                "57319082525"
+            ]
+        },
+        {
+            "rxcui": "1190572",
+            "name": "atropine sulfate 0.025 MG / diphenoxylate hydrochloride 2.5 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "00185002401",
+                "00185002405",
+                "00185002410",
+                "00247009503",
+                "00378041501",
+                "00378041510",
+                "00378041577",
+                "00406123601",
+                "00406123610",
+                "00440743510",
+                "00527117001",
+                "00527117010",
+                "00832059010",
+                "00832059011",
+                "43063008904",
+                "43063008906",
+                "43063095704",
+                "43063095710",
+                "43063095715",
+                "43063095720",
+                "43353008330",
+                "43353008353",
+                "43353008360",
+                "43353008370",
+                "43353008380",
+                "43353008390",
+                "43353059430",
+                "43353059453",
+                "43353059460",
+                "43353059470",
+                "43353059480",
+                "43353059490",
+                "49999020730",
+                "50090003900",
+                "50090003901",
+                "50090003902",
+                "50090004000",
+                "50090264100",
+                "50090287200",
+                "50090287201",
+                "50090287202",
+                "50090345600",
+                "50090345601",
+                "50090345602",
+                "50090558900",
+                "50090558901",
+                "50090558902",
+                "50090559200",
+                "50436376305",
+                "51079006701",
+                "51079006720",
+                "51293061801",
+                "51293061810",
+                "52959015700",
+                "52959015710",
+                "52959015712",
+                "52959015715",
+                "52959015720",
+                "52959015730",
+                "52959015750",
+                "53002340001",
+                "53002340002",
+                "53002340101",
+                "53002340102",
+                "53002340103",
+                "55289010210",
+                "55289010215",
+                "55289010220",
+                "55289010230",
+                "55700025520",
+                "55887084101",
+                "55887084108",
+                "55887084111",
+                "58864016630",
+                "59762106101",
+                "59762106102",
+                "60687056901",
+                "60687056911",
+                "61919008010",
+                "61919008020",
+                "61919040520",
+                "61919040530",
+                "62135061812",
+                "62559049001",
+                "62559049010",
+                "63187025415",
+                "63187025420",
+                "63187025430",
+                "63187025460",
+                "63187025490",
+                "63187093910",
+                "63187093915",
+                "63187093920",
+                "63187093930",
+                "63187093960",
+                "63187093990",
+                "63629173401",
+                "63629173402",
+                "63629173403",
+                "63629173404",
+                "63629193301",
+                "63629193401",
+                "63629917501",
+                "63629917601",
+                "67296124101",
+                "67296148509",
+                "68071232801",
+                "68071232803",
+                "68071406301",
+                "68071406302",
+                "68071406303",
+                "68071406305",
+                "68387054412",
+                "68788809002",
+                "69315091001",
+                "69315091009",
+                "69315091010",
+                "70518213500",
+                "70518351300",
+                "70518391500",
+                "71205090900",
+                "71205090911",
+                "71205090930",
+                "71205090955",
+                "71205090960",
+                "71205090990",
+                "71335031101",
+                "71335031102",
+                "71335031103",
+                "71335031104",
+                "71335031105",
+                "71335031106",
+                "71335031107",
+                "71335169301",
+                "71335169302",
+                "71335169303",
+                "71335169304",
+                "71335169305",
+                "71335169306",
+                "71335169307",
+                "71610056630",
+                "71610056653",
+                "71610056660",
+                "71610056670",
+                "71610056680",
+                "71610056690",
+                "71610071430",
+                "71610071453",
+                "71610071460",
+                "71610071470",
+                "71610071480",
+                "71610071490",
+                "72189033610",
+                "72189033630",
+                "75826010700",
+                "75826010703",
+                "75826010711",
+                "75826010733",
+                "75826010790",
+                "76385010701",
+                "76385010710"
+            ]
+        },
+        {
+            "rxcui": "1190655",
+            "name": "atropine sulfate 10 MG/ML Ophthalmic Solution",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "00065081701",
+                "00065081702",
+                "13985060605",
+                "17478021502",
+                "17478021505",
+                "17478021515",
+                "24208096501",
+                "50090310400",
+                "50090629500",
+                "57319006301",
+                "59390019105",
+                "59390019113",
+                "60219174802",
+                "60219174903",
+                "60219175008",
+                "60505622600",
+                "60505622601",
+                "60505622602",
+                "61314030301",
+                "61314030302",
+                "76478001502",
+                "76478001505",
+                "76478001515",
+                "82260000101"
+            ]
+        },
+        {
+            "rxcui": "1190668",
+            "name": "atropine sulfate 5 MG/ML Ophthalmic Solution",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1190692",
+            "name": "atropine sulfate 0.4 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1190738",
+            "name": "atropine sulfate 0.025 MG / difenoxin hydrochloride 1 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1190748",
+            "name": "5 ML atropine sulfate 0.14 MG/ML / edrophonium chloride 10 MG/ML Injection",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1190757",
+            "name": "atropine sulfate 0.1 MG/ML Oral Solution",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1190764",
+            "name": "atropine sulfate 0.3 MG/ML Injectable Solution",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1190766",
+            "name": "atropine sulfate 0.31 MG/ML Ophthalmic Solution",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1190776",
+            "name": "atropine sulfate 0.4 MG/ML Injectable Solution",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "00404999020",
+                "00641600601",
+                "00641600610",
+                "00641625101",
+                "00641625110",
+                "16729051205",
+                "16729051243",
+                "51662131101",
+                "51662131102",
+                "51662131103",
+                "51662161901",
+                "51662161902",
+                "51662161903",
+                "63323058003",
+                "63323058020",
+                "71872703701",
+                "71872731601"
+            ]
+        },
+        {
+            "rxcui": "1190783",
+            "name": "atropine sulfate 0.6 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1190787",
+            "name": "atropine sulfate 0.6 MG/ML Injectable Solution",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1190790",
+            "name": "atropine sulfate 0.62 MG/ML Ophthalmic Solution",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1190795",
+            "name": "1 ML atropine sulfate 1 MG/ML Injection",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "00247107810",
+                "00404998901",
+                "00517100101",
+                "00517100125",
+                "00517101025",
+                "16729052603",
+                "16729052608",
+                "16729052663",
+                "50090452400",
+                "51662150901",
+                "51662162601",
+                "51662162602",
+                "51662162603",
+                "71872710001",
+                "71872724501"
+            ]
+        },
+        {
+            "rxcui": "1190796",
+            "name": "atropine sulfate 1 MG/ML Ophthalmic Solution",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1190800",
+            "name": "atropine sulfate 1.25 MG/ML Injectable Solution",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1190801",
+            "name": "atropine sulfate 1.25 MG/ML Ophthalmic Solution",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1190806",
+            "name": "atropine sulfate 2.5 MG/ML Ophthalmic Solution",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1190817",
+            "name": "atropine sulfate 20 MG/ML Ophthalmic Solution",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1666781",
+            "name": "1 ML atropine sulfate 0.4 MG/ML Injection",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "00404998801",
+                "00517040125",
+                "00517100401",
+                "00517100425",
+                "16729052503",
+                "16729052508",
+                "16729052563",
+                "51662133901",
+                "51662162701",
+                "51662162702",
+                "51662162703",
+                "71872700101",
+                "71872724601",
+                "71872731201"
+            ]
+        },
+        {
+            "rxcui": "727415",
+            "name": "2.7 ML atropine 0.778 MG/ML / pralidoxime chloride 222 MG/ML Auto-Injector",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "11704077701"
+            ]
+        },
+        {
+            "rxcui": "1046709",
+            "name": "atropine sulfate 0.04 MG",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1046784",
+            "name": "atropine sulfate 0.00388 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1046805",
+            "name": "atropine sulfate 0.0194 MG",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1046994",
+            "name": "atropine sulfate 0.0582 MG",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1048082",
+            "name": "atropine sulfate 0.025 MG",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1116911",
+            "name": "atropine sulfate 15 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1145628",
+            "name": "atropine sulfate 0.54 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1190535",
+            "name": "atropine sulfate 0.833 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1190537",
+            "name": "atropine sulfate 0.714 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1190539",
+            "name": "atropine sulfate 1.43 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1190541",
+            "name": "atropine sulfate 2.86 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1190545",
+            "name": "atropine sulfate 0.1 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1190547",
+            "name": "atropine sulfate 0.3 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1190550",
+            "name": "atropine sulfate 0.05 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1190553",
+            "name": "atropine sulfate 0.2 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1190555",
+            "name": "atropine sulfate 0.4 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1190562",
+            "name": "atropine sulfate 0.005 MG/MG",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1190566",
+            "name": "atropine sulfate 0.005 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1190569",
+            "name": "atropine sulfate 0.01 MG/MG",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1190654",
+            "name": "atropine sulfate 10 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1190667",
+            "name": "atropine sulfate 5 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1190691",
+            "name": "atropine sulfate 0.4 MG",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1190746",
+            "name": "atropine sulfate 0.14 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1190765",
+            "name": "atropine sulfate 0.31 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1190780",
+            "name": "atropine sulfate 0.6 MG",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1190784",
+            "name": "atropine sulfate 0.6 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1190789",
+            "name": "atropine sulfate 0.62 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1190794",
+            "name": "atropine sulfate 1 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1190799",
+            "name": "atropine sulfate 1.25 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1190805",
+            "name": "atropine sulfate 2.5 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1190816",
+            "name": "atropine sulfate 20 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1664972",
+            "name": "atropine 0.778 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1659108",
+            "name": "atropine / pralidoxime Auto-Injector",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1666780",
+            "name": "atropine Injection",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1668013",
+            "name": "atropine Auto-Injector",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1668150",
+            "name": "atropine / edrophonium Injection",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "370624",
+            "name": "atropine Injectable Solution",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "370625",
+            "name": "atropine Oral Tablet",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "370964",
+            "name": "atropine Ophthalmic Solution",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "371827",
+            "name": "atropine / difenoxin Oral Tablet",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "371909",
+            "name": "atropine / diphenoxylate Oral Solution",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "371910",
+            "name": "atropine / diphenoxylate Oral Tablet",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "374552",
+            "name": "atropine Ophthalmic Ointment",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "374677",
+            "name": "atropine / hyoscyamine / phenobarbital / scopolamine Oral Tablet",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "374818",
+            "name": "atropine / hyoscyamine / phenobarbital / scopolamine Extended Release Oral Tablet",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "378252",
+            "name": "atropine / hyoscyamine / scopolamine Oral Tablet",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "379452",
+            "name": "atropine Oral Solution",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "692718",
+            "name": "atropine / chlorpheniramine / hyoscyamine / pseudoephedrine / scopolamine Extended Release Oral Tablet",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "727389",
+            "name": "atropine Prefilled Syringe",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "757058",
+            "name": "atropine / hyoscyamine / phenobarbital / scopolamine Oral Solution",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1154660",
+            "name": "atropine / chlorpheniramine / hyoscyamine / pseudoephedrine / scopolamine Oral Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1154661",
+            "name": "atropine / chlorpheniramine / hyoscyamine / pseudoephedrine / scopolamine Pill",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1154667",
+            "name": "atropine / diphenoxylate Oral Liquid Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1154668",
+            "name": "atropine / diphenoxylate Oral Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1154669",
+            "name": "atropine / diphenoxylate Pill",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1154670",
+            "name": "atropine / edrophonium Injectable Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1154678",
+            "name": "atropine / hyoscyamine / phenobarbital / scopolamine Oral Liquid Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1154679",
+            "name": "atropine / hyoscyamine / phenobarbital / scopolamine Oral Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1154680",
+            "name": "atropine / hyoscyamine / phenobarbital / scopolamine Pill",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1154684",
+            "name": "atropine / hyoscyamine / scopolamine Oral Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1154685",
+            "name": "atropine / hyoscyamine / scopolamine Pill",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1154982",
+            "name": "atropine / difenoxin Oral Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1154983",
+            "name": "atropine / difenoxin Pill",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1154985",
+            "name": "atropine / pralidoxime Injectable Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1154988",
+            "name": "atropine Injectable Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1154989",
+            "name": "atropine Ophthalmic Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1154990",
+            "name": "atropine Oral Liquid Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1154991",
+            "name": "atropine Oral Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1154992",
+            "name": "atropine Pill",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        }
+    ]
+}

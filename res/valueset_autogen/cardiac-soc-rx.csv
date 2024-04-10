@@ -1,0 +1,183 @@
+﻿CLS,SUBCLS,IN
+antihypertensive,Thiazide diuretics,chlorothiazide 
+antihypertensive,Thiazide diuretics,chlorthalidone 
+antihypertensive,Thiazide diuretics,hydrochlorothiazide 
+antihypertensive,Thiazide diuretics,epitizide
+antihypertensive,Thiazide diuretics,methyclothiazide
+antihypertensive,Thiazide diuretics,bendroflumethiazide
+antihypertensive,Thiazide diuretics,polythiazide 
+antihypertensive,Loop diuretics,bumetanide 
+antihypertensive,Loop diuretics,furosemide 
+antihypertensive,Loop diuretics,ethacrynic acid
+antihypertensive,Loop diuretics,torsemide 
+antihypertensive,Thiazide like diuretics,indapamide
+antihypertensive,Thiazide like diuretics,chlorthalidone
+antihypertensive,Thiazide like diuretics,metolazone
+antihypertensive,Thiazide like diuretics,xipamide
+antihypertensive,Thiazide like diuretics,clopamide
+antihypertensive,Potassium-sparing diuretics,amiloride 
+antihypertensive,Potassium-sparing diuretics,spironolactone
+antihypertensive,Potassium-sparing diuretics,eplerenone
+antihypertensive,Potassium-sparing diuretics,triamterene 
+antihypertensive,Aldosterone receptor blockers,eplerenone 
+antihypertensive,Aldosterone receptor blockers,spironolactone 
+antihypertensive,Beta Blockers,atenolol 
+antihypertensive,Beta Blockers,betaxolol 
+antihypertensive,Beta Blockers,bisoprolol 
+antihypertensive,Beta Blockers,metoprolol 
+antihypertensive,Beta Blockers,nadolol 
+antihypertensive,Beta Blockers,propranolol 
+antihypertensive,Beta Blockers,acebutolol
+antihypertensive,Beta Blockers,carteolol
+antihypertensive,Beta Blockers,carvedilol
+antihypertensive,Beta Blockers,labetalol
+antihypertensive,Beta Blockers,nebivolol
+antihypertensive,Beta Blockers,oxprenolol
+antihypertensive,Beta Blockers,penbutolol
+antihypertensive,Beta Blockers,pindolol
+antihypertensive,Beta Blockers,timolol 
+antihypertensive,BBs with intrinsic sympathomimetic activity,acebutolol 
+antihypertensive,BBs with intrinsic sympathomimetic activity,penbutolol 
+antihypertensive,BBs with intrinsic sympathomimetic activity,pindolol 
+antihypertensive,Combined alpha- and BBs,carvedilol 
+antihypertensive,Combined alpha- and BBs,labetalol 
+antihypertensive,ACE Inhibitors,benazepril 
+antihypertensive,ACE Inhibitors,captopril 
+antihypertensive,ACE Inhibitors,enalapril 
+antihypertensive,ACE Inhibitors,fosinopril 
+antihypertensive,ACE Inhibitors,lisinopril 
+antihypertensive,ACE Inhibitors,moexipril 
+antihypertensive,ACE Inhibitors,perindopril 
+antihypertensive,ACE Inhibitors,quinapril 
+antihypertensive,ACE Inhibitors,ramipril 
+antihypertensive,ACE Inhibitors,trandolapril 
+antihypertensive,Angiotensin II antagonists,candesartan 
+antihypertensive,Angiotensin II antagonists,eprosartan 
+antihypertensive,Angiotensin II antagonists,irbesartan 
+antihypertensive,Angiotensin II antagonists,losartan 
+antihypertensive,Angiotensin II antagonists,olmesartan 
+antihypertensive,Angiotensin II antagonists,telmisartan 
+antihypertensive,Angiotensin II antagonists,azilsartan
+antihypertensive,Angiotensin II antagonists,fimasartan
+antihypertensive,Angiotensin II antagonists,valsartan
+antihypertensive,Calcium Channel Blockers—nondihydropyridines,diltiazem
+antihypertensive,Calcium Channel Blockers—nondihydropyridines,verapamil 
+antihypertensive,Calcium Channel Blockers—dihydropyridines,amlodipine 
+antihypertensive,Calcium Channel Blockers—dihydropyridines,felodipine 
+antihypertensive,Calcium Channel Blockers—dihydropyridines,isradipine 
+antihypertensive,Calcium Channel Blockers—dihydropyridines,nicardipine
+antihypertensive,Calcium Channel Blockers—dihydropyridines,nifedipine
+antihypertensive,Calcium Channel Blockers—dihydropyridines,barnidipine
+antihypertensive,Calcium Channel Blockers—dihydropyridines,cilnidipine
+antihypertensive,Calcium Channel Blockers—dihydropyridines,clevidipine
+antihypertensive,Calcium Channel Blockers—dihydropyridines,felodipine
+antihypertensive,Calcium Channel Blockers—dihydropyridines,lercanidipine
+antihypertensive,Calcium Channel Blockers—dihydropyridines,levamlodipine
+antihypertensive,Calcium Channel Blockers—dihydropyridines,nitrendipine
+antihypertensive,Calcium Channel Blockers—dihydropyridines,nimodipine
+antihypertensive,Calcium Channel Blockers—dihydropyridines,nisoldipine
+antihypertensive,Calcium Channel Blockers—dihydropyridines,nisoldipine
+antihypertensive,Alpha-1 blockers,doxazosin 
+antihypertensive,Alpha-1 blockers,chlorpromazine
+antihypertensive,Alpha-1 blockers,phentolamine
+antihypertensive,Alpha-1 blockers,indoramin
+antihypertensive,Alpha-1 blockers,phenoxybenzamine
+antihypertensive,Alpha-1 blockers,tolazoline
+antihypertensive,Alpha-1 blockers,urapidil
+antihypertensive,Alpha-1 blockers,prazosin 
+antihypertensive,Mixed Alpha + Beta blockers,bucindolol
+antihypertensive,Mixed Alpha + Beta blockers,carvedilol
+antihypertensive,Mixed Alpha + Beta blockers,labetalol
+antihypertensive,Mixed Alpha + Beta blockers,clonidine 
+antihypertensive,Mixed Alpha + Beta blockers,terazosin 
+antihypertensive,Central alpha-2 agonists and other centrally acting drugs,clonidine 
+antihypertensive,Central alpha-2 agonists and other centrally acting drugs,methyldopa 
+antihypertensive,Central alpha-2 agonists and other centrally acting drugs,reserpine
+antihypertensive,Central alpha-2 agonists and other centrally acting drugs,moxonidine
+antihypertensive,Central alpha-2 agonists and other centrally acting drugs,guanabenz
+antihypertensive,Central alpha-2 agonists and other centrally acting drugs,guanfacine 
+antihypertensive,Direct vasodilators,hydralazine 
+antihypertensive,Direct vasodilators,minoxidil 
+antihypertensive,Endothelium receptor blockers,Bosentan 
+antilipidemic,Statins,atorvastatin 
+antilipidemic,Statins,fluvastatin 
+antilipidemic,Statins,lovastatin 
+antilipidemic,Statins,pravastatin 
+antilipidemic,Statins,rosuvastatin 
+antilipidemic,Statins,pitavastatin 
+antilipidemic,Statins,simvastatin 
+antilipidemic,Bile Acid Resins/Sequestrants,colestipol
+antilipidemic,Bile Acid Resins/Sequestrants,cholestyramine
+antilipidemic,Bile Acid Resins/Sequestrants,colesevelam
+antilipidemic,Fibrates,clofibrate
+antilipidemic,Fibrates,fenofibrate
+antilipidemic,Fibrates,gemfibrozil
+antilipidemic,Monoclonal Antibodies,alirocumab
+antilipidemic,Monoclonal Antibodies,evinacumab
+antidiabetic,Alpha-glucosidase inhibitors,miglitol
+antidiabetic,Alpha-glucosidase inhibitors,acarbose
+antidiabetic,Amylin analogs,pramlintide
+antidiabetic,Dipeptidyl peptidase 4 inhibitors,sitagliptin
+antidiabetic,Dipeptidyl peptidase 4 inhibitors,linagliptin
+antidiabetic,Dipeptidyl peptidase 4 inhibitors,saxagliptin
+antidiabetic,Dipeptidyl peptidase 4 inhibitors,alogliptin
+antidiabetic,Dipeptidyl peptidase 4 inhibitors, sitagliptin
+antidiabetic,Incretin mimetics,liraglutide
+antidiabetic,Incretin mimetics,semaglutide
+antidiabetic,Incretin mimetics,dulaglutide
+antidiabetic,Incretin mimetics,tirzepatide
+antidiabetic,Incretin mimetics,liraglutide
+antidiabetic,Incretin mimetics,semaglutide
+antidiabetic,Incretin mimetics,exenatide
+antidiabetic,Incretin mimetics,semaglutide
+antidiabetic,Incretin mimetics,exenatide
+antidiabetic,Incretin mimetics,exenatide
+antidiabetic,Incretin mimetics,tirzepatide
+antidiabetic,Incretin mimetics,albiglutide
+antidiabetic,Incretin mimetics,lixisenatide
+antidiabetic,Insulin,insulin degludec
+antidiabetic,Insulin,insulin glargine
+antidiabetic,Insulin,insulin detemir
+antidiabetic,Insulin,insulin lispro
+antidiabetic,Insulin,insulin aspart
+antidiabetic,Insulin,insulin regular
+antidiabetic,Insulin,insulin isophane
+antidiabetic,Insulin,insulin glulisine
+antidiabetic,Meglitinides,repaglinide
+antidiabetic,Meglitinides,nateglinide
+antidiabetic,Miscellaneous antidiabetic agents,teplizumab
+antidiabetic,Non-sulfonylureas,metformin
+antidiabetic,SGLT-2 inhibitors,empagliflozin
+antidiabetic,SGLT-2 inhibitors,canagliflozin
+antidiabetic,SGLT-2 inhibitors,dapagliflozin
+antidiabetic,SGLT-2 inhibitors,ertugliflozin
+antidiabetic,SGLT-2 inhibitors,bexagliflozin
+antidiabetic,Sulfonylureas,glimepiride
+antidiabetic,Sulfonylureas,glipizide
+antidiabetic,Sulfonylureas,tolazamide
+antidiabetic,Sulfonylureas,tolbutamide
+antidiabetic,Sulfonylureas,glyburide
+antidiabetic,Sulfonylureas,chlorpropamide
+antidiabetic,Thiazolidinediones,pioglitazone
+antidiabetic,Thiazolidinediones,rosiglitazone
+antirhtombotic,Anticoagulants ,dalteparin
+antirhtombotic,Anticoagulants ,enoxaparin
+antirhtombotic,Anticoagulants ,tinzaparin
+antirhtombotic,direct thrombin inhibitors,dabigatran
+antirhtombotic,direct thrombin inhibitors,desirudin
+antirhtombotic,factor Xa inhibitors,fondaparinux
+antirhtombotic,factor Xa inhibitors,rivaroxaban
+antirhtombotic,factor Xa inhibitors,apixaban
+antirhtombotic,factor Xa inhibitors,edoxaban
+antirhtombotic,factor Xa inhibitors,warfarin
+antirhtombotic,antiplatelet drugs,aspirin
+antirhtombotic,antiplatelet drugs,cangrelor
+antirhtombotic,antiplatelet drugs,clopidogrel
+antirhtombotic,antiplatelet drugs,dipyridamole
+antirhtombotic,antiplatelet drugs,prasugrel
+antirhtombotic,antiplatelet drugs,ticagrelor
+antirhtombotic,antiplatelet drugs,ticlopidine
+antirhtombotic,antiplatelet drugs,vorapaxar
+antirhtombotic,plasminogen activators,anistreplase
+antirhtombotic,plasminogen activators,streptokinase
+antirhtombotic,plasminogen activators,urokinase

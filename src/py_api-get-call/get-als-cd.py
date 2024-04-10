@@ -1,5 +1,4 @@
 import os
-import api_get_bioportal as apibp
 import api_get_rxnav as apirxnav
 import pandas as pd
 
@@ -32,11 +31,21 @@ path_to_tgt = os.path.join(
 # print(rxnav_cls.get_rxcui_all('35623'))
 # print(rxnav_cls.get_rxcui_from_str('protandim'))
 
+# dir_path = 'C:/repos/cdc_als4m/'
+# src_file = pd.read_csv(f"{dir_path}/ref/als_trt_rx.csv")
+# apirxnav.batch_write_rx_code_json(
+#     path_to_save = path_to_tgt, #absolute path,
+#     filename_to_save = 'als-rx_output',
+#     sterms = src_file['IN'],
+#     sterm_type = 'string',
+#     verbose=True
+# )
+
 dir_path = 'C:/repos/cdc_als4m/'
-src_file = pd.read_csv(f"{dir_path}/ref/als_trt_rx.csv")
+src_file = pd.read_csv(f"{dir_path}/ref/als_sialorrhea_trt_rx.csv")
 apirxnav.batch_write_rx_code_json(
     path_to_save = path_to_tgt, #absolute path,
-    filename_to_save = 'als-rx_output',
+    filename_to_save = 'als-sialorrhea-rx_output',
     sterms = src_file['IN'],
     sterm_type = 'string',
     verbose=True

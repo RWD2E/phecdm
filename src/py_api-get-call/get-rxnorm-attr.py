@@ -27,15 +27,15 @@ rxnav_cls = apirxnav.RxNavSearch()
 #     overwrite = True
 # )
 
-dir_path = 'C:/repos/r61-r33-vccc-kumc/'
-src_file = pd.read_csv(f"{dir_path}/ref/raw_rx_med.csv")
-rxnorm_lst = src_file['rxnorm_cui'].drop_duplicates().dropna().astype(int)
+# dir_path = 'C:/repos/r61-r33-vccc-kumc/'
+# src_file = pd.read_csv(f"{dir_path}/ref/raw_rx_med.csv")
+# rxnorm_lst = src_file['rxnorm_cui'].drop_duplicates().dropna().astype(int)
 
-apirxnav.batch_write_rxcui_details_json(
-    path_to_save = path_to_kb, # save to computational phenotype kb
-    filename_to_save = 'vccc-all-med-rxcui',
-    sterms = rxnorm_lst,
-    expand = False,
-    verbose = True,
-    overwrite = True
-)
+# apirxnav.batch_write_rxcui_details_json(
+#     path_to_save = path_to_kb, # save to computational phenotype kb
+#     filename_to_save = 'vccc-all-med-rxcui',
+#     sterms = rxnorm_lst,
+#     expand = False,
+#     verbose = True,
+#     overwrite = True
+# )
