@@ -371,7 +371,7 @@
         }
     },
     "covid":{
-        "long": "COVID-19, virus identified",
+        "long": "COVID-19 virus identified",
         "icd9cm":{
             "lev0":[],
             "lev1":[],
