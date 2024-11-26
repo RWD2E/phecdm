@@ -1,0 +1,3784 @@
+{
+    "semaglutide ": [
+        {
+            "rxcui": "1991302",
+            "name": "semaglutide",
+            "tty": "IN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1991311",
+            "name": "0.25 MG, 0.5 MG Dose 1.5 ML semaglutide 1.34 MG/ML Pen Injector [Ozempic]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00169413211",
+                "00169413212",
+                "00169413290",
+                "00169413297"
+            ]
+        },
+        {
+            "rxcui": "1991317",
+            "name": "1 MG Dose 1.5 ML semaglutide 1.34 MG/ML Pen Injector [Ozempic]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00169413602",
+                "00169413611"
+            ]
+        },
+        {
+            "rxcui": "2200650",
+            "name": "semaglutide 14 MG Oral Tablet [Rybelsus]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00169431401",
+                "00169431413",
+                "00169431430"
+            ]
+        },
+        {
+            "rxcui": "2200654",
+            "name": "semaglutide 3 MG Oral Tablet [Rybelsus]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00169430301",
+                "00169430313",
+                "00169430330",
+                "00169430390",
+                "00169430393",
+                "00169430399"
+            ]
+        },
+        {
+            "rxcui": "2200658",
+            "name": "semaglutide 7 MG Oral Tablet [Rybelsus]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00169430701",
+                "00169430713",
+                "00169430730"
+            ]
+        },
+        {
+            "rxcui": "2398842",
+            "name": "3 ML semaglutide 1.34 MG/ML Pen Injector [Ozempic]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00169413001",
+                "00169413013",
+                "50090594900"
+            ]
+        },
+        {
+            "rxcui": "2553506",
+            "name": "0.5 ML semaglutide 0.5 MG/ML Auto-Injector [Wegovy]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00169452501",
+                "00169452514",
+                "00169452590",
+                "00169452594",
+                "50090582400"
+            ]
+        },
+        {
+            "rxcui": "2553603",
+            "name": "0.5 ML semaglutide 1 MG/ML Auto-Injector [Wegovy]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00169450501",
+                "00169450514"
+            ]
+        },
+        {
+            "rxcui": "2553803",
+            "name": "0.5 ML semaglutide 2 MG/ML Auto-Injector [Wegovy]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00169450101",
+                "00169450114"
+            ]
+        },
+        {
+            "rxcui": "2553903",
+            "name": "0.75 ML semaglutide 2.27 MG/ML Auto-Injector [Wegovy]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00169451701",
+                "00169451714"
+            ]
+        },
+        {
+            "rxcui": "2554104",
+            "name": "0.75 ML semaglutide 3.2 MG/ML Auto-Injector [Wegovy]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00169452401",
+                "00169452414"
+            ]
+        },
+        {
+            "rxcui": "2599365",
+            "name": "3 ML semaglutide 2.68 MG/ML Pen Injector [Ozempic]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00169477211",
+                "00169477212",
+                "00169477290",
+                "00169477297",
+                "50090605100"
+            ]
+        },
+        {
+            "rxcui": "2619154",
+            "name": "0.25 MG, 0.5 MG Dose 3 ML semaglutide 0.68 MG/ML Pen Injector [Ozempic]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00169418103",
+                "00169418113",
+                "00169418190",
+                "00169418197"
+            ]
+        },
+        {
+            "rxcui": "1991308",
+            "name": "semaglutide 1.34 MG/ML [Ozempic]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2200646",
+            "name": "semaglutide 14 MG [Rybelsus]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2200653",
+            "name": "semaglutide 3 MG [Rybelsus]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2200657",
+            "name": "semaglutide 7 MG [Rybelsus]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2553503",
+            "name": "semaglutide 0.5 MG/ML [Wegovy]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2553602",
+            "name": "semaglutide 1 MG/ML [Wegovy]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2553608",
+            "name": "semaglutide 2 MG/ML [Wegovy]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2553902",
+            "name": "semaglutide 2.27 MG/ML [Wegovy]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2554103",
+            "name": "semaglutide 3.2 MG/ML [Wegovy]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2599364",
+            "name": "semaglutide 2.68 MG/ML [Ozempic]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2619153",
+            "name": "semaglutide 0.68 MG/ML [Ozempic]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1991309",
+            "name": "semaglutide Pen Injector [Ozempic]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2200647",
+            "name": "semaglutide Oral Tablet [Rybelsus]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2553504",
+            "name": "semaglutide Auto-Injector [Wegovy]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1991310",
+            "name": "Ozempic Injectable Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2200648",
+            "name": "Rybelsus Oral Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2200649",
+            "name": "Rybelsus Pill",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2553505",
+            "name": "Wegovy Injectable Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1991306",
+            "name": "0.25 MG, 0.5 MG Dose 1.5 ML semaglutide 1.34 MG/ML Pen Injector",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1991316",
+            "name": "1 MG Dose 1.5 ML semaglutide 1.34 MG/ML Pen Injector",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2200644",
+            "name": "semaglutide 14 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2200652",
+            "name": "semaglutide 3 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2200656",
+            "name": "semaglutide 7 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2398841",
+            "name": "3 ML semaglutide 1.34 MG/ML Pen Injector",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2553501",
+            "name": "0.5 ML semaglutide 0.5 MG/ML Auto-Injector",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2553601",
+            "name": "0.5 ML semaglutide 1 MG/ML Auto-Injector",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2553802",
+            "name": "0.5 ML semaglutide 2 MG/ML Auto-Injector",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2553901",
+            "name": "0.75 ML semaglutide 2.27 MG/ML Auto-Injector",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2554102",
+            "name": "0.75 ML semaglutide 3.2 MG/ML Auto-Injector",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2599362",
+            "name": "3 ML semaglutide 2.68 MG/ML Pen Injector",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2619152",
+            "name": "0.25 MG, 0.5 MG Dose 3 ML semaglutide 0.68 MG/ML Pen Injector",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1991303",
+            "name": "semaglutide 1.34 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2200640",
+            "name": "semaglutide 14 MG",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2200651",
+            "name": "semaglutide 3 MG",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2200655",
+            "name": "semaglutide 7 MG",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2553400",
+            "name": "semaglutide 0.5 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2553600",
+            "name": "semaglutide 1 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2553606",
+            "name": "semaglutide 2 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2553900",
+            "name": "semaglutide 2.27 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2554101",
+            "name": "semaglutide 3.2 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2599361",
+            "name": "semaglutide 2.68 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2619151",
+            "name": "semaglutide 0.68 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1991305",
+            "name": "semaglutide Pen Injector",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2200643",
+            "name": "semaglutide Oral Tablet",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2553500",
+            "name": "semaglutide Auto-Injector",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1991304",
+            "name": "semaglutide Injectable Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2200641",
+            "name": "semaglutide Oral Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2200642",
+            "name": "semaglutide Pill",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        }
+    ],
+    "dulaglutide ": [
+        {
+            "rxcui": "1551291",
+            "name": "dulaglutide",
+            "tty": "IN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1551300",
+            "name": "0.5 ML dulaglutide 1.5 MG/ML Auto-Injector [Trulicity]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00002143301",
+                "00002143361",
+                "00002143380",
+                "50090348400",
+                "50090645300"
+            ]
+        },
+        {
+            "rxcui": "1551306",
+            "name": "0.5 ML dulaglutide 3 MG/ML Auto-Injector [Trulicity]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00002143401",
+                "00002143461",
+                "00002143480",
+                "50090348300",
+                "50090645600"
+            ]
+        },
+        {
+            "rxcui": "2395779",
+            "name": "0.5 ML dulaglutide 6 MG/ML Auto-Injector [Trulicity]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00002223601",
+                "00002223661",
+                "00002223680",
+                "50090546700",
+                "50090657100"
+            ]
+        },
+        {
+            "rxcui": "2395785",
+            "name": "0.5 ML dulaglutide 9 MG/ML Auto-Injector [Trulicity]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00002318201",
+                "00002318261",
+                "00002318280"
+            ]
+        },
+        {
+            "rxcui": "1551297",
+            "name": "dulaglutide 1.5 MG/ML [Trulicity]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1551305",
+            "name": "dulaglutide 3 MG/ML [Trulicity]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2395778",
+            "name": "dulaglutide 6 MG/ML [Trulicity]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2395784",
+            "name": "dulaglutide 9 MG/ML [Trulicity]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1649586",
+            "name": "dulaglutide Auto-Injector [Trulicity]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1551299",
+            "name": "Trulicity Injectable Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1551295",
+            "name": "0.5 ML dulaglutide 1.5 MG/ML Auto-Injector",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1551304",
+            "name": "0.5 ML dulaglutide 3 MG/ML Auto-Injector",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2395777",
+            "name": "0.5 ML dulaglutide 6 MG/ML Auto-Injector",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2395783",
+            "name": "0.5 ML dulaglutide 9 MG/ML Auto-Injector",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1551292",
+            "name": "dulaglutide 1.5 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1551303",
+            "name": "dulaglutide 3 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2395776",
+            "name": "dulaglutide 6 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2395782",
+            "name": "dulaglutide 9 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1649584",
+            "name": "dulaglutide Auto-Injector",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1551293",
+            "name": "dulaglutide Injectable Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        }
+    ],
+    "exenatide": [
+        {
+            "rxcui": "60548",
+            "name": "exenatide",
+            "tty": "IN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1242968",
+            "name": "exenatide 2 MG Injection [Bydureon]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1990869",
+            "name": "0.85 ML exenatide 2.35 MG/ML Auto-Injector [Bydureon]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00310654001",
+                "00310654004",
+                "00310654085"
+            ]
+        },
+        {
+            "rxcui": "847913",
+            "name": "60 ACTUAT exenatide 0.01 MG/ACTUAT Pen Injector [Byetta]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00310652401"
+            ]
+        },
+        {
+            "rxcui": "847917",
+            "name": "60 ACTUAT exenatide 0.005 MG/ACTUAT Pen Injector [Byetta]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00310651201"
+            ]
+        },
+        {
+            "rxcui": "1653613",
+            "name": "exenatide 2 MG [Bydureon]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1990867",
+            "name": "exenatide 2.35 MG/ML [Bydureon]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "847911",
+            "name": "exenatide 0.01 MG/ACTUAT [Byetta]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "847916",
+            "name": "exenatide 0.005 MG/ACTUAT [Byetta]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1653614",
+            "name": "exenatide Injection [Bydureon]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1653625",
+            "name": "exenatide Pen Injector [Byetta]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1990868",
+            "name": "exenatide Auto-Injector [Bydureon]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1169415",
+            "name": "Byetta Injectable Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1242967",
+            "name": "Bydureon Injectable Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1242963",
+            "name": "exenatide 2 MG Injection",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1990866",
+            "name": "0.85 ML exenatide 2.35 MG/ML Auto-Injector",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "847910",
+            "name": "60 ACTUAT exenatide 0.01 MG/ACTUAT Pen Injector",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "847915",
+            "name": "60 ACTUAT exenatide 0.005 MG/ACTUAT Pen Injector",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1653610",
+            "name": "exenatide 2 MG",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1990864",
+            "name": "exenatide 2.35 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "847908",
+            "name": "exenatide 0.01 MG/ACTUAT",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "847914",
+            "name": "exenatide 0.005 MG/ACTUAT",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1653611",
+            "name": "exenatide Injection",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1653616",
+            "name": "exenatide Pen Injector",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1990865",
+            "name": "exenatide Auto-Injector",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1163790",
+            "name": "exenatide Injectable Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        }
+    ],
+    "liraglutide": [
+        {
+            "rxcui": "475968",
+            "name": "liraglutide",
+            "tty": "IN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1727493",
+            "name": "insulin degludec / liraglutide",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1598268",
+            "name": "3 ML liraglutide 6 MG/ML Pen Injector [Saxenda]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00169280015",
+                "00169280090",
+                "00169280097",
+                "50090425700"
+            ]
+        },
+        {
+            "rxcui": "1860172",
+            "name": "3 ML insulin degludec 100 UNT/ML / liraglutide 3.6 MG/ML Pen Injector [Xultophy]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00169291115",
+                "00169291190",
+                "00169291197"
+            ]
+        },
+        {
+            "rxcui": "897126",
+            "name": "3 ML liraglutide 6 MG/ML Pen Injector [Victoza]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00169406012",
+                "00169406013",
+                "00169406090",
+                "00169406099",
+                "50090285300",
+                "50090450300"
+            ]
+        },
+        {
+            "rxcui": "1598265",
+            "name": "liraglutide 6 MG/ML [Saxenda]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1860169",
+            "name": "insulin degludec 100 UNT/ML / liraglutide 3.6 MG/ML [Xultophy]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "897124",
+            "name": "liraglutide 6 MG/ML [Victoza]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1653597",
+            "name": "liraglutide Pen Injector [Victoza]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1653600",
+            "name": "liraglutide Pen Injector [Saxenda]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1860170",
+            "name": "insulin degludec / liraglutide Pen Injector [Xultophy]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1186578",
+            "name": "Victoza Injectable Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1598267",
+            "name": "Saxenda Injectable Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1860171",
+            "name": "Xultophy Injectable Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1860167",
+            "name": "3 ML insulin degludec 100 UNT/ML / liraglutide 3.6 MG/ML Pen Injector",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "897122",
+            "name": "3 ML liraglutide 6 MG/ML Pen Injector",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "00480366719",
+                "00480366720",
+                "00480366722"
+            ]
+        },
+        {
+            "rxcui": "1860164",
+            "name": "liraglutide 3.6 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "897120",
+            "name": "liraglutide 6 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1653594",
+            "name": "liraglutide Pen Injector",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1860166",
+            "name": "insulin degludec / liraglutide Pen Injector",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1163230",
+            "name": "liraglutide Injectable Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1860165",
+            "name": "insulin degludec / liraglutide Injectable Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        }
+    ],
+    "lixisenatide": [
+        {
+            "rxcui": "1440051",
+            "name": "lixisenatide",
+            "tty": "IN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1858994",
+            "name": "insulin glargine / lixisenatide",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1803893",
+            "name": "3 ML lixisenatide 0.05 MG/ML Pen Injector [Adlyxin]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1803896",
+            "name": "3 ML lixisenatide 0.1 MG/ML Pen Injector [Adlyxin]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00024574702"
+            ]
+        },
+        {
+            "rxcui": "1859000",
+            "name": "3 ML insulin glargine 100 UNT/ML / lixisenatide 0.033 MG/ML Pen Injector [Soliqua]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00024576101",
+                "00024576102",
+                "00024576105",
+                "00024576302"
+            ]
+        },
+        {
+            "rxcui": "1803888",
+            "name": "lixisenatide 0.05 MG/ML [Adlyxin]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1803895",
+            "name": "lixisenatide 0.1 MG/ML [Adlyxin]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1858997",
+            "name": "insulin glargine 100 UNT/ML / lixisenatide 0.033 MG/ML [Soliqua]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1803889",
+            "name": "lixisenatide Pen Injector [Adlyxin]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1858998",
+            "name": "insulin glargine / lixisenatide Pen Injector [Soliqua]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1803890",
+            "name": "Adlyxin Injectable Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1858999",
+            "name": "Soliqua Injectable Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1803892",
+            "name": "3 ML lixisenatide 0.05 MG/ML Pen Injector",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1803894",
+            "name": "3 ML lixisenatide 0.1 MG/ML Pen Injector",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1858995",
+            "name": "3 ML insulin glargine 100 UNT/ML / lixisenatide 0.033 MG/ML Pen Injector",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1440052",
+            "name": "lixisenatide 0.1 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1440056",
+            "name": "lixisenatide 0.05 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1858991",
+            "name": "lixisenatide 0.033 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1803885",
+            "name": "lixisenatide Pen Injector",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1858993",
+            "name": "insulin glargine / lixisenatide Pen Injector",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1440053",
+            "name": "lixisenatide Injectable Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1858992",
+            "name": "insulin glargine / lixisenatide Injectable Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        }
+    ],
+    "tirzepatide": [
+        {
+            "rxcui": "2601723",
+            "name": "tirzepatide",
+            "tty": "IN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2601746",
+            "name": "0.5 ML tirzepatide 10 MG/ML Auto-Injector [Mounjaro]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00002149501",
+                "00002149580"
+            ]
+        },
+        {
+            "rxcui": "2601758",
+            "name": "0.5 ML tirzepatide 30 MG/ML Auto-Injector [Mounjaro]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00002145701",
+                "00002145780"
+            ]
+        },
+        {
+            "rxcui": "2601764",
+            "name": "0.5 ML tirzepatide 5 MG/ML Auto-Injector [Mounjaro]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00002150601",
+                "00002150661",
+                "00002150680"
+            ]
+        },
+        {
+            "rxcui": "2601770",
+            "name": "0.5 ML tirzepatide 20 MG/ML Auto-Injector [Mounjaro]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00002147101",
+                "00002147180"
+            ]
+        },
+        {
+            "rxcui": "2601776",
+            "name": "0.5 ML tirzepatide 25 MG/ML Auto-Injector [Mounjaro]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00002146001",
+                "00002146080"
+            ]
+        },
+        {
+            "rxcui": "2601785",
+            "name": "0.5 ML tirzepatide 15 MG/ML Auto-Injector [Mounjaro]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00002148401",
+                "00002148480"
+            ]
+        },
+        {
+            "rxcui": "2644399",
+            "name": "0.5 ML tirzepatide 15 MG/ML Injection [Mounjaro]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00002221401"
+            ]
+        },
+        {
+            "rxcui": "2644403",
+            "name": "0.5 ML tirzepatide 10 MG/ML Injection [Mounjaro]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00002124301"
+            ]
+        },
+        {
+            "rxcui": "2644407",
+            "name": "0.5 ML tirzepatide 5 MG/ML Injection [Mounjaro]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00002115201"
+            ]
+        },
+        {
+            "rxcui": "2644411",
+            "name": "0.5 ML tirzepatide 30 MG/ML Injection [Mounjaro]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00002300201"
+            ]
+        },
+        {
+            "rxcui": "2644415",
+            "name": "0.5 ML tirzepatide 25 MG/ML Injection [Mounjaro]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00002242301"
+            ]
+        },
+        {
+            "rxcui": "2644419",
+            "name": "0.5 ML tirzepatide 20 MG/ML Injection [Mounjaro]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00002234001"
+            ]
+        },
+        {
+            "rxcui": "2669706",
+            "name": "0.5 ML tirzepatide 5 MG/ML Auto-Injector [Zepbound]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00002250601",
+                "00002250661",
+                "00002250680"
+            ]
+        },
+        {
+            "rxcui": "2669709",
+            "name": "0.5 ML tirzepatide 10 MG/ML Auto-Injector [Zepbound]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00002249501",
+                "00002249580"
+            ]
+        },
+        {
+            "rxcui": "2669712",
+            "name": "0.5 ML tirzepatide 15 MG/ML Auto-Injector [Zepbound]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00002248401",
+                "00002248480"
+            ]
+        },
+        {
+            "rxcui": "2669715",
+            "name": "0.5 ML tirzepatide 20 MG/ML Auto-Injector [Zepbound]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00002247101",
+                "00002247180"
+            ]
+        },
+        {
+            "rxcui": "2669718",
+            "name": "0.5 ML tirzepatide 25 MG/ML Auto-Injector [Zepbound]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00002246001",
+                "00002246080"
+            ]
+        },
+        {
+            "rxcui": "2669721",
+            "name": "0.5 ML tirzepatide 30 MG/ML Auto-Injector [Zepbound]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00002245701",
+                "00002245780"
+            ]
+        },
+        {
+            "rxcui": "2679317",
+            "name": "0.5 ML tirzepatide 20 MG/ML Injection [Zepbound]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00002134001"
+            ]
+        },
+        {
+            "rxcui": "2679319",
+            "name": "0.5 ML tirzepatide 25 MG/ML Injection [Zepbound]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00002142301"
+            ]
+        },
+        {
+            "rxcui": "2679321",
+            "name": "0.5 ML tirzepatide 30 MG/ML Injection [Zepbound]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00002200201"
+            ]
+        },
+        {
+            "rxcui": "2679323",
+            "name": "0.5 ML tirzepatide 5 MG/ML Injection [Zepbound]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00002015201",
+                "00002015204"
+            ]
+        },
+        {
+            "rxcui": "2679325",
+            "name": "0.5 ML tirzepatide 10 MG/ML Injection [Zepbound]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00002024301",
+                "00002024304"
+            ]
+        },
+        {
+            "rxcui": "2679327",
+            "name": "0.5 ML tirzepatide 15 MG/ML Injection [Zepbound]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00002121401"
+            ]
+        },
+        {
+            "rxcui": "2601745",
+            "name": "tirzepatide 10 MG/ML [Mounjaro]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2601757",
+            "name": "tirzepatide 30 MG/ML [Mounjaro]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2601763",
+            "name": "tirzepatide 5 MG/ML [Mounjaro]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2601769",
+            "name": "tirzepatide 20 MG/ML [Mounjaro]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2601775",
+            "name": "tirzepatide 25 MG/ML [Mounjaro]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2601781",
+            "name": "tirzepatide 15 MG/ML [Mounjaro]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2669703",
+            "name": "tirzepatide 5 MG/ML [Zepbound]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2669708",
+            "name": "tirzepatide 10 MG/ML [Zepbound]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2669711",
+            "name": "tirzepatide 15 MG/ML [Zepbound]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2669714",
+            "name": "tirzepatide 20 MG/ML [Zepbound]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2669717",
+            "name": "tirzepatide 25 MG/ML [Zepbound]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2669720",
+            "name": "tirzepatide 30 MG/ML [Zepbound]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2601737",
+            "name": "tirzepatide Auto-Injector [Mounjaro]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2644398",
+            "name": "tirzepatide Injection [Mounjaro]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2669705",
+            "name": "tirzepatide Auto-Injector [Zepbound]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2679316",
+            "name": "tirzepatide Injection [Zepbound]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2601736",
+            "name": "Mounjaro Injectable Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2669704",
+            "name": "Zepbound Injectable Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2601743",
+            "name": "0.5 ML tirzepatide 10 MG/ML Auto-Injector",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2601755",
+            "name": "0.5 ML tirzepatide 30 MG/ML Auto-Injector",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2601761",
+            "name": "0.5 ML tirzepatide 5 MG/ML Auto-Injector",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2601767",
+            "name": "0.5 ML tirzepatide 20 MG/ML Auto-Injector",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2601773",
+            "name": "0.5 ML tirzepatide 25 MG/ML Auto-Injector",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2601784",
+            "name": "0.5 ML tirzepatide 15 MG/ML Auto-Injector",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2644396",
+            "name": "0.5 ML tirzepatide 15 MG/ML Injection",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2644401",
+            "name": "0.5 ML tirzepatide 10 MG/ML Injection",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2644405",
+            "name": "0.5 ML tirzepatide 5 MG/ML Injection",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2644409",
+            "name": "0.5 ML tirzepatide 30 MG/ML Injection",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2644413",
+            "name": "0.5 ML tirzepatide 25 MG/ML Injection",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2644417",
+            "name": "0.5 ML tirzepatide 20 MG/ML Injection",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2601742",
+            "name": "tirzepatide 10 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2601754",
+            "name": "tirzepatide 30 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2601760",
+            "name": "tirzepatide 5 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2601766",
+            "name": "tirzepatide 20 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2601772",
+            "name": "tirzepatide 25 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2601778",
+            "name": "tirzepatide 15 MG/ML",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2601731",
+            "name": "tirzepatide Auto-Injector",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2644395",
+            "name": "tirzepatide Injection",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2601730",
+            "name": "tirzepatide Injectable Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        }
+    ],
+    "sitagliptin": [
+        {
+            "rxcui": "593411",
+            "name": "sitagliptin",
+            "tty": "IN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1189803",
+            "name": "simvastatin / sitagliptin",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1992825",
+            "name": "ertugliflozin / sitagliptin",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "729717",
+            "name": "metformin / sitagliptin",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "621590",
+            "name": "sitagliptin phosphate",
+            "tty": "PIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1243833",
+            "name": "24 HR metformin hydrochloride 1000 MG / sitagliptin 100 MG Extended Release Oral Tablet [Janumet]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00006008107",
+                "00006008114",
+                "00006008131",
+                "00006008154",
+                "00006008182",
+                "50090624400"
+            ]
+        },
+        {
+            "rxcui": "1243843",
+            "name": "24 HR metformin hydrochloride 1000 MG / sitagliptin 50 MG Extended Release Oral Tablet [Janumet]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00006008014",
+                "00006008028",
+                "00006008061",
+                "00006008062",
+                "00006008082",
+                "50090550400",
+                "50090550401"
+            ]
+        },
+        {
+            "rxcui": "1243848",
+            "name": "24 HR metformin hydrochloride 500 MG / sitagliptin 50 MG Extended Release Oral Tablet [Janumet]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00006007814",
+                "00006007828",
+                "00006007861",
+                "00006007862",
+                "00006007882"
+            ]
+        },
+        {
+            "rxcui": "1992832",
+            "name": "ertugliflozin 15 MG / sitagliptin 100 MG Oral Tablet [Steglujan]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00006536803",
+                "00006536806",
+                "00006536807",
+                "00006536808",
+                "00006536809"
+            ]
+        },
+        {
+            "rxcui": "1992837",
+            "name": "ertugliflozin 5 MG / sitagliptin 100 MG Oral Tablet [Steglujan]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00006536703",
+                "00006536706",
+                "00006536707",
+                "00006536708",
+                "00006536709"
+            ]
+        },
+        {
+            "rxcui": "2670447",
+            "name": "sitagliptin 100 MG Oral Tablet [Zituvio]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "70710124203",
+                "70710124209",
+                "70771177203",
+                "70771177209"
+            ]
+        },
+        {
+            "rxcui": "2670449",
+            "name": "sitagliptin 25 MG Oral Tablet [Zituvio]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "70710124003",
+                "70710124009",
+                "70771177003",
+                "70771177009"
+            ]
+        },
+        {
+            "rxcui": "2670451",
+            "name": "sitagliptin 50 MG Oral Tablet [Zituvio]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "70710124103",
+                "70710124109",
+                "70771177103",
+                "70771177109"
+            ]
+        },
+        {
+            "rxcui": "2677162",
+            "name": "metformin hydrochloride 1000 MG / sitagliptin 50 MG Oral Tablet [Zituvimet]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "70710178706",
+                "70710178708",
+                "70771186006",
+                "70771186008"
+            ]
+        },
+        {
+            "rxcui": "2677164",
+            "name": "metformin hydrochloride 500 MG / sitagliptin 50 MG Oral Tablet [Zituvimet]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "70710178606",
+                "70710178608",
+                "70771185906",
+                "70771185908"
+            ]
+        },
+        {
+            "rxcui": "665036",
+            "name": "sitagliptin 100 MG Oral Tablet [Januvia]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00006027701",
+                "00006027702",
+                "00006027714",
+                "00006027727",
+                "00006027728",
+                "00006027730",
+                "00006027731",
+                "00006027733",
+                "00006027754",
+                "00006027782",
+                "50090103600",
+                "50090103602",
+                "50090408400",
+                "50090558500",
+                "50090558501",
+                "55154504208",
+                "58118027703",
+                "58118027706",
+                "58118027709",
+                "66105065203"
+            ]
+        },
+        {
+            "rxcui": "665040",
+            "name": "sitagliptin 25 MG Oral Tablet [Januvia]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00006022101",
+                "00006022128",
+                "00006022131",
+                "00006022154",
+                "50090352700",
+                "50090352701",
+                "50090408700",
+                "50090554700"
+            ]
+        },
+        {
+            "rxcui": "665044",
+            "name": "sitagliptin 50 MG Oral Tablet [Januvia]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00006011201",
+                "00006011228",
+                "00006011231",
+                "00006011254",
+                "50090347200",
+                "50090347201",
+                "50090408600",
+                "50090551700",
+                "50090551701",
+                "55154504008"
+            ]
+        },
+        {
+            "rxcui": "861771",
+            "name": "metformin hydrochloride 1000 MG / sitagliptin 50 MG Oral Tablet [Janumet]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00006057701",
+                "00006057702",
+                "00006057703",
+                "00006057756",
+                "00006057761",
+                "00006057762",
+                "00006057782",
+                "50090550200",
+                "50090550201",
+                "50090550300"
+            ]
+        },
+        {
+            "rxcui": "861821",
+            "name": "metformin hydrochloride 500 MG / sitagliptin 50 MG Oral Tablet [Janumet]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00006057501",
+                "00006057502",
+                "00006057503",
+                "00006057556",
+                "00006057561",
+                "00006057562",
+                "00006057582",
+                "50090561600",
+                "50090561601",
+                "50090561800"
+            ]
+        },
+        {
+            "rxcui": "1243829",
+            "name": "metformin hydrochloride 1000 MG / sitagliptin 100 MG [Janumet]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1992828",
+            "name": "ertugliflozin 15 MG / sitagliptin 100 MG [Steglujan]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1992836",
+            "name": "ertugliflozin 5 MG / sitagliptin 100 MG [Steglujan]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2670443",
+            "name": "sitagliptin 100 MG [Zituvio]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2670448",
+            "name": "sitagliptin 25 MG [Zituvio]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2670450",
+            "name": "sitagliptin 50 MG [Zituvio]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2677157",
+            "name": "metformin hydrochloride 1000 MG / sitagliptin 50 MG [Zituvimet]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2677163",
+            "name": "metformin hydrochloride 500 MG / sitagliptin 50 MG [Zituvimet]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "665034",
+            "name": "sitagliptin 100 MG [Januvia]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "665039",
+            "name": "sitagliptin 25 MG [Januvia]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "665043",
+            "name": "sitagliptin 50 MG [Januvia]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "861770",
+            "name": "metformin hydrochloride 1000 MG / sitagliptin 50 MG [Janumet]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "861820",
+            "name": "metformin hydrochloride 500 MG / sitagliptin 50 MG [Janumet]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1243839",
+            "name": "metformin / sitagliptin Extended Release Oral Tablet [Janumet]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1992829",
+            "name": "ertugliflozin / sitagliptin Oral Tablet [Steglujan]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2670446",
+            "name": "sitagliptin Oral Tablet [Zituvio]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2677160",
+            "name": "metformin / sitagliptin Oral Tablet [Zituvimet]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "665035",
+            "name": "sitagliptin Oral Tablet [Januvia]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "757603",
+            "name": "metformin / sitagliptin Oral Tablet [Janumet]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1167810",
+            "name": "Janumet Oral Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1167811",
+            "name": "Janumet Pill",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1167814",
+            "name": "Januvia Oral Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1167815",
+            "name": "Januvia Pill",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1992830",
+            "name": "Steglujan Oral Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1992831",
+            "name": "Steglujan Pill",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2670444",
+            "name": "Zituvio Oral Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2670445",
+            "name": "Zituvio Pill",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2677158",
+            "name": "Zituvimet Oral Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2677159",
+            "name": "Zituvimet Pill",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1243827",
+            "name": "24 HR metformin hydrochloride 1000 MG / sitagliptin 100 MG Extended Release Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1243842",
+            "name": "24 HR metformin hydrochloride 1000 MG / sitagliptin 50 MG Extended Release Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1243846",
+            "name": "24 HR metformin hydrochloride 500 MG / sitagliptin 50 MG Extended Release Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1992826",
+            "name": "ertugliflozin 15 MG / sitagliptin 100 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1992835",
+            "name": "ertugliflozin 5 MG / sitagliptin 100 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "665033",
+            "name": "sitagliptin 100 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "70710190103",
+                "70710190109",
+                "70771179203",
+                "70771179209"
+            ]
+        },
+        {
+            "rxcui": "665038",
+            "name": "sitagliptin 25 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "70710189903",
+                "70710189909",
+                "70771179003",
+                "70771179009"
+            ]
+        },
+        {
+            "rxcui": "665042",
+            "name": "sitagliptin 50 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "70710190003",
+                "70710190009",
+                "70771179103",
+                "70771179109"
+            ]
+        },
+        {
+            "rxcui": "861769",
+            "name": "metformin hydrochloride 1000 MG / sitagliptin 50 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "70710198706",
+                "70710198708",
+                "70771187006",
+                "70771187008"
+            ]
+        },
+        {
+            "rxcui": "861819",
+            "name": "metformin hydrochloride 500 MG / sitagliptin 50 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "70710198606",
+                "70710198608",
+                "70771186906",
+                "70771186908"
+            ]
+        },
+        {
+            "rxcui": "665031",
+            "name": "sitagliptin 100 MG",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "665037",
+            "name": "sitagliptin 25 MG",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "665041",
+            "name": "sitagliptin 50 MG",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1189802",
+            "name": "simvastatin / sitagliptin Oral Tablet",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1243826",
+            "name": "metformin / sitagliptin Extended Release Oral Tablet",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1992824",
+            "name": "ertugliflozin / sitagliptin Oral Tablet",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "665032",
+            "name": "sitagliptin Oral Tablet",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "700516",
+            "name": "metformin / sitagliptin Oral Tablet",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1159662",
+            "name": "sitagliptin Oral Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1159663",
+            "name": "sitagliptin Pill",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1161607",
+            "name": "metformin / sitagliptin Oral Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1161608",
+            "name": "metformin / sitagliptin Pill",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1992822",
+            "name": "ertugliflozin / sitagliptin Oral Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1992823",
+            "name": "ertugliflozin / sitagliptin Pill",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        }
+    ],
+    "saxagliptin": [
+        {
+            "rxcui": "857974",
+            "name": "saxagliptin",
+            "tty": "IN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1043562",
+            "name": "metformin / saxagliptin",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1727500",
+            "name": "dapagliflozin / saxagliptin",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2117292",
+            "name": "dapagliflozin / metformin / saxagliptin",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1043560",
+            "name": "saxagliptin hydrochloride",
+            "tty": "PIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1546030",
+            "name": "saxagliptin anhydrous",
+            "tty": "PIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2643444",
+            "name": "saxagliptin hydrochloride dihydrate",
+            "tty": "PIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1043567",
+            "name": "24 HR metformin hydrochloride 1000 MG / saxagliptin 2.5 MG Extended Release Oral Tablet [Kombiglyze]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00310612560",
+                "00310612592"
+            ]
+        },
+        {
+            "rxcui": "1043574",
+            "name": "24 HR metformin hydrochloride 1000 MG / saxagliptin 5 MG Extended Release Oral Tablet [Kombiglyze]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00310614530",
+                "00310614595"
+            ]
+        },
+        {
+            "rxcui": "1043582",
+            "name": "24 HR metformin hydrochloride 500 MG / saxagliptin 5 MG Extended Release Oral Tablet [Kombiglyze]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00310613530",
+                "00310613595"
+            ]
+        },
+        {
+            "rxcui": "1925504",
+            "name": "dapagliflozin 10 MG / saxagliptin 5 MG Oral Tablet [Qtern]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00310678030",
+                "00310678095"
+            ]
+        },
+        {
+            "rxcui": "2169276",
+            "name": "dapagliflozin 5 MG / saxagliptin 5 MG Oral Tablet [Qtern]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00310677030",
+                "00310677095"
+            ]
+        },
+        {
+            "rxcui": "858040",
+            "name": "saxagliptin 5 MG Oral Tablet [Onglyza]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00310610530",
+                "00310610550",
+                "00310610590",
+                "00310610595",
+                "55154693102"
+            ]
+        },
+        {
+            "rxcui": "858044",
+            "name": "saxagliptin 2.5 MG Oral Tablet [Onglyza]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00310610030",
+                "00310610090",
+                "00310610095"
+            ]
+        },
+        {
+            "rxcui": "1043565",
+            "name": "metformin hydrochloride 1000 MG / saxagliptin 2.5 MG [Kombiglyze]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1043572",
+            "name": "metformin hydrochloride 1000 MG / saxagliptin 5 MG [Kombiglyze]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1043580",
+            "name": "metformin hydrochloride 500 MG / saxagliptin 5 MG [Kombiglyze]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1925500",
+            "name": "dapagliflozin 10 MG / saxagliptin 5 MG [Qtern]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2169275",
+            "name": "dapagliflozin 5 MG / saxagliptin 5 MG [Qtern]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "858038",
+            "name": "saxagliptin 5 MG [Onglyza]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "858043",
+            "name": "saxagliptin 2.5 MG [Onglyza]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1043566",
+            "name": "metformin / saxagliptin Extended Release Oral Tablet [Kombiglyze]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1925501",
+            "name": "dapagliflozin / saxagliptin Oral Tablet [Qtern]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "858039",
+            "name": "saxagliptin Oral Tablet [Onglyza]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1172860",
+            "name": "Kombiglyze Pill",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1172861",
+            "name": "Kombiglyze Oral Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1181729",
+            "name": "Onglyza Oral Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1181730",
+            "name": "Onglyza Pill",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1925502",
+            "name": "Qtern Oral Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1925503",
+            "name": "Qtern Pill",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1043563",
+            "name": "24 HR metformin hydrochloride 1000 MG / saxagliptin 2.5 MG Extended Release Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "00378817691",
+                "00378817693",
+                "43598061860"
+            ]
+        },
+        {
+            "rxcui": "1043570",
+            "name": "24 HR metformin hydrochloride 1000 MG / saxagliptin 5 MG Extended Release Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "00378817777",
+                "00378817793",
+                "43598061930"
+            ]
+        },
+        {
+            "rxcui": "1043578",
+            "name": "24 HR metformin hydrochloride 500 MG / saxagliptin 5 MG Extended Release Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "00378817577",
+                "00378817593",
+                "43598062030"
+            ]
+        },
+        {
+            "rxcui": "1925498",
+            "name": "dapagliflozin 10 MG / saxagliptin 5 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2169274",
+            "name": "dapagliflozin 5 MG / saxagliptin 5 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "858036",
+            "name": "saxagliptin 5 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "00378470605",
+                "00378470677",
+                "00378470693",
+                "65162006003",
+                "65162006009",
+                "65162006050",
+                "65862082601",
+                "65862082605",
+                "65862082630",
+                "65862082690",
+                "68462072705",
+                "68462072714",
+                "68462072730",
+                "68462072790"
+            ]
+        },
+        {
+            "rxcui": "858042",
+            "name": "saxagliptin 2.5 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "00378470577",
+                "00378470593",
+                "65162005903",
+                "65162005909",
+                "65162005950",
+                "65862082501",
+                "65862082505",
+                "65862082530",
+                "65862082590",
+                "68462072605",
+                "68462072630",
+                "68462072690"
+            ]
+        },
+        {
+            "rxcui": "858034",
+            "name": "saxagliptin 5 MG",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "858041",
+            "name": "saxagliptin 2.5 MG",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1043561",
+            "name": "metformin / saxagliptin Extended Release Oral Tablet",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1925497",
+            "name": "dapagliflozin / saxagliptin Oral Tablet",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "858035",
+            "name": "saxagliptin Oral Tablet",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1158518",
+            "name": "saxagliptin Oral Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1158519",
+            "name": "saxagliptin Pill",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1161605",
+            "name": "metformin / saxagliptin Oral Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1161606",
+            "name": "metformin / saxagliptin Pill",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1925495",
+            "name": "dapagliflozin / saxagliptin Oral Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1925496",
+            "name": "dapagliflozin / saxagliptin Pill",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2371722",
+            "name": "dapagliflozin / metformin / saxagliptin Oral Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        }
+    ],
+    "linagliptin": [
+        {
+            "rxcui": "1100699",
+            "name": "linagliptin",
+            "tty": "IN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1243019",
+            "name": "linagliptin / metformin",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1598392",
+            "name": "empagliflozin / linagliptin",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2281864",
+            "name": "empagliflozin / linagliptin / metformin",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1100706",
+            "name": "linagliptin 5 MG Oral Tablet [Tradjenta]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00597014030",
+                "00597014061",
+                "00597014070",
+                "00597014090",
+                "50090438300",
+                "55154041008"
+            ]
+        },
+        {
+            "rxcui": "1243026",
+            "name": "linagliptin 2.5 MG / metformin hydrochloride 1000 MG Oral Tablet [Jentadueto]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00597014818",
+                "00597014860",
+                "00597014866"
+            ]
+        },
+        {
+            "rxcui": "1243033",
+            "name": "linagliptin 2.5 MG / metformin hydrochloride 500 MG Oral Tablet [Jentadueto]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00597014618",
+                "00597014660",
+                "00597014666"
+            ]
+        },
+        {
+            "rxcui": "1243040",
+            "name": "linagliptin 2.5 MG / metformin hydrochloride 850 MG Oral Tablet [Jentadueto]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00597014718",
+                "00597014760",
+                "00597014766"
+            ]
+        },
+        {
+            "rxcui": "1602115",
+            "name": "empagliflozin 10 MG / linagliptin 5 MG Oral Tablet [Glyxambi]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00597018207",
+                "00597018230",
+                "00597018239",
+                "00597018290"
+            ]
+        },
+        {
+            "rxcui": "1602120",
+            "name": "empagliflozin 25 MG / linagliptin 5 MG Oral Tablet [Glyxambi]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00597016407",
+                "00597016430",
+                "00597016439",
+                "00597016490"
+            ]
+        },
+        {
+            "rxcui": "1796091",
+            "name": "24 HR linagliptin 2.5 MG / metformin hydrochloride 1000 MG Extended Release Oral Tablet [Jentadueto]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00597027012",
+                "00597027073",
+                "00597027094"
+            ]
+        },
+        {
+            "rxcui": "1796096",
+            "name": "24 HR linagliptin 5 MG / metformin hydrochloride 1000 MG Extended Release Oral Tablet [Jentadueto]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00597027533",
+                "00597027581",
+                "00597027588"
+            ]
+        },
+        {
+            "rxcui": "2359285",
+            "name": "24 HR empagliflozin 10 MG / linagliptin 5 MG / metformin hydrochloride 1000 MG Extended Release Oral Tablet [Trijardy]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00597038013",
+                "00597038022",
+                "00597038068"
+            ]
+        },
+        {
+            "rxcui": "2359290",
+            "name": "24 HR empagliflozin 12.5 MG / linagliptin 2.5 MG / metformin hydrochloride 1000 MG Extended Release Oral Tablet [Trijardy]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00597038577",
+                "00597038586",
+                "00597038588"
+            ]
+        },
+        {
+            "rxcui": "2359353",
+            "name": "24 HR empagliflozin 25 MG / linagliptin 5 MG / metformin hydrochloride 1000 MG Extended Release Oral Tablet [Trijardy]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00597039013",
+                "00597039031",
+                "00597039071"
+            ]
+        },
+        {
+            "rxcui": "2359358",
+            "name": "24 HR empagliflozin 5 MG / linagliptin 2.5 MG / metformin hydrochloride 1000 MG Extended Release Oral Tablet [Trijardy]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "00597039523",
+                "00597039552",
+                "00597039582"
+            ]
+        },
+        {
+            "rxcui": "1100704",
+            "name": "linagliptin 5 MG [Tradjenta]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1243022",
+            "name": "linagliptin 2.5 MG / metformin hydrochloride 1000 MG [Jentadueto]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1243029",
+            "name": "linagliptin 2.5 MG / metformin hydrochloride 500 MG [Jentadueto]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1243036",
+            "name": "linagliptin 2.5 MG / metformin hydrochloride 850 MG [Jentadueto]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1602111",
+            "name": "empagliflozin 10 MG / linagliptin 5 MG [Glyxambi]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1602119",
+            "name": "empagliflozin 25 MG / linagliptin 5 MG [Glyxambi]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1796095",
+            "name": "linagliptin 5 MG / metformin hydrochloride 1000 MG [Jentadueto]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2359281",
+            "name": "empagliflozin 10 MG / linagliptin 5 MG / metformin hydrochloride 1000 MG [Trijardy]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2359289",
+            "name": "empagliflozin 12.5 MG / linagliptin 2.5 MG / metformin hydrochloride 1000 MG [Trijardy]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2359352",
+            "name": "empagliflozin 25 MG / linagliptin 5 MG / metformin hydrochloride 1000 MG [Trijardy]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2359357",
+            "name": "empagliflozin 5 MG / linagliptin 2.5 MG / metformin hydrochloride 1000 MG [Trijardy]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1100705",
+            "name": "linagliptin Oral Tablet [Tradjenta]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1243037",
+            "name": "linagliptin / metformin Oral Tablet [Jentadueto]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1602112",
+            "name": "empagliflozin / linagliptin Oral Tablet [Glyxambi]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1796090",
+            "name": "linagliptin / metformin Extended Release Oral Tablet [Jentadueto]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2359282",
+            "name": "empagliflozin / linagliptin / metformin Extended Release Oral Tablet [Trijardy]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1179163",
+            "name": "Tradjenta Oral Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1179164",
+            "name": "Tradjenta Pill",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1243038",
+            "name": "Jentadueto Oral Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1243039",
+            "name": "Jentadueto Pill",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1602113",
+            "name": "Glyxambi Oral Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1602114",
+            "name": "Glyxambi Pill",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2359283",
+            "name": "Trijardy Oral Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2359284",
+            "name": "Trijardy Pill",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1100702",
+            "name": "linagliptin 5 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1243020",
+            "name": "linagliptin 2.5 MG / metformin hydrochloride 1000 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1243027",
+            "name": "linagliptin 2.5 MG / metformin hydrochloride 500 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1243034",
+            "name": "linagliptin 2.5 MG / metformin hydrochloride 850 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1602109",
+            "name": "empagliflozin 10 MG / linagliptin 5 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1602118",
+            "name": "empagliflozin 25 MG / linagliptin 5 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1796089",
+            "name": "24 HR linagliptin 2.5 MG / metformin hydrochloride 1000 MG Extended Release Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1796094",
+            "name": "24 HR linagliptin 5 MG / metformin hydrochloride 1000 MG Extended Release Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2359279",
+            "name": "24 HR empagliflozin 10 MG / linagliptin 5 MG / metformin hydrochloride 1000 MG Extended Release Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2359288",
+            "name": "24 HR empagliflozin 12.5 MG / linagliptin 2.5 MG / metformin hydrochloride 1000 MG Extended Release Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2359351",
+            "name": "24 HR empagliflozin 25 MG / linagliptin 5 MG / metformin hydrochloride 1000 MG Extended Release Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2359356",
+            "name": "24 HR empagliflozin 5 MG / linagliptin 2.5 MG / metformin hydrochloride 1000 MG Extended Release Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1100700",
+            "name": "linagliptin 5 MG",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1243015",
+            "name": "linagliptin 2.5 MG",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1100701",
+            "name": "linagliptin Oral Tablet",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1243018",
+            "name": "linagliptin / metformin Oral Tablet",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1602108",
+            "name": "empagliflozin / linagliptin Oral Tablet",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1796088",
+            "name": "linagliptin / metformin Extended Release Oral Tablet",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2359278",
+            "name": "empagliflozin / linagliptin / metformin Extended Release Oral Tablet",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1164670",
+            "name": "linagliptin Oral Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1164671",
+            "name": "linagliptin Pill",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1243016",
+            "name": "linagliptin / metformin Oral Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1243017",
+            "name": "linagliptin / metformin Pill",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1602106",
+            "name": "empagliflozin / linagliptin Oral Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1602107",
+            "name": "empagliflozin / linagliptin Pill",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2359276",
+            "name": "empagliflozin / linagliptin / metformin Oral Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "2359277",
+            "name": "empagliflozin / linagliptin / metformin Pill",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        }
+    ],
+    "alogliptin": [
+        {
+            "rxcui": "1368001",
+            "name": "alogliptin",
+            "tty": "IN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1368384",
+            "name": "alogliptin / metformin",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1368402",
+            "name": "alogliptin / pioglitazone",
+            "tty": "MIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1368000",
+            "name": "alogliptin benzoate",
+            "tty": "PIN",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1368012",
+            "name": "alogliptin 25 MG Oral Tablet [Nesina]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "64764025002",
+                "64764025030",
+                "64764025050",
+                "64764025090"
+            ]
+        },
+        {
+            "rxcui": "1368020",
+            "name": "alogliptin 6.25 MG Oral Tablet [Nesina]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "64764062530",
+                "64764062590"
+            ]
+        },
+        {
+            "rxcui": "1368036",
+            "name": "alogliptin 12.5 MG Oral Tablet [Nesina]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "64764012502",
+                "64764012530",
+                "64764012550",
+                "64764012590"
+            ]
+        },
+        {
+            "rxcui": "1368391",
+            "name": "alogliptin 12.5 MG / metformin hydrochloride 1000 MG Oral Tablet [Kazano]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "64764033701",
+                "64764033760",
+                "64764033777",
+                "64764033780"
+            ]
+        },
+        {
+            "rxcui": "1368398",
+            "name": "alogliptin 12.5 MG / metformin hydrochloride 500 MG Oral Tablet [Kazano]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "64764033501",
+                "64764033560",
+                "64764033577",
+                "64764033580"
+            ]
+        },
+        {
+            "rxcui": "1368409",
+            "name": "alogliptin 12.5 MG / pioglitazone 15 MG Oral Tablet [Oseni]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "64764012103"
+            ]
+        },
+        {
+            "rxcui": "1368416",
+            "name": "alogliptin 12.5 MG / pioglitazone 30 MG Oral Tablet [Oseni]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "64764012303",
+                "64764012304",
+                "64764012305"
+            ]
+        },
+        {
+            "rxcui": "1368423",
+            "name": "alogliptin 12.5 MG / pioglitazone 45 MG Oral Tablet [Oseni]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "64764012403"
+            ]
+        },
+        {
+            "rxcui": "1368430",
+            "name": "alogliptin 25 MG / pioglitazone 15 MG Oral Tablet [Oseni]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "64764025103",
+                "64764025104",
+                "64764025105"
+            ]
+        },
+        {
+            "rxcui": "1368437",
+            "name": "alogliptin 25 MG / pioglitazone 30 MG Oral Tablet [Oseni]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "64764025303",
+                "64764025304",
+                "64764025305"
+            ]
+        },
+        {
+            "rxcui": "1368444",
+            "name": "alogliptin 25 MG / pioglitazone 45 MG Oral Tablet [Oseni]",
+            "tty": "SBD",
+            "suppress": "N",
+            "ndc": [
+                "64764025403",
+                "64764025404",
+                "64764025405"
+            ]
+        },
+        {
+            "rxcui": "1368008",
+            "name": "alogliptin 25 MG [Nesina]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1368019",
+            "name": "alogliptin 6.25 MG [Nesina]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1368035",
+            "name": "alogliptin 12.5 MG [Nesina]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1368387",
+            "name": "alogliptin 12.5 MG / metformin hydrochloride 1000 MG [Kazano]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1368394",
+            "name": "alogliptin 12.5 MG / metformin hydrochloride 500 MG [Kazano]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1368405",
+            "name": "alogliptin 12.5 MG / pioglitazone 15 MG [Oseni]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1368412",
+            "name": "alogliptin 12.5 MG / pioglitazone 30 MG [Oseni]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1368419",
+            "name": "alogliptin 12.5 MG / pioglitazone 45 MG [Oseni]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1368426",
+            "name": "alogliptin 25 MG / pioglitazone 15 MG [Oseni]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1368433",
+            "name": "alogliptin 25 MG / pioglitazone 30 MG [Oseni]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1368440",
+            "name": "alogliptin 25 MG / pioglitazone 45 MG [Oseni]",
+            "tty": "SBDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1368009",
+            "name": "alogliptin Oral Tablet [Nesina]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1368395",
+            "name": "alogliptin / metformin Oral Tablet [Kazano]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1368434",
+            "name": "alogliptin / pioglitazone Oral Tablet [Oseni]",
+            "tty": "SBDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1368010",
+            "name": "Nesina Oral Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1368011",
+            "name": "Nesina Pill",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1368396",
+            "name": "Kazano Oral Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1368397",
+            "name": "Kazano Pill",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1368435",
+            "name": "Oseni Oral Product",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1368436",
+            "name": "Oseni Pill",
+            "tty": "SBDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1368006",
+            "name": "alogliptin 25 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "45802015065",
+                "50090557400",
+                "70518397600",
+                "71610030009",
+                "71610030018",
+                "71610030060"
+            ]
+        },
+        {
+            "rxcui": "1368018",
+            "name": "alogliptin 6.25 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "45802008765"
+            ]
+        },
+        {
+            "rxcui": "1368034",
+            "name": "alogliptin 12.5 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "45802010365",
+                "71610066109",
+                "71610066118"
+            ]
+        },
+        {
+            "rxcui": "1368385",
+            "name": "alogliptin 12.5 MG / metformin hydrochloride 1000 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "45802021172",
+                "50090599300"
+            ]
+        },
+        {
+            "rxcui": "1368392",
+            "name": "alogliptin 12.5 MG / metformin hydrochloride 500 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "45802016972"
+            ]
+        },
+        {
+            "rxcui": "1368403",
+            "name": "alogliptin 12.5 MG / pioglitazone 15 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "45802023865"
+            ]
+        },
+        {
+            "rxcui": "1368410",
+            "name": "alogliptin 12.5 MG / pioglitazone 30 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "45802026065"
+            ]
+        },
+        {
+            "rxcui": "1368417",
+            "name": "alogliptin 12.5 MG / pioglitazone 45 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "45802030465"
+            ]
+        },
+        {
+            "rxcui": "1368424",
+            "name": "alogliptin 25 MG / pioglitazone 15 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "45802035165"
+            ]
+        },
+        {
+            "rxcui": "1368431",
+            "name": "alogliptin 25 MG / pioglitazone 30 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "45802040265"
+            ]
+        },
+        {
+            "rxcui": "1368438",
+            "name": "alogliptin 25 MG / pioglitazone 45 MG Oral Tablet",
+            "tty": "SCD",
+            "suppress": "N",
+            "ndc": [
+                "45802049965"
+            ]
+        },
+        {
+            "rxcui": "1368002",
+            "name": "alogliptin 25 MG",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1368017",
+            "name": "alogliptin 6.25 MG",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1368033",
+            "name": "alogliptin 12.5 MG",
+            "tty": "SCDC",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1368005",
+            "name": "alogliptin Oral Tablet",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1368383",
+            "name": "alogliptin / metformin Oral Tablet",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1368401",
+            "name": "alogliptin / pioglitazone Oral Tablet",
+            "tty": "SCDF",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1368003",
+            "name": "alogliptin Oral Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1368004",
+            "name": "alogliptin Pill",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1368381",
+            "name": "alogliptin / metformin Oral Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1368382",
+            "name": "alogliptin / metformin Pill",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1368399",
+            "name": "alogliptin / pioglitazone Oral Product",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        },
+        {
+            "rxcui": "1368400",
+            "name": "alogliptin / pioglitazone Pill",
+            "tty": "SCDG",
+            "suppress": "N",
+            "ndc": []
+        }
+    ]
+}

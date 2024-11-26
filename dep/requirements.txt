@@ -1,7 +1,7 @@
 ###### Requirements with Version Specifiers ######
+numpy>2.0
 
 ###### Requirements without Version Specifiers ######
-numpy
 pandas
 openpyxl
 lxml
@@ -12,4 +12,5 @@ markdownify
 snowflake
 scikit-learn
 flatten_json
+requests
 
