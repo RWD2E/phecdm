@@ -134,7 +134,7 @@
     },
     "cocr":{
         "long":"conversion of cardiac rhythm",
-        "icd9pr":{
+        "icd9proc":{
             "lev0":[],
             "lev1":[
                 "99.6"
@@ -523,7 +523,7 @@
     },
     "hys":{
         "long":"hysterectomy",
-        "icd9pr":{
+        "icd9proc":{
             "lev0":[],
             "lev1":[
                 "68.9"
@@ -548,7 +548,7 @@
     },
     "tt":{
         "long":"temporary tracheostomy",
-        "icd9pr":{
+        "icd9proc":{
             "lev0":[],
             "lev1":[
                 "31.1"
@@ -566,7 +566,7 @@
     },
     "ven":{
         "long":"ventilation",
-        "icd9pr":{
+        "icd9proc":{
             "lev0":[],
             "lev1":[],
             "lev2":[
