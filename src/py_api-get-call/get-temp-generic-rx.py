@@ -21,5 +21,5 @@ rxnav_cls = apirxnav.RxNavSearch()
 # debug
 # gn_lst = rxnav_cls.get_rxcui_from_str('#22 syringe 1 1/2" needle')
 # gn_lst = rxnav_cls.get_rxcui_from_str('22 syringe 1 1/2" needle')
-gn_lst = rxnav_cls.get_rxcui_from_str('haloperidol decanotate 50 mg')
+gn_lst = rxnav_cls.get_rxcui_from_str('BEOVU 6 MG/0.05 ML intravitreal soln')
 print(gn_lst)
