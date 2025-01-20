@@ -1,0 +1,228 @@
+[
+    {
+        "id": "C0023890",
+        "name": "CL",
+        "description": "cirrhosis of liver, moderate or severe liver disease",
+        "topic": "diease/injury related events",
+        "purpose": "comorbidities",
+        "relatedArtifact": {
+            "class": "core",
+            "valueType": "boolean",
+            "valueRange": {
+                "0": "absence",
+                "1": "presence"
+            }
+        },
+        "compose": {
+            "include": [
+                {
+                    "system": "icd9cm",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "571.2",
+                                "571.5",
+                                "571.6",
+                                "572.2",
+                                "572.3",
+                                "572.4",
+                                "572.8"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "system": "icd10cm",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "K72",
+                                "K74",
+                                "K76.6",
+                                "K76.7"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "id": "C0019189",
+        "name": "CH",
+        "description": "chronic hepatitis, mild liver disease",
+        "topic": "diease/injury related events",
+        "purpose": "comorbidities",
+        "relatedArtifact": {
+            "class": "core",
+            "valueType": "boolean",
+            "valueRange": {
+                "0": "absence",
+                "1": "presence"
+            }
+        },
+        "compose": {
+            "include": [
+                {
+                    "system": "icd9cm",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "571.0",
+                                "571.1",
+                                "571.3",
+                                "571.4",
+                                "571.8",
+                                "571.9",
+                                "572.0",
+                                "572.1"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "system": "icd10cm",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "K70",
+                                "K71",
+                                "K73",
+                                "K75",
+                                "K76.0",
+                                "K76.1",
+                                "K76.2",
+                                "K76.3",
+                                "K76.4",
+                                "K76.5",
+                                "K76.8",
+                                "K76.9",
+                                "K77"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "id": "C0151744",
+        "name": "IHD",
+        "description": "ischemic heart disease", 
+        "topic": "diease/injury related events",
+        "purpose": "comorbidities",
+        "relatedArtifact": {
+            "class": "core",
+            "valueType": "boolean",
+            "valueRange": {
+                "0": "absence",
+                "1": "presence"
+            }
+        },
+        "compose": { 
+            "include" : [
+                { 
+                    "system": "icd9cm",
+                    "filter": [
+                        {
+                            "property":"0",
+                            "op":"descendent-of",
+                            "value": [
+                                "410",
+                                "411",
+                                "412",
+                                "413",
+                                "414"
+                            ]
+                        }
+                    ]
+                },
+                { 
+                    "system": "icd10cm",
+                    "filter": [
+                        {
+                            "property":"0",
+                            "op":"descendent-of",
+                            "value": [
+                                "I25"
+                            ]
+                        },
+                        {
+                            "property":"0",
+                            "op":"descendent-of",
+                            "value": [
+                                "I25"
+                            ]
+                        },
+                        {
+                            "property":"1",
+                            "op":"descendent-of",
+                            "value": [
+                                "I24.8",
+                                "I24.9"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "id": "C0020542",
+        "name": "PHT",
+        "description": "hypertension", 
+        "topic": "diease/injury related events",
+        "purpose": "comorbidities",
+        "relatedArtifact": {
+            "class": "core",
+            "valueType": "boolean",
+            "valueRange": {
+                "0": "absence",
+                "1": "presence"
+            }
+        },
+        "compose": { 
+            "include" : [
+                { 
+                    "system": "icd9cm",
+                    "filter": [
+                        {
+                            "property":"codePrecision",
+                            "op":"descendent-of",
+                            "value": [
+                                "401",
+                                "402",
+                                "403",
+                                "404",
+                                "405",
+                                "642",
+                                "997.91"
+                            ]
+                        }
+                    ]
+                },
+                { 
+                    "system": "icd10cm",
+                    "filter": [
+                        {
+                            "property":"codePrecision",
+                            "op":"descendent-of",
+                            "value": [
+                                "I10",
+                                "I15"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }      
+]

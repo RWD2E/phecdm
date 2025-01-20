@@ -1,0 +1,450 @@
+[
+    {
+        "id": "M10001",
+        "name": "vaginalDelivery",
+        "description": "vaginal delivery with or without complications",
+        "topic": "treatment/intervention",
+        "purpose": "precedures",
+        "relatedArtifact": {
+            "class": "core",
+            "valueType": "boolean",
+            "valueRange": {
+                "0": "absence",
+                "1": "presence"
+            }
+        },
+        "compose": {
+            "include": [
+                {
+                    "system": "icd9cm",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "669.70"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "system": "icd10cm",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "O80",
+                                "Z38.00",
+                                "Z38.68",
+                                "Z38.65",
+                                "Z38.63",
+                                "Z38.61",
+                                "Z38.30"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "system": "drg",
+                    "filter": [
+                        {
+                            "property": "codeRange",
+                            "op": "in",
+                            "value": [
+                                "767-768",
+                                "774-775",
+                                "796-798",
+                                "805-807"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "system": "cpt4",
+                    "filter": [
+                        {
+                            "property": "codeRange",
+                            "op": "in",
+                            "value": [
+                                "59400-59430"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "system": "icd9proc",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "72",
+                                "73.2",
+                                "73.6",
+                                "73.5"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "system": "icd10pcs",
+                    "filter": [
+                        {
+                            "property": "codeList",
+                            "op": "in",
+                            "value": [
+                                "10D07Z3",
+                                "10D07Z4",
+                                "10D07Z5",
+                                "10D07Z5",
+                                "10D07Z6",
+                                "10D07Z7",
+                                "10D07Z8",
+                                "10E0XZZ",
+                                "0W8NXZZ"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "id": "M10002",
+        "name": "cSection",
+        "description": "Cesarean section with or without complications",
+        "topic": "treatment/intervention",
+        "purpose": "precedures",
+        "relatedArtifact": {
+            "class": "core",
+            "valueType": "boolean",
+            "valueRange": {
+                "0": "absence",
+                "1": "presence"
+            }
+        },
+        "compose": {
+            "include": [
+                {
+                    "system": "icd9cm",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "650",
+                                "669.71"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "system": "icd10cm",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "O82",
+                                "O75.82",
+                                "Z38.01",
+                                "Z38.31",
+                                "Z38.62",
+                                "Z38.64",
+                                "Z38.66"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "system": "drg",
+                    "filter": [
+                        {
+                            "property": "codeRange",
+                            "op": "in",
+                            "value": [
+                                "783-788",
+                                "765-766"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "system": "cpt4",
+                    "filter": [
+                        {
+                            "property": "codeRange",
+                            "op": "in",
+                            "value": [
+                                "59510-59525"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "system": "icd9proc",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "74"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "system": "icd10pcs",
+                    "filter": [
+                        {
+                            "property": "codeList",
+                            "op": "in",
+                            "value": [
+                                "10D00Z0",
+                                "10D00Z1",
+                                "10D00Z2"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "id": "M10003",
+        "name": "liveBirth",
+        "description": "short form code for live birth",
+        "topic": "treatment/intervention",
+        "purpose": "precedures",
+        "relatedArtifact": {
+            "class": "core",
+            "valueType": "boolean",
+            "valueRange": {
+                "0": "absence",
+                "1": "presence"
+            }
+        },
+        "compose": {
+            "include": [
+                {
+                    "system": "icd9cm",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "V27"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "system": "icd10cm",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "Z37"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "id": "M10004",
+        "name": "abnormalDelivery",
+        "description": "exclusion codes for abnormal deliveries (e.g. abortion, ectopic)",
+        "topic": "treatment/intervention",
+        "purpose": "precedures",
+        "relatedArtifact": {
+            "class": "core",
+            "valueType": "boolean",
+            "valueRange": {
+                "0": "absence",
+                "1": "presence"
+            }
+        },
+        "compose": {
+            "include": [
+                {
+                    "system": "icd9cm",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "630",
+                                "631",
+                                "632",
+                                "633",
+                                "634",
+                                "635",
+                                "636",
+                                "637",
+                                "638",
+                                "639"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "system": "icd9proc",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "75.0",
+                                "69.01",
+                                "69.51",
+                                "74.91"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "system": "icd10cm",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "O01",
+                                "O02",
+                                "O03",
+                                "O04",
+                                "O05",
+                                "O06",
+                                "O07",
+                                "O08"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "system": "icd10pcs",
+                    "filter": [
+                        {
+                            "property": "codeList",
+                            "op": "in",
+                            "value": [
+                                "10A00ZZ",
+                                "10A03ZZ",
+                                "10A04ZZ",
+                                "10A07Z6",
+                                "10A07ZW",
+                                "10A07ZX",
+                                "10A07ZZ",
+                                "10A08ZZ"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "system": "cpt4",
+                    "filter": [
+                        {
+                            "property": "codeRange",
+                            "op": "in",
+                            "value": [
+                                "59866-59899"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "id": "M10005",
+        "name": "ami",
+        "description": "acute myocardial infarction",
+        "topic": "outcomes and endpoints",
+        "purpose": "severe maternal morbidity",
+        "relatedArtifact": {
+            "class": "core",
+            "valueType": "boolean",
+            "valueRange": {
+                "0": "absence",
+                "1": "presence"
+            }
+        },
+        "compose": {
+            "include": [
+                {
+                    "system": "icd9cm",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "410"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "system": "icd10cm",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "I21",
+                                "I22"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "id": "M10006",
+        "name": "ane",
+        "description": "aneurysm",
+        "topic": "outcomes and endpoints",
+        "purpose": "severe maternal morbidity",
+        "relatedArtifact": {
+            "class": "core",
+            "valueType": "boolean",
+            "valueRange": {
+                "0": "absence",
+                "1": "presence"
+            }
+        },
+        "compose": {
+            "include": [
+                {
+                    "system": "icd9cm",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "441"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "system": "icd10cm",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "I71",
+                                "I79.0"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+]

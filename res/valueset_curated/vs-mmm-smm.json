@@ -1,41 +1,4 @@
 {
-    "ami":{
-        "long":"acute myocardial infarction",
-        "icd9cm":{
-            "lev0":[
-                "410"
-            ],
-            "lev1":[],
-            "lev2":[]
-        },
-        "icd10cm":{
-            "lev0":[
-                "I21",
-                "I22"
-            ],
-            "lev1":[],
-            "lev2":[]
-        }
-    },
-    "ane":{
-        "long":"aneurysm",
-        "icd9cm":{
-            "lev0":[
-                "441"
-            ],
-            "lev1":[],
-            "lev2":[]
-        },
-        "icd10cm":{
-            "lev0":[
-                "I71"
-            ],
-            "lev1":[
-                "I79.0"
-            ],
-            "lev2":[]
-        }
-    },
     "arf":{
         "long":"acute renal failure",
         "icd9cm":{

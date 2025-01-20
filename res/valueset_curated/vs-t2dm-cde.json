@@ -1,0 +1,50 @@
+[
+    {
+        "id": "DM10001",
+        "name": "dxT2DM",
+        "description": "diagnosis code of type-2 diabete mellitus", 
+        "topic": "diease/injury related events",
+        "purpose": "diagnoses",
+        "relatedArtifact": {
+            "class": "core",
+            "valueType": "boolean",
+            "valueRange": {
+                "0": "absence",
+                "1": "presence"
+            }
+        },
+        "compose": { 
+            "include" : [
+                { 
+                    "system": "icd9cm",
+                    "filter": [
+                        {
+                            "property":"codePrecision",
+                            "op":"descendent-of",
+                            "value": [
+                                "250"
+                            ]
+                        }
+                    ]
+                },
+                { 
+                    "system": "icd10cm",
+                    "filter": [
+                        {
+                            "property":"codePrecision",
+                            "op":"descendent-of",
+                            "value": [
+                                "E08",
+                                "E09",
+                                "E10",
+                                "E11",
+                                "E12",
+                                "E13"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+]

@@ -1,9 +1,9 @@
 pip cache purge
-pip install --user -r C:/repos/phecdm/dep/requirements.txt
+pip install -r C:/repos/phecdm/dep/requirements.txt
 
 
 # # Define the directory you want to add to the PATH
-# $directoryToAdd = "C:\Users\xsm7f\AppData\Roaming\Python\Python313"
+# $directoryToAdd = "C:\Users\xsm7f\AppData\Local\Programs\Python"
 
 # # Get the current PATH environment variable
 # $currentPath = [Environment]::GetEnvironmentVariable("Path", [EnvironmentVariableTarget]::Machine)
