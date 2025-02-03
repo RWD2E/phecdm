@@ -339,6 +339,7 @@ class QueryFromJson:
         for x in json_file:   
             for y in x["compose"]["include"]:
                 # code type 
+                print(y["system"])
                 qry = self.cdtype_field + "='" + cdtype_map[y["system"]] + "'"
 
                 # codes
