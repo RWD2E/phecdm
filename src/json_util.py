@@ -366,7 +366,7 @@ class QueryFromJson:
                 else:
                     cdref39 = (cdref.get("3") or []) + (cdref.get("9") or [])
                     qryxy_orlst.append('''
-                        (''' + self.cd_field + ''' in ('''+ ','.join(self.add_quote(cdref39)) +'''))
+                        ''' + self.cd_field + ''' in ('''+ ','.join(self.add_quote(cdref39)) +''')
                     ''')
                 
                 qryx_orlst.append(qry + ''' and (''' + ' or '.join(qryxy_orlst) + ''')''')
