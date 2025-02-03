@@ -2,17 +2,14 @@ import os
 import sys
 from json_util import QueryFromJson
 
-# vs_obcmi = QueryFromJson(
-#     url = 'https://raw.githubusercontent.com/RWD2E/phecdm/refs/heads/main/res/valueset_curated/vs-comorb-OBCMI.json',
-#     cd_field = 'DX',
-#     cdtype_field = 'DX_TYPE'
-# )
-# print(vs_obcmi.gen_qry())
+# I
 
 vs_delivery = QueryFromJson(
     url = 'https://raw.githubusercontent.com/RWD2E/phecdm/refs/heads/main/res/valueset_curated/vs-mmm-cde.json',
     cd_field = 'CONCEPT_CODE',
-    cdtype_field = 'VOCABULARY_ID'
+    cdtype_field = 'VOCABULARY_ID',
+    srctbl_name = "CONCEPT",
+    other_fields=["concept_id","concept_name","domain_id"]
 )
 print(vs_delivery.gen_qry())
 

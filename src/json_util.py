@@ -271,11 +271,15 @@ class QueryFromJson:
         self,
         url, #url to json file
         cd_field, #code field
-        cdtype_field #code type field
+        cdtype_field, #code type field
+        other_fields, #list of other fields needed to be retained
+        srctbl_name #source table name
     ):
         self.url = url
         self.cd_field= cd_field
         self.cdtype_field = cdtype_field
+        self.other_fields = other_fields
+        self.srctbl_name = srctbl_name
 
     @staticmethod
     def gen_cdtype_encoder():
@@ -326,7 +330,7 @@ class QueryFromJson:
         lst_quote = ["'"+str(x)+"'" for x in lst]
         return (lst_quote)
     
-    def gen_qry(self):     
+    def gen_qry_ref(self):     
         # load json valueset file
         json_url = urlreq.urlopen(self.url)
         json_file = json.loads(json_url.read())
@@ -334,12 +338,11 @@ class QueryFromJson:
         # load cdtype mapping
         cdtype_map = self.gen_cdtype_encoder()
 
-        # generate dynamic where clause
+        # generate reference dictionary for where clause
         qry_out = {}
         for x in json_file:   
             for y in x["compose"]["include"]:
                 # code type 
-                print(y["system"])
                 qry = self.cdtype_field + "='" + cdtype_map[y["system"]] + "'"
 
                 # codes
@@ -367,5 +370,18 @@ class QueryFromJson:
                 qry_out[x["name"]] = qry + ''' and (''' + ' or '.join(orlst) + ''')'''
 
         return qry_out 
-
+    
+    def gen_qry(self):
+        selqry_lst = []
+        qry_dict = self.gen_qry_ref()
+        for k,v in qry_dict.items():
+            all_fields = self.other_fields + [self.cd_field,self.cdtype_field]
+            selqry_lst.append('''
+                select ''' + ','.join(all_fields) + 
+                       " ,'"+ k +"' as CD_GRP" '''
+                from '''+ self.srctbl_name +'''
+                where '''+ v +'''
+            ''')
+        complt_qry = ' union all '.join(selqry_lst)
+        return(complt_qry)
 
