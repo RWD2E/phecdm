@@ -386,7 +386,7 @@ class QueryFromJson:
                     select ''' + ','.join(all_fields) + 
                         " ,'"+ k +"' as CD_GRP" '''
                     from '''+ self.srctbl_name +'''
-                    where '''+ v +'''
+                    where ('''+ v +''')
                 ''')
         complt_qry = ' union all '.join(selqry_lst)
         return(complt_qry)
