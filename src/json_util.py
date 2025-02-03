@@ -4,6 +4,34 @@ import urllib.request as urlreq
 import os
 import re
 
+def split_part_multisql(
+    which_sql, #["snow","postgres","spark","mysql","sqlserver","oracle"]
+    string,
+    delimiter,
+    index
+):
+    sqlqry = ''
+    if which_sql in ('snow','postgres'):
+        sqlqry += '''
+            split_part('''+ string +''','''+ "'"+ delimiter +"'"+''','''+ str(index) +''')
+        '''
+    elif which_sql in ('spark','mysql'):
+        sqlqry += '''
+            substring_index('''+ string +''','''+ "'"+ delimiter +"'"+''','''+ str(index) +''')
+        '''
+    elif which_sql == 'sqlserver':
+        sqlqry += '''
+            string_split('''+ string +''','''+ "'"+ delimiter +"'" +''','''+ str(index) +''')
+        '''
+    elif which_sql == 'sqlserver':
+        sqlqry += '''
+            regexp_substr('''+ string +''', [^'''+ "'"+ delimiter +"'" +''']+,1,'''+ str(index) +''')
+        '''
+    else:
+        Warning("The SQL version is not supported!")
+
+    return sqlqry
+
 class JsonBlockVS:
     TOPIC_ENCODER = {
         "1": "participant characteristics",
@@ -236,7 +264,6 @@ class JsonBlockVS:
             return "The new json data block is rejected"
 
 
-
 def json2ref(
     json_url, #url to valueset json file (rawcontent)
     save_csv_to #location to save the csv file
@@ -265,11 +292,11 @@ def json2ref(
     expanded_df.to_csv(save_csv_to,index=False)
     return('new valueset saved as ref csv')
 
-
 class QueryFromJson:
     def __init__(
         self,
         url, #url to json file
+        sqlty, #which type of sql ["snow","postgres","spark","mysql","sqlserver","oracle"]
         cd_field, #code field
         cdtype_field, #code type field
         other_fields, #list of other fields needed to be retained
@@ -277,6 +304,7 @@ class QueryFromJson:
         sel_keys = list() #list of selected keys to be queried, can be empty
     ):
         self.url = url
+        self.sqlty = sqlty
         self.cd_field= cd_field
         self.cdtype_field = cdtype_field
         self.other_fields = other_fields
@@ -331,7 +359,7 @@ class QueryFromJson:
     def add_quote(lst):
         lst_quote = ["'"+str(x)+"'" for x in lst]
         return (lst_quote)
-    
+        
     def gen_qry_ref(self):     
         # load json valueset file
         json_url = urlreq.urlopen(self.url)
@@ -352,8 +380,8 @@ class QueryFromJson:
                 qryxy_orlst = []
                 cdref = self.parse_filter(y["filter"])
                 if '0' in cdref:
-                    qryxy_orlst.append('''
-                        split_part('''+ self.cd_field +''','.',1) in ('''+ ','.join(self.add_quote(cdref["0"])) +''')
+                    qryxy_orlst.append(
+                        split_part_multisql(self.sqlty,self.cd_field,'.',1) + ''' in ('''+ ','.join(self.add_quote(cdref["0"])) +''')
                     ''')
                 elif '1' in cdref:
                     qryxy_orlst.append('''

@@ -1,11 +1,19 @@
 import os
 import sys
-from json_util import QueryFromJson
+from json_util import QueryFromJson, split_part_multisql
 
-# I
+# print(
+#     split_part(
+#     'spark',
+#     '123.12',
+#     '.',
+#     1
+# )
+# )
 
 vs_delivery = QueryFromJson(
     url = 'https://raw.githubusercontent.com/RWD2E/phecdm/refs/heads/main/res/valueset_curated/vs-mmm-cde.json',
+    sqlty = 'spark',
     cd_field = 'CONCEPT_CODE',
     cdtype_field = 'VOCABULARY_ID',
     srctbl_name = "CONCEPT",
