@@ -1,8 +1,8 @@
 [
     {
-        "id": "DM10001",
-        "name": "dxT2DM",
-        "description": "diagnosis code of type-2 diabete mellitus", 
+        "id": "C0011860",
+        "name": "T2DM",
+        "description": "Type 2 diabetes mellitus", 
         "topic": "diease/injury related events",
         "purpose": "diagnoses",
         "relatedArtifact": {

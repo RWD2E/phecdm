@@ -270,81 +270,150 @@ class JsonBlockVS:
 # print(comorb_vs.generate_new_id())
 # print(comorb_vs.add_json_block())
 
+fp = os.path.join(
+    os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+    'res','valueset_curated',"vs-t2dm-cde.json"
+)
+comorb_vs = JsonBlockVS(filepath = fp,idstarter='SDM',idlength=8)
+print(comorb_vs.add_json_block())
+
+
 def json2ref(
-    json_url, #url to valueset json file
-    csv_file #location to save the csv file
+    json_url, #url to valueset json file (rawcontent)
+    save_csv_to #location to save the csv file
 ):
     # load json file
     json_url = urlreq.urlopen(json_url)
     json_file = json.loads(json_url.read())
-
+    
     # collect selected keys
     csv_lst = []
     for item in json_file:
-        csv_lst.append({
-            "id":item["id"],
-            "name":item["name"],
-            "description":item["description"],
-            "codesystem":[x["system"] for x in item["compose"]["include"]],
-            "code":[x["value"] for x in item["compose"]["include"]]
+        for chunk in item["compose"]["include"]:
+            csv_lst.append({
+                'id':item["id"],
+                'name':item["name"],
+                'description':item["description"],
+                'codesystem':chunk["system"],
+                'code':sum([x["value"] for x in chunk["filter"]], [])
         })
-
-    # create DF from json data
+        
+    # create DF from json data and expand
     df = pd.DataFrame(csv_lst)
+    expanded_df = df.explode('code')
 
-    # save
-    return(csv_lst)
+    # save to csv
+    expanded_df.to_csv(save_csv_to,index=False)
+    return('new valueset saved as ref csv')
 
-json2ref
+# json2ref(
+#     json_url = 'https://raw.githubusercontent.com/RWD2E/phecdm/refs/heads/main/res/valueset_curated/vs-comorb-OBCMI.json',
+#     save_csv_to = 'C:/repos/phecdm/ref/OBCMI_ICD.csv'
+# )
 
-# def json2qry(
-#     url #url to json file
-# ):
-#     json_url = urlreq.urlopen(url)
-#     json_file = json.loads(json_url.read())
-#     qry_lst = []
-#     def add_quote(lst):
-#         lst_quote = ["'"+str(x)+"'" for x in lst]
-#         return (lst_quote)
-#     for k,v in json_file.items():
-#         for cd,sig in v.items():
-#             if cd=='long': continue
-#             # entail the range
-#             if 'range' in sig:
-#                 for x in sig['range']:
-#                     key_quote = [str(y) for y in list(range(int(x.split('-')[0]),int(x.split('-')[1])+1))]
-#                     sig['exact'].extend(key_quote)
+class QueryFromJson:
+    def __init__(
+        self,
+        url, #url to json file
+        cd_field, #code field
+        cdtype_field #code type field
+    ):
+        self.url = url
+        self.cd_field= cd_field
+        self.cdtype_field = cdtype_field
 
-#             # generate dynamic queries
-#             qry = '''
-#                 select ''' + "'" + k + "'" + ''' as CD_GRP, 
-#                        ''' + "'" + v['long'] + "'" + ''' as CD_GRP_LONG,
-#                        concept_id,concept_name,concept_code,vocabulary_id,domain_id
-#                 from concept
-#                 where vocabulary_id = '''+ "'" + cd.upper() + "'" +''' and
-#             '''
-#             if 'icd' in cd and 'pcs' not in cd:
-#                 where_lev0 = '''substring_index(concept_code,'.',1) in ('''+ ','.join(add_quote(sig['0'])) +''')''' if sig['lev0'] else None
-#                 where_lev1 = '''substring(concept_code,1,5) in ('''+ ','.join(add_quote(sig['1'])) +''')''' if sig['lev1'] else None
-#                 where_lev2 = '''substring(concept_code,1,6) in ('''+ ','.join(add_quote(sig['2'])) +''')''' if sig['lev2'] else None
-#                 where_nonempty = [s for s in [where_lev0,where_lev1,where_lev2] if s is not None]
+    @staticmethod
+    def gen_cdtype_encoder():
+        cdtype_encoder = {
+            "icd9cm":input("Enter Code Type Value for icd9cm: "),
+            "icd10cm":input("Enter Code Type Value for icd10cm: "),
+            "icd9proc": input("Enter Code Type Value for icd9proc: ")
+        }
+        return(cdtype_encoder)
+    
+    @staticmethod
+    def parse_filter(lst):
+        cddict = {}
+        for item in lst:
+            if item["property"]=="codePrecision" and item["op"]=="descendent-of":
+                decimal = [len(x.split('.')[1]) if '.' in x else 0 for x in item["value"]]
+                try: cddict["0"] = [item["value"][index] for index, current_value in enumerate(decimal) if current_value == 0]
+                except ValueError: return None
+                try: cddict["1"] = [item["value"][index] for index, current_value in enumerate(decimal) if current_value == 1]
+                except ValueError: return None
+                try: cddict["2"] = [item["value"][index] for index, current_value in enumerate(decimal) if current_value == 2]
+                except ValueError: return None
+                try: cddict["3"] = [item["value"][index] for index, current_value in enumerate(decimal) if current_value == 3]
+                except ValueError: return None
 
-#                 qry += '''
-#                 (
-#                      ''' + ' or '.join(where_nonempty) + '''  
-#                 )         
-#                 '''
-#             else:
-#                 qry += '''
-#                 (
-#                      concept_code in ('''+ ','.join(add_quote(sig['exact'])) +''')
-#                 )         
-#                 '''
-#             qry_lst.append(qry)
-            
-#     return qry_lst
+            elif item["property"]=="codeRange" and item["op"]=="in":
+                cddict["9"] = []
+                for x in item["value"]:
+                    key_quote = [str(y) for y in list(range(int(x.split('-')[0]),int(x.split('-')[1])+1))]
+                    cddict["9"].extend(key_quote)
 
+            elif item["property"]=="codeList" and item["op"]=="in":
+                cddict["9"] = item["value"]
 
+            else:
+                print("filter propery or op not defined in the valuset json file.")
+                pass
+        
+        cddict = {k: v for k, v in cddict.items() if v}
+        return(cddict)
 
+    @staticmethod
+    def add_quote(lst):
+        lst_quote = ["'"+str(x)+"'" for x in lst]
+        return (lst_quote)
+    
+    def gen_qry(self):     
+        # load json valueset file
+        json_url = urlreq.urlopen(self.url)
+        json_file = json.loads(json_url.read())
 
+        # load cdtype mapping
+        cdtype_map = self.gen_cdtype_encoder()
+
+        # generate dynamic where clause
+        qry_out = {}
+        for x in json_file:   
+            for y in x["compose"]["include"]:
+                # code type 
+                qry = self.cdtype_field + "='" + cdtype_map[y["system"]] + "'"
+
+                # codes
+                orlst = []
+                cdref = self.parse_filter(y["filter"])
+                print(cdref)
+                if '0' in cdref:
+                    orlst.append('''
+                        split_part('''+ self.cd_field +''','.',1) in ('''+ ','.join(self.add_quote(cdref["0"])) +''')
+                    ''')
+                elif '1' in cdref:
+                    orlst.append('''
+                        substring('''+ self.cd_field +''',1,5) in ('''+ ','.join(self.add_quote(cdref["1"])) +''')
+                    ''')
+                elif '2' in cdref:
+                    orlst.append('''
+                        substring('''+ self.cd_field +''',1,6) in ('''+ ','.join(self.add_quote(cdref["2"])) +''')
+                    ''')
+                else:
+                    cdref39 = (cdref.get("3") or []) + (cdref.get("9") or [])
+                    orlst.append('''
+                        (''' + self.cd_field + ''' in ('''+ ','.join(self.add_quote(cdref39)) +''')
+                    ''')
+                
+                # add query entry to dict
+                qry_out[x["name"]] = qry + ''' and (''' + ' or '.join(orlst) + ''')'''
+
+        return qry_out 
+
+# vs_obcmi = QueryFromJson(
+#     url = 'https://raw.githubusercontent.com/RWD2E/phecdm/refs/heads/main/res/valueset_curated/vs-comorb-OBCMI.json',
+#     cd_field = 'DX',
+#     cdtype_field = 'DX_TYPE'
+# )
+# vs_obcmi.gen_cdtype_encoder()
+# print(vs_obcmi.gen_qry())
 
