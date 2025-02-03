@@ -282,7 +282,10 @@ class QueryFromJson:
         cdtype_encoder = {
             "icd9cm":input("Enter Code Type Value for icd9cm: "),
             "icd10cm":input("Enter Code Type Value for icd10cm: "),
-            "icd9proc": input("Enter Code Type Value for icd9proc: ")
+            "icd9proc": input("Enter Code Type Value for icd9proc: "),
+            "icd10pcs": input("Enter Code Type Value for icd10pcs: "),
+            "cpt": input("Enter Code Type Value for cpt: "),
+            "hpc": input("Enter Code Type Value for hpc: ")
         }
         return(cdtype_encoder)
     
