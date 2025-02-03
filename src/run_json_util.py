@@ -1,3 +1,14 @@
+import os
+import sys
+from json_util import QueryFromJson
+
+vs_obcmi = QueryFromJson(
+    url = 'https://raw.githubusercontent.com/RWD2E/phecdm/refs/heads/main/res/valueset_curated/vs-comorb-OBCMI.json',
+    cd_field = 'DX',
+    cdtype_field = 'DX_TYPE'
+)
+print(vs_obcmi.gen_qry())
+
 # fp = os.path.join(
 #     os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
 #     'res','valueset_curated',"vs-als-cde.json"
@@ -45,11 +56,3 @@
 #     json_url = 'https://raw.githubusercontent.com/RWD2E/phecdm/refs/heads/main/res/valueset_curated/vs-comorb-OBCMI.json',
 #     save_csv_to = 'C:/repos/phecdm/ref/OBCMI_ICD.csv'
 # )
-
-# vs_obcmi = QueryFromJson(
-#     url = 'https://raw.githubusercontent.com/RWD2E/phecdm/refs/heads/main/res/valueset_curated/vs-comorb-OBCMI.json',
-#     cd_field = 'DX',
-#     cdtype_field = 'DX_TYPE'
-# )
-# vs_obcmi.gen_cdtype_encoder()
-# print(vs_obcmi.gen_qry())

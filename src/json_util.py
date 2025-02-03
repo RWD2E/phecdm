@@ -285,7 +285,8 @@ class QueryFromJson:
             "icd9proc": input("Enter Code Type Value for icd9proc: "),
             "icd10pcs": input("Enter Code Type Value for icd10pcs: "),
             "cpt": input("Enter Code Type Value for cpt: "),
-            "hpc": input("Enter Code Type Value for hpc: ")
+            "hpc": input("Enter Code Type Value for hpc: "),
+            "drg": input("Enter Code Type Value for drg: "),
         }
         return(cdtype_encoder)
     
@@ -343,7 +344,6 @@ class QueryFromJson:
                 # codes
                 orlst = []
                 cdref = self.parse_filter(y["filter"])
-                print(cdref)
                 if '0' in cdref:
                     orlst.append('''
                         split_part('''+ self.cd_field +''','.',1) in ('''+ ','.join(self.add_quote(cdref["0"])) +''')
