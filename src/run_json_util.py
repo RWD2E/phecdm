@@ -9,8 +9,11 @@ vs_delivery = QueryFromJson(
     cd_field = 'CONCEPT_CODE',
     cdtype_field = 'VOCABULARY_ID',
     srctbl_name = "CONCEPT",
-    other_fields=["concept_id","concept_name","domain_id"]
+    other_fields=["concept_id","concept_name","domain_id"],
+    sel_keys = ['vaginalDelivery','cSection']
 )
+
+# print(vs_delivery.gen_qry_ref())
 print(vs_delivery.gen_qry())
 
 # fp = os.path.join(

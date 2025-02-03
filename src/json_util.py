@@ -273,13 +273,15 @@ class QueryFromJson:
         cd_field, #code field
         cdtype_field, #code type field
         other_fields, #list of other fields needed to be retained
-        srctbl_name #source table name
+        srctbl_name, #source table name
+        sel_keys = list() #list of selected keys to be queried, can be empty
     ):
         self.url = url
         self.cd_field= cd_field
         self.cdtype_field = cdtype_field
         self.other_fields = other_fields
         self.srctbl_name = srctbl_name
+        self.sel_keys = sel_keys
 
     @staticmethod
     def gen_cdtype_encoder():
@@ -340,34 +342,37 @@ class QueryFromJson:
 
         # generate reference dictionary for where clause
         qry_out = {}
-        for x in json_file:   
+        for x in json_file:  
+            qryx_orlst = []
             for y in x["compose"]["include"]:
                 # code type 
                 qry = self.cdtype_field + "='" + cdtype_map[y["system"]] + "'"
 
                 # codes
-                orlst = []
+                qryxy_orlst = []
                 cdref = self.parse_filter(y["filter"])
                 if '0' in cdref:
-                    orlst.append('''
+                    qryxy_orlst.append('''
                         split_part('''+ self.cd_field +''','.',1) in ('''+ ','.join(self.add_quote(cdref["0"])) +''')
                     ''')
                 elif '1' in cdref:
-                    orlst.append('''
+                    qryxy_orlst.append('''
                         substring('''+ self.cd_field +''',1,5) in ('''+ ','.join(self.add_quote(cdref["1"])) +''')
                     ''')
                 elif '2' in cdref:
-                    orlst.append('''
+                    qryxy_orlst.append('''
                         substring('''+ self.cd_field +''',1,6) in ('''+ ','.join(self.add_quote(cdref["2"])) +''')
                     ''')
                 else:
                     cdref39 = (cdref.get("3") or []) + (cdref.get("9") or [])
-                    orlst.append('''
+                    qryxy_orlst.append('''
                         (''' + self.cd_field + ''' in ('''+ ','.join(self.add_quote(cdref39)) +''')
                     ''')
                 
-                # add query entry to dict
-                qry_out[x["name"]] = qry + ''' and (''' + ' or '.join(orlst) + ''')'''
+                qryx_orlst.append(qry + ''' and (''' + ' or '.join(qryxy_orlst) + ''')''')
+
+            # add query entry to dict
+            qry_out[x["name"]] = ') OR ('.join(qryx_orlst)
 
         return qry_out 
     
@@ -375,13 +380,14 @@ class QueryFromJson:
         selqry_lst = []
         qry_dict = self.gen_qry_ref()
         for k,v in qry_dict.items():
-            all_fields = self.other_fields + [self.cd_field,self.cdtype_field]
-            selqry_lst.append('''
-                select ''' + ','.join(all_fields) + 
-                       " ,'"+ k +"' as CD_GRP" '''
-                from '''+ self.srctbl_name +'''
-                where '''+ v +'''
-            ''')
+            if len(self.sel_keys) == 0 or k in self.sel_keys:
+                all_fields = self.other_fields + [self.cd_field,self.cdtype_field]
+                selqry_lst.append('''
+                    select ''' + ','.join(all_fields) + 
+                        " ,'"+ k +"' as CD_GRP" '''
+                    from '''+ self.srctbl_name +'''
+                    where '''+ v +'''
+                ''')
         complt_qry = ' union all '.join(selqry_lst)
         return(complt_qry)
 
