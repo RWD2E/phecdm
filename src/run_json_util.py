@@ -30,7 +30,7 @@ vs_smm = QueryFromJson(
     other_fields=["concept_id","concept_name","domain_id"],
     sel_keys = ['bpt','hys']
 )
-print(vs_smm.gen_qry_ref())
+# print(vs_smm.gen_qry_ref())
 print(vs_smm.gen_qry())
 
 # vs_delivery = QueryFromJson(
