@@ -1,6 +1,6 @@
 import os
 import sys
-from json_util import QueryFromJson, split_part_multisql
+from json_util import QueryFromJson, JsonBlockVS, split_part_multisql
 
 # print(
 #     split_part(
@@ -11,18 +11,40 @@ from json_util import QueryFromJson, split_part_multisql
 # )
 # )
 
-vs_delivery = QueryFromJson(
+# vs_als = QueryFromJson(
+#     url = 'https://raw.githubusercontent.com/RWD2E/phecdm/refs/heads/main/res/valueset_curated/vs-als-cde.json',
+#     sqlty = 'spark',
+#     cd_field = 'CONCEPT_CODE',
+#     cdtype_field = 'VOCABULARY_ID',
+#     srctbl_name = "CONCEPT",
+#     other_fields=["concept_id","concept_name","domain_id"]
+# )
+# print(vs_als.gen_qry())
+
+vs_smm = QueryFromJson(
     url = 'https://raw.githubusercontent.com/RWD2E/phecdm/refs/heads/main/res/valueset_curated/vs-mmm-cde.json',
     sqlty = 'spark',
     cd_field = 'CONCEPT_CODE',
     cdtype_field = 'VOCABULARY_ID',
     srctbl_name = "CONCEPT",
     other_fields=["concept_id","concept_name","domain_id"],
-    sel_keys = ['vaginalDelivery','cSection']
+    sel_keys = ['bpt','hys']
 )
+print(vs_smm.gen_qry_ref())
+print(vs_smm.gen_qry())
+
+# vs_delivery = QueryFromJson(
+#     url = 'https://raw.githubusercontent.com/RWD2E/phecdm/refs/heads/main/res/valueset_curated/vs-mmm-cde.json',
+#     sqlty = 'spark',
+#     cd_field = 'CONCEPT_CODE',
+#     cdtype_field = 'VOCABULARY_ID',
+#     srctbl_name = "CONCEPT",
+#     other_fields=["concept_id","concept_name","domain_id"],
+#     sel_keys = ['vaginalDelivery','cSection']
+# )
 
 # print(vs_delivery.gen_qry_ref())
-print(vs_delivery.gen_qry())
+# print(vs_delivery.gen_qry())
 
 # fp = os.path.join(
 #     os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
@@ -39,7 +61,7 @@ print(vs_delivery.gen_qry())
 #     os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
 #     'res','valueset_curated',"vs-mmm-cde.json"
 # )
-# mmm_vs = JsonBlockVS(filepath = fp,idstarter='M')
+# mmm_vs = JsonBlockVS(filepath = fp,idstarter='M',idlength=6)
 # print(mmm_vs.add_json_block())
 
 # fp = os.path.join(

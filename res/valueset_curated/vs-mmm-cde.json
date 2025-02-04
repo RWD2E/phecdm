@@ -1,6 +1,6 @@
 [
     {
-        "id": "M10001",
+        "id": "M010001",
         "name": "vaginalDelivery",
         "description": "vaginal delivery with or without complications",
         "topic": "treatment/intervention",
@@ -111,7 +111,7 @@
         }
     },
     {
-        "id": "M10002",
+        "id": "M010002",
         "name": "cSection",
         "description": "Cesarean section with or without complications",
         "topic": "treatment/intervention",
@@ -212,7 +212,7 @@
         }
     },
     {
-        "id": "M10003",
+        "id": "M010003",
         "name": "liveBirth",
         "description": "short form code for live birth",
         "topic": "treatment/intervention",
@@ -255,7 +255,7 @@
         }
     },
     {
-        "id": "M10004",
+        "id": "M010004",
         "name": "abnormalDelivery",
         "description": "exclusion codes for abnormal deliveries (e.g. abortion, ectopic)",
         "topic": "treatment/intervention",
@@ -360,7 +360,7 @@
         }
     },
     {
-        "id": "M10005",
+        "id": "M010005",
         "name": "ami",
         "description": "acute myocardial infarction",
         "topic": "outcomes and endpoints",
@@ -404,7 +404,7 @@
         }
     },
     {
-        "id": "M10006",
+        "id": "M010006",
         "name": "ane",
         "description": "aneurysm",
         "topic": "outcomes and endpoints",
@@ -440,6 +440,1021 @@
                             "value": [
                                 "I71",
                                 "I79.0"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "id": "M010007",
+        "name": "arf",
+        "description": "acute renal failure",
+        "topic": "outcomes and endpoints",
+        "purpose": "severe maternal morbidity",
+        "relatedArtifact": {
+            "class": "core",
+            "valueType": "boolean",
+            "valueRange": {
+                "0": "absence",
+                "1": "presence"
+            }
+        },
+        "compose": {
+            "include": [
+                {
+                    "system": "icd9cm",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "584.5",
+                                "584.6",
+                                "584.7",
+                                "584.8",
+                                "584.9",
+                                "669.3"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "system": "icd10cm",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "N17",
+                                "O90.4"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "id": "M010008",
+        "name": "ards",
+        "description": "adult respiratory distress syndrome",
+        "topic": "outcomes and endpoints",
+        "purpose": "severe maternal morbidity",
+        "relatedArtifact": {
+            "class": "core",
+            "valueType": "boolean",
+            "valueRange": {
+                "0": "absence",
+                "1": "presence"
+            }
+        },
+        "compose": {
+            "include": [
+                {
+                    "system": "icd9cm",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "518.5",
+                                "799.1",
+                                "518.81",
+                                "518.82",
+                                "518.84"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "system": "icd10cm",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "J80",
+                                "J95.1",
+                                "J95.2",
+                                "J95.3",
+                                "J96.0",
+                                "J96.2",
+                                "J96.9",
+                                "R09.2",
+                                "J95.82",
+                                "R06.03"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "id": "M010009",
+        "name": "afe",
+        "description": "amniotic fluid embolism",
+        "topic": "outcomes and endpoints",
+        "purpose": "severe maternal morbidity",
+        "relatedArtifact": {
+            "class": "core",
+            "valueType": "boolean",
+            "valueRange": {
+                "0": "absence",
+                "1": "presence"
+            }
+        },
+        "compose": {
+            "include": [
+                {
+                    "system": "icd9cm",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "673.1"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "system": "icd10cm",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "O88.1"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "id": "M010010",
+        "name": "cavf",
+        "description": "cardiac arrest/ventricular fibrillation",
+        "topic": "outcomes and endpoints",
+        "purpose": "severe maternal morbidity",
+        "relatedArtifact": {
+            "class": "core",
+            "valueType": "boolean",
+            "valueRange": {
+                "0": "absence",
+                "1": "presence"
+            }
+        },
+        "compose": {
+            "include": [
+                {
+                    "system": "icd9cm",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "427.5",
+                                "427.41",
+                                "427.42"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "system": "icd10cm",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "I46",
+                                "I49.0"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "id": "M010011",
+        "name": "cocr",
+        "description": "conversion of cardiac rhythm",
+        "topic": "outcomes and endpoints",
+        "purpose": "severe maternal morbidity",
+        "relatedArtifact": {
+            "class": "core",
+            "valueType": "boolean",
+            "valueRange": {
+                "0": "absence",
+                "1": "presence"
+            }
+        },
+        "compose": {
+            "include": [
+                {
+                    "system": "icd9proc",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "99.6"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "system": "icd10pcs",
+                    "filter": [
+                        {
+                            "property": "codeList",
+                            "op": "in",
+                            "value": [
+                                "5A2204Z",
+                                "5A12012"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "id": "M010012",
+        "name": "dic",
+        "description": "disseminated intravascular coagulation",
+        "topic": "outcomes and endpoints",
+        "purpose": "severe maternal morbidity",
+        "relatedArtifact": {
+            "class": "core",
+            "valueType": "boolean",
+            "valueRange": {
+                "0": "absence",
+                "1": "presence"
+            }
+        },
+        "compose": {
+            "include": [
+                {
+                    "system": "icd9cm",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "286.6",
+                                "286.9",
+                                "641.3",
+                                "666.3"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "system": "icd10cm",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "D65",
+                                "D68.8",
+                                "D68.9",
+                                "O72.3",
+                                "O67.0",
+                                "O45.00",
+                                "O45.01",
+                                "O45.09",
+                                "O46.01",
+                                "O46.02",
+                                "O46.09"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "id": "M010013",
+        "name": "ecl",
+        "description": "eclampsia",
+        "topic": "outcomes and endpoints",
+        "purpose": "severe maternal morbidity",
+        "relatedArtifact": {
+            "class": "core",
+            "valueType": "boolean",
+            "valueRange": {
+                "0": "absence",
+                "1": "presence"
+            }
+        },
+        "compose": {
+            "include": [
+                {
+                    "system": "icd9cm",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "642.6"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "system": "icd10cm",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "O15"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "id": "M010014",
+        "name": "hf",
+        "description": "heart failure / arrest during surgery or procedure",
+        "topic": "outcomes and endpoints",
+        "purpose": "severe maternal morbidity",
+        "relatedArtifact": {
+            "class": "core",
+            "valueType": "boolean",
+            "valueRange": {
+                "0": "absence",
+                "1": "presence"
+            }
+        },
+        "compose": {
+            "include": [
+                {
+                    "system": "icd9cm",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "997.1"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "system": "icd10cm",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "I97.12",
+                                "I97.13",
+                                "I97.71"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "id": "M010015",
+        "name": "pcd",
+        "description": "puerperal cerebrovascular disorders",
+        "topic": "outcomes and endpoints",
+        "purpose": "severe maternal morbidity",
+        "relatedArtifact": {
+            "class": "core",
+            "valueType": "boolean",
+            "valueRange": {
+                "0": "absence",
+                "1": "presence"
+            }
+        },
+        "compose": {
+            "include": [
+                {
+                    "system": "icd9cm",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "430",
+                                "431",
+                                "432",
+                                "433",
+                                "434",
+                                "436",
+                                "437",
+                                "671.5",
+                                "674.0",
+                                "046.3",
+                                "997.02",
+                                "348.39",
+                                "362.34"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "system": "icd10cm",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "I60",
+                                "I61",
+                                "I62",
+                                "I63",
+                                "I64",
+                                "I65",
+                                "I66",
+                                "I67",
+                                "I68",
+                                "G45",
+                                "G46",
+                                "O87.3",
+                                "I62.9",
+                                "A81.2",
+                                "H34.0",
+                                "O22.50",
+                                "O22.51",
+                                "O22.52",
+                                "O22.53",
+                                "I97.81",
+                                "I97.82",
+                                "G93.49"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "id": "M010016",
+        "name": "pe",
+        "description": "pulmonary edema / acute heart failure",
+        "topic": "outcomes and endpoints",
+        "purpose": "severe maternal morbidity",
+        "relatedArtifact": {
+            "class": "core",
+            "valueType": "boolean",
+            "valueRange": {
+                "0": "absence",
+                "1": "presence"
+            }
+        },
+        "compose": {
+            "include": [
+                {
+                    "system": "icd9cm",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "518.4",
+                                "428.0",
+                                "428.1",
+                                "428.9",
+                                "428.20",
+                                "428.21",
+                                "428.23",
+                                "428.30",
+                                "428.31",
+                                "428.33",
+                                "428.40",
+                                "428.41",
+                                "428.43"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "system": "icd10cm",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "J81.0",
+                                "I50.1",
+                                "I50.9",
+                                "I50.20",
+                                "I50.21",
+                                "I50.23",
+                                "I50.30",
+                                "I50.31",
+                                "I50.33",
+                                "I50.40",
+                                "I50.41",
+                                "I50.43",
+                                "I50.81",
+                                "I50.82",
+                                "I50.83",
+                                "I50.84",
+                                "I50.89"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "id": "M010017",
+        "name": "sac",
+        "description": "severe anesthesia complications",
+        "topic": "outcomes and endpoints",
+        "purpose": "severe maternal morbidity",
+        "relatedArtifact": {
+            "class": "core",
+            "valueType": "boolean",
+            "valueRange": {
+                "0": "absence",
+                "1": "presence"
+            }
+        },
+        "compose": {
+            "include": [
+                {
+                    "system": "icd9cm",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "668.0",
+                                "668.1",
+                                "668.2",
+                                "995.4",
+                                "995.86"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "system": "icd10cm",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "O74.0",
+                                "O74.1",
+                                "O74.2",
+                                "O74.3",
+                                "O89.0",
+                                "O89.1",
+                                "O89.2",
+                                "T88.2",
+                                "T88.3",
+                                "O29.11",
+                                "O29.12",
+                                "O29.19",
+                                "O29.21",
+                                "O29.29"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "id": "M010018",
+        "name": "sep",
+        "description": "sepsis",
+        "topic": "outcomes and endpoints",
+        "purpose": "severe maternal morbidity",
+        "relatedArtifact": {
+            "class": "core",
+            "valueType": "boolean",
+            "valueRange": {
+                "0": "absence",
+                "1": "presence"
+            }
+        },
+        "compose": {
+            "include": [
+                {
+                    "system": "icd9cm",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "038",
+                                "449",
+                                "670.2",
+                                "995.91",
+                                "996.92",
+                                "998.02",
+                                "995.91",
+                                "995.92",
+                                "785.52"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "system": "icd10cm",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "O85",
+                                "A40",
+                                "A41",
+                                "I76",
+                                "T81.4",
+                                "A32.7",
+                                "O86.04",
+                                "T80.21",
+                                "T81.44",
+                                "R65.20",
+                                "R65.21",
+                                "T81.44",
+                                "T81.12"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "id": "M010019",
+        "name": "ssh",
+        "description": "septic shock",
+        "topic": "outcomes and endpoints",
+        "purpose": "severe maternal morbidity",
+        "relatedArtifact": {
+            "class": "core",
+            "valueType": "boolean",
+            "valueRange": {
+                "0": "absence",
+                "1": "presence"
+            }
+        },
+        "compose": {
+            "include": [
+                {
+                    "system": "icd9cm",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "669.1",
+                                "995.0",
+                                "998.0",
+                                "282.42",
+                                "282.62",
+                                "282.64",
+                                "282.69",
+                                "785.50",
+                                "785.51",
+                                "785.59",
+                                "998.00",
+                                "998.01",
+                                "998.09"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "system": "icd10cm",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "R57",
+                                "D57.0",
+                                "O75.1",
+                                "T78.2",
+                                "T88.6",
+                                "T81.10",
+                                "T81.11",
+                                "T81.19"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "id": "M010020",
+        "name": "scc",
+        "description": "sickle cell disease with crisis",
+        "topic": "outcomes and endpoints",
+        "purpose": "severe maternal morbidity",
+        "relatedArtifact": {
+            "class": "core",
+            "valueType": "boolean",
+            "valueRange": {
+                "0": "absence",
+                "1": "presence"
+            }
+        },
+        "compose": {
+            "include": [
+                {
+                    "system": "icd9cm",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "282.42",
+                                "282.62",
+                                "282.64",
+                                "282.69",
+                                "282.52"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "system": "icd10cm",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "R57",
+                                "D57.21",
+                                "D57.41",
+                                "D57.81"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "id": "M010021",
+        "name": "ate",
+        "description": "air and thrombotic embolism",
+        "topic": "outcomes and endpoints",
+        "purpose": "severe maternal morbidity",
+        "relatedArtifact": {
+            "class": "core",
+            "valueType": "boolean",
+            "valueRange": {
+                "0": "absence",
+                "1": "presence"
+            }
+        },
+        "compose": {
+            "include": [
+                {
+                    "system": "icd9cm",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "415.0",
+                                "415.1",
+                                "673.0",
+                                "673.2",
+                                "673.3",
+                                "673.8"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "system": "icd10cm",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "O88.0",
+                                "O88.2",
+                                "O88.3",
+                                "O88.8",
+                                "T80.0",
+                                "I26.01",
+                                "I26.02",
+                                "I26.09",
+                                "I26.90",
+                                "I26.92",
+                                "I26.93",
+                                "I26.94",
+                                "I26.99"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "id": "M010022",
+        "name": "bpt",
+        "description": "blood products transfusion",
+        "topic": "outcomes and endpoints",
+        "purpose": "severe maternal morbidity",
+        "relatedArtifact": {
+            "class": "core",
+            "valueType": "boolean",
+            "valueRange": {
+                "0": "absence",
+                "1": "presence"
+            }
+        },
+        "compose": {
+            "include": [
+                {
+                    "system": "icd9proc",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "99.0"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "system": "icd10pcs",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "3023",
+                                "3024",
+                                "3025",
+                                "3026",
+                                "3027",
+                                "3028"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "id": "M010023",
+        "name": "hys",
+        "description": "hysterectomy",
+        "topic": "outcomes and endpoints",
+        "purpose": "severe maternal morbidity",
+        "relatedArtifact": {
+            "class": "core",
+            "valueType": "boolean",
+            "valueRange": {
+                "0": "absence",
+                "1": "presence"
+            }
+        },
+        "compose": {
+            "include": [
+                {
+                    "system": "icd9proc",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "68.9",
+                                "68.39",
+                                "68.49",
+                                "68.59",
+                                "68.69",
+                                "68.79"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "system": "icd10pcs",
+                    "filter": [
+                        {
+                            "property": "codeList",
+                            "op": "in",
+                            "value": [
+                                "0UT90ZZ",
+                                "0UT97ZZ",
+                                "OUT97ZL",
+                                "0UT90ZL"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "id": "M010024",
+        "name": "tt",
+        "description": "temporary tracheostomy",
+        "topic": "outcomes and endpoints",
+        "purpose": "severe maternal morbidity",
+        "relatedArtifact": {
+            "class": "core",
+            "valueType": "boolean",
+            "valueRange": {
+                "0": "absence",
+                "1": "presence"
+            }
+        },
+        "compose": {
+            "include": [
+                {
+                    "system": "icd9proc",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "31.1"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "system": "icd10pcs",
+                    "filter": [
+                        {
+                            "property": "codeList",
+                            "op": "in",
+                            "value": [
+                                "0B110F4",
+                                "0B113F4",
+                                "0B114F4"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "id": "M010025",
+        "name": "ven",
+        "description": "ventilation",
+        "topic": "outcomes and endpoints",
+        "purpose": "severe maternal morbidity",
+        "relatedArtifact": {
+            "class": "core",
+            "valueType": "boolean",
+            "valueRange": {
+                "0": "absence",
+                "1": "presence"
+            }
+        },
+        "compose": {
+            "include": [
+                {
+                    "system": "icd9proc",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "96.70",
+                                "96.71",
+                                "96.72"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "system": "icd10pcs",
+                    "filter": [
+                        {
+                            "property": "codeList",
+                            "op": "in",
+                            "value": [
+                                "5A1935Z",
+                                "5A1945Z",
+                                "5A1955Z"
                             ]
                         }
                     ]

@@ -321,6 +321,7 @@ class QueryFromJson:
             "cpt": input("Enter Code Type Value for cpt: "),
             "hpc": input("Enter Code Type Value for hpc: "),
             "drg": input("Enter Code Type Value for drg: "),
+            "loinc": input("Enter Code Type Value for loinc: ")
         }
         return(cdtype_encoder)
     
@@ -337,6 +338,8 @@ class QueryFromJson:
                 try: cddict["2"] = [item["value"][index] for index, current_value in enumerate(decimal) if current_value == 2]
                 except ValueError: return None
                 try: cddict["3"] = [item["value"][index] for index, current_value in enumerate(decimal) if current_value == 3]
+                except ValueError: return None
+                try: cddict["04"] = [item["value"][index] for index, current_value in enumerate(decimal) for val in item["value"] if current_value == 0 and len(val) >= 4]
                 except ValueError: return None
 
             elif item["property"]=="codeRange" and item["op"]=="in":
@@ -390,6 +393,10 @@ class QueryFromJson:
                 elif '2' in cdref:
                     qryxy_orlst.append('''
                         substring('''+ self.cd_field +''',1,6) in ('''+ ','.join(self.add_quote(cdref["2"])) +''')
+                    ''')
+                elif '04' in cdref:
+                    qryxy_orlst.append('''
+                        substring('''+ self.cd_field +''',1,4) in ('''+ ','.join(self.add_quote(cdref["04"])) +''')
                     ''')
                 else:
                     cdref39 = (cdref.get("3") or []) + (cdref.get("9") or [])
