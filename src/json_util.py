@@ -294,7 +294,7 @@ def json2ref(
                 if "referenceRange" in chunk:
                     add_chunk['op'] = chunk['referenceRange'] #tuple (low,high)
                 else: 
-                    add_chunk['op'] = '='
+                    add_chunk['op'] = 'exists'
 
             csv_lst.append(add_chunk)
         

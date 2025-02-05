@@ -152,24 +152,24 @@ C20063,SymptmWalking,difficulty walking or gait abnormality,icd9cm,781.2,descend
 C20063,SymptmWalking,difficulty walking or gait abnormality,icd9cm,781.3,descendent-of
 C20063,SymptmWalking,difficulty walking or gait abnormality,icd10cm,R26,descendent-of
 C20063,SymptmWalking,difficulty walking or gait abnormality,icd10cm,R27,descendent-of
-C20064,MobilityDeviceWalkerCane,mobility device - walker or cane,hpc,E0100,in
-C20064,MobilityDeviceWalkerCane,mobility device - walker or cane,hpc,E0105,in
-C20064,MobilityDeviceWalkerCane,mobility device - walker or cane,hpc,E0130,in
-C20064,MobilityDeviceWalkerCane,mobility device - walker or cane,hpc,E0135,in
-C20064,MobilityDeviceWalkerCane,mobility device - walker or cane,hpc,E0140,in
-C20064,MobilityDeviceWalkerCane,mobility device - walker or cane,hpc,E0141,in
-C20064,MobilityDeviceWalkerCane,mobility device - walker or cane,hpc,E0143,in
-C20064,MobilityDeviceWalkerCane,mobility device - walker or cane,hpc,E0144,in
-C20064,MobilityDeviceWalkerCane,mobility device - walker or cane,hpc,E0147,in
-C20064,MobilityDeviceWalkerCane,mobility device - walker or cane,hpc,E0148,in
-C20064,MobilityDeviceWalkerCane,mobility device - walker or cane,hpc,E0149,in
-C20064,MobilityDeviceWalkerCane,mobility device - walker or cane,hpc,E0153,in
-C20064,MobilityDeviceWalkerCane,mobility device - walker or cane,hpc,E0154,in
-C20064,MobilityDeviceWalkerCane,mobility device - walker or cane,hpc,E0155,in
-C20064,MobilityDeviceWalkerCane,mobility device - walker or cane,hpc,E0156,in
-C20064,MobilityDeviceWalkerCane,mobility device - walker or cane,hpc,E0157,in
-C20064,MobilityDeviceWalkerCane,mobility device - walker or cane,hpc,E0158,in
-C20064,MobilityDeviceWalkerCane,mobility device - walker or cane,hpc,E0159,in
+C20064,MobilityDeviceWalkerCane,mobility device - walker or cane,hpc,E0100,exists
+C20064,MobilityDeviceWalkerCane,mobility device - walker or cane,hpc,E0105,exists
+C20064,MobilityDeviceWalkerCane,mobility device - walker or cane,hpc,E0130,exists
+C20064,MobilityDeviceWalkerCane,mobility device - walker or cane,hpc,E0135,exists
+C20064,MobilityDeviceWalkerCane,mobility device - walker or cane,hpc,E0140,exists
+C20064,MobilityDeviceWalkerCane,mobility device - walker or cane,hpc,E0141,exists
+C20064,MobilityDeviceWalkerCane,mobility device - walker or cane,hpc,E0143,exists
+C20064,MobilityDeviceWalkerCane,mobility device - walker or cane,hpc,E0144,exists
+C20064,MobilityDeviceWalkerCane,mobility device - walker or cane,hpc,E0147,exists
+C20064,MobilityDeviceWalkerCane,mobility device - walker or cane,hpc,E0148,exists
+C20064,MobilityDeviceWalkerCane,mobility device - walker or cane,hpc,E0149,exists
+C20064,MobilityDeviceWalkerCane,mobility device - walker or cane,hpc,E0153,exists
+C20064,MobilityDeviceWalkerCane,mobility device - walker or cane,hpc,E0154,exists
+C20064,MobilityDeviceWalkerCane,mobility device - walker or cane,hpc,E0155,exists
+C20064,MobilityDeviceWalkerCane,mobility device - walker or cane,hpc,E0156,exists
+C20064,MobilityDeviceWalkerCane,mobility device - walker or cane,hpc,E0157,exists
+C20064,MobilityDeviceWalkerCane,mobility device - walker or cane,hpc,E0158,exists
+C20064,MobilityDeviceWalkerCane,mobility device - walker or cane,hpc,E0159,exists
 C20065,MobilityDeviceHygiene,"mobility devices for maintaining hygiene (commodes, bedpands, urinals, shower assistive device)",hpc,E0163-E0175,in
 C20065,MobilityDeviceHygiene,"mobility devices for maintaining hygiene (commodes, bedpands, urinals, shower assistive device)",hpc,E0240-E0249,in
 C20065,MobilityDeviceHygiene,"mobility devices for maintaining hygiene (commodes, bedpands, urinals, shower assistive device)",hpc,E0275-E0276,in
@@ -191,10 +191,10 @@ C20068,MobilityDeviceCommunication,AAC and other speech-language pathology relat
 C20068,MobilityDeviceCommunication,AAC and other speech-language pathology related devices,icd10pcs,F06Z9,descendent-of
 C20069,EnteralFeedingEquipment,enteral feeding supplies and equipment or gastrostomy,hpc,B4034-B4088,in
 C20069,EnteralFeedingEquipment,enteral feeding supplies and equipment or gastrostomy,cpt4,43500-43999,in
-C20069,EnteralFeedingEquipment,enteral feeding supplies and equipment or gastrostomy,icd9proc,43.11,in
-C20069,EnteralFeedingEquipment,enteral feeding supplies and equipment or gastrostomy,icd9proc,97.01,in
-C20069,EnteralFeedingEquipment,enteral feeding supplies and equipment or gastrostomy,icd9proc,97.02,in
-C20069,EnteralFeedingEquipment,enteral feeding supplies and equipment or gastrostomy,icd9proc,97.03,in
+C20069,EnteralFeedingEquipment,enteral feeding supplies and equipment or gastrostomy,icd9proc,43.11,exists
+C20069,EnteralFeedingEquipment,enteral feeding supplies and equipment or gastrostomy,icd9proc,97.01,exists
+C20069,EnteralFeedingEquipment,enteral feeding supplies and equipment or gastrostomy,icd9proc,97.02,exists
+C20069,EnteralFeedingEquipment,enteral feeding supplies and equipment or gastrostomy,icd9proc,97.03,exists
 C20069,EnteralFeedingEquipment,enteral feeding supplies and equipment or gastrostomy,icd10pcs,0DH6,descendent-of
 C20069,EnteralFeedingEquipment,enteral feeding supplies and equipment or gastrostomy,icd10pcs,0DW60UZ,descendent-of
 C20069,EnteralFeedingEquipment,enteral feeding supplies and equipment or gastrostomy,icd10cm,Z93.1,descendent-of
@@ -203,14 +203,14 @@ C20070,RespiratoryDeviceNIV,non-invasive ventilator or BiPAP ,hpc,E0466-E0493,in
 C20070,RespiratoryDeviceNIV,non-invasive ventilator or BiPAP ,hpc,A7000-A7049,in
 C20070,RespiratoryDeviceNIV,non-invasive ventilator or BiPAP ,cpt4,94002-94005,in
 C20070,RespiratoryDeviceNIV,non-invasive ventilator or BiPAP ,cpt4,94660-94660,in
-C20070,RespiratoryDeviceNIV,non-invasive ventilator or BiPAP ,icd9proc,93.90,in
+C20070,RespiratoryDeviceNIV,non-invasive ventilator or BiPAP ,icd9proc,93.90,exists
 C20070,RespiratoryDeviceNIV,non-invasive ventilator or BiPAP ,icd10pcs,5A093,in
 C20070,RespiratoryDeviceNIV,non-invasive ventilator or BiPAP ,icd10pcs,5A094,in
 C20070,RespiratoryDeviceNIV,non-invasive ventilator or BiPAP ,icd10pcs,5A095,in
 C20070,RespiratoryDeviceNIV,non-invasive ventilator or BiPAP ,icd10cm,Z99.0,descendent-of
 C20070,RespiratoryDeviceNIV,non-invasive ventilator or BiPAP ,icd10cm,Z99.1,descendent-of
 C20071,InvasiveRespiratoryDeviceMV,invasive ventilator or tracheostomy,cpt4,31600-31614,in
-C20071,InvasiveRespiratoryDeviceMV,invasive ventilator or tracheostomy,hpc,E0465,in
+C20071,InvasiveRespiratoryDeviceMV,invasive ventilator or tracheostomy,hpc,E0465,exists
 C20071,InvasiveRespiratoryDeviceMV,invasive ventilator or tracheostomy,icd9proc,94.7,in
 C20071,InvasiveRespiratoryDeviceMV,invasive ventilator or tracheostomy,icd10pcs,5A09B,in
 C20071,InvasiveRespiratoryDeviceMV,invasive ventilator or tracheostomy,icd10pcs,5A09C,in
@@ -228,93 +228,93 @@ C020072,NeurologyVisit,visit to neurologist,cmsTaxonomy,2251N0400X,exists
 C020072,NeurologyVisit,visit to neurologist,snomedct,38238005,exists
 C020072,NeurologyVisit,visit to neurologist,pcornet,HOSPITAL_OUTPATIENT_NEUROLOGY_CLINIC,exists
 C020072,NeurologyVisit,visit to neurologist,other,(neuro)+,regex
-C020073,riluzole,prescription or dispensing of riluzole,rxnorm,35623,in
-C020073,riluzole,prescription or dispensing of riluzole,rxnorm,152915,in
-C020073,riluzole,prescription or dispensing of riluzole,rxnorm,2059266,in
-C020073,riluzole,prescription or dispensing of riluzole,rxnorm,2267572,in
-C020073,riluzole,prescription or dispensing of riluzole,rxnorm,2059262,in
-C020073,riluzole,prescription or dispensing of riluzole,rxnorm,2267568,in
-C020073,riluzole,prescription or dispensing of riluzole,rxnorm,565105,in
-C020073,riluzole,prescription or dispensing of riluzole,rxnorm,2059263,in
-C020073,riluzole,prescription or dispensing of riluzole,rxnorm,2269644,in
-C020073,riluzole,prescription or dispensing of riluzole,rxnorm,368026,in
-C020073,riluzole,prescription or dispensing of riluzole,rxnorm,1184724,in
-C020073,riluzole,prescription or dispensing of riluzole,rxnorm,1184725,in
-C020073,riluzole,prescription or dispensing of riluzole,rxnorm,2059264,in
-C020073,riluzole,prescription or dispensing of riluzole,rxnorm,2059265,in
-C020073,riluzole,prescription or dispensing of riluzole,rxnorm,2267570,in
-C020073,riluzole,prescription or dispensing of riluzole,rxnorm,2269645,in
-C020073,riluzole,prescription or dispensing of riluzole,rxnorm,199206,in
-C020073,riluzole,prescription or dispensing of riluzole,rxnorm,2058147,in
-C020073,riluzole,prescription or dispensing of riluzole,rxnorm,2265862,in
-C020073,riluzole,prescription or dispensing of riluzole,rxnorm,2058144,in
-C020073,riluzole,prescription or dispensing of riluzole,rxnorm,317486,in
-C020073,riluzole,prescription or dispensing of riluzole,rxnorm,2058146,in
-C020073,riluzole,prescription or dispensing of riluzole,rxnorm,2269642,in
-C020073,riluzole,prescription or dispensing of riluzole,rxnorm,373787,in
-C020073,riluzole,prescription or dispensing of riluzole,rxnorm,1165471,in
-C020073,riluzole,prescription or dispensing of riluzole,rxnorm,1165472,in
-C020073,riluzole,prescription or dispensing of riluzole,rxnorm,2058145,in
-C020073,riluzole,prescription or dispensing of riluzole,rxnorm,2269641,in
-C020073,riluzole,prescription or dispensing of riluzole,ndc,24987070060,in
-C020073,riluzole,prescription or dispensing of riluzole,ndc,70515070060,in
-C020073,riluzole,prescription or dispensing of riluzole,ndc,70726030301,in
-C020073,riluzole,prescription or dispensing of riluzole,ndc,70726030302,in
-C020073,riluzole,prescription or dispensing of riluzole,ndc,10094035060,in
-C020073,riluzole,prescription or dispensing of riluzole,ndc,70510220101,in
-C020073,riluzole,prescription or dispensing of riluzole,ndc,70510220102,in
-C020073,riluzole,prescription or dispensing of riluzole,ndc,00115300013,in
-C020073,riluzole,prescription or dispensing of riluzole,ndc,00378414591,in
-C020073,riluzole,prescription or dispensing of riluzole,ndc,42291077560,in
-C020073,riluzole,prescription or dispensing of riluzole,ndc,60505328506,in
-C020073,riluzole,prescription or dispensing of riluzole,ndc,62756053818,in
-C020073,riluzole,prescription or dispensing of riluzole,ndc,62756053883,in
-C020073,riluzole,prescription or dispensing of riluzole,ndc,62756053886,in
-C020073,riluzole,prescription or dispensing of riluzole,ndc,62756053888,in
-C020073,riluzole,prescription or dispensing of riluzole,ndc,64980019106,in
-C020073,riluzole,prescription or dispensing of riluzole,ndc,67877028605,in
-C020073,riluzole,prescription or dispensing of riluzole,ndc,67877028610,in
-C020073,riluzole,prescription or dispensing of riluzole,ndc,67877028614,in
-C020073,riluzole,prescription or dispensing of riluzole,ndc,67877028660,in
-C020073,riluzole,prescription or dispensing of riluzole,ndc,67877028690,in
-C020073,riluzole,prescription or dispensing of riluzole,ndc,68084090895,in
-C020073,riluzole,prescription or dispensing of riluzole,ndc,68462038110,in
-C020073,riluzole,prescription or dispensing of riluzole,ndc,68462038160,in
-C020073,riluzole,prescription or dispensing of riluzole,ndc,69076020044,in
-C020073,riluzole,prescription or dispensing of riluzole,ndc,69076020060,in
-C020074,edaravone,prescription and dispensing of edaravone,rxnorm,1921877,in
-C020074,edaravone,prescription and dispensing of edaravone,rxnorm,1924317,in
-C020074,edaravone,prescription and dispensing of edaravone,rxnorm,2602122,in
-C020074,edaravone,prescription and dispensing of edaravone,rxnorm,1921883,in
-C020074,edaravone,prescription and dispensing of edaravone,rxnorm,2602118,in
-C020074,edaravone,prescription and dispensing of edaravone,rxnorm,1921884,in
-C020074,edaravone,prescription and dispensing of edaravone,rxnorm,2602121,in
-C020074,edaravone,prescription and dispensing of edaravone,rxnorm,1921885,in
-C020074,edaravone,prescription and dispensing of edaravone,rxnorm,2602119,in
-C020074,edaravone,prescription and dispensing of edaravone,rxnorm,2602120,in
-C020074,edaravone,prescription and dispensing of edaravone,rxnorm,1924316,in
-C020074,edaravone,prescription and dispensing of edaravone,rxnorm,2602117,in
-C020074,edaravone,prescription and dispensing of edaravone,rxnorm,1921878,in
-C020074,edaravone,prescription and dispensing of edaravone,rxnorm,2602113,in
-C020074,edaravone,prescription and dispensing of edaravone,rxnorm,1921880,in
-C020074,edaravone,prescription and dispensing of edaravone,rxnorm,2602116,in
-C020074,edaravone,prescription and dispensing of edaravone,rxnorm,1921879,in
-C020074,edaravone,prescription and dispensing of edaravone,rxnorm,2602114,in
-C020074,edaravone,prescription and dispensing of edaravone,rxnorm,2602115,in
-C020074,edaravone,prescription and dispensing of edaravone,ndc,70510217101,in
-C020074,edaravone,prescription and dispensing of edaravone,ndc,70510217102,in
-C020074,edaravone,prescription and dispensing of edaravone,ndc,70510232101,in
-C020074,edaravone,prescription and dispensing of edaravone,ndc,70510232102,in
-C020074,edaravone,prescription and dispensing of edaravone,ndc,70510232201,in
-C020074,edaravone,prescription and dispensing of edaravone,ndc,70510232301,in
-C020074,edaravone,prescription and dispensing of edaravone,ndc,70510232401,in
-C020075,tofersen,prescription and dispensing of tofersen,rxnorm,2634995,in
-C020075,tofersen,prescription and dispensing of tofersen,rxnorm,2635005,in
-C020075,tofersen,prescription and dispensing of tofersen,rxnorm,2635002,in
-C020075,tofersen,prescription and dispensing of tofersen,rxnorm,2635004,in
-C020075,tofersen,prescription and dispensing of tofersen,rxnorm,2635003,in
-C020075,tofersen,prescription and dispensing of tofersen,rxnorm,2634999,in
-C020075,tofersen,prescription and dispensing of tofersen,rxnorm,2634996,in
-C020075,tofersen,prescription and dispensing of tofersen,rxnorm,2634998,in
-C020075,tofersen,prescription and dispensing of tofersen,rxnorm,2634997,in
-C020075,tofersen,prescription and dispensing of tofersen,ndc,64406010901,in
+C020073,riluzole,prescription or dispensing of riluzole,rxnorm,35623,exists
+C020073,riluzole,prescription or dispensing of riluzole,rxnorm,152915,exists
+C020073,riluzole,prescription or dispensing of riluzole,rxnorm,2059266,exists
+C020073,riluzole,prescription or dispensing of riluzole,rxnorm,2267572,exists
+C020073,riluzole,prescription or dispensing of riluzole,rxnorm,2059262,exists
+C020073,riluzole,prescription or dispensing of riluzole,rxnorm,2267568,exists
+C020073,riluzole,prescription or dispensing of riluzole,rxnorm,565105,exists
+C020073,riluzole,prescription or dispensing of riluzole,rxnorm,2059263,exists
+C020073,riluzole,prescription or dispensing of riluzole,rxnorm,2269644,exists
+C020073,riluzole,prescription or dispensing of riluzole,rxnorm,368026,exists
+C020073,riluzole,prescription or dispensing of riluzole,rxnorm,1184724,exists
+C020073,riluzole,prescription or dispensing of riluzole,rxnorm,1184725,exists
+C020073,riluzole,prescription or dispensing of riluzole,rxnorm,2059264,exists
+C020073,riluzole,prescription or dispensing of riluzole,rxnorm,2059265,exists
+C020073,riluzole,prescription or dispensing of riluzole,rxnorm,2267570,exists
+C020073,riluzole,prescription or dispensing of riluzole,rxnorm,2269645,exists
+C020073,riluzole,prescription or dispensing of riluzole,rxnorm,199206,exists
+C020073,riluzole,prescription or dispensing of riluzole,rxnorm,2058147,exists
+C020073,riluzole,prescription or dispensing of riluzole,rxnorm,2265862,exists
+C020073,riluzole,prescription or dispensing of riluzole,rxnorm,2058144,exists
+C020073,riluzole,prescription or dispensing of riluzole,rxnorm,317486,exists
+C020073,riluzole,prescription or dispensing of riluzole,rxnorm,2058146,exists
+C020073,riluzole,prescription or dispensing of riluzole,rxnorm,2269642,exists
+C020073,riluzole,prescription or dispensing of riluzole,rxnorm,373787,exists
+C020073,riluzole,prescription or dispensing of riluzole,rxnorm,1165471,exists
+C020073,riluzole,prescription or dispensing of riluzole,rxnorm,1165472,exists
+C020073,riluzole,prescription or dispensing of riluzole,rxnorm,2058145,exists
+C020073,riluzole,prescription or dispensing of riluzole,rxnorm,2269641,exists
+C020073,riluzole,prescription or dispensing of riluzole,ndc,24987070060,exists
+C020073,riluzole,prescription or dispensing of riluzole,ndc,70515070060,exists
+C020073,riluzole,prescription or dispensing of riluzole,ndc,70726030301,exists
+C020073,riluzole,prescription or dispensing of riluzole,ndc,70726030302,exists
+C020073,riluzole,prescription or dispensing of riluzole,ndc,10094035060,exists
+C020073,riluzole,prescription or dispensing of riluzole,ndc,70510220101,exists
+C020073,riluzole,prescription or dispensing of riluzole,ndc,70510220102,exists
+C020073,riluzole,prescription or dispensing of riluzole,ndc,00115300013,exists
+C020073,riluzole,prescription or dispensing of riluzole,ndc,00378414591,exists
+C020073,riluzole,prescription or dispensing of riluzole,ndc,42291077560,exists
+C020073,riluzole,prescription or dispensing of riluzole,ndc,60505328506,exists
+C020073,riluzole,prescription or dispensing of riluzole,ndc,62756053818,exists
+C020073,riluzole,prescription or dispensing of riluzole,ndc,62756053883,exists
+C020073,riluzole,prescription or dispensing of riluzole,ndc,62756053886,exists
+C020073,riluzole,prescription or dispensing of riluzole,ndc,62756053888,exists
+C020073,riluzole,prescription or dispensing of riluzole,ndc,64980019106,exists
+C020073,riluzole,prescription or dispensing of riluzole,ndc,67877028605,exists
+C020073,riluzole,prescription or dispensing of riluzole,ndc,67877028610,exists
+C020073,riluzole,prescription or dispensing of riluzole,ndc,67877028614,exists
+C020073,riluzole,prescription or dispensing of riluzole,ndc,67877028660,exists
+C020073,riluzole,prescription or dispensing of riluzole,ndc,67877028690,exists
+C020073,riluzole,prescription or dispensing of riluzole,ndc,68084090895,exists
+C020073,riluzole,prescription or dispensing of riluzole,ndc,68462038110,exists
+C020073,riluzole,prescription or dispensing of riluzole,ndc,68462038160,exists
+C020073,riluzole,prescription or dispensing of riluzole,ndc,69076020044,exists
+C020073,riluzole,prescription or dispensing of riluzole,ndc,69076020060,exists
+C020074,edaravone,prescription and dispensing of edaravone,rxnorm,1921877,exists
+C020074,edaravone,prescription and dispensing of edaravone,rxnorm,1924317,exists
+C020074,edaravone,prescription and dispensing of edaravone,rxnorm,2602122,exists
+C020074,edaravone,prescription and dispensing of edaravone,rxnorm,1921883,exists
+C020074,edaravone,prescription and dispensing of edaravone,rxnorm,2602118,exists
+C020074,edaravone,prescription and dispensing of edaravone,rxnorm,1921884,exists
+C020074,edaravone,prescription and dispensing of edaravone,rxnorm,2602121,exists
+C020074,edaravone,prescription and dispensing of edaravone,rxnorm,1921885,exists
+C020074,edaravone,prescription and dispensing of edaravone,rxnorm,2602119,exists
+C020074,edaravone,prescription and dispensing of edaravone,rxnorm,2602120,exists
+C020074,edaravone,prescription and dispensing of edaravone,rxnorm,1924316,exists
+C020074,edaravone,prescription and dispensing of edaravone,rxnorm,2602117,exists
+C020074,edaravone,prescription and dispensing of edaravone,rxnorm,1921878,exists
+C020074,edaravone,prescription and dispensing of edaravone,rxnorm,2602113,exists
+C020074,edaravone,prescription and dispensing of edaravone,rxnorm,1921880,exists
+C020074,edaravone,prescription and dispensing of edaravone,rxnorm,2602116,exists
+C020074,edaravone,prescription and dispensing of edaravone,rxnorm,1921879,exists
+C020074,edaravone,prescription and dispensing of edaravone,rxnorm,2602114,exists
+C020074,edaravone,prescription and dispensing of edaravone,rxnorm,2602115,exists
+C020074,edaravone,prescription and dispensing of edaravone,ndc,70510217101,exists
+C020074,edaravone,prescription and dispensing of edaravone,ndc,70510217102,exists
+C020074,edaravone,prescription and dispensing of edaravone,ndc,70510232101,exists
+C020074,edaravone,prescription and dispensing of edaravone,ndc,70510232102,exists
+C020074,edaravone,prescription and dispensing of edaravone,ndc,70510232201,exists
+C020074,edaravone,prescription and dispensing of edaravone,ndc,70510232301,exists
+C020074,edaravone,prescription and dispensing of edaravone,ndc,70510232401,exists
+C020075,tofersen,prescription and dispensing of tofersen,rxnorm,2634995,exists
+C020075,tofersen,prescription and dispensing of tofersen,rxnorm,2635005,exists
+C020075,tofersen,prescription and dispensing of tofersen,rxnorm,2635002,exists
+C020075,tofersen,prescription and dispensing of tofersen,rxnorm,2635004,exists
+C020075,tofersen,prescription and dispensing of tofersen,rxnorm,2635003,exists
+C020075,tofersen,prescription and dispensing of tofersen,rxnorm,2634999,exists
+C020075,tofersen,prescription and dispensing of tofersen,rxnorm,2634996,exists
+C020075,tofersen,prescription and dispensing of tofersen,rxnorm,2634998,exists
+C020075,tofersen,prescription and dispensing of tofersen,rxnorm,2634997,exists
+C020075,tofersen,prescription and dispensing of tofersen,ndc,64406010901,exists
