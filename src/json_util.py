@@ -279,13 +279,24 @@ def json2ref(
     csv_lst = []
     for item in json_file:
         for chunk in item["compose"]["include"]:
-            csv_lst.append({
+            add_chunk = {
                 'id':item["id"],
                 'name':item["name"],
                 'description':item["description"],
-                'codesystem':chunk["system"],
-                'code':sum([x["value"] for x in chunk["filter"]], [])
-        })
+                'codesystem':chunk["system"]
+            }
+            if "filter" in chunk:
+                add_chunk['code'] = sum([x["value"] for x in chunk["filter"]], []) 
+                add_chunk['op'] = [x["op"] for x in chunk["filter"]][0] 
+                
+            if "concept" in chunk: 
+                add_chunk['code'] = [x["code"] for x in chunk["concept"]]
+                if "referenceRange" in chunk:
+                    add_chunk['op'] = chunk['referenceRange'] #tuple (low,high)
+                else: 
+                    add_chunk['op'] = '='
+
+            csv_lst.append(add_chunk)
         
     # create DF from json data and expand
     df = pd.DataFrame(csv_lst)
@@ -349,7 +360,7 @@ class QueryFromJson:
                     key_quote = [str(y) for y in list(range(int(x.split('-')[0]),int(x.split('-')[1])+1))]
                     cddict["9"].extend(key_quote)
 
-            elif item["property"]=="codeList" and item["op"]=="in":
+            elif item["property"]=="codeList" and item["op"]=="exists":
                 cddict["9"] = item["value"]
 
             else:

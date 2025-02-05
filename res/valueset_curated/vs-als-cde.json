@@ -2579,7 +2579,7 @@
                     "filter": [
                         {
                             "property": "codeList",
-                            "op": "in",
+                            "op": "exists",
                             "value": [
                                 "E0100",
                                 "E0105",
@@ -2812,7 +2812,7 @@
                     "filter": [
                         {
                             "property": "codeList",
-                            "op": "in",
+                            "op": "exists",
                             "value": [
                                 "43.11",
                                 "97.01",
@@ -2898,7 +2898,7 @@
                     "filter": [
                         {
                             "property": "codeList",
-                            "op": "in",
+                            "op": "exists",
                             "value": [
                                 "93.90"
                             ]
@@ -2968,7 +2968,7 @@
                     "filter": [
                         {
                             "property": "codeList",
-                            "op": "in",
+                            "op": "exists",
                             "value": [
                                 "E0465"
                             ]
@@ -3132,7 +3132,7 @@
                     "filter": [
                         {
                             "property": "codeList",
-                            "op": "in",
+                            "op": "exists",
                             "value": [
                                 "35623",
                                 "152915",
@@ -3171,7 +3171,7 @@
                     "filter": [
                         {
                             "property": "codeList",
-                            "op": "in",
+                            "op": "exists",
                             "value": [
                                 "24987070060",
                                 "70515070060",
@@ -3227,7 +3227,7 @@
                     "filter": [
                         {
                             "property": "codeList",
-                            "op": "in",
+                            "op": "exists",
                             "value": [
                                 "1921877",
                                 "1924317",
@@ -3257,7 +3257,7 @@
                     "filter": [
                         {
                             "property": "codeList",
-                            "op": "in",
+                            "op": "exists",
                             "value": [
                                 "70510217101",
                                 "70510217102",
@@ -3294,7 +3294,7 @@
                     "filter": [
                         {
                             "property": "codeList",
-                            "op": "in",
+                            "op": "exists",
                             "value": [
                                 "2634995",
                                 "2635005",
@@ -3314,7 +3314,7 @@
                     "filter": [
                         {
                             "property": "codeList",
-                            "op": "in",
+                            "op": "exists",
                             "value": [
                                 "64406010901"
                             ]

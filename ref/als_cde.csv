@@ -1,0 +1,320 @@
+id,name,description,codesystem,code,op
+C20000,alsfrsr,presence of a record of amyotrophic lateral sclerosis functional rating scale - revised [ALSFRS-R],loinc,82954-9,exists
+C20001,alsfrsrQ1Speech,revised ALS functional rating scale - speech,loinc,82940-8,exists
+C20002,alsfrsrQ2Salivation,revised ALS functional rating scale - salivation,loinc,82941-6,exists
+C20003,alsfrsrQ3Swallowing,revised ALS functional rating scale - swallowing,loinc,82942-4,exists
+C20004,alsfrsrQ4Handwriting,revised ALS functional rating scale - handwriting,loinc,82943-2,exists
+C20005,alsfrsrQ5CuttingWo,revised ALS functional rating scale - cutting food and handling utensils (patients without gastronomy),loinc,82944-0,exists
+C20006,alsfrsrQ5CuttingW,revised ALS functional rating scale - cutting food and handling utensils (patients with gastronomy),loinc,82945-7,exists
+C20007,alsfrsrQ6Dressing,revised ALS functional rating scale - dressing and hygiene,loinc,82946-5,exists
+C20008,alsfrsrQ7Turning,revised ALS functional rating scale - turning in bed and adjusting bed clothes,loinc,82947-3,exists
+C20009,alsfrsrQ8Walking,revised ALS functional rating scale - walking,loinc,82948-1,exists
+C20010,alsfrsrQ9Climbing,revised ALS functional rating scale - climbing stairs,loinc,82948-1,exists
+C20011,alsfrsrQ10Dyspnea,revised ALS functional rating scale - dyspnea,loinc,82950-7,exists
+C20012,alsfrsrQ10Dyspnea,revised ALS functional rating scale - dyspnea,loinc,82950-7,exists
+C20013,alsfrsrQ11Orthopnea,revised ALS functional rating scale - orthopnea,loinc,82951-5,exists
+C20014,alsfrsrQ12Respiratory,revised ALS functional rating scale - respiratory insufficiency,loinc,82952-3,exists
+C20015,alsfrsrRespType,revised ALS functional rating scale - respondent type,loinc,83129-7,exists
+C20016,alsfrsrTotal,revised ALS functional rating scale - total score,loinc,82953-1,exists
+C10172,ForcedVitalCapacityResltVal,"Value of the Forced Vital Capacity (FVC), in liters, as the maximum volume of air that can be exhaled as rapidly, forcefully, and completely as possible from the point of maximal inhalation",loinc,19868-9,exists
+C10172,ForcedVitalCapacityResltVal,"Value of the Forced Vital Capacity (FVC), in liters, as the maximum volume of air that can be exhaled as rapidly, forcefully, and completely as possible from the point of maximal inhalation",loinc,19870-5,exists
+C10177,SlowVitalCapPcntPredctdNormVal,percentage of the predicted normal value of Slow Vital Capacity (sVC) to grade the severity of the abnormality,loinc,19866-3,exists
+C10177,SlowVitalCapPcntPredctdNormVal,percentage of the predicted normal value of Slow Vital Capacity (sVC) to grade the severity of the abnormality,loinc,19867-1,exists
+C20017,fvcPercent,forced vital capacity (percent of predicted normal value),loinc,19872-1,exists
+C20018,svcPercent,slow vital capacity (percent of predicted normal value),loinc,19872-1,exists
+C10974,ManualMuscleTestScore,,loinc,80322-1,exists
+C20019,ManualMuscleTestScoreSABDLeft,Manual Muscle Testing (MMT) for left shoulder abduction,loinc,80322-1,exists
+C20019,ManualMuscleTestScoreSABDLeft,Manual Muscle Testing (MMT) for left shoulder abduction,loinc,41299-9,exists
+C20019,ManualMuscleTestScoreSABDLeft,Manual Muscle Testing (MMT) for left shoulder abduction,loinc,41300-5,exists
+C20020,ManualMuscleTestScoreSABDRight,Manual Muscle Testing (MMT) for right shoulder abduction,loinc,80322-1,exists
+C20020,ManualMuscleTestScoreSABDRight,Manual Muscle Testing (MMT) for right shoulder abduction,loinc,41311-2,exists
+C20020,ManualMuscleTestScoreSABDRight,Manual Muscle Testing (MMT) for right shoulder abduction,loinc,41300-5,exists
+C20021,ManualMuscleTestScoreSFLeft,Manual Muscle Testing (MMT) for left shoulder flexion,loinc,80322-1,exists
+C20021,ManualMuscleTestScoreSFLeft,Manual Muscle Testing (MMT) for left shoulder flexion,loinc,41295-7,exists
+C20021,ManualMuscleTestScoreSFLeft,Manual Muscle Testing (MMT) for left shoulder flexion,loinc,41296-5,exists
+C20022,ManualMuscleTestScoreSFRight,Manual Muscle Testing (MMT) for right shoulder flexion,loinc,80322-1,exists
+C20022,ManualMuscleTestScoreSFRight,Manual Muscle Testing (MMT) for right shoulder flexion,loinc,41307-0,exists
+C20022,ManualMuscleTestScoreSFRight,Manual Muscle Testing (MMT) for right shoulder flexion,loinc,41308-8,exists
+C20023,ManualMuscleTestScoreEFLeft,Manual Muscle Testing (MMT) for left elbow flexion,loinc,80322-1,exists
+C20023,ManualMuscleTestScoreEFLeft,Manual Muscle Testing (MMT) for left elbow flexion,loinc,41351-8,exists
+C20023,ManualMuscleTestScoreEFLeft,Manual Muscle Testing (MMT) for left elbow flexion,loinc,41352-6,exists
+C20024,ManualMuscleTestScoreEELeft,Manual Muscle Testing (MMT) for left elbow extension,loinc,80322-1,exists
+C20024,ManualMuscleTestScoreEELeft,Manual Muscle Testing (MMT) for left elbow extension,loinc,41353-4,exists
+C20024,ManualMuscleTestScoreEELeft,Manual Muscle Testing (MMT) for left elbow extension,loinc,41354-2,exists
+C20025,ManualMuscleTestScoreEFRight,Manual Muscle Testing (MMT) for right elbow flexion,loinc,80322-1,exists
+C20025,ManualMuscleTestScoreEFRight,Manual Muscle Testing (MMT) for right elbow flexion,loinc,41355-9,exists
+C20025,ManualMuscleTestScoreEFRight,Manual Muscle Testing (MMT) for right elbow flexion,loinc,41356-7,exists
+C20026,ManualMuscleTestScoreEERight,Manual Muscle Testing (MMT) for right elbow extension,loinc,80322-1,exists
+C20026,ManualMuscleTestScoreEERight,Manual Muscle Testing (MMT) for right elbow extension,loinc,41357-5,exists
+C20026,ManualMuscleTestScoreEERight,Manual Muscle Testing (MMT) for right elbow extension,loinc,41358-3,exists
+C20027,ManualMuscleTestScoreHFLeft,Manual Muscle Testing (MMT) for left hip flexion,loinc,80322-1,exists
+C20027,ManualMuscleTestScoreHFLeft,Manual Muscle Testing (MMT) for left hip flexion,loinc,41319-5,exists
+C20027,ManualMuscleTestScoreHFLeft,Manual Muscle Testing (MMT) for left hip flexion,loinc,41320-3,exists
+C20028,ManualMuscleTestScoreHELeft,Manual Muscle Testing (MMT) for left hip extension,loinc,80322-1,exists
+C20028,ManualMuscleTestScoreHELeft,Manual Muscle Testing (MMT) for left hip extension,loinc,41321-1,exists
+C20028,ManualMuscleTestScoreHELeft,Manual Muscle Testing (MMT) for left hip extension,loinc,41322-9,exists
+C20029,ManualMuscleTestScoreHABDLeft,Manual Muscle Testing (MMT) for left hip abduction,loinc,80322-1,exists
+C20029,ManualMuscleTestScoreHABDLeft,Manual Muscle Testing (MMT) for left hip abduction,loinc,41323-7,exists
+C20029,ManualMuscleTestScoreHABDLeft,Manual Muscle Testing (MMT) for left hip abduction,loinc,41324-5,exists
+C20030,ManualMuscleTestScoreHADDLeft,Manual Muscle Testing (MMT) for left hip adduction,loinc,80322-1,exists
+C20030,ManualMuscleTestScoreHADDLeft,Manual Muscle Testing (MMT) for left hip adduction,loinc,41325-2,exists
+C20030,ManualMuscleTestScoreHADDLeft,Manual Muscle Testing (MMT) for left hip adduction,loinc,41326-0,exists
+C20031,ManualMuscleTestScoreHERLeft,Manual Muscle Testing (MMT) for left hip external rotation,loinc,80322-1,exists
+C20031,ManualMuscleTestScoreHERLeft,Manual Muscle Testing (MMT) for left hip external rotation,loinc,41329-4,exists
+C20031,ManualMuscleTestScoreHERLeft,Manual Muscle Testing (MMT) for left hip external rotation,loinc,41330-2,exists
+C20032,ManualMuscleTestScoreHFRight,Manual Muscle Testing (MMT) for right hip flexion,loinc,80322-1,exists
+C20032,ManualMuscleTestScoreHFRight,Manual Muscle Testing (MMT) for right hip flexion,loinc,41331-0,exists
+C20032,ManualMuscleTestScoreHFRight,Manual Muscle Testing (MMT) for right hip flexion,loinc,41332-8,exists
+C20033,ManualMuscleTestScoreHERight,Manual Muscle Testing (MMT) for right hip extension,loinc,80322-1,exists
+C20033,ManualMuscleTestScoreHERight,Manual Muscle Testing (MMT) for right hip extension,loinc,41333-6,exists
+C20033,ManualMuscleTestScoreHERight,Manual Muscle Testing (MMT) for right hip extension,loinc,41334-4,exists
+C20034,ManualMuscleTestScoreHABDRight,Manual Muscle Testing (MMT) for right hip abduction,loinc,80322-1,exists
+C20034,ManualMuscleTestScoreHABDRight,Manual Muscle Testing (MMT) for right hip abduction,loinc,41335-1,exists
+C20034,ManualMuscleTestScoreHABDRight,Manual Muscle Testing (MMT) for right hip abduction,loinc,41336-9,exists
+C20035,ManualMuscleTestScoreHADDRight,Manual Muscle Testing (MMT) for right hip adduction,loinc,80322-1,exists
+C20035,ManualMuscleTestScoreHADDRight,Manual Muscle Testing (MMT) for right hip adduction,loinc,41337-7,exists
+C20035,ManualMuscleTestScoreHADDRight,Manual Muscle Testing (MMT) for right hip adduction,loinc,41338-5,exists
+C20036,ManualMuscleTestScoreHERRight,Manual Muscle Testing (MMT) for right hip external rotation,loinc,80322-1,exists
+C20036,ManualMuscleTestScoreHERRight,Manual Muscle Testing (MMT) for right hip external rotation,loinc,41341-9,exists
+C20036,ManualMuscleTestScoreHERRight,Manual Muscle Testing (MMT) for right hip external rotation,loinc,41342-7,exists
+C20037,ManualMuscleTestScoreKFLeft,Manual Muscle Testing (MMT) for left knee flexion,loinc,80322-1,exists
+C20037,ManualMuscleTestScoreKFLeft,Manual Muscle Testing (MMT) for left knee flexion,loinc,41343-5,exists
+C20037,ManualMuscleTestScoreKFLeft,Manual Muscle Testing (MMT) for left knee flexion,loinc,41344-3,exists
+C20038,ManualMuscleTestScoreKELeft,Manual Muscle Testing (MMT) for left knee extension,loinc,80322-1,exists
+C20038,ManualMuscleTestScoreKELeft,Manual Muscle Testing (MMT) for left knee extension,loinc,41345-0,exists
+C20038,ManualMuscleTestScoreKELeft,Manual Muscle Testing (MMT) for left knee extension,loinc,41346-8,exists
+C20039,ManualMuscleTestScoreKFRight,Manual Muscle Testing (MMT) for right knee flexion,loinc,80322-1,exists
+C20039,ManualMuscleTestScoreKFRight,Manual Muscle Testing (MMT) for right knee flexion,loinc,41347-6,exists
+C20039,ManualMuscleTestScoreKFRight,Manual Muscle Testing (MMT) for right knee flexion,loinc,41348-4,exists
+C20040,ManualMuscleTestScoreKERight,Manual Muscle Testing (MMT) for right knee extension,loinc,80322-1,exists
+C20040,ManualMuscleTestScoreKERight,Manual Muscle Testing (MMT) for right knee extension,loinc,41349-2,exists
+C20040,ManualMuscleTestScoreKERight,Manual Muscle Testing (MMT) for right knee extension,loinc,41350-0,exists
+C20041,ManualMuscleTestScoreWFLeft,Manual Muscle Testing (MMT) for left wrist flexion,loinc,80322-1,exists
+C20042,ManualMuscleTestScoreWELeft,Manual Muscle Testing (MMT) for left wrist extension,loinc,80322-1,exists
+C20043,ManualMuscleTestScoreWFRight,Manual Muscle Testing (MMT) for right wrist flexion,loinc,80322-1,exists
+C20044,ManualMuscleTestScoreWERight,Manual Muscle Testing (MMT) for right wrist extension,loinc,80322-1,exists
+C20045,ManualMuscleTestScoreNF,Manual Muscle Testing (MMT) for neck flexion,loinc,80322-1,exists
+C20046,ManualMuscleTestScoreNE,Manual Muscle Testing (MMT) for neck extension,loinc,80322-1,exists
+C20047,ManualMuscleTestScoreADLeft,Manual Muscle Testing (MMT) for left ankle dorsiflexion,loinc,80322-1,exists
+C20048,ManualMuscleTestScoreAPLLeft,Manual Muscle Testing (MMT) for left ankle plantarflexion,loinc,80322-1,exists
+C20049,ManualMuscleTestScoreADRight,Manual Muscle Testing (MMT) for right ankle dorsiflexion,loinc,80322-1,exists
+C20050,ManualMuscleTestScoreAPLRight,Manual Muscle Testing (MMT) for right ankle plantarflexion,loinc,80322-1,exists
+C20051,ManualMuscleTestScoreTHABDLeft,Manual Muscle Testing (MMT) for left thenar abductor pollicis brevis,loinc,80322-1,exists
+C20052,ManualMuscleTestScoreTHABDRight,Manual Muscle Testing (MMT) for right thenar abductor pollicis brevis,loinc,80322-1,exists
+C20053,ManualMuscleTestScoreFDMLeft,Manual Muscle Testing (MMT) for left flexor digiti minimi,loinc,80322-1,exists
+C20054,ManualMuscleTestScoreFDMRight,Manual Muscle Testing (MMT) for right flexor digiti minimi,loinc,80322-1,exists
+C20055,ManualMuscleTestScoreFDILeft,Manual Muscle Testing (MMT) for left first dorsal interossei,loinc,80322-1,exists
+C20056,ManualMuscleTestScoreFDIRight,Manual Muscle Testing (MMT) for right first dorsal interossei,loinc,80322-1,exists
+C20057,DiagnosALS,diagnosis of amyotrophic lateral sclerosis,icd9cm,335.20,descendent-of
+C20057,DiagnosALS,diagnosis of amyotrophic lateral sclerosis,icd10cm,G12.21,descendent-of
+C20058,SymptmSpeech,speech disorder or deficit,icd9cm,315.39,descendent-of
+C20058,SymptmSpeech,speech disorder or deficit,icd9cm,438.1,descendent-of
+C20058,SymptmSpeech,speech disorder or deficit,icd9cm,784.3,descendent-of
+C20058,SymptmSpeech,speech disorder or deficit,icd9cm,784.4,descendent-of
+C20058,SymptmSpeech,speech disorder or deficit,icd9cm,784.5,descendent-of
+C20058,SymptmSpeech,speech disorder or deficit,icd10cm,F80.0,descendent-of
+C20058,SymptmSpeech,speech disorder or deficit,icd10cm,F80.89,descendent-of
+C20058,SymptmSpeech,speech disorder or deficit,icd10cm,R47,descendent-of
+C20058,SymptmSpeech,speech disorder or deficit,icd10cm,R49,descendent-of
+C20058,SymptmSpeech,speech disorder or deficit,icd10cm,I69.92,descendent-of
+C20059,SymptmSwallowing,"swallowing disturbance, pain in throat, dysphasia",icd9cm,787.2,descendent-of
+C20059,SymptmSwallowing,"swallowing disturbance, pain in throat, dysphasia",icd9cm,438.82,descendent-of
+C20059,SymptmSwallowing,"swallowing disturbance, pain in throat, dysphasia",icd9cm,527.7,descendent-of
+C20059,SymptmSwallowing,"swallowing disturbance, pain in throat, dysphasia",icd9cm,527.8,descendent-of
+C20059,SymptmSwallowing,"swallowing disturbance, pain in throat, dysphasia",icd9cm,784.1,descendent-of
+C20059,SymptmSwallowing,"swallowing disturbance, pain in throat, dysphasia",icd10cm,R13,descendent-of
+C20059,SymptmSwallowing,"swallowing disturbance, pain in throat, dysphasia",icd10cm,I69.99,descendent-of
+C20059,SymptmSwallowing,"swallowing disturbance, pain in throat, dysphasia",icd10cm,K11,descendent-of
+C20059,SymptmSwallowing,"swallowing disturbance, pain in throat, dysphasia",icd10cm,R68.2,descendent-of
+C20059,SymptmSwallowing,"swallowing disturbance, pain in throat, dysphasia",icd10cm,R07.0,descendent-of
+C20060,SymptmMuscleWeakness,"muscle weakness, disuse, atrophy, or ligament disorder",icd10cm,M60,descendent-of
+C20060,SymptmMuscleWeakness,"muscle weakness, disuse, atrophy, or ligament disorder",icd10cm,M61,descendent-of
+C20060,SymptmMuscleWeakness,"muscle weakness, disuse, atrophy, or ligament disorder",icd10cm,M62,descendent-of
+C20060,SymptmMuscleWeakness,"muscle weakness, disuse, atrophy, or ligament disorder",icd10cm,M63,descendent-of
+C20060,SymptmMuscleWeakness,"muscle weakness, disuse, atrophy, or ligament disorder",icd10cm,M24.2,descendent-of
+C20060,SymptmMuscleWeakness,"muscle weakness, disuse, atrophy, or ligament disorder",icd10cm,M35.7,descendent-of
+C20060,SymptmMuscleWeakness,"muscle weakness, disuse, atrophy, or ligament disorder",icd10cm,M71,descendent-of
+C20061,SymptmMuscleMovement,"involuntary muscle movement (cramping, spasm, switching, fasciculation, myopathy)",icd9cm,729.82,descendent-of
+C20061,SymptmMuscleMovement,"involuntary muscle movement (cramping, spasm, switching, fasciculation, myopathy)",icd9cm,728.85,descendent-of
+C20061,SymptmMuscleMovement,"involuntary muscle movement (cramping, spasm, switching, fasciculation, myopathy)",icd9cm,781.0,descendent-of
+C20061,SymptmMuscleMovement,"involuntary muscle movement (cramping, spasm, switching, fasciculation, myopathy)",icd9cm,359,descendent-of
+C20061,SymptmMuscleMovement,"involuntary muscle movement (cramping, spasm, switching, fasciculation, myopathy)",icd10cm,M62.4,descendent-of
+C20061,SymptmMuscleMovement,"involuntary muscle movement (cramping, spasm, switching, fasciculation, myopathy)",icd10cm,M62.83,descendent-of
+C20061,SymptmMuscleMovement,"involuntary muscle movement (cramping, spasm, switching, fasciculation, myopathy)",icd10cm,R25,descendent-of
+C20061,SymptmMuscleMovement,"involuntary muscle movement (cramping, spasm, switching, fasciculation, myopathy)",icd10cm,G72,descendent-of
+C20061,SymptmMuscleMovement,"involuntary muscle movement (cramping, spasm, switching, fasciculation, myopathy)",icd10cm,G73.7,descendent-of
+C20062,SymptmPainJointLimb,pain in joint or pain in limb,icd9cm,719.4,descendent-of
+C20062,SymptmPainJointLimb,pain in joint or pain in limb,icd9cm,729.5,descendent-of
+C20062,SymptmPainJointLimb,pain in joint or pain in limb,icd10cm,M25.5,descendent-of
+C20062,SymptmPainJointLimb,pain in joint or pain in limb,icd10cm,M79.6,descendent-of
+C20063,SymptmWalking,difficulty walking or gait abnormality,icd9cm,719.7,descendent-of
+C20063,SymptmWalking,difficulty walking or gait abnormality,icd9cm,781.2,descendent-of
+C20063,SymptmWalking,difficulty walking or gait abnormality,icd9cm,781.3,descendent-of
+C20063,SymptmWalking,difficulty walking or gait abnormality,icd10cm,R26,descendent-of
+C20063,SymptmWalking,difficulty walking or gait abnormality,icd10cm,R27,descendent-of
+C20064,MobilityDeviceWalkerCane,mobility device - walker or cane,hpc,E0100,in
+C20064,MobilityDeviceWalkerCane,mobility device - walker or cane,hpc,E0105,in
+C20064,MobilityDeviceWalkerCane,mobility device - walker or cane,hpc,E0130,in
+C20064,MobilityDeviceWalkerCane,mobility device - walker or cane,hpc,E0135,in
+C20064,MobilityDeviceWalkerCane,mobility device - walker or cane,hpc,E0140,in
+C20064,MobilityDeviceWalkerCane,mobility device - walker or cane,hpc,E0141,in
+C20064,MobilityDeviceWalkerCane,mobility device - walker or cane,hpc,E0143,in
+C20064,MobilityDeviceWalkerCane,mobility device - walker or cane,hpc,E0144,in
+C20064,MobilityDeviceWalkerCane,mobility device - walker or cane,hpc,E0147,in
+C20064,MobilityDeviceWalkerCane,mobility device - walker or cane,hpc,E0148,in
+C20064,MobilityDeviceWalkerCane,mobility device - walker or cane,hpc,E0149,in
+C20064,MobilityDeviceWalkerCane,mobility device - walker or cane,hpc,E0153,in
+C20064,MobilityDeviceWalkerCane,mobility device - walker or cane,hpc,E0154,in
+C20064,MobilityDeviceWalkerCane,mobility device - walker or cane,hpc,E0155,in
+C20064,MobilityDeviceWalkerCane,mobility device - walker or cane,hpc,E0156,in
+C20064,MobilityDeviceWalkerCane,mobility device - walker or cane,hpc,E0157,in
+C20064,MobilityDeviceWalkerCane,mobility device - walker or cane,hpc,E0158,in
+C20064,MobilityDeviceWalkerCane,mobility device - walker or cane,hpc,E0159,in
+C20065,MobilityDeviceHygiene,"mobility devices for maintaining hygiene (commodes, bedpands, urinals, shower assistive device)",hpc,E0163-E0175,in
+C20065,MobilityDeviceHygiene,"mobility devices for maintaining hygiene (commodes, bedpands, urinals, shower assistive device)",hpc,E0240-E0249,in
+C20065,MobilityDeviceHygiene,"mobility devices for maintaining hygiene (commodes, bedpands, urinals, shower assistive device)",hpc,E0275-E0276,in
+C20065,MobilityDeviceHygiene,"mobility devices for maintaining hygiene (commodes, bedpands, urinals, shower assistive device)",hpc,E0325-E0326,in
+C20066,MobilityDeviceTransfer,lifts and support systems and safety devices,hpc,E0621-E0642,in
+C20066,MobilityDeviceTransfer,lifts and support systems and safety devices,hpc,E0700-E0711,in
+C20067,MobilityDeviceWheelchair,manual or power wheelchairs and transport chairs,hpc,E0950-E1298,in
+C20067,MobilityDeviceWheelchair,manual or power wheelchairs and transport chairs,hpc,E2201-E2298,in
+C20067,MobilityDeviceWheelchair,manual or power wheelchairs and transport chairs,hpc,E2601-E2633,in
+C20067,MobilityDeviceWheelchair,manual or power wheelchairs and transport chairs,hpc,K0813-K0899,in
+C20068,MobilityDeviceCommunication,AAC and other speech-language pathology related devices,hpc,E1902-E1902,in
+C20068,MobilityDeviceCommunication,AAC and other speech-language pathology related devices,hpc,E2500-E2599,in
+C20068,MobilityDeviceCommunication,AAC and other speech-language pathology related devices,cpt4,92605-92609,in
+C20068,MobilityDeviceCommunication,AAC and other speech-language pathology related devices,icd10pcs,F06Z0,descendent-of
+C20068,MobilityDeviceCommunication,AAC and other speech-language pathology related devices,icd10pcs,F06Z1,descendent-of
+C20068,MobilityDeviceCommunication,AAC and other speech-language pathology related devices,icd10pcs,F06Z3,descendent-of
+C20068,MobilityDeviceCommunication,AAC and other speech-language pathology related devices,icd10pcs,F06Z6,descendent-of
+C20068,MobilityDeviceCommunication,AAC and other speech-language pathology related devices,icd10pcs,F06Z8,descendent-of
+C20068,MobilityDeviceCommunication,AAC and other speech-language pathology related devices,icd10pcs,F06Z9,descendent-of
+C20069,EnteralFeedingEquipment,enteral feeding supplies and equipment or gastrostomy,hpc,B4034-B4088,in
+C20069,EnteralFeedingEquipment,enteral feeding supplies and equipment or gastrostomy,cpt4,43500-43999,in
+C20069,EnteralFeedingEquipment,enteral feeding supplies and equipment or gastrostomy,icd9proc,43.11,in
+C20069,EnteralFeedingEquipment,enteral feeding supplies and equipment or gastrostomy,icd9proc,97.01,in
+C20069,EnteralFeedingEquipment,enteral feeding supplies and equipment or gastrostomy,icd9proc,97.02,in
+C20069,EnteralFeedingEquipment,enteral feeding supplies and equipment or gastrostomy,icd9proc,97.03,in
+C20069,EnteralFeedingEquipment,enteral feeding supplies and equipment or gastrostomy,icd10pcs,0DH6,descendent-of
+C20069,EnteralFeedingEquipment,enteral feeding supplies and equipment or gastrostomy,icd10pcs,0DW60UZ,descendent-of
+C20069,EnteralFeedingEquipment,enteral feeding supplies and equipment or gastrostomy,icd10cm,Z93.1,descendent-of
+C20070,RespiratoryDeviceNIV,non-invasive ventilator or BiPAP ,hpc,E0424-E0464,in
+C20070,RespiratoryDeviceNIV,non-invasive ventilator or BiPAP ,hpc,E0466-E0493,in
+C20070,RespiratoryDeviceNIV,non-invasive ventilator or BiPAP ,hpc,A7000-A7049,in
+C20070,RespiratoryDeviceNIV,non-invasive ventilator or BiPAP ,cpt4,94002-94005,in
+C20070,RespiratoryDeviceNIV,non-invasive ventilator or BiPAP ,cpt4,94660-94660,in
+C20070,RespiratoryDeviceNIV,non-invasive ventilator or BiPAP ,icd9proc,93.90,in
+C20070,RespiratoryDeviceNIV,non-invasive ventilator or BiPAP ,icd10pcs,5A093,in
+C20070,RespiratoryDeviceNIV,non-invasive ventilator or BiPAP ,icd10pcs,5A094,in
+C20070,RespiratoryDeviceNIV,non-invasive ventilator or BiPAP ,icd10pcs,5A095,in
+C20070,RespiratoryDeviceNIV,non-invasive ventilator or BiPAP ,icd10cm,Z99.0,descendent-of
+C20070,RespiratoryDeviceNIV,non-invasive ventilator or BiPAP ,icd10cm,Z99.1,descendent-of
+C20071,InvasiveRespiratoryDeviceMV,invasive ventilator or tracheostomy,cpt4,31600-31614,in
+C20071,InvasiveRespiratoryDeviceMV,invasive ventilator or tracheostomy,hpc,E0465,in
+C20071,InvasiveRespiratoryDeviceMV,invasive ventilator or tracheostomy,icd9proc,94.7,in
+C20071,InvasiveRespiratoryDeviceMV,invasive ventilator or tracheostomy,icd10pcs,5A09B,in
+C20071,InvasiveRespiratoryDeviceMV,invasive ventilator or tracheostomy,icd10pcs,5A09C,in
+C20071,InvasiveRespiratoryDeviceMV,invasive ventilator or tracheostomy,icd10pcs,5A09D,in
+C20071,InvasiveRespiratoryDeviceMV,invasive ventilator or tracheostomy,icd10cm,Z93.0,descendent-of
+C020072,NeurologyVisit,visit to neurologist,cmsSpecialty,13,exists
+C020072,NeurologyVisit,visit to neurologist,cmsTaxonomy,2084A2900X,exists
+C020072,NeurologyVisit,visit to neurologist,cmsTaxonomy,2084D0003X,exists
+C020072,NeurologyVisit,visit to neurologist,cmsTaxonomy,2084N0008X,exists
+C020072,NeurologyVisit,visit to neurologist,cmsTaxonomy,2084N0400X,exists
+C020072,NeurologyVisit,visit to neurologist,cmsTaxonomy,2084N0600X,exists
+C020072,NeurologyVisit,visit to neurologist,cmsTaxonomy,2084V0102X,exists
+C020072,NeurologyVisit,visit to neurologist,cmsTaxonomy,111NN0400X,exists
+C020072,NeurologyVisit,visit to neurologist,cmsTaxonomy,2251N0400X,exists
+C020072,NeurologyVisit,visit to neurologist,snomedct,38238005,exists
+C020072,NeurologyVisit,visit to neurologist,pcornet,HOSPITAL_OUTPATIENT_NEUROLOGY_CLINIC,exists
+C020072,NeurologyVisit,visit to neurologist,other,(neuro)+,regex
+C020073,riluzole,prescription or dispensing of riluzole,rxnorm,35623,in
+C020073,riluzole,prescription or dispensing of riluzole,rxnorm,152915,in
+C020073,riluzole,prescription or dispensing of riluzole,rxnorm,2059266,in
+C020073,riluzole,prescription or dispensing of riluzole,rxnorm,2267572,in
+C020073,riluzole,prescription or dispensing of riluzole,rxnorm,2059262,in
+C020073,riluzole,prescription or dispensing of riluzole,rxnorm,2267568,in
+C020073,riluzole,prescription or dispensing of riluzole,rxnorm,565105,in
+C020073,riluzole,prescription or dispensing of riluzole,rxnorm,2059263,in
+C020073,riluzole,prescription or dispensing of riluzole,rxnorm,2269644,in
+C020073,riluzole,prescription or dispensing of riluzole,rxnorm,368026,in
+C020073,riluzole,prescription or dispensing of riluzole,rxnorm,1184724,in
+C020073,riluzole,prescription or dispensing of riluzole,rxnorm,1184725,in
+C020073,riluzole,prescription or dispensing of riluzole,rxnorm,2059264,in
+C020073,riluzole,prescription or dispensing of riluzole,rxnorm,2059265,in
+C020073,riluzole,prescription or dispensing of riluzole,rxnorm,2267570,in
+C020073,riluzole,prescription or dispensing of riluzole,rxnorm,2269645,in
+C020073,riluzole,prescription or dispensing of riluzole,rxnorm,199206,in
+C020073,riluzole,prescription or dispensing of riluzole,rxnorm,2058147,in
+C020073,riluzole,prescription or dispensing of riluzole,rxnorm,2265862,in
+C020073,riluzole,prescription or dispensing of riluzole,rxnorm,2058144,in
+C020073,riluzole,prescription or dispensing of riluzole,rxnorm,317486,in
+C020073,riluzole,prescription or dispensing of riluzole,rxnorm,2058146,in
+C020073,riluzole,prescription or dispensing of riluzole,rxnorm,2269642,in
+C020073,riluzole,prescription or dispensing of riluzole,rxnorm,373787,in
+C020073,riluzole,prescription or dispensing of riluzole,rxnorm,1165471,in
+C020073,riluzole,prescription or dispensing of riluzole,rxnorm,1165472,in
+C020073,riluzole,prescription or dispensing of riluzole,rxnorm,2058145,in
+C020073,riluzole,prescription or dispensing of riluzole,rxnorm,2269641,in
+C020073,riluzole,prescription or dispensing of riluzole,ndc,24987070060,in
+C020073,riluzole,prescription or dispensing of riluzole,ndc,70515070060,in
+C020073,riluzole,prescription or dispensing of riluzole,ndc,70726030301,in
+C020073,riluzole,prescription or dispensing of riluzole,ndc,70726030302,in
+C020073,riluzole,prescription or dispensing of riluzole,ndc,10094035060,in
+C020073,riluzole,prescription or dispensing of riluzole,ndc,70510220101,in
+C020073,riluzole,prescription or dispensing of riluzole,ndc,70510220102,in
+C020073,riluzole,prescription or dispensing of riluzole,ndc,00115300013,in
+C020073,riluzole,prescription or dispensing of riluzole,ndc,00378414591,in
+C020073,riluzole,prescription or dispensing of riluzole,ndc,42291077560,in
+C020073,riluzole,prescription or dispensing of riluzole,ndc,60505328506,in
+C020073,riluzole,prescription or dispensing of riluzole,ndc,62756053818,in
+C020073,riluzole,prescription or dispensing of riluzole,ndc,62756053883,in
+C020073,riluzole,prescription or dispensing of riluzole,ndc,62756053886,in
+C020073,riluzole,prescription or dispensing of riluzole,ndc,62756053888,in
+C020073,riluzole,prescription or dispensing of riluzole,ndc,64980019106,in
+C020073,riluzole,prescription or dispensing of riluzole,ndc,67877028605,in
+C020073,riluzole,prescription or dispensing of riluzole,ndc,67877028610,in
+C020073,riluzole,prescription or dispensing of riluzole,ndc,67877028614,in
+C020073,riluzole,prescription or dispensing of riluzole,ndc,67877028660,in
+C020073,riluzole,prescription or dispensing of riluzole,ndc,67877028690,in
+C020073,riluzole,prescription or dispensing of riluzole,ndc,68084090895,in
+C020073,riluzole,prescription or dispensing of riluzole,ndc,68462038110,in
+C020073,riluzole,prescription or dispensing of riluzole,ndc,68462038160,in
+C020073,riluzole,prescription or dispensing of riluzole,ndc,69076020044,in
+C020073,riluzole,prescription or dispensing of riluzole,ndc,69076020060,in
+C020074,edaravone,prescription and dispensing of edaravone,rxnorm,1921877,in
+C020074,edaravone,prescription and dispensing of edaravone,rxnorm,1924317,in
+C020074,edaravone,prescription and dispensing of edaravone,rxnorm,2602122,in
+C020074,edaravone,prescription and dispensing of edaravone,rxnorm,1921883,in
+C020074,edaravone,prescription and dispensing of edaravone,rxnorm,2602118,in
+C020074,edaravone,prescription and dispensing of edaravone,rxnorm,1921884,in
+C020074,edaravone,prescription and dispensing of edaravone,rxnorm,2602121,in
+C020074,edaravone,prescription and dispensing of edaravone,rxnorm,1921885,in
+C020074,edaravone,prescription and dispensing of edaravone,rxnorm,2602119,in
+C020074,edaravone,prescription and dispensing of edaravone,rxnorm,2602120,in
+C020074,edaravone,prescription and dispensing of edaravone,rxnorm,1924316,in
+C020074,edaravone,prescription and dispensing of edaravone,rxnorm,2602117,in
+C020074,edaravone,prescription and dispensing of edaravone,rxnorm,1921878,in
+C020074,edaravone,prescription and dispensing of edaravone,rxnorm,2602113,in
+C020074,edaravone,prescription and dispensing of edaravone,rxnorm,1921880,in
+C020074,edaravone,prescription and dispensing of edaravone,rxnorm,2602116,in
+C020074,edaravone,prescription and dispensing of edaravone,rxnorm,1921879,in
+C020074,edaravone,prescription and dispensing of edaravone,rxnorm,2602114,in
+C020074,edaravone,prescription and dispensing of edaravone,rxnorm,2602115,in
+C020074,edaravone,prescription and dispensing of edaravone,ndc,70510217101,in
+C020074,edaravone,prescription and dispensing of edaravone,ndc,70510217102,in
+C020074,edaravone,prescription and dispensing of edaravone,ndc,70510232101,in
+C020074,edaravone,prescription and dispensing of edaravone,ndc,70510232102,in
+C020074,edaravone,prescription and dispensing of edaravone,ndc,70510232201,in
+C020074,edaravone,prescription and dispensing of edaravone,ndc,70510232301,in
+C020074,edaravone,prescription and dispensing of edaravone,ndc,70510232401,in
+C020075,tofersen,prescription and dispensing of tofersen,rxnorm,2634995,in
+C020075,tofersen,prescription and dispensing of tofersen,rxnorm,2635005,in
+C020075,tofersen,prescription and dispensing of tofersen,rxnorm,2635002,in
+C020075,tofersen,prescription and dispensing of tofersen,rxnorm,2635004,in
+C020075,tofersen,prescription and dispensing of tofersen,rxnorm,2635003,in
+C020075,tofersen,prescription and dispensing of tofersen,rxnorm,2634999,in
+C020075,tofersen,prescription and dispensing of tofersen,rxnorm,2634996,in
+C020075,tofersen,prescription and dispensing of tofersen,rxnorm,2634998,in
+C020075,tofersen,prescription and dispensing of tofersen,rxnorm,2634997,in
+C020075,tofersen,prescription and dispensing of tofersen,ndc,64406010901,in
