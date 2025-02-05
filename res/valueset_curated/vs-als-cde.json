@@ -3015,5 +3015,313 @@
                 }
             ]
         }
+    },
+    {
+        "id": "C020072",
+        "name": "NeurologyVisit",
+        "description": "visit to neurologist",
+        "topic": "treatment/intervention",
+        "purpose": "precedures",
+        "relatedArtifact": {
+            "class": "recommended",
+            "valueType": "boolean",
+            "valueRange": {
+                "0": "absence",
+                "1": "presence"
+            }
+        },
+        "compose": {
+            "include": [
+                {
+                    "system": "cmsSpecialty",
+                    "concept": [
+                        {
+                            "code": "13",
+                            "display": ""
+                        }
+                    ]
+                },
+                {
+                    "system": "cmsTaxonomy",
+                    "concept": [
+                        {
+                            "code": "2084A2900X",
+                            "display": "Neurocritical Care"
+                        },
+                        {
+                            "code": "2084D0003X",
+                            "display": "Diagnostic Neuroimaging"
+                        },
+                        {
+                            "code": "2084N0008X",
+                            "display": "Neuromuscular Medicine"
+                        },
+                        {
+                            "code": "2084N0400X",
+                            "display": "Neurology"
+                        },
+                        {
+                            "code": "2084N0600X",
+                            "display": "Neurophysiology"
+                        },
+                        {
+                            "code": "2084V0102X",
+                            "display": "Vascular Neurology"
+                        },
+                        {
+                            "code": "111NN0400X",
+                            "display": "Chiropractor Neurology"
+                        },
+                        {
+                            "code": "2251N0400X",
+                            "display": "Physical Therapist Neurology"
+                        }
+                    ]
+                },
+                {
+                    "system": "snomedct",
+                    "concept": [
+                        {
+                            "code": "38238005",
+                            "display": "Hospital-based outpatient neurology clinic"
+                        }
+                    ]
+                },
+                {
+                    "system": "pcornet",
+                    "concept": [
+                        {
+                            "code": "HOSPITAL_OUTPATIENT_NEUROLOGY_CLINIC",
+                            "display": "Hospital-based outpatient neurology clinic"
+                        }
+                    ]
+                },
+                {
+                    "system": "other",
+                    "filter": [
+                        {
+                            "property": "textRegex",
+                            "op": "regex",
+                            "value": [
+                                "(neuro)+"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "id": "C020073",
+        "name": "riluzole",
+        "description": "prescription or dispensing of riluzole",
+        "topic": "treatment/intervention",
+        "purpose": "drugs",
+        "relatedArtifact": {
+            "class": "core",
+            "valueType": "boolean",
+            "valueRange": {
+                "0": "absence",
+                "1": "presence"
+            }
+        },
+        "compose": {
+            "include": [
+                {
+                    "system": "rxnorm",
+                    "filter": [
+                        {
+                            "property": "codeList",
+                            "op": "in",
+                            "value": [
+                                "35623",
+                                "152915",
+                                "2059266",
+                                "2267572",
+                                "2059262",
+                                "2267568",
+                                "565105",
+                                "2059263",
+                                "2269644",
+                                "368026",
+                                "1184724",
+                                "1184725",
+                                "2059264",
+                                "2059265",
+                                "2267570",
+                                "2269645",
+                                "199206",
+                                "2058147",
+                                "2265862",
+                                "2058144",
+                                "317486",
+                                "2058146",
+                                "2269642",
+                                "373787",
+                                "1165471",
+                                "1165472",
+                                "2058145",
+                                "2269641"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "system": "ndc",
+                    "filter": [
+                        {
+                            "property": "codeList",
+                            "op": "in",
+                            "value": [
+                                "24987070060",
+                                "70515070060",
+                                "70726030301",
+                                "70726030302",
+                                "10094035060",
+                                "70510220101",
+                                "70510220102",
+                                "00115300013",
+                                "00378414591",
+                                "42291077560",
+                                "60505328506",
+                                "62756053818",
+                                "62756053883",
+                                "62756053886",
+                                "62756053888",
+                                "64980019106",
+                                "67877028605",
+                                "67877028610",
+                                "67877028614",
+                                "67877028660",
+                                "67877028690",
+                                "68084090895",
+                                "68462038110",
+                                "68462038160",
+                                "69076020044",
+                                "69076020060"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "id": "C020074",
+        "name": "edaravone",
+        "description": "prescription and dispensing of edaravone",
+        "topic": "treatment/intervention",
+        "purpose": "drugs",
+        "relatedArtifact": {
+            "class": "core",
+            "valueType": "boolean",
+            "valueRange": {
+                "0": "absence",
+                "1": "presence"
+            }
+        },
+        "compose": {
+            "include": [
+                {
+                    "system": "rxnorm",
+                    "filter": [
+                        {
+                            "property": "codeList",
+                            "op": "in",
+                            "value": [
+                                "1921877",
+                                "1924317",
+                                "2602122",
+                                "1921883",
+                                "2602118",
+                                "1921884",
+                                "2602121",
+                                "1921885",
+                                "2602119",
+                                "2602120",
+                                "1924316",
+                                "2602117",
+                                "1921878",
+                                "2602113",
+                                "1921880",
+                                "2602116",
+                                "1921879",
+                                "2602114",
+                                "2602115"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "system": "ndc",
+                    "filter": [
+                        {
+                            "property": "codeList",
+                            "op": "in",
+                            "value": [
+                                "70510217101",
+                                "70510217102",
+                                "70510232101",
+                                "70510232102",
+                                "70510232201",
+                                "70510232301",
+                                "70510232401"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "id": "C020075",
+        "name": "tofersen",
+        "description": "prescription and dispensing of tofersen",
+        "topic": "treatment/intervention",
+        "purpose": "drugs",
+        "relatedArtifact": {
+            "class": "core",
+            "valueType": "boolean",
+            "valueRange": {
+                "0": "absence",
+                "1": "presence"
+            }
+        },
+        "compose": {
+            "include": [
+                {
+                    "system": "rxnorm",
+                    "filter": [
+                        {
+                            "property": "codeList",
+                            "op": "in",
+                            "value": [
+                                "2634995",
+                                "2635005",
+                                "2635002",
+                                "2635004",
+                                "2635003",
+                                "2634999",
+                                "2634996",
+                                "2634998",
+                                "2634997"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "system": "ndc",
+                    "filter": [
+                        {
+                            "property": "codeList",
+                            "op": "in",
+                            "value": [
+                                "64406010901"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
     }
 ]

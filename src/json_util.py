@@ -128,13 +128,16 @@ class JsonBlockVS:
         "14":"drg",
         "15":"npiTaxonomy",
         "16":"cmsSpecialty",
+        "17":"cmsTaxonomy",
+        "18":"pcornet",
         "99":"other"
     }
 
     PROPERTY_ENCODER = {
         "1":"codePrecision",
         "2":"codeRange",
-        "3":"codeList"
+        "3":"codeList",
+        "4":"textRegex"
     }
 
     OP_ENCODER = {

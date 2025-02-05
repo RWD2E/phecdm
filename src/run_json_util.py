@@ -1,6 +1,6 @@
 import os
 import sys
-from json_util import QueryFromJson, JsonBlockVS, split_part_multisql
+from json_util import QueryFromJson, JsonBlockVS, json2ref, split_part_multisql
 
 # print(
 #     split_part(
@@ -21,17 +21,17 @@ from json_util import QueryFromJson, JsonBlockVS, split_part_multisql
 # )
 # print(vs_als.gen_qry())
 
-vs_smm = QueryFromJson(
-    url = 'https://raw.githubusercontent.com/RWD2E/phecdm/refs/heads/main/res/valueset_curated/vs-mmm-cde.json',
-    sqlty = 'spark',
-    cd_field = 'CONCEPT_CODE',
-    cdtype_field = 'VOCABULARY_ID',
-    srctbl_name = "CONCEPT",
-    other_fields=["concept_id","concept_name","domain_id"],
-    sel_keys = ['bpt','hys']
-)
+# vs_smm = QueryFromJson(
+#     url = 'https://raw.githubusercontent.com/RWD2E/phecdm/refs/heads/main/res/valueset_curated/vs-mmm-cde.json',
+#     sqlty = 'spark',
+#     cd_field = 'CONCEPT_CODE',
+#     cdtype_field = 'VOCABULARY_ID',
+#     srctbl_name = "CONCEPT",
+#     other_fields=["concept_id","concept_name","domain_id"],
+#     sel_keys = ['bpt','hys']
+# )
 # print(vs_smm.gen_qry_ref())
-print(vs_smm.gen_qry())
+# print(vs_smm.gen_qry())
 
 # vs_delivery = QueryFromJson(
 #     url = 'https://raw.githubusercontent.com/RWD2E/phecdm/refs/heads/main/res/valueset_curated/vs-mmm-cde.json',
@@ -50,7 +50,7 @@ print(vs_smm.gen_qry())
 #     os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
 #     'res','valueset_curated',"vs-als-cde.json"
 # )
-# als_vs = JsonBlockVS(filepath = fp,idstarter='C')
+# als_vs = JsonBlockVS(filepath = fp,idstarter='C',idlength = 6)
 # print(als_vs.get_existing_id())
 # print(als_vs.generate_new_id())
 # print(als_vs.create_json_data_block())
@@ -93,3 +93,9 @@ print(vs_smm.gen_qry())
 #     json_url = 'https://raw.githubusercontent.com/RWD2E/phecdm/refs/heads/main/res/valueset_curated/vs-comorb-OBCMI.json',
 #     save_csv_to = 'C:/repos/phecdm/ref/OBCMI_ICD.csv'
 # )
+
+
+json2ref(
+    json_url = 'https://raw.githubusercontent.com/RWD2E/phecdm/refs/heads/main/res/valueset_curated/vs-comorb-OBCMI.json',
+    save_csv_to = 'C:/repos/phecdm/ref/OBCMI_ICD.csv'
+)
