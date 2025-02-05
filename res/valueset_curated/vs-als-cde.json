@@ -52,7 +52,7 @@
                         {
                             "code": "82940-8",
                             "display": "Speech [ALSFRS-R]",
-                            "referenceRange": "[,3]"
+                            "op": "[,3]"
                         }
                     ]
                 }
@@ -84,7 +84,7 @@
                         {
                             "code": "82941-6",
                             "display": "Salivation [ALSFRS-R]",
-                            "referenceRange": "[,3]"                            
+                            "op": "[,3]"                            
                         }
                     ]
                 }
@@ -116,7 +116,7 @@
                         {
                             "code": "82942-4",
                             "display": "Swallowing [ALSFRS-R]",
-                            "referenceRange": "[,3]"
+                            "op": "[,3]"
                         }
                     ]
                 }
@@ -148,7 +148,7 @@
                         {
                             "code": "82943-2",
                             "display": "Handwriting [ALSFRS-R]",
-                            "referenceRange": "[,3]"
+                            "op": "[,3]"
                         }
                     ]
                 }
@@ -180,7 +180,7 @@
                         {
                             "code": "82944-0",
                             "display": "Cutting food and handling utensils (patients without gastrostomy) [ALSFRS-R]",
-                            "referenceRange": "[,3]"
+                            "op": "[,3]"
                         }
                     ]
                 }
@@ -212,7 +212,7 @@
                         {
                             "code": "82945-7",
                             "display": "Cutting food and handling utensils (patients with gastrostomy) [ALSFRS-R]",
-                            "referenceRange": "[,3]"
+                            "op": "[,3]"
                         }
                     ]
                 }
@@ -244,7 +244,7 @@
                         {
                             "code": "82946-5",
                             "display": "Dressing and hygiene [ALSFRS-R]",
-                            "referenceRange": "[,3]"
+                            "op": "[,3]"
                         }
                     ]
                 }
@@ -276,7 +276,7 @@
                         {
                             "code": "82947-3",
                             "display": "Turning in bed and adjusting bed clothes [ALSFRS-R]",
-                            "referenceRange": "[,3]"
+                            "op": "[,3]"
                         }
                     ]
                 }
@@ -308,7 +308,7 @@
                         {
                             "code": "82948-1",
                             "display": "Walking [ALSFRS-R]",
-                            "referenceRange": "[,3]"
+                            "op": "[,3]"
                         }
                     ]
                 }
@@ -340,7 +340,7 @@
                         {
                             "code": "82948-1",
                             "display": "Walking [ALSFRS-R]",
-                            "referenceRange": "[,3]"
+                            "op": "[,3]"
                         }
                     ]
                 }
@@ -372,7 +372,7 @@
                         {
                             "code": "82950-7",
                             "display": "Dyspnea [ALSFRS-R]",
-                            "referenceRange": "[,3]"
+                            "op": "[,3]"
                         }
                     ]
                 }
@@ -404,7 +404,7 @@
                         {
                             "code": "82950-7",
                             "display": "Dyspnea [ALSFRS-R]",
-                            "referenceRange": "[,3]"
+                            "op": "[,3]"
                         }
                     ]
                 }
@@ -436,7 +436,7 @@
                         {
                             "code": "82951-5",
                             "display": "Orthopnea [ALSFRS-R]",
-                            "referenceRange": "[,3]"
+                            "op": "[,3]"
                         }
                     ]
                 }
@@ -468,7 +468,7 @@
                         {
                             "code": "82952-3",
                             "display": "Respiratory insufficiency [ALSFRS-R]",
-                            "referenceRange": "[,3]"
+                            "op": "[,3]"
                         }
                     ]
                 }
@@ -525,7 +525,7 @@
                         {
                             "code": "82953-1",
                             "display": "Total score [ALSFRS-R]",
-                            "referenceRange": "[,47]"
+                            "op": "[,47]"
                         }
                     ]
                 }
@@ -554,12 +554,12 @@
                         {
                             "code": "19868-9",
                             "display": "forced vital capacity [volume] measured by spirometry",
-                            "referenceRange": "[,5]"
+                            "op": "[,5]"
                         },
                         {
                             "code": "19870-5",
                             "display": "forced vital capacity [volume] general",
-                            "referenceRange": "[,5]"
+                            "op": "[,5]"
                         }
                     ]
                 }
@@ -588,12 +588,12 @@
                         {
                             "code": "19866-3",
                             "display": "vital capacity [volume] measured by spirometry",
-                            "referenceRange": "[,5]"
+                            "op": "[,5]"
                         },
                         {
                             "code": "19867-1",
                             "display": "vital capacity [volume] general",
-                            "referenceRange": "[,5]"
+                            "op": "[,5]"
                         }
                     ]
                 }
@@ -622,7 +622,7 @@
                         {
                             "code": "19872-1",
                             "display": "FVC measured/predicted",
-                            "referenceRange": "[,90]"
+                            "op": "[,90]"
                         }
                     ]
                 }
@@ -651,7 +651,7 @@
                         {
                             "code": "19872-1",
                             "display": "FVC measured/predicted",
-                            "referenceRange": "[,90]"
+                            "op": "[,90]"
                         }
                     ]
                 }
@@ -717,17 +717,17 @@
                         {
                             "code": "80322-1",
                             "display": "Muscle strength",
-                            "referenceRange": "[,4]"
+                            "op": "[,4]"
                         },
                         {
                             "code": "41299-9",
                             "display": "Shoulder - left Abduction Active Range of Motion Quantitative",
-                            "referenceRange": "[,149]"
+                            "op": "[,149]"
                         },
                         {
                             "code": "41300-5",
                             "display": "Shoulder - left Abduction Passive Range of Motion Quantitative",
-                            "referenceRange": "[,149]"
+                            "op": "[,149]"
                         }
                     ]
                 }
@@ -765,17 +765,17 @@
                         {
                             "code": "80322-1",
                             "display": "Muscle strength",
-                            "referenceRange": "[,4]"
+                            "op": "[,4]"
                         },
                         {
                             "code": "41311-2",
                             "display": "Shoulder - right Abduction Active Range of Motion Quantitative",
-                            "referenceRange": "[,149]"
+                            "op": "[,149]"
                         },
                         {
                             "code": "41300-5",
                             "display": "Shoulder - left Abduction Passive Range of Motion Quantitative",
-                            "referenceRange": "[,149]"
+                            "op": "[,149]"
                         }
                     ]
                 }
@@ -817,12 +817,12 @@
                         {
                             "code": "41295-7",
                             "display": "Shoulder - left Flexion Active Range of Motion Quantitative",
-                            "referenceRange": "[,159]"
+                            "op": "[,159]"
                         },
                         {
                             "code": "41296-5",
                             "display": "Shoulder - left Flexion Passive Range of Motion Quantitative",
-                            "referenceRange": "[,159]"
+                            "op": "[,159]"
                         }
                     ]
                 }

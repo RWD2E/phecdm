@@ -291,8 +291,8 @@ def json2ref(
                 
             if "concept" in chunk: 
                 add_chunk['code'] = [x["code"] for x in chunk["concept"]]
-                if "referenceRange" in chunk:
-                    add_chunk['op'] = chunk['referenceRange'] #tuple (low,high)
+                if "op" in chunk:
+                    add_chunk['op'] = chunk['op'] 
                 else: 
                     add_chunk['op'] = 'exists'
 
