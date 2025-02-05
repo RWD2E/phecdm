@@ -291,10 +291,7 @@ def json2ref(
                 
             if "concept" in chunk: 
                 add_chunk['code'] = [x["code"] for x in chunk["concept"]]
-                if "op" in chunk:
-                    add_chunk['op'] = chunk['op'] 
-                else: 
-                    add_chunk['op'] = 'exists'
+                add_chunk['op'] = ['exists' if 'op' not in x else x["op"] for x in chunk["concept"]]
 
             csv_lst.append(add_chunk)
         
