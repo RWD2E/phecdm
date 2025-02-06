@@ -374,7 +374,7 @@ class QueryFromJson:
             elif item["property"]=="codeRange" and item["op"]=="in":
                 cddict["9"] = []
                 for x in item["value"]:
-                    key_quote = [str(y) for y in list(range(int(x.split('-')[0]),int(x.split('-')[1])+1))]
+                    key_quote = expand_range(x)
                     cddict["9"].extend(key_quote)
 
             elif item["property"]=="codeList" and item["op"]=="exists":
