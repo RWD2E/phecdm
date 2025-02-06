@@ -266,6 +266,11 @@ class JsonBlockVS:
         else:
             return "The new json data block is rejected"
 
+def expand_range(range_expression):
+    range_lst = range_expression.split('-')
+    prefix = range_lst[0][0:1]
+    range_expand = [prefix + str(y) for y in list(range(int(range_lst[0][1:]),int(range_lst[1][1:])+1))]
+    return range_expand
 
 def json2ref(
     json_url, #url to valueset json file (rawcontent)
@@ -286,18 +291,33 @@ def json2ref(
                 'codesystem':chunk["system"]
             }
             if "filter" in chunk:
-                add_chunk['code'] = sum([x["value"] for x in chunk["filter"]], []) 
-                add_chunk['op'] = [x["op"] for x in chunk["filter"]][0] 
-                
+                for filter_item in chunk["filter"]:
+                    if filter_item['property'] == 'codeRange':
+                        code_expand = [expand_range(x) for x in filter_item['value']]
+                        add_chunk['code'] = code_expand
+                        add_chunk['op'] = ['exists']*len(code_expand)
+                    else: 
+                        add_chunk['code'] = filter_item['value']
+                        add_chunk['op'] = [filter_item["op"]]*len(filter_item['value'])
+                    
             if "concept" in chunk: 
                 add_chunk['code'] = [x["code"] for x in chunk["concept"]]
                 add_chunk['op'] = ['exists' if 'op' not in x else x["op"] for x in chunk["concept"]]
-
+    
             csv_lst.append(add_chunk)
-        
+
     # create DF from json data and expand
     df = pd.DataFrame(csv_lst)
-    expanded_df = df.explode('code')
+    def expand_row(row):
+        # Zip the lists and repeat the other columns
+        return pd.DataFrame({
+            'code': row['code'],
+            'op': row['op'],
+            **{col: [row[col]] * len(row['code']) for col in df.columns if col not in ['code', 'op']}
+        })
+    expanded_df = pd.concat(df.apply(expand_row, axis=1).tolist(), ignore_index=True)
+    expanded_df = expanded_df[['id','name','description','codesystem','code','op']]
+    expanded_df = expanded_df.explode('code')
 
     # save to csv
     expanded_df.to_csv(save_csv_to,index=False)
