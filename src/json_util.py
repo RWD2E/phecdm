@@ -381,7 +381,7 @@ class QueryFromJson:
                 cddict["9"] = item["value"]
 
             else:
-                print("filter propery or op not defined in the valuset json file.")
+                print("filter property or op not defined in the valuset json file.")
                 pass
         
         cddict = {k: v for k, v in cddict.items() if v}

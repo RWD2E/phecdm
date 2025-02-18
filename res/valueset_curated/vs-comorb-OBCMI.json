@@ -194,7 +194,7 @@
                     "filter": [
                         {
                             "property": "codeList",
-                            "op": "in",
+                            "op": "exists",
                             "value": [
                                 "O43.213",
                                 "O43.223",
@@ -771,7 +771,7 @@
                     "filter": [
                         {
                             "property": "codeList",
-                            "op": "in",
+                            "op": "exists",
                             "value": [
                                 "O44.03",
                                 "O44.13",
@@ -1304,7 +1304,7 @@
                     "filter": [
                         {
                             "property": "codeList",
-                            "op": "in",
+                            "op": "exists",
                             "value": [
                                 "O34.21",
                                 "O66.41"

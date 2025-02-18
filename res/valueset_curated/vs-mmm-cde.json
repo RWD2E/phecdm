@@ -92,7 +92,7 @@
                     "filter": [
                         {
                             "property": "codeList",
-                            "op": "in",
+                            "op": "exists",
                             "value": [
                                 "10D07Z3",
                                 "10D07Z4",
@@ -199,7 +199,7 @@
                     "filter": [
                         {
                             "property": "codeList",
-                            "op": "in",
+                            "op": "exists",
                             "value": [
                                 "10D00Z0",
                                 "10D00Z1",
@@ -330,7 +330,7 @@
                     "filter": [
                         {
                             "property": "codeList",
-                            "op": "in",
+                            "op": "exists",
                             "value": [
                                 "10A00ZZ",
                                 "10A03ZZ",
@@ -674,7 +674,7 @@
                     "filter": [
                         {
                             "property": "codeList",
-                            "op": "in",
+                            "op": "exists",
                             "value": [
                                 "5A2204Z",
                                 "5A12012"
@@ -1357,7 +1357,7 @@
                     "filter": [
                         {
                             "property": "codeList",
-                            "op": "in",
+                            "op": "exists",
                             "value": [
                                 "0UT90ZZ",
                                 "0UT97ZZ",
@@ -1403,7 +1403,7 @@
                     "filter": [
                         {
                             "property": "codeList",
-                            "op": "in",
+                            "op": "exists",
                             "value": [
                                 "0B110F4",
                                 "0B113F4",
@@ -1450,7 +1450,7 @@
                     "filter": [
                         {
                             "property": "codeList",
-                            "op": "in",
+                            "op": "exists",
                             "value": [
                                 "5A1935Z",
                                 "5A1945Z",

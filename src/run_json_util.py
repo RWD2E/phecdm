@@ -95,7 +95,7 @@ from json_util import QueryFromJson, JsonBlockVS, json2ref, split_part_multisql
 # )
 
 
-json2ref(
-    json_url = 'https://raw.githubusercontent.com/RWD2E/phecdm/refs/heads/main/res/valueset_curated/vs-als-cde.json',
-    save_csv_to = 'C:/repos/phecdm/ref/als_cde.csv'
-)
+# json2ref(
+#     json_url = 'https://raw.githubusercontent.com/RWD2E/phecdm/refs/heads/main/res/valueset_curated/vs-als-cde.json',
+#     save_csv_to = 'C:/repos/phecdm/ref/als_cde.csv'
+# )
