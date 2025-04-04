@@ -1,25 +1,17 @@
 import os
 import sys
-from json_util import QueryFromJson, JsonBlockVS, json2ref, split_part_multisql
+from json_util import QueryFromJson, JsonBlockVS, json2ref, split_part_multisql, expand_range
 
-# print(
-#     split_part(
-#     'spark',
-#     '123.12',
-#     '.',
-#     1
-# )
-# )
 
-vs_als = QueryFromJson(
-    url = 'https://raw.githubusercontent.com/RWD2E/phecdm/refs/heads/main/res/valueset_curated/vs-als-cde.json',
-    sqlty = 'spark',
-    cd_field = 'CONCEPT_CODE',
-    cdtype_field = 'VOCABULARY_ID',
-    srctbl_name = "CONCEPT",
-    other_fields=["concept_id","concept_name","domain_id"]
-)
-print(vs_als.gen_qry())
+# vs_als = QueryFromJson(
+#     url = 'https://raw.githubusercontent.com/RWD2E/phecdm/refs/heads/main/res/valueset_curated/vs-als-cde.json',
+#     sqlty = 'spark',
+#     cd_field = 'CONCEPT_CODE',
+#     cdtype_field = 'VOCABULARY_ID',
+#     srctbl_name = "CONCEPT",
+#     other_fields=["concept_id","concept_name","domain_id"]
+# )
+# print(vs_als.gen_qry())
 
 # vs_smm = QueryFromJson(
 #     url = 'https://raw.githubusercontent.com/RWD2E/phecdm/refs/heads/main/res/valueset_curated/vs-mmm-cde.json',
@@ -33,18 +25,19 @@ print(vs_als.gen_qry())
 # print(vs_smm.gen_qry_ref())
 # print(vs_smm.gen_qry())
 
-# vs_delivery = QueryFromJson(
-#     url = 'https://raw.githubusercontent.com/RWD2E/phecdm/refs/heads/main/res/valueset_curated/vs-mmm-cde.json',
-#     sqlty = 'spark',
-#     cd_field = 'CONCEPT_CODE',
-#     cdtype_field = 'VOCABULARY_ID',
-#     srctbl_name = "CONCEPT",
-#     other_fields=["concept_id","concept_name","domain_id"],
-#     sel_keys = ['vaginalDelivery','cSection']
-# )
+vs_delivery = QueryFromJson(
+    url = 'https://raw.githubusercontent.com/RWD2E/phecdm/refs/heads/main/res/valueset_curated/vs-mmm-cde.json',
+    sqlty = 'spark',
+    cd_field = 'CONCEPT_CODE',
+    cdtype_field = 'VOCABULARY_ID',
+    srctbl_name = "CONCEPT",
+    other_fields=["concept_id","concept_name","domain_id"],
+    sel_keys = ['vaginalDelivery','cSection']
+)
 
 # print(vs_delivery.gen_qry_ref())
-# print(vs_delivery.gen_qry())
+print(vs_delivery.gen_qry())
+
 
 # fp = os.path.join(
 #     os.path.dirname(os.path.dirname(os.path.abspath(__file__))),

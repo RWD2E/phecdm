@@ -269,7 +269,10 @@ class JsonBlockVS:
 def expand_range(range_expression):
     range_lst = range_expression.split('-')
     prefix = range_lst[0][0:1]
-    range_expand = [prefix + str(y) for y in list(range(int(range_lst[0][1:]),int(range_lst[1][1:])+1))]
+    if prefix.isalpha():
+        range_expand = [prefix + str(y) for y in list(range(int(range_lst[0][1:]),int(range_lst[1][1:])+1))]
+    else:
+        range_expand = [str(y) for y in list(range(int(range_lst[0]),int(range_lst[1])+1))]
     return range_expand
 
 def json2ref(
