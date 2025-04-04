@@ -352,7 +352,9 @@ class QueryFromJson:
             "cpt": input("Enter Code Type Value for cpt: "),
             "hpc": input("Enter Code Type Value for hpc: "),
             "drg": input("Enter Code Type Value for drg: "),
-            "loinc": input("Enter Code Type Value for loinc: ")
+            "loinc": input("Enter Code Type Value for loinc: "),
+            "rxnorm": input("Enter Code Type Value for rxnorm: "),
+            "ndc": input("Enter Code Type Value for ndc: ")
         }
         return(cdtype_encoder)
     

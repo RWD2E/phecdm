@@ -2303,6 +2303,111 @@
                             ]
                         }
                     ]
+                },
+                {
+                    "system": "snomed",
+                    "concept": [
+                        {
+                            "code": "86044005",
+                            "display": "Amyotrophic lateral sclerosis"
+                        },
+                        {
+                            "code": "718555006",
+                            "display": "Juvenile amyotrophic lateral sclerosis"
+                        },
+                        {
+                            "code": "1201863001",
+                            "display": "Amyotrophic lateral sclerosis type 1"
+                        },
+                        {
+                            "code": "1201947005",
+                            "display": "Juvenile amyotrophic lateral sclerosis type 2"
+                        },
+                        {
+                            "code": "1201950008",
+                            "display": "Amyotrophic lateral sclerosis type 3"
+                        },
+                        {
+                            "code": "784341001",
+                            "display": "Amyotrophic lateral sclerosis type 4"
+                        },
+                        {
+                            "code": "1201961000",
+                            "display": "Juvenile amyotrophic lateral sclerosis type 5"
+                        },
+                        {
+                            "code": "1204334005",
+                            "display": "Amyotrophic lateral sclerosis type 6"
+                        },
+                        {
+                            "code": "1204349002",
+                            "display": "Amyotrophic lateral sclerosis type 7"
+                        },
+                        {
+                            "code": "1204350002",
+                            "display": "Amyotrophic lateral sclerosis type 8"
+                        },
+                        {
+                            "code": "1204351003",
+                            "display": "Amyotrophic lateral sclerosis type 9"
+                        },
+                        {
+                            "code": "1208412003",
+                            "display": "Amyotrophic lateral sclerosis type 10"
+                        },
+                        {
+                            "code": "230258005",
+                            "display": "Amyotrophic lateral sclerosis with dementia"
+                        },
+                        {
+                            "code": "1259122001",
+                            "display": "Amyotrophic lateral sclerosis with parkinsonism"
+                        },
+                        {
+                            "code": "722987009",
+                            "display": "Amyotrophic lateral sclerosis plus syndrome"
+                        },
+                        {
+                            "code": "1259126003",
+                            "display": "Amyotrophic lateral sclerosis with autonomic dysfunction"
+                        },
+                        {
+                            "code": "1259127007",
+                            "display": "Amyotrophic lateral sclerosis with cerebellar dysfunction"
+                        },
+                        {
+                            "code": "1259124000",
+                            "display": "Amyotrophic lateral sclerosis with frontotemporal dementia"
+                        },
+                        {
+                            "code": "1259129005",
+                            "display": "Amyotrophic lateral sclerosis with spinocerebellar ataxia"
+                        },
+                        {
+                            "code": "838276009",
+                            "display": "Amyotrophic lateral sclerosis, parkinsonism, dementia complex"
+                        },
+                        {
+                            "code": "1259125004",
+                            "display": "Amyotrophic lateral sclerosis with multiple system atrophy"
+                        },
+                        {
+                            "code": "1197523001",
+                            "display": "Autosomal dominant amyotrophic lateral sclerosis type 1"
+                        },
+                        {
+                            "code": "1197524007",
+                            "display": "Autosomal recessive amyotrophic lateral sclerosis type 1"
+                        },
+                        {
+                            "code": "1259123006",
+                            "display": "Amyotrophic lateral sclerosis, parkinsonism, dementia complex of Kii Peninsula"
+                        },
+                        {
+                            "code": "1259121008",
+                            "display": "Amyotrophic lateral sclerosis, parkinsonism, dementia complex of West New Guinea"
+                        }
+                    ]
                 }
             ]
         }
@@ -3071,8 +3176,12 @@
                     ]
                 },
                 {
-                    "system": "cmsTaxonomy",
+                    "system": "hcpt",
                     "concept": [
+                        {
+                            "code": "2084N0008X",
+                            "display": "Neuromuscular Medicine"
+                        },
                         {
                             "code": "2084A2900X",
                             "display": "Neurocritical Care"
@@ -3082,16 +3191,12 @@
                             "display": "Diagnostic Neuroimaging"
                         },
                         {
-                            "code": "2084N0008X",
-                            "display": "Neuromuscular Medicine"
-                        },
-                        {
                             "code": "2084N0400X",
                             "display": "Neurology"
                         },
                         {
                             "code": "2084N0600X",
-                            "display": "Neurophysiology"
+                            "display": "Clinical Neurophysiology"
                         },
                         {
                             "code": "2084V0102X",
@@ -3104,6 +3209,10 @@
                         {
                             "code": "2251N0400X",
                             "display": "Physical Therapist Neurology"
+                        },
+                        {
+                            "code": "2084H0002X",
+                            "display": "Hospice and Palliative Medicine"
                         }
                     ]
                 },

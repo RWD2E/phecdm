@@ -11,15 +11,15 @@ from json_util import QueryFromJson, JsonBlockVS, json2ref, split_part_multisql
 # )
 # )
 
-# vs_als = QueryFromJson(
-#     url = 'https://raw.githubusercontent.com/RWD2E/phecdm/refs/heads/main/res/valueset_curated/vs-als-cde.json',
-#     sqlty = 'spark',
-#     cd_field = 'CONCEPT_CODE',
-#     cdtype_field = 'VOCABULARY_ID',
-#     srctbl_name = "CONCEPT",
-#     other_fields=["concept_id","concept_name","domain_id"]
-# )
-# print(vs_als.gen_qry())
+vs_als = QueryFromJson(
+    url = 'https://raw.githubusercontent.com/RWD2E/phecdm/refs/heads/main/res/valueset_curated/vs-als-cde.json',
+    sqlty = 'spark',
+    cd_field = 'CONCEPT_CODE',
+    cdtype_field = 'VOCABULARY_ID',
+    srctbl_name = "CONCEPT",
+    other_fields=["concept_id","concept_name","domain_id"]
+)
+print(vs_als.gen_qry())
 
 # vs_smm = QueryFromJson(
 #     url = 'https://raw.githubusercontent.com/RWD2E/phecdm/refs/heads/main/res/valueset_curated/vs-mmm-cde.json',
