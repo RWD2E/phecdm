@@ -28,10 +28,10 @@ class RxNavSearch:
         # time.sleep(0.05)
         response = requests.get(f'{self.API_URI}/rxcui/{rxcui}/allhistoricalndcs.json')
         items  = json.loads(response.text)
-        ndc_lst = items["historicalNdcConcept"]["historicalNdcTime"]
-        if not ndc_lst:
+        if 'historicalNdcConcept' not in items:
             return ([])
         else:
+            ndc_lst = items["historicalNdcConcept"]["historicalNdcTime"]
             ndc = []
             for item in ndc_lst:
                 if item['status'] == 'direct':
@@ -75,7 +75,7 @@ class RxNavSearch:
         https://lhncbc.nlm.nih.gov/RxNav/APIs/api-RxNorm.getApproximateMatch.html
         '''
         # time.sleep(0.05)
-        response = requests.get(f'{self.API_URI}/approximateTerm.json?term={term}&maxEntries={maxEntries}&option=0')
+        response = requests.get(f'{self.API_URI}/approximateTerm.json?term={term}&maxEntries={maxEntries}')
         results = json.loads(response.text)
         rxcui_candidates = []
         rxcui_lst = []
