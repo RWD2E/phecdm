@@ -22,14 +22,28 @@ class RxNavSearch:
         '''
         rxnav API call to collect NDC list for a given RXCUI code
         https://lhncbc.nlm.nih.gov/RxNav/APIs/api-RxNorm.getNDCs.html
+        https://lhncbc.nlm.nih.gov/RxNav/APIs/api-RxNorm.getAllHistoricalNDCs.html 
+
         '''
         # time.sleep(0.05)
-        response = requests.get(f'{self.API_URI}/rxcui/{rxcui}/ndcs.json')
+        response = requests.get(f'{self.API_URI}/rxcui/{rxcui}/allhistoricalndcs.json')
         items  = json.loads(response.text)
-        if not items["ndcGroup"]["ndcList"]:
+        ndc_lst = items["historicalNdcConcept"]["historicalNdcTime"]
+        if not ndc_lst:
             return ([])
         else:
-            return(items["ndcGroup"]["ndcList"]["ndc"]) 
+            ndc = []
+            for item in ndc_lst:
+                if item['status'] == 'direct':
+                    for ndc_item in item["ndcTime"]:
+                        for ndc_str in ndc_item['ndc']:
+                            # always return NDC11
+                            ndc.append(ndc_str)
+                            # recover NDC10 (assume leading 0 only occur at one and only one segment
+                            ndc_seg = [ndc_str[:5],ndc_str[5:9],ndc_str[9:]]
+                            ndc10 = ''.join([x[1:] if x.startswith("0") else x for x in ndc_seg])
+                            ndc.append(''.join(ndc10))  
+        return(ndc) 
 
     def get_rxcui_all(
             self,

@@ -12,6 +12,10 @@ path_to_tgt = os.path.join(
     'res','valueset_autogen'
 )
 
+##--- test single case
+# rxnav_cls = apirxnav.RxNavSearch()
+# print(rxnav_cls.get_ndc_from_rxcui('1991311'))
+
 ##--- load source generic names
 src_file = pd.read_csv(f"{path_to_tgt}/rx-glp1_input.csv")
 
