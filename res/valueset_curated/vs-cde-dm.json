@@ -2317,7 +2317,7 @@
                     ]
                 },
                 {
-                    "system": "cpt4",
+                    "system": "cpt",
                     "filter": [
                         {
                             "property": "codeList",
