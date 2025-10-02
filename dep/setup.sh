@@ -1,19 +1,30 @@
-pip cache purge
-pip install -r C:/repos/phecdm/dep/requirements.txt
+# This script creates a Python 3.11 virtual environment and installs the Snowflake Snowpark package.
 
+# check if python 3.11 is installed; download the recommended windows installer and install it (checking "Add PATH")
+python --version
 
-# # Define the directory you want to add to the PATH
-# $directoryToAdd = "C:\Users\xsm7f\AppData\Local\Programs\Python"
+# check python 3.11 added to the current PATH
+$env:PATH -split ';'
 
-# # Get the current PATH environment variable
-# $currentPath = [Environment]::GetEnvironmentVariable("Path", [EnvironmentVariableTarget]::Machine)
+#use py launcher to launch the current version to 3.11
+py -3.11 --version
 
-# # Check if the directory is already in the PATH
-# if ($currentPath -notlike "*$directoryToAdd*") {
-#     # Add the directory to the PATH
-#     $newPath = $currentPath + ";$directoryToAdd"
-#     [Environment]::SetEnvironmentVariable("Path", $newPath, [EnvironmentVariableTarget]::Machine)
-#     Write-Host "Added $directoryToAdd to PATH."
-# } else {
-#     Write-Host "$directoryToAdd is already in PATH."
-# }
+# create a python 3.11 virtual env
+python -m venv py311_env
+
+# verify python version inside the virtual env
+.\py311_env\Scripts\activate.bat
+python --version
+
+# check if current 
+$env:VIRTUAL_ENV
+
+# Install dependencies
+# note: adding --user add the end to bypass the virtual env and install packages to %APPDATA%\Python\PythonXY\site-packages
+pip3 install -r C:/repos/PHECDM/dep/requirements.txt
+
+# check packages installed
+python -m site
+
+# check for a specific package
+python -m pip show snowflake-snowpark-python

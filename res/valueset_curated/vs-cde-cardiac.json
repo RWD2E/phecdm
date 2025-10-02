@@ -1,0 +1,33 @@
+[
+    {
+        "id": "C",
+        "name": "Echo",
+        "description": "echocardiogram",
+        "purpose": "imaging diagnostics",
+        "topic": "assessment and examination",
+        "relatedArtifact": {
+            "class": "core",
+            "valueType": "boolean",
+            "valueRange": {
+                "0": "absence",
+                "1": "presence"
+            }
+        },
+        "compose": {
+            "include": [
+                {
+                    "system": "cpt",
+                    "filter": [
+                        {
+                            "property": "codeList",
+                            "op": "exists",
+                            "value": [
+                                ""
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+]

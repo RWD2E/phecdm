@@ -1,0 +1,38 @@
+[
+    {
+        "id": "MDC00001",
+        "name": "",
+        "description": "",
+        "purpose": "",
+        "topic": "",
+        "relatedArtifact": {
+            "class": "core",
+            "valueType": "boolean",
+            "valueRange": {
+                "0": "absence",
+                "1": "presence"
+            }
+        },
+        "compose": {
+            "include": [
+                {
+                    "system": "hcpcs",
+                    "concept": [
+                        {
+                            "code": "J7050",
+                            "display": "Ungroupable"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+]
+
+// 96365 - Therapeutic Infusion/Injection
+// 94010 - Spirometry (Breathing Capacity)
+// 99213 - EST PT OV-LOW 20-29 MIN
+// 99215 - EST PT OV-HI 40-45 min
+// G2211 - Complex E/M visit ADD ON
+// G2212 - PROLONG OUTPT/OFFICE VIS
+// G0463 - Office/Outpatient Evaluation
