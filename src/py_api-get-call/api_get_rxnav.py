@@ -393,7 +393,8 @@ def batch_write_rx_code_json(
 ):
     '''
     identify rxcui codes for each term in sterms, then
-    search rxnav database to identify all cooresponding ndc codes
+    search rxnav database to identify all cooresponding ndc codes, then 
+    search rxnav database to identify reference strength and unit, if exists
     '''
     dict_agg = {}
     for term in sterms:

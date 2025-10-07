@@ -1,0 +1,39 @@
+CLS,IN
+GLP1 Agonist,semaglutide
+GLP1 Agonist,dulaglutide
+GLP1 Agonist,exenatide
+GLP1 Agonist,liraglutide
+GLP1 Agonist,lixisenatide
+GLP1 Agonist,tirzepatide
+DPP4 Inhibitors,sitagliptin
+DPP4 Inhibitors,saxagliptin
+DPP4 Inhibitors,linagliptin
+DPP4 Inhibitors,alogliptin
+Biguanides,metformin
+SGLT-2 inhibitors,empagliflozin
+SGLT-2 inhibitors,canagliflozin
+SGLT-2 inhibitors,dapagliflozin
+SGLT-2 inhibitors,ertugliflozin
+SGLT-2 inhibitors,bexagliflozin
+Sulfonylureas,glimepiride
+Sulfonylureas,glipizide
+Sulfonylureas,tolazamide
+Sulfonylureas,tolbutamide
+Sulfonylureas,glyburide
+Sulfonylureas,chlorpropamide
+Thiazolidinediones,pioglitazone
+Thiazolidinediones,rosiglitazone
+Meglitinides,repaglinide
+Meglitinides,nateglinide
+Insulin,insulin degludec
+Insulin,insulin glargine
+Insulin,insulin detemir
+Insulin,insulin lispro
+Insulin,insulin aspart
+Insulin,insulin regular
+Insulin,insulin isophane
+Insulin,insulin glulisine
+Insulin,insulin
+Amylinomimetics,pramlintide
+Alpha-glucosidase inhibitors,miglitol
+Alpha-glucosidase inhibitors,acarbose

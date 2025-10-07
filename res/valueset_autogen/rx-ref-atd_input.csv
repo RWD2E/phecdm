@@ -1,0 +1,22 @@
+﻿CLS,IN
+Anticoagulants ,dalteparin
+Anticoagulants ,enoxaparin
+Anticoagulants ,tinzaparin
+direct thrombin inhibitors,dabigatran
+direct thrombin inhibitors,desirudin
+factor Xa inhibitors,fondaparinux
+factor Xa inhibitors,rivaroxaban
+factor Xa inhibitors,apixaban
+factor Xa inhibitors,edoxaban
+factor Xa inhibitors,warfarin
+antiplatelet drugs,aspirin
+antiplatelet drugs,cangrelor
+antiplatelet drugs,clopidogrel
+antiplatelet drugs,dipyridamole
+antiplatelet drugs,prasugrel
+antiplatelet drugs,ticagrelor
+antiplatelet drugs,ticlopidine
+antiplatelet drugs,vorapaxar
+plasminogen activators,anistreplase
+plasminogen activators,streptokinase
+plasminogen activators,urokinase
