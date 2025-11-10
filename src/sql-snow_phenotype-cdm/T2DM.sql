@@ -771,3 +771,97 @@ select count(*), count(distinct patid) from T2DM_ASET;
 -- 52446
 
 select * from T2DM_ASET limit 5;
+
+
+-- create a denominator CDM
+
+create or replace temporary table T2DM_DENOM_PAT as 
+select distinct a.patid 
+from T2DM_LONG a
+where not exists (
+    select 1 from PREG_ENC b 
+    where a.ENCOUNTERID = b.ENCOUNTERID
+) and a.phe_type = 'T2DM'
+;
+-- 107,844
+
+create or replace table T2DM_DEMOGRAPHIC as 
+select d.* 
+from DEIDENTIFIED_PCORNET_CDM.CDM.DEID_DEMOGRAPHIC d
+where exists (
+    select 1 from T2DM_DENOM_PAT p 
+    where p.patid = d.patid
+)
+; 
+
+create or replace table T2DM_ENCOUNTER as 
+select e.* 
+from DEIDENTIFIED_PCORNET_CDM.CDM.DEID_ENCOUNTER e
+where exists (
+    select 1 from T2DM_DENOM_PAT p 
+    where p.patid = e.patid
+)
+;
+
+create or replace table T2DM_DIAGNOSIS as 
+select dx.* 
+from DEIDENTIFIED_PCORNET_CDM.CDM.DEID_DIAGNOSIS dx
+where exists (
+    select 1 from T2DM_DENOM_PAT p 
+    where p.patid = dx.patid
+)
+; 
+
+create or replace table T2DM_PROCEDURES as 
+select px.* 
+from DEIDENTIFIED_PCORNET_CDM.CDM.DEID_PROCEDURES px
+where exists (
+    select 1 from T2DM_DENOM_PAT p 
+    where p.patid = px.patid
+)
+;
+
+create or replace table T2DM_LAB_RESULT_CM as 
+select l.* 
+from DEIDENTIFIED_PCORNET_CDM.CDM.DEID_LAB_RESULT_CM l
+where exists (
+    select 1 from T2DM_DENOM_PAT p 
+    where p.patid = l.patid
+)
+;
+
+create or replace table T2DM_VITAL as 
+select v.* 
+from DEIDENTIFIED_PCORNET_CDM.CDM.DEID_VITAL v
+where exists (
+    select 1 from T2DM_DENOM_PAT p 
+    where p.patid = v.patid
+)
+; 
+
+create or replace table T2DM_OBS_CLIN as 
+select o.* 
+from DEIDENTIFIED_PCORNET_CDM.CDM.DEID_OBS_CLIN o
+where exists (
+    select 1 from T2DM_DENOM_PAT p 
+    where p.patid = o.patid
+)
+;
+
+create or replace table T2DM_PRESCRIBING as 
+select rx.* 
+from DEIDENTIFIED_PCORNET_CDM.CDM.DEID_PRESCRIBING rx
+where exists (
+    select 1 from T2DM_DENOM_PAT p 
+    where p.patid = rx.patid
+)
+;
+
+create or replace table T2DM_LDS_ADDRESS_HISTORY as 
+select addr.* 
+from DEIDENTIFIED_PCORNET_CDM.CDM.DEID_LDS_ADDRESS_HISTORY addr
+where exists (
+    select 1 from T2DM_DENOM_PAT p 
+    where p.patid = addr.patid
+)
+;

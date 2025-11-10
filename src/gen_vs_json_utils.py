@@ -69,13 +69,22 @@ class JsonBlockVS:
             "3":"precedures"
         },
         "6":{
-            "1":"muscle strength testing",
+            "1":"functional",
             "2":"cognitive",
-            "3":"functional outcomes",
-            "4":"pulmonary function testing/respiratory status",
-            "5":"subjective assessments/patient and caregiver reported outcomes",
-            "6":"upper motor neuron signs/neuromuscular excitability",
-            "7":"severe maternal morbidity"
+            "3":"behavioral",
+            "4":"pulmonary/respiratory",
+            "5":"cardiovascular",
+            "6":"renal",
+            "7":"hepatic/GI",
+            "8":"metabolic",
+            "9":"musculoskeletal",
+            "10":"immune/infectious",
+            "11":"oncologic",
+            "12":"PRO",
+            "13":"adverse event",
+            "14":"utilization",
+            "15":"economic",
+            "16":"other"
         }
     }
 
@@ -161,19 +170,22 @@ class JsonBlockVS:
     }
 
     OP_ENCODER = {
-        "1":"=",
-        "2":"is-a",
-        "3":"descendent-of",
-        "4":"is-not-a",
-        "5":"regex",
-        "6":"in",
-        "7":"not-in",
-        "8":"generalizes",
-        "9":"child-of",
-        "10":"descendent-leaf",
-        "11":"exists"
+        "1":{
+            "1":"descendent-of",
+            "2":"child-of",
+            "3":"descendent-leaf"
+        },
+        "2":{
+            "1":"in",
+            "2":"not-in"
+        },
+        "3":{
+            "1":"exists"
+        },
+        "4":{
+            "1":"regex"
+        }
     }
-    
 
     def __init__(self,filepath,idstarter,idlength):
         self.filepath = filepath
@@ -252,12 +264,12 @@ class JsonBlockVS:
                     if add_filter == '1':
                         for key, value in self.PROPERTY_ENCODER.items(): print(f"{key}:{value}")
                         property_choice = input("Enter property: ")
-                        for key, value in self.OP_ENCODER.items(): print(f"{key}:{value}")
+                        for key2, value2 in self.OP_ENCODER[property_choice].items(): print(f"{key2}:{value2}")
                         op_choice = input("Enter operation: ")
                         input_value = input("Enter value (separated by comma): ")
                         filter_entry = {
                             "property": self.PROPERTY_ENCODER[property_choice],
-                            "op": self.OP_ENCODER[op_choice],
+                            "op": self.OP_ENCODER[property_choice][op_choice],
                             "value": [item.strip() for item in input_value.split(',')]
                         }
                         data_block["compose"]["include"][-1]["filter"].append(filter_entry)
