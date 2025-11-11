@@ -364,20 +364,24 @@ class QueryFromJson:
         url, #url to json file
         sqlty, #which type of sql ["snow","postgres","spark","mysql","sqlserver","oracle"]
         cd_field, #code field
-        cdtype_field, #code type field
+        date_fields, #list of all date fields
         other_fields, #list of other fields needed to be retained
         srctbl_name, #source table name
         sel_keys = list(), #list of selected keys to be queried, can be empty
-        sel_domain = "" #specify concept domains for more efficient prompting ["dx","px","lab","rx"], can be empty
+        sel_domain = "", #specify concept domains for more efficient prompting ["dx","px","lab","rx"], can be empty
+        cdtype_field = "", #code type field, can be empty
+        val_field = "" #value field, can be empty
     ):
         self.url = url
         self.sqlty = sqlty
         self.cd_field= cd_field
         self.cdtype_field = cdtype_field
+        self.date_fields = date_fields
         self.other_fields = other_fields
         self.srctbl_name = srctbl_name
         self.sel_keys = sel_keys
         self.sel_domain = sel_domain
+        self.val_field = val_field
 
     @staticmethod
     def add_quote(lst):
@@ -415,6 +419,11 @@ class QueryFromJson:
         cddict = {k: v for k, v in cddict.items() if v}
         return(cddict)
     
+    @staticmethod
+    def parse_concept(lst):
+        codes = [item["code"] for item in lst]
+        return(codes)
+
     def gen_cdtype_encoder(self):
         domain_to_codes = {
             "dx":  ["icd9cm", "icd10cm", "snomed", "drg"],
@@ -439,8 +448,14 @@ class QueryFromJson:
         
     def gen_qry_ref(self):     
         # load json valueset file
-        json_url = urlreq.urlopen(self.url)
-        json_file = json.loads(json_url.read())
+        if self.url.startswith(("http://", "https://")):
+            # Remote URL
+            with urlreq.urlopen(self.url) as response:
+                json_file = json.loads(response.read())
+        else:
+            # Local file path
+            with open(self.url, "r", encoding="utf-8") as f:
+                json_file = json.load(f)
 
         # load cdtype mapping
         cdtype_map = self.gen_cdtype_encoder()
@@ -452,36 +467,57 @@ class QueryFromJson:
             for y in x["compose"]["include"]:
                 if y["system"] in cdtype_map: 
                     # code type 
-                    qry = self.cdtype_field + "='" + cdtype_map[y["system"]] + "'"
+                    qry_cdtype = " "
+                    if self.cdtype_field != "":
+                        qry_cdtype += self.cdtype_field + "='" + cdtype_map[y["system"]] + "' and "
+                    
+                    # value range
+                    qry_val = " "
+                    if x["relatedArtifact"]["valueType"]=="continuous" and self.val_field != "":
+                        if "high" in x["relatedArtifact"]["valueRange"]:
+                            incld_dict = {0:">", 1:">="}
+                            high_val = x["relatedArtifact"]["valueRange"]["high"]["value"]
+                            incld_ind = x["relatedArtifact"]["valueRange"]["high"]["incld"]
+                            qry_val += " and " + self.val_field + incld_dict[incld_ind] + str(high_val) + ")"
+
+                        if "low" in x["relatedArtifact"]["valueRange"]:
+                            incld_dict = {0:"<", 1:"<="}
+                            low_val = x["relatedArtifact"]["valueRange"]["low"]["value"]
+                            incld_ind = x["relatedArtifact"]["valueRange"]["low"]["incld"]
+                            qry_val += " and " + self.val_field + incld_dict[incld_ind] + str(low_val)  + ")"
 
                     # codes
                     qryxy_orlst = []
-                    cdref = self.parse_filter(y["filter"])
-                    if '0' in cdref:
-                        if y["system"] in ('icd9cm','icd10cm'):
-                            qryxy_orlst.append(
-                                split_part_multisql(self.sqlty,self.cd_field,'.',1) + ''' in ('''+ ','.join(self.add_quote(cdref["0"])) +''')
+                    if "filter" in y: 
+                        cdref = self.parse_filter(y["filter"])
+                        if '0' in cdref:
+                            if y["system"] in ('icd9cm','icd10cm'):
+                                qryxy_orlst.append(
+                                    split_part_multisql(self.sqlty,self.cd_field,'.',1) + ''' in ('''+ ','.join(self.add_quote(cdref["0"])) +''')
+                                ''')
+                            else:
+                                # e.g., icd10pcs has hierarchical structure
+                                qryxy_orlst.append('''
+                                    substring('''+ self.cd_field +''',1,'''+ str(len(cdref["0"][0])) +''') in ('''+ ','.join(self.add_quote(cdref["0"])) +''')
+                                ''')
+                        elif '1' in cdref:
+                            qryxy_orlst.append('''
+                                substring('''+ self.cd_field +''',1,5) in ('''+ ','.join(self.add_quote(cdref["1"])) +''')
+                            ''')
+                        elif '2' in cdref:
+                            qryxy_orlst.append('''
+                                substring('''+ self.cd_field +''',1,6) in ('''+ ','.join(self.add_quote(cdref["2"])) +''')
                             ''')
                         else:
-                            # e.g., icd10pcs has hierarchical structure
+                            cdref_leaf = (cdref.get("3") or []) + (cdref.get("9") or [])
                             qryxy_orlst.append('''
-                                substring('''+ self.cd_field +''',1,'''+ str(len(cdref["0"][0])) +''') in ('''+ ','.join(self.add_quote(cdref["0"])) +''')
+                                ''' + self.cd_field + ''' in ('''+ ','.join(self.add_quote(cdref_leaf)) +''')
                             ''')
-                    elif '1' in cdref:
-                        qryxy_orlst.append('''
-                            substring('''+ self.cd_field +''',1,5) in ('''+ ','.join(self.add_quote(cdref["1"])) +''')
-                        ''')
-                    elif '2' in cdref:
-                        qryxy_orlst.append('''
-                            substring('''+ self.cd_field +''',1,6) in ('''+ ','.join(self.add_quote(cdref["2"])) +''')
-                        ''')
+                        qryx_orlst.append(qry_cdtype + ''' (''' + ' or '.join(qryxy_orlst) + ''')''' + qry_val)
+
                     else:
-                        cdref39 = (cdref.get("3") or []) + (cdref.get("9") or [])
-                        qryxy_orlst.append('''
-                            ''' + self.cd_field + ''' in ('''+ ','.join(self.add_quote(cdref39)) +''')
-                        ''')
-                    
-                    qryx_orlst.append(qry + ''' and (''' + ' or '.join(qryxy_orlst) + ''')''')
+                        cdref_leaf = self.parse_concept(y["concept"])
+                        qryx_orlst.append(qry_cdtype + ''' (''' + self.cd_field + ''' in ('''+ ','.join(self.add_quote(cdref_leaf)) + ''')''' + qry_val)
 
                 else: 
                     pass
@@ -497,9 +533,10 @@ class QueryFromJson:
         qry_dict = self.gen_qry_ref()
         for k,v in qry_dict.items():
             if len(self.sel_keys) == 0 or k in self.sel_keys:
-                all_fields = self.other_fields + [self.cd_field,self.cdtype_field]
+                nondate_fields = self.other_fields + [self.cd_field]+([self.cdtype_field] if self.cdtype_field else ["'"+self.cd_field+"'"])
                 selqry_lst.append('''
-                    select ''' + ','.join(all_fields) + 
+                    select ''' + ','.join(nondate_fields) + 
+                        " ,coalesce(" + ','.join(self.date_fields) + ") as CD_DATE" + 
                         " ,'"+ k +"' as CD_GRP" '''
                     from '''+ self.srctbl_name +'''
                     where ('''+ v +''')

@@ -1,7 +1,7 @@
 [
     {
         "id": "KD00001",
-        "name": "KidneyTransplant",
+        "name": "KTx",
         "description": "kidney transplant surgical procedure",
         "purpose": "precedures",
         "topic": "treatment/intervention",
@@ -16,7 +16,7 @@
         "compose": {
             "include": [
                 {
-                    "system": "cpt4",
+                    "system": "cpt",
                     "filter": [
                         {
                             "property": "codeList",
@@ -195,7 +195,7 @@
         "compose": {
             "include": [
                 {
-                    "system": "cpt4",
+                    "system": "cpt",
                     "filter": [
                         {
                             "property": "codeList",

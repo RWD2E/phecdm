@@ -2862,7 +2862,7 @@
                     ]
                 },
                 {
-                    "system": "cpt4",
+                    "system": "cpt",
                     "filter": [
                         {
                             "property": "codeRange",
@@ -2922,7 +2922,7 @@
                     ]
                 },
                 {
-                    "system": "cpt4",
+                    "system": "cpt",
                     "filter": [
                         {
                             "property": "codeRange",
@@ -3007,7 +3007,7 @@
                     ]
                 },
                 {
-                    "system": "cpt4",
+                    "system": "cpt",
                     "filter": [
                         {
                             "property": "codeRange",
@@ -3078,7 +3078,7 @@
         "compose": {
             "include": [
                 {
-                    "system": "cpt4",
+                    "system": "cpt",
                     "filter": [
                         {
                             "property": "codeRange",
