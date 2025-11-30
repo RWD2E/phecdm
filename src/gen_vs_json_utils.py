@@ -34,57 +34,82 @@ def split_part_multisql(
 
 class JsonBlockVS:
     TOPIC_ENCODER = {
-        "1": "participant characteristics",
-        "2": "participant history and family history",
-        "3": "diease/injury related events",
-        "4": "assessment and examinations",
-        "5": "treatment/intervention",
-        "6": "outcomes and endpoints"
+        "1": "characteristic",
+        "2": "history",
+        "3": "event",
+        "4": "finding",
+        "5": "diagnostics/intervention",
+        "6": "economics",
+        "7": "nonclinical"
     }
 
     PURPOSE_ENCODER = {
         "1": {
             "1":"demographics",
-            "2":"social status"
+            "2":"socioeconomics"
         },
         "2":{
             "1":"family history",
             "2":"medical history"
         },
         "3": {
-            "1":"symptom/sign and diagnosis criteria",
-            "2":"genetics",
-            "3":"comorbidities"
+            "1":"neurologic",
+            "2":"pulmonary/respiratory",
+            "3":"psychiatric/behavioral",
+            "4":"cardiovascular",
+            "5":"gastrointestinal",
+            "6":"hepatobiliary",
+            "7":"renal/urinary",
+            "8":"endocrine/metabolic",
+            "9":"musculoskeletal",
+            "10":"immunologic/infectious",
+            "11":"dermatologic",
+            "12":"hematologic",
+            "13":"oncologic",
+            "14":"reproductive",
+            "15":"general signs/symptoms",
+            "16":"functional",
+            "17":"ophthalmologic",
+            "18":"otolaryngologic",
+            "19":"oral/dental",
+            "20":"rheumatologic",
+            "21":"genetic/congenital",
+            "22":"trauma/injury",
+            "23":"toxicologic/poisoning",
+            "24":"perioperative/anesthesia-related",
+            "25":"nutrition-related",
+            "26":"sleep disorders",
+            "27":"pediatric/neonatal-specific",
+            "28":"gynecologic/obstetric",
+            "29":"allergic/hypersensitivity",
+            "30":"PRO",
+            "31":"adverse event"
         },
         "4":{
-            "1":"laboratory tests and biospecimens/biomarkers",
-            "2":"imaging diagnostics",
-            "3":"non-imaging diagnostics",
-            "4":"physical/neurological examination",
-            "5":"vital signs and other body measures"
+            "1":"biological/molecular markers",
+            "2":"anthropometric measures",
+            "3":"physiological markers",
+            "4":"functional markers",
+            "5":"imaging markers",
+            "6":"behavioral markers",
+            "7":"environmental markers"
         },
         "5":{
-            "1":"drugs",
-            "2":"devices",
-            "3":"precedures"
+            "1":"exposure",
+            "2":"concomitant medications",
+            "3":"interventional precedures",
+            "4":"diagnostic precedures",
+            "5":"substance use",
+            "6":"devices",
+            "7":"care setting"
         },
         "6":{
-            "1":"functional",
-            "2":"cognitive",
-            "3":"behavioral",
-            "4":"pulmonary/respiratory",
-            "5":"cardiovascular",
-            "6":"renal",
-            "7":"hepatic/GI",
-            "8":"metabolic",
-            "9":"musculoskeletal",
-            "10":"immune/infectious",
-            "11":"oncologic",
-            "12":"PRO",
-            "13":"adverse event",
-            "14":"utilization",
-            "15":"economic",
-            "16":"other"
+            "1":"insurance provider",
+            "2":"insurance plan",
+            "3":"utilization"
+        },
+        "7":{
+            "1":"other"
         }
     }
 
@@ -104,8 +129,8 @@ class JsonBlockVS:
     }
 
     VALUERANGE_ENCODER = {
-        "1": {}, 
-        "2": {},
+        "1": {}, #key-value 
+        "2": {}, #key-value, can add "low", "high"
         "3": {
             "min":int(),
             "max":int(),
@@ -165,8 +190,7 @@ class JsonBlockVS:
     PROPERTY_ENCODER = {
         "1":"codePrecision",
         "2":"codeRange",
-        "3":"codeList",
-        "4":"textRegex"
+        "3":"codeList"
     }
 
     OP_ENCODER = {
@@ -181,9 +205,6 @@ class JsonBlockVS:
         },
         "3":{
             "1":"exists"
-        },
-        "4":{
-            "1":"regex"
         }
     }
 

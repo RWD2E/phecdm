@@ -1,0 +1,30 @@
+[
+    {
+        "id": "BS00001",
+        "name": "",
+        "description": "",
+        "topic": "",
+        "purpose": "",
+        "relatedArtifact": {
+            "class": "core",
+            "valueType": "boolean",
+            "valueRange": {
+                "0": "absence",
+                "1": "presence"
+            }
+        },
+        "compose": {
+            "include": [
+                {
+                    "system": "",
+                    "concept": [
+                        {
+                            "code": "",
+                            "display": ""
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+]
