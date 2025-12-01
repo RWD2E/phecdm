@@ -38,15 +38,15 @@ from gen_vs_json_utils import QueryFromJson, JsonBlockVS, json2ref, split_part_m
 # print(vs_delivery.gen_qry())
 
 
-# fp = os.path.join(
-#     os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
-#     'res','valueset_curated',"vs-als-cde.json"
-# )
-# als_vs = JsonBlockVS(filepath = fp,idstarter='C',idlength = 6)
+fp = os.path.join(
+    os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+    'res','valueset_curated',"vs-cde-als.json"
+)
+als_vs = JsonBlockVS(filepath = fp,idstarter='C',idlength = 6)
 # print(als_vs.get_existing_id())
 # print(als_vs.generate_new_id())
 # print(als_vs.create_json_data_block())
-# print(als_vs.add_json_block())
+print(als_vs.add_json_block())
 
 
 # fp = os.path.join(
@@ -80,14 +80,14 @@ from gen_vs_json_utils import QueryFromJson, JsonBlockVS, json2ref, split_part_m
 # comorb_vs = JsonBlockVS(filepath = fp,idstarter='SDM',idlength=8)
 # print(comorb_vs.add_json_block())
 
-fp = os.path.join(
-    os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
-    'res','valueset_curated',"vs-cde-kd.json"
-)
-kd_vs = JsonBlockVS(filepath = fp,idstarter='KD',idlength=5)
+# fp = os.path.join(
+#     os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+#     'res','valueset_curated',"vs-cde-kd.json"
+# )
+# kd_vs = JsonBlockVS(filepath = fp,idstarter='KD',idlength=5)
 # print(kd_vs.get_existing_id())
 # print(kd_vs.generate_new_id())
-kd_vs.add_json_block()
+# kd_vs.add_json_block()
 
 
 

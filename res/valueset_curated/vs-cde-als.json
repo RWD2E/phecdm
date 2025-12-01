@@ -42,7 +42,7 @@
                 "2": "Intelligible with repeating",
                 "3": "Detectable speech disturbance",
                 "4": "Normal speech processes",
-                "low":{
+                "low": {
                     "value": 3,
                     "unit": "",
                     "incld": 1
@@ -78,7 +78,7 @@
                 "2": "Moderately excessive saliva; may have minimal drooling",
                 "3": "Slight but definite excess of saliva in mouth; may have nighttime drooling",
                 "4": "Normal",
-                "low":{
+                "low": {
                     "value": 3,
                     "unit": "",
                     "incld": 1
@@ -92,7 +92,7 @@
                     "concept": [
                         {
                             "code": "82941-6",
-                            "display": "Salivation [ALSFRS-R]"                        
+                            "display": "Salivation [ALSFRS-R]"
                         }
                     ]
                 }
@@ -114,7 +114,7 @@
                 "2": "Dietary consistency changes",
                 "3": "Early eating problems - occasional choking",
                 "4": "Normal eating habits",
-                "low":{
+                "low": {
                     "value": 3,
                     "unit": "",
                     "incld": 1
@@ -140,7 +140,7 @@
         "name": "alsfrsrQ4Handwriting",
         "description": "revised ALS functional rating scale - handwriting",
         "topic": "finding",
-        "purpose": "functional markers",        
+        "purpose": "functional markers",
         "relatedArtifact": {
             "class": "core",
             "valueType": "ordinal",
@@ -150,7 +150,7 @@
                 "2": "Not all words are legible",
                 "3": "Slow or sloppy, all words are legible",
                 "4": "Normal",
-                "low":{
+                "low": {
                     "value": 3,
                     "unit": "",
                     "incld": 1
@@ -176,7 +176,7 @@
         "name": "alsfrsrQ5CuttingWo",
         "description": "revised ALS functional rating scale - cutting food and handling utensils (patients without gastronomy)",
         "topic": "finding",
-        "purpose": "functional markers",        
+        "purpose": "functional markers",
         "relatedArtifact": {
             "class": "core",
             "valueType": "ordinal",
@@ -186,7 +186,7 @@
                 "2": "Can cut most foods, although clumsy and slow; some help needed",
                 "3": "Somewhat slow and clumsy, but no help needed",
                 "4": "Normal",
-                "low":{
+                "low": {
                     "value": 3,
                     "unit": "",
                     "incld": 1
@@ -212,7 +212,7 @@
         "name": "alsfrsrQ5CuttingW",
         "description": "revised ALS functional rating scale - cutting food and handling utensils (patients with gastronomy)",
         "topic": "finding",
-        "purpose": "functional markers",        
+        "purpose": "functional markers",
         "relatedArtifact": {
             "class": "core",
             "valueType": "ordinal",
@@ -222,7 +222,7 @@
                 "2": "Some help needed with closures and fasteners",
                 "3": "Clumsy but able to perform all manipulations independently",
                 "4": "Normal",
-                "low":{
+                "low": {
                     "value": 3,
                     "unit": "",
                     "incld": 1
@@ -258,7 +258,7 @@
                 "2": "Intermittent assistance or substitute methods",
                 "3": "Independent and complete self-care with effort or decreased efficiency",
                 "4": "Normal function",
-                "low":{
+                "low": {
                     "value": 3,
                     "unit": "",
                     "incld": 1
@@ -294,7 +294,7 @@
                 "2": "Can turn alone or adjust sheets, but with great difficulty",
                 "3": "Somewhat slow and clumsy, but no help needed",
                 "4": "Normal",
-                "low":{
+                "low": {
                     "value": 3,
                     "unit": "",
                     "incld": 1
@@ -330,7 +330,7 @@
                 "2": "Walks with assistance",
                 "3": "Early ambulation difficulties",
                 "4": "Normal",
-                "low":{
+                "low": {
                     "value": 3,
                     "unit": "",
                     "incld": 1
@@ -366,7 +366,7 @@
                 "2": "Walks with assistance",
                 "3": "Early ambulation difficulties",
                 "4": "Normal",
-                "low":{
+                "low": {
                     "value": 3,
                     "unit": "",
                     "incld": 1
@@ -402,7 +402,7 @@
                 "2": "Occurs with one or more of the following: eating, bathing, dressing (ADL)",
                 "3": "Occurs when walking",
                 "4": "None",
-                "low":{
+                "low": {
                     "value": 3,
                     "unit": "",
                     "incld": 1
@@ -428,7 +428,7 @@
         "name": "alsfrsrQ10Dyspnea",
         "description": "revised ALS functional rating scale - dyspnea",
         "topic": "finding",
-        "purpose": "functional markers",        
+        "purpose": "functional markers",
         "relatedArtifact": {
             "class": "core",
             "valueType": "ordinal",
@@ -438,7 +438,7 @@
                 "2": "Occurs with one or more of the following: eating, bathing, dressing (ADL)",
                 "3": "Occurs when walking",
                 "4": "None",
-                "low":{
+                "low": {
                     "value": 3,
                     "unit": "",
                     "incld": 1
@@ -474,7 +474,7 @@
                 "2": "Needs extra pillows in order to sleep (more than two)",
                 "3": "Some difficulty sleeping at night due to shortness of breath, does not routinely use more than two pillows",
                 "4": "None",
-                "low":{
+                "low": {
                     "value": 3,
                     "unit": "",
                     "incld": 1
@@ -510,7 +510,7 @@
                 "2": "Continuous use of BiPAP during the night",
                 "3": "Intermittent use of BiPAP",
                 "4": "None",
-                "low":{
+                "low": {
                     "value": 3,
                     "unit": "",
                     "incld": 1
@@ -564,14 +564,14 @@
         "name": "alsfrsrTotal",
         "description": "revised ALS functional rating scale - total score",
         "topic": "finding",
-        "purpose": "functional markers",        
+        "purpose": "functional markers",
         "relatedArtifact": {
             "class": "core",
             "valueType": "discrete",
             "valueRange": {
                 "min": 0,
                 "max": 48,
-                "low":{
+                "low": {
                     "value": 30,
                     "unit": "",
                     "incld": 0
@@ -604,7 +604,7 @@
             "valueRange": {
                 "min": 0,
                 "max": 10,
-                "low":{
+                "low": {
                     "value": 5,
                     "unit": "",
                     "incld": 1
@@ -641,7 +641,7 @@
             "valueRange": {
                 "min": 0,
                 "max": 10,
-                "low":{
+                "low": {
                     "value": 5,
                     "unit": "",
                     "incld": 1
@@ -679,9 +679,9 @@
                 "min": 0,
                 "max": 150,
                 "low": {
-                    "value":90,
-                    "unit":"%",
-                    "incld":1
+                    "value": 90,
+                    "unit": "%",
+                    "incld": 1
                 }
             }
         },
@@ -712,9 +712,9 @@
                 "min": 0,
                 "max": 150,
                 "low": {
-                    "value":90,
-                    "unit":"%",
-                    "incld":1
+                    "value": 90,
+                    "unit": "%",
+                    "incld": 1
                 }
             }
         },
@@ -2598,6 +2598,20 @@
         "compose": {
             "include": [
                 {
+                    "system": "icd9cm",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "335.21",
+                                "728.87",
+                                "728.2"
+                            ]
+                        }
+                    ]
+                },
+                {
                     "system": "icd10cm",
                     "filter": [
                         {
@@ -3506,6 +3520,224 @@
                             "op": "exists",
                             "value": [
                                 "64406010901"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "id": "C020076",
+        "name": "PBP",
+        "description": "diagnosis of progressive bulbar palsy",
+        "topic": "event",
+        "purpose": "neurologic",
+        "relatedArtifact": {
+            "class": "recommended",
+            "valueType": "nominal",
+            "valueRange": {
+                "0": "absence",
+                "1": "presence"
+            }
+        },
+        "compose": {
+            "include": [
+                {
+                    "system": "icd10cm",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "G12.22"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "system": "icd9cm",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "335.22"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "id": "C020077",
+        "name": "PLS",
+        "description": "diagnosis of primary lateral sclerosis",
+        "topic": "event",
+        "purpose": "neurologic",
+        "relatedArtifact": {
+            "class": "recommended",
+            "valueType": "boolean",
+            "valueRange": {
+                "0": "absence",
+                "1": "presence"
+            }
+        },
+        "compose": {
+            "include": [
+                {
+                    "system": "icd9cm",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "335.24"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "system": "icd10cm",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "G12.23"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "id": "C020078",
+        "name": "SMA",
+        "description": "diagnosis of spinal muscular atrophy",
+        "topic": "event",
+        "purpose": "neurologic",
+        "relatedArtifact": {
+            "class": "recommended",
+            "valueType": "boolean",
+            "valueRange": {
+                "0": "absence",
+                "1": "presence"
+            }
+        },
+        "compose": {
+            "include": [
+                {
+                    "system": "icd10cm",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "G12.25",
+                                "G12.0",
+                                "G12.1"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "system": "icd9cm",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "335.0",
+                                "335.1"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "id": "C020079",
+        "name": "PBA",
+        "description": "diagnosis of pseudobulbar affect/palsy",
+        "topic": "event",
+        "purpose": "neurologic",
+        "relatedArtifact": {
+            "class": "recommended",
+            "valueType": "boolean",
+            "valueRange": {
+                "0": "absence",
+                "1": "presence"
+            }
+        },
+        "compose": {
+            "include": [
+                {
+                    "system": "icd9cm",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "335.23"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "system": "icd10cm",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "F48.2"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "id": "C020080",
+        "name": "FTD",
+        "description": "diagnosis of frontotemporal dementia",
+        "topic": "event",
+        "purpose": "neurologic",
+        "relatedArtifact": {
+            "class": "recommended",
+            "valueType": "boolean",
+            "valueRange": {
+                "0": "absence",
+                "1": "presence"
+            }
+        },
+        "compose": {
+            "include": [
+                {
+                    "system": "icd9cm",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "331.1"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "system": "icd10cm",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "G31.0"
                             ]
                         }
                     ]
