@@ -446,13 +446,21 @@ class QueryFromJson:
         return(codes)
 
     def gen_cdtype_encoder(self):
+        # initialize persistent storage on the object if needed
+        if not hasattr(self, "_cdtype_cache"):
+            self._cdtype_cache = {}
+
         domain_to_codes = {
             "dx":  ["icd9cm", "icd10cm", "snomed", "drg"],
             "px":  ["icd9proc", "icd10pcs", "cpt", "hpc"],
             "lab": ["loinc"],
             "rx":  ["rxnorm", "ndc"]
         }
+
+        # Flatten and sort all keys
         allkeys = sorted({code for codes in domain_to_codes.values() for code in codes})
+
+        # Determine which codes to ask for
         if self.sel_domain == "":
             codes_to_prompt = allkeys
         elif self.sel_domain in domain_to_codes:
@@ -463,7 +471,11 @@ class QueryFromJson:
         allprompts = {code: f"Enter Code Type Value for {code}: " for code in allkeys} 
         cdtype_encoder = {}
         for code in codes_to_prompt:
-            cdtype_encoder[code] = input(allprompts[code])
+            # if already cached, do NOT ask again
+            if code not in self._cdtype_cache:
+                self._cdtype_cache[code] = input(allprompts[code])
+            # always return the cached value
+            cdtype_encoder[code] = self._cdtype_cache[code]
 
         return(cdtype_encoder)
         
@@ -538,7 +550,7 @@ class QueryFromJson:
 
                     else:
                         cdref_leaf = self.parse_concept(y["concept"])
-                        qryx_orlst.append(qry_cdtype + ''' (''' + self.cd_field + ''' in ('''+ ','.join(self.add_quote(cdref_leaf)) + ''')''' + qry_val)
+                        qryx_orlst.append(qry_cdtype + self.cd_field + ''' in ('''+ ','.join(self.add_quote(cdref_leaf)) + ''')''' + qry_val)
 
                 else: 
                     pass
