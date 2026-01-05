@@ -3125,7 +3125,7 @@
                     "filter": [
                         {
                             "property": "codePrecision",
-                            "op": "in",
+                            "op": "descendent-of",
                             "value": [
                                 "5A093",
                                 "5A094",
@@ -3195,7 +3195,7 @@
                     "filter": [
                         {
                             "property": "codePrecision",
-                            "op": "in",
+                            "op": "descendent-of",
                             "value": [
                                 "94.7"
                             ]
@@ -3207,7 +3207,7 @@
                     "filter": [
                         {
                             "property": "codePrecision",
-                            "op": "in",
+                            "op": "descendent-of",
                             "value": [
                                 "5A09B",
                                 "5A09C",
@@ -3615,8 +3615,8 @@
     },
     {
         "id": "C020078",
-        "name": "SMA",
-        "description": "diagnosis of spinal muscular atrophy",
+        "name": "PMA",
+        "description": "diagnosis of progressive muscular atrophy",
         "topic": "event",
         "purpose": "neurologic",
         "relatedArtifact": {

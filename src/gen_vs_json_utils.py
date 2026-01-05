@@ -125,12 +125,13 @@ class JsonBlockVS:
         "2": "ordinal",
         "3": "discrete",
         "4": "continuous",
-        "5": "boolean"
+        "5": "boolean",
+        "6": "date"
     }
 
     VALUERANGE_ENCODER = {
-        "1": {}, #key-value 
-        "2": {}, #key-value, can add "low", "high"
+        "1": {},  
+        "2": {}, 
         "3": {
             "min":int(),
             "max":int(),
@@ -162,7 +163,8 @@ class JsonBlockVS:
         "5": {
             "0": "absence",
             "1": "presence"
-        }
+        },
+        "6": {}
     }
 
     SYSTEM_ENCODER = {
@@ -403,6 +405,7 @@ class QueryFromJson:
         self.sel_keys = sel_keys
         self.sel_domain = sel_domain
         self.val_field = val_field
+        self._cdtype_cache = {}
 
     @staticmethod
     def add_quote(lst):
@@ -567,9 +570,13 @@ class QueryFromJson:
         for k,v in qry_dict.items():
             if len(self.sel_keys) == 0 or k in self.sel_keys:
                 nondate_fields = self.other_fields + [self.cd_field]+([self.cdtype_field] if self.cdtype_field else ["'"+self.cd_field+"'"])
+                if len(self.date_fields) > 1:
+                    date_field_func = "coalesce(" + ','.join(self.date_fields) + ")"
+                else:
+                    date_field_func = self.date_fields[0]
                 selqry_lst.append('''
                     select ''' + ','.join(nondate_fields) + 
-                        " ,coalesce(" + ','.join(self.date_fields) + ") as CD_DATE" + 
+                        " ," + date_field_func + " as CD_DATE" + 
                         " ,'"+ k +"' as CD_GRP" '''
                     from '''+ self.srctbl_name +'''
                     where ('''+ v +''')

@@ -1,0 +1,39 @@
+[
+    {
+        "id": "C",
+        "name": "Echo",
+        "description": "echocardiogram",
+        "purpose": "imaging diagnostics",
+        "topic": "assessment and examination",
+        "relatedArtifact": {
+            "class": "core",
+            "valueType": "boolean",
+            "valueRange": {
+                "0": "absence",
+                "1": "presence"
+            }
+        },
+        "compose": {
+            "include": [
+                {
+                    "system": "cpt",
+                    "filter": [
+                        {
+                            "property": "codeList",
+                            "op": "exists",
+                            "value": [
+                                ""
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+]
+
+
+// 1.	LVEF and RVEF.
+// 2.	LVEDV and RVEDV. Sometimes these variables are normalized to BSA. I prefer to look at the raw data and not normalized
+// 3.	LV mass
+// 4.	Presence or absence of any delayed enhancement. Sometimes this variable is given a quantitative number.

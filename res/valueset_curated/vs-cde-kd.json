@@ -292,5 +292,50 @@
                 }
             ]
         }
+    },
+    {
+        "id": "KD00007",
+        "name": "aCKD",
+        "description": "advanced chronic kidney disease",
+        "topic": "event",
+        "purpose": "renal/urinary",
+        "relatedArtifact": {
+            "class": "core",
+            "valueType": "boolean",
+            "valueRange": {
+                "0": "absence",
+                "1": "presence"
+            }
+        },
+        "compose": {
+            "include": [
+                {
+                    "system": "icd9cm",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "585.4",
+                                "585.5"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "system": "icd10cm",
+                    "filter": [
+                        {
+                            "property": "codePrecision",
+                            "op": "descendent-of",
+                            "value": [
+                                "N18.4",
+                                "N18.5"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
     }
 ]

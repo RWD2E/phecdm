@@ -1,25 +1,171 @@
 [
     {
         "id": "BS00001",
-        "name": "",
-        "description": "",
-        "topic": "",
-        "purpose": "",
+        "name": "DOB",
+        "description": "date of birth",
+        "topic": "characteristic",
+        "purpose": "demographics",
         "relatedArtifact": {
             "class": "core",
-            "valueType": "boolean",
-            "valueRange": {
-                "0": "absence",
-                "1": "presence"
-            }
+            "valueType": "date",
+            "valueRange": {}
         },
         "compose": {
             "include": [
                 {
-                    "system": "",
+                    "system": "snomed",
                     "concept": [
                         {
-                            "code": "",
+                            "code": "184099003",
+                            "display": "concept obserable:date of birth"
+                        }
+                    ]
+                },
+                {
+                    "system": "pcornet",
+                    "concept": [
+                        {
+                            "code": "BIRTH_DATE",
+                            "display": "concept obserable:date of birth"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "id": "BS000002",
+        "name": "SEX",
+        "description": "sex at birth",
+        "topic": "characteristic",
+        "purpose": "demographics",
+        "relatedArtifact": {
+            "class": "core",
+            "valueType": "nominal",
+            "valueRange": {}
+        },
+        "compose": {
+            "include": [
+                {
+                    "system": "snomed",
+                    "concept": [
+                        {
+                            "code": "184100006",
+                            "display": "concept observable:sex"
+                        },
+                        {
+                            "code": "248152002",
+                            "display": "sex=female"
+                        },
+                        {
+                            "code": "248153007",
+                            "display": "sex=male"
+                        }
+                    ]
+                },
+                {
+                    "system": "pcornet",
+                    "concept": [
+                        {
+                            "code": "SEX",
+                            "display": "concept observable:sex"
+                        },
+                        {
+                            "code": "F",
+                            "display": "female"
+                        },
+                        {
+                            "code": "M",
+                            "display": "male"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "id": "BS000003",
+        "name": "RACE",
+        "description": "race",
+        "topic": "characteristic",
+        "purpose": "demographics",
+        "relatedArtifact": {
+            "class": "core",
+            "valueType": "nominal",
+            "valueRange": {}
+        },
+        "compose": {
+            "include": [
+                {
+                    "system": "snomedct",
+                    "concept": [
+                        {
+                            "code": "103579009",
+                            "display": "race"
+                        },
+                        {
+                            "code": "103579009",
+                            "display": "concept observable:race"
+                        },
+                        {
+                            "code": "413773004",
+                            "display": "caucassian"
+                        },
+                        {
+                            "code": "413464008",
+                            "display": "african"
+                        },
+                        {
+                            "code": "413491005",
+                            "display": "american indian"
+                        },
+                        {
+                            "code": "413582008",
+                            "display": "asian"
+                        },
+                        {
+                            "code": "414408004",
+                            "display": "hispanic"
+                        },
+                        {
+                            "code": "414752008",
+                            "display": "mixed"
+                        },
+                        {
+                            "code": "1336109002",
+                            "display": "pacific islander"
+                        }
+                    ]
+                },
+                {
+                    "system": "pcornet",
+                    "concept": [
+                        {
+                            "code": "RACE",
+                            "display": "concept observable:race"
+                        },
+                        {
+                            "code": "01",
+                            "display": ""
+                        },
+                        {
+                            "code": "02",
+                            "display": ""
+                        },
+                        {
+                            "code": "03",
+                            "display": ""
+                        },
+                        {
+                            "code": "04",
+                            "display": ""
+                        },
+                        {
+                            "code": "05",
+                            "display": ""
+                        },
+                        {
+                            "code": "06",
                             "display": ""
                         }
                     ]
